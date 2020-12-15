@@ -11,6 +11,9 @@ It is also a source for testing github integrations, github Actions, and other t
 
 ## Usage
 
+* yaml file configures output location of images/data that gets generated
+* may have hardcoded paths to virtual research machine
+
 ## Requirements
 
 Found in the ci/requirements.txt
