@@ -1,15 +1,27 @@
 # EcoFOCI_AutoAnalysis
 
+## Basic Description
+
 This package is a collection of routines used by EcoFOCI to automatically produce various products for:
 
 * visualization
 * erddap generation
+  + erddap xml dataset files subsetted by system
+* Jupyter Notebook files
+  + erddap product generation from existing erddap datasets
+  + 
 
 It is also a source for testing github integrations, github Actions, and other tools/examples that could be useful for the EcoFOCI repository (auto-linting, auto-config updates, etc)
 
-## Science Notes
+## Extended Description
 
-## Usage
+### Visualization
+
+### ERDDAP
+
+### Jupyter Notebooks
+
+### Additional Notes/Guidance
 
 * yaml file configures output location of images/data that gets generated
 * may have hardcoded paths to virtual research machine
