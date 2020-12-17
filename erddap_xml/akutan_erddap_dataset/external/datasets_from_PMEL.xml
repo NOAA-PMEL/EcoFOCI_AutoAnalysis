@@ -1,0 +1,26 @@
+
+<!-- Tabular datasets for FOCI from PMEL -->
+<dataset type="EDDTableFromErddap" datasetID="EcoFOCI_Bering_Sea_timeseries_data" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/EcoFOCI_Bering_Sea_timeseries_data</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="ChukchiSea_454a_037a_fcf4" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/ChukchiSea_454a_037a_fcf4</sourceUrl>
+</dataset>
+
+<dataset type="EDDTableFromErddap" datasetID="arcticRescueData_e5bf_cef8_3f72" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/arcticRescueData_e5bf_cef8_3f72</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="Shelikof_line8_3695_0ada_d066" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/Shelikof_line8_3695_0ada_d066</sourceUrl>
+</dataset>
+
+<dataset type="EDDTableFromErddap" datasetID="dy1104_profile_data" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/dy1104_profile_data</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="dy1408_profile_data" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/dy1408_profile_data</sourceUrl>
+</dataset>
+
+<dataset type="EDDTableFromErddap" datasetID="mf0904_profile_data" active="true">
+    <sourceUrl>https://ferret.pmel.noaa.gov/pmel/erddap/tabledap/mf0904_profile_data</sourceUrl>
+</dataset>
