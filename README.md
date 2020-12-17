@@ -9,7 +9,7 @@ This package is a collection of routines used by EcoFOCI to automatically produc
   + erddap xml dataset files subsetted by system
 * Jupyter Notebook files
   + erddap product generation from existing erddap datasets
-  + 
+  + example generation of visualizations, including use of non-local dataset
 
 It is also a source for testing github integrations, github Actions, and other tools/examples that could be useful for the EcoFOCI repository (auto-linting, auto-config updates, etc)
 
