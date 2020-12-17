@@ -1,0 +1,9 @@
+
+
+<!--Dyson Underway Met Data via FSU -->
+<dataset type="EDDTableFromErddap" datasetID="fsuNoaaShipWTEPnrt" active="true">
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/tabledap/fsuNoaaShipWTEPnrt</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="fsuNoaaShipWTEP" active="true">
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/tabledap/fsuNoaaShipWTEP</sourceUrl>
+</dataset>

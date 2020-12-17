@@ -1,0 +1,149 @@
+<!--
+csv hosting of matlab - thingspeak data
+
+-->
+<dataset type="EDDTableFromAsciiFiles" datasetID="OfficeRedboard_WxStation" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/Volumes/WDC_internal/Users/bell/Downloads/personal/WeatherStations/office_temp_sensor/</fileDir>
+    <fileNameRegex>.*\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <sortedColumnSourceName>DateTime</sortedColumnSourceName>
+    <sortFilesBySourceNames>DateTime</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Other</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="infoUrl">???</att>
+        <att name="institution">???</att>
+        <att name="keywords">UTCDateTime,TemperatureC,Humidity%,PressurePA,AltitudeFT,UVA,UVB,UVindex</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">Arduino Test Data from RedBoard - Office Station</att>
+        <att name="testOutOfDate">now-1day</att>
+        <att name="title">Redboard Office Wx Station- local copy</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>DateTime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">DateTime</att>
+            <att name="source_name">DateTime</att>
+            <att name="standard_name">time</att>
+            <att name="time_precision">1970-01-01T00:00:00Z</att>
+            <att name="units">yyyy-MM-dd' 'HH:mm:ss' UTC'</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TemperatureC</sourceName>
+        <destinationName>temperature</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Temp</att>
+            <att name="standard_name">air_temperature</att>
+            <att name="units">degree_C</att>
+    </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Humidity%</sourceName>
+        <destinationName>RH_Percent</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">RelativeHumidity</att>
+            <att name="standard_name">relative_humidity</att>
+            <att name="units">%</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PressurePA</sourceName>
+        <destinationName>SLP</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">SeaLevelPressure</att>
+            <att name="standard_name">air_pressure_at_mean_sea_level</att>
+            <att name="units">Pascals</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>AltitudeFT</sourceName>
+        <destinationName>Altitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Barometric Altitude</att>
+            <att name="standard_name">barometric_altitude</att>
+            <att name="units">Feet</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>UVA</sourceName>
+        <destinationName>UVA</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">UltraViolet Radiation A</att>
+            <att name="standard_name">ultraviolet_radiation_a</att>
+            <att name="units"></att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>UVB</sourceName>
+        <destinationName>UVB</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">UltraViolet Radiation B</att>
+            <att name="standard_name">ultraviolet_radiation_b</att>
+            <att name="units"></att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>UVindex</sourceName>
+        <destinationName>UVindex</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">UltraViolet Radiation Index</att>
+            <att name="standard_name">ultraviolet_index</att>
+            <att name="units"></att>
+        </addAttributes>
+    </dataVariable>    
+</dataset>
+
+

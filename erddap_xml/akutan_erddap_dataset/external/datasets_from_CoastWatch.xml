@@ -1,0 +1,38 @@
+
+<dataset type="EDDGridFromEtopo" datasetID="etopo180" />
+
+<dataset type="EDDGridFromEtopo" datasetID="etopo360" />
+
+<dataset type="EDDGridFromErddap" datasetID="usgsCeSS111" active="true">
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/griddap/usgsCeSS111</sourceUrl>
+</dataset>
+
+<dataset type="EDDGridFromErddap" datasetID="etopo5" active="true">
+    <sourceUrl>https://upwell.pfeg.noaa.gov/erddap/griddap/etopo5</sourceUrl>
+</dataset>
+<!-- Here are some excellent gridded datasets that you can include in your ERDDAP
+     via EDDGridFromErddap links. All requests for actual data from these
+     datasets get rerouted to the source server. -->
+
+<!-- JPL High Resolution SST -->
+<dataset type="EDDGridFromErddap" datasetID="jplG1SST" active="true">
+    <!-- GHRSST Global 1-km Sea Surface Temperature (G1SST), Global, 0.01 Degree, Daily -->
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplG1SST</sourceUrl>
+</dataset>
+<dataset type="EDDGridFromErddap" datasetID="jplMURSST41" active="true">
+    <!-- Multi-scale Ultra-high Resolution (MUR) SST analysis fv04.1, Global, 0.011 Degree, Daily -->
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplMURSST41</sourceUrl>
+</dataset>
+
+<!-- Here are some excellent tabular datasets that you can include in your ERDDAP
+     via EDDTableFromErddap links. All requests for actual data from these
+     datasets get rerouted to the source server. -->
+<dataset type="EDDTableFromErddap" datasetID="cwwcNDBCMet" active="true">
+    <!-- NDBC Standard Meteorological Buoy Data -->
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/tabledap/cwwcNDBCMet</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="erdGtsppBest" active="true">
+    <!-- Global Temperature and Salinity Profile Programme (GTSPP) Data -->
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/tabledap/erdGtsppBest</sourceUrl>
+</dataset>
+

@@ -1,0 +1,233 @@
+<!-- NOTE! Since the source files don't have any metadata, you must add metadata
+  below, notably 'units' for each of the dataVariables. -->
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_IMMA_ICOADS_ncei_all" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/Users/bell/in_and_outbox/data_sets/ICOAADS/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <fileTableInMemory>false</fileTableInMemory>
+    <accessibleViaFiles>true</accessibleViaFiles>
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Point</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="infoUrl">NCAR</att>
+        <att name="institution">ICOADS</att>
+        <att name="keywords"></att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">IMMA ICOADS Data - from NCEI/CDF version on RMA .</att>
+        <att name="title">ICOADS NCEI Subst.</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">time</att>
+            <att name="source_name">time</att>
+            <att name="standard_name">time</att>
+            <att name="time_precision">1970-01-01T00:00:00Z</att>
+            <att name="units">days since 1662-10-15 12:00:00</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ID</sourceName>
+        <destinationName>ID</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="units">sequential measurement id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>AT</sourceName>
+        <destinationName>AT</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Air Temperature</att>
+            <att name="standard_name">air_temperature</att>
+            <att name="units">celsius</att>
+            <att name="_FillValue" type="float">-9999.0</att>
+            <att name="valid_range" type="floatList">-99.0 99.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SLP</sourceName>
+        <destinationName>SLP</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">-9999.0</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Sea Level Pressure</att>
+            <att name="standard_name">air_pressure_at_sea_level</att>
+            <att name="units">hPa</att>
+            <att name="valid_range" type="floatList">870.0 1074.6</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DCK</sourceName>
+        <destinationName>DCK</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Deck</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SID</sourceName>
+        <destinationName>SID</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Source ID</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PT</sourceName>
+        <destinationName>PT</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Platform Type</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>UID</sourceName>
+        <destinationName>UID</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Unique ID</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>W</sourceName>
+        <destinationName>W</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">-9999.0</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Wind Speed</att>
+            <att name="standard_name">wind_speed</att>
+            <att name="units">m/s</att>
+            <att name="valid_range" type="floatList">0.0 99.0</att>
+        </addAttributes>
+    </dataVariable>   
+    <dataVariable>
+        <sourceName>D</sourceName>
+        <destinationName>D</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="short">99</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Wind Direction</att>
+            <att name="standard_name">wind_direction</att>
+            <att name="units">degrees</att>
+            <att name="comment">Wind direction - true degrees</att>
+            <att name="valid_range" type="shortList">0 365</att>
+        </addAttributes>
+    </dataVariable>        
+    <dataVariable>
+        <sourceName>SST</sourceName>
+        <destinationName>SST</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">-9999.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Sea Surface Temperature</att>
+            <att name="standard_name">sea_surface_temperature</att>
+            <att name="units">celsius</att>
+            <att name="valid_range" type="floatList">-99.9 99.9</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>QI10</sourceName>
+        <destinationName>QI10</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="short">-99</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">QC Flag - sea surface temperature</att>
+            <att name="flag_values">0S, 1S, 2S, 3S, 4S, 5S, 6S, 7S, 8S, 9S</att>
+            <att name="flag_meanings">no_qc_performed element_appears_correct element_appears_incosistent_with_other_elements element_appears_doubtful element_appears_erroneous element_changed_possibly_to_missing_as_a_result_of_QC element_flagged_by_CM_as_correct_but_according_to_MQCS_still_appears_suspect_or_missing element_flagged_by_CM_as_changed_but_according_to_MQCS_still_appears_suspect reserved element_is_missing</att>
+            <att name="comment">QC Flag - sea surface temperature</att>
+            <att name="valid_range" type="shortList">0 9</att>
+        </addAttributes>
+    </dataVariable>  
+</dataset>
