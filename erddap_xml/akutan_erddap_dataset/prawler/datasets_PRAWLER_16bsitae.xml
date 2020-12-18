@@ -248,12 +248,13 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="generic_name">ox</att>
             <att name="long_name">OXYGEN (UMOL/KG)</att>
             <att name="name">Oxy_Conc</att>
-            <att name="units">umol/kg</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Dissolved O2</att>
+           <att name="ioos_category">Dissolved O2</att>
+           <att name="units">umol/kg</att>
+           <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
