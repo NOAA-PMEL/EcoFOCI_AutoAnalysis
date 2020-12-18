@@ -452,7 +452,9 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Dissolved O2</att>
+           <att name="ioos_category">Dissolved O2</att>
+           <att name="units">umol/kg</att>
+           <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
