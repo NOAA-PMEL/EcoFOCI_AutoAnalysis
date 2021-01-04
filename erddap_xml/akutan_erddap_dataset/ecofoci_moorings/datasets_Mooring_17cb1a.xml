@@ -642,7 +642,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
             <att name="standard_name">northward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
-        <dataVariable>
+    <dataVariable>
         <sourceName>CS_300</sourceName>
         <destinationName>Current_Speed</destinationName>
         <dataType>float</dataType>
