@@ -282,7 +282,7 @@ So far, T/S/O/Chl are accounted for-->
     </dataVariable>
         <dataVariable>
         <sourceName>CS_300</sourceName>
-        <destinationName>Current Speed</destinationName>
+        <destinationName>Current_Speed</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">320</att>
@@ -300,7 +300,7 @@ So far, T/S/O/Chl are accounted for-->
     </dataVariable>
     <dataVariable>
         <sourceName>CD_310</sourceName>
-        <destinationName>Current Direction</destinationName>
+        <destinationName>Current_Direction</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">321</att>
@@ -644,7 +644,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     </dataVariable>
         <dataVariable>
         <sourceName>CS_300</sourceName>
-        <destinationName>Current Speed</destinationName>
+        <destinationName>Current_Speed</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">320</att>
@@ -662,7 +662,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     </dataVariable>
     <dataVariable>
         <sourceName>CD_310</sourceName>
-        <destinationName>Current Direction</destinationName>
+        <destinationName>Current_Direction</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">321</att>
