@@ -9,7 +9,7 @@ WPAK and special insts need to be accounted for-->
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17ckitaepr2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2019/Moorings/17ckitaepr2a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2017/Moorings/17ckitaepr2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -21,11 +21,11 @@ WPAK and special insts need to be accounted for-->
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
-        <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
+        <att name="CREATION_DATE">May 30, 2017 23:02 UTC</att>
         <att name="DATA_CMNT">17ckitaepr2a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-        May 30, 2019 23:02 UTC Data Trimmed
+        May 30, 2017 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">17ckitaepr2a</att>
@@ -298,7 +298,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17ckitaepr2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2019/Moorings/17ckitaepr2a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2017/Moorings/17ckitaepr2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -310,11 +310,11 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
-        <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
+        <att name="CREATION_DATE">May 30, 2017 23:02 UTC</att>
         <att name="DATA_CMNT">17ckitaepr2a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
-        May 30, 2019 23:02 UTC Data Trimmed
+        May 30, 2017 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
         <att name="MOORING">17ckitaepr2a</att>
