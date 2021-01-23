@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromNcFiles" datasetID="foci_rehosted_e932_978b_9e7c" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_rehosted/</fileDir>
+    <fileDir>/Users/bell/in_and_outbox/erddap_generated/foci_rehosted/</fileDir>
     <fileNameRegex>.*EcoFOCI_Bering_Sea_timeseries_data\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -44,7 +44,7 @@ completeness, or usefulness, of this information.</att>
         <att name="sourceUrl">(local files)</att>
         <att name="Southernmost_Northing" type="float">56.8633</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-        <att name="subsetVariables">id, longitude, lon360, latitude, depth</att>
+        <att name="subsetVariables"></att>
         <att name="summary">Pacific Marine Environmental Laboratory (PMEL) Fisheries-Oceanography Cooperative Investigations (FOCI) Bering Sea timeseries data, 2010-2017</att>
         <att name="time_coverage_end">2017-04-16T11:20:00Z</att>
         <att name="time_coverage_start">2010-10-05T03:00:00Z</att>
