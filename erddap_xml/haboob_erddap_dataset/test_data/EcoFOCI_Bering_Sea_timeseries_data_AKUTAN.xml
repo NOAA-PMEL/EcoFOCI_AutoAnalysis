@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromNcFiles" datasetID="foci_rehosted_e932_978b_9e7c" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_rehosted/</fileDir>
+    <fileDir>/Users/bell/in_and_outbox/erddap_generated/foci_rehosted/</fileDir>
     <fileNameRegex>.*EcoFOCI_Bering_Sea_timeseries_data\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
