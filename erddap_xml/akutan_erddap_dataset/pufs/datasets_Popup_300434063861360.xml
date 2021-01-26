@@ -47,8 +47,8 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables"></att>
-        <att name="summary">2019 Deployed Bottom Temperature buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="subsetVariables">timeseries_id</att>
+        <att name="summary">2019 Deployed Bottom Temperature buoys. </att>
         <att name="testOutOfDate">now-7days</att>
         <att name="title">2020 PopUP 300434063861360 Bottom Data </att>
     </addAttributes>
@@ -61,6 +61,20 @@
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -113,51 +127,51 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>ttp_temp</sourceName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Topside Temp</att>
+            <att name="long_name">TTP (Fast Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>ttp_temp_ADC</sourceName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Topside Temp ADC</att>
+            <att name="long_name">TTP (Fast Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sst_temp</sourceName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Underside Temp</att>
+            <att name="long_name">SST (Slow Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sst_temp_ADC</sourceName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="long_name">SST (Slow Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -207,20 +221,6 @@
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Tilt</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>datetime</sourceName>
-        <destinationName>time</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Datetime</att>
-            <att name="source_name">datetime</att>
-            <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
 </dataset>
