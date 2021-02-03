@@ -22,8 +22,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="DATA_CMNT">1950.VEL</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
-</att>
+        April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="INST_TYPE">wcp</att>
         <att name="MOORING">10CKP-1A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
@@ -226,8 +226,8 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 17CKP-1A</att>
-        <att name="title">Mooring Data from 17CKP-1A - final</att>
+        <att name="summary">QC'd (final) mooring data from 10CKP-1A</att>
+        <att name="title">Mooring Data from 10CKP-1A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
