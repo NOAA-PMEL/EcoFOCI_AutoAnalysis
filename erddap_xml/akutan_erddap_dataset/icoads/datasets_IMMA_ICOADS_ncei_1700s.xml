@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_IMMA_ICOADS_ncei_1700s" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/akutan/bell/in_and_outbox/data_sets/ICOADS_R3/</fileDir>
+    <fileDir>/home/foci_lfstore/data_sets/ICOADS_R3/</fileDir>
     <fileNameRegex>.*_17.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
