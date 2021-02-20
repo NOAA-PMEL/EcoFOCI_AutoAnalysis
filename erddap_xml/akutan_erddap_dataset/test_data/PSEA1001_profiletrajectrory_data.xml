@@ -1,4 +1,5 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA1001_profileprofiletrajectrory_data" active="true">
+
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA1001_profiletrajectrory_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_test/</fileDir>
     <fileNameRegex>.*all_ctd_casts_t_axis_v2\.nc</fileNameRegex>
@@ -21,7 +22,6 @@
         <att name="cdm_data_type">TrajectoryProfile</att>
         <att name="cdm_trajectory_variables">trajectory_id</att>
         <att name="cdm_profile_variables">profile_id,time,latitude,longitude</att>
-        <att name="subsetVariables">time, latitude, longitude, profile_id</att>
         <att name="Conventions">CF-1.6, COARDS, ACDD-1.3</att>
         <att name="infoUrl">???</att>
         <att name="institution">PMEL-EcoFOCI</att>
@@ -29,9 +29,9 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">CRUISE, STN_NMBR, STN_NM</att>
+        <att name="subsetVariables">STN_NMBR, STN_NM</att>
         <att name="summary">Concatenated CTD Profile Data from PSEA1001 - Compiled by N. Cokelet </att>
-        <att name="title">PSEA1001 CTD Profile Data </att>
+        <att name="title">PSEA1001 CTD Profile Data - trajectoryProfile DSG </att>
     </addAttributes>
     <dataVariable>
         <sourceName>P_AX</sourceName>
