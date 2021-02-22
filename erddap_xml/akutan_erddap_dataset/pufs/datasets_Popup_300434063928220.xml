@@ -1,5 +1,5 @@
 <!--
- 2019 PopUP 300434063928220
+ 18CKC12-TPRC8220
     Under Ice, and Bottom Data are Timeseries
     SST is TimeseriesTrajectory (if GPS is transmitted)
     Profile is Profile
@@ -48,9 +48,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC12-TPRC8220.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">2019 PopUP 300434063928220 Bottom Data </att>
+        <att name="title">18CKC12-TPRC8220 Bottom Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -268,9 +268,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC12-TPRC8220.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">2019 PopUP 300434063928220 UnderIce Data </att>
+        <att name="title">18CKC12-TPRC8220 UnderIce Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -491,9 +491,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC12-TPRC8220.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">2019 PopUP 300434063928220 SST Data </att>
+        <att name="title">18CKC12-TPRC8220 SST Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -714,9 +714,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC12-TPRC8220.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">2019 PopUP 300434063928220 Irridium Position </att>
+        <att name="title">18CKC12-TPRC8220 Irridium Position </att>
     </addAttributes>
     <dataVariable>
         <sourceName>IMEI_message_id</sourceName>
@@ -838,9 +838,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC12-TPRC8220.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">2019 PopUP 300434063928220 Profile Data </att>
+        <att name="title">18CKC12-TPRC8220 Profile Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
