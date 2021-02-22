@@ -1,5 +1,5 @@
 <!--
- 2020 PopUP 300434063861360
+ 19BSITAE-TP1360
     Under Ice, and Bottom Data are Timeseries
     SST is TimeseriesTrajectory (if GPS is transmitted)
     Profile is Profile
@@ -48,9 +48,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2019 Deployed Bottom Temperature buoys. </att>
+        <att name="summary">2019 Deployed Bottom Temperature buoys - 19BSITAE-TP1360. </att>
         <att name="testOutOfDate">now-7days</att>
-        <att name="title">2020 PopUP 300434063861360 Bottom Data </att>
+        <att name="title">19BSITAE-TP1360 Bottom Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -270,9 +270,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">2019 Deployed Bottom Temperature buoys.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2019 Deployed Bottom Temperature buoys - 19BSITAE-TP1360.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-7days</att>
-        <att name="title">2020 PopUP 300434063861360 Irridium Position </att>
+        <att name="title">19BSITAE-TP1360 Irridium Position </att>
     </addAttributes>
     <dataVariable>
         <sourceName>IMEI_message_id</sourceName>
