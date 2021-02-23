@@ -33,33 +33,20 @@
         <att name="title">PSEA CTD TimeSeries Data - DSG: TrajectoryProfile </att>
     </addAttributes>
     <dataVariable>
-        <sourceName>CTD_DATE_AX</sourceName>
-        <destinationName>time</destinationName>
+        <sourceName>PROFILE</sourceName>
+        <destinationName>profile_id</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="axis">T</att>
-            <att name="bounds">CTD_DATE_AX_bnds</att>
-            <att name="standard_name">time</att>
-            <att name="time_origin">28-FEB-2010 00:00:00</att>
-            <att name="units">days since 2010-02-28 00:00:00</att>
+            <att name="axis">X</att>
+            <att name="point_spacing">even</att>
+            <att name="units">sequence number</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="bounds">null</att>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">CTD DATE AX</att>
-            <att name="source_name">CTD_DATE_AX</att>
-            <att name="units">days since 2010-02-28T00:00:00Z</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>CTD_DATE_AX_bnds</sourceName>
-        <destinationName>CTD_DATE_AX_bnds</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">CTD DATE AX Bnds</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">PROFILE</att>
+            <att name="cf_role">profile_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -67,7 +54,7 @@
         <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-            <att name="history">From all_ctd_casts_v2</att>
+            <att name="history">From all_ctd_stn_depth.txt</att>
             <att name="long_name">Cruise</att>
         </sourceAttributes -->
         <addAttributes>
@@ -77,11 +64,11 @@
     </dataVariable>
     <dataVariable>
         <sourceName>CAST</sourceName>
-        <destinationName>profile_id</destinationName>
+        <destinationName>CAST</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="float">-1.0E34</att>
-            <att name="history">From all_ctd_casts_v2</att>
+            <att name="history">From all_ctd_stn_depth.txt</att>
             <att name="long_name">CTD Cast Number</att>
             <att name="missing_value" type="float">-1.0E34</att>
         </sourceAttributes -->
@@ -89,7 +76,6 @@
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
-            <att name="cf_role">profile_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -97,7 +83,7 @@
         <destinationName>STN_NM</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-            <att name="history">From all_ctd_casts_v2</att>
+            <att name="history">From all_ctd_stn_depth.txt</att>
             <att name="long_name">Stn. Name</att>
         </sourceAttributes -->
         <addAttributes>
@@ -110,7 +96,7 @@
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="float">-1.0E34</att>
-            <att name="history">From all_ctd_casts_v2</att>
+            <att name="history">From all_ctd_stn_depth.txt</att>
             <att name="long_name">Bottom Depth</att>
             <att name="missing_value" type="float">-1.0E34</att>
             <att name="units">m</att>
@@ -183,4 +169,60 @@
             <att name="units">days since 2010-02-28T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>P_AX</sourceName>
+        <destinationName>P_AX</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">Z</att>
+            <att name="point_spacing">even</att>
+            <att name="positive">down</att>
+            <att name="standard_name">depth</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T_28</sourceName>
+        <destinationName>T_28</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="history">From all_ctd_casts_v2</att>
+            <att name="long_name">TEMPERATURE (C)</att>
+            <att name="missing_value" type="float">-1.0E34</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>S_41</sourceName>
+        <destinationName>S_41</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="history">From all_ctd_casts_v2</att>
+            <att name="long_name">SALINITY (PSU)</att>
+            <att name="missing_value" type="float">-1.0E34</att>
+            <att name="units">PSU</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+        </addAttributes>
+    </dataVariable>
 </dataset>
+
