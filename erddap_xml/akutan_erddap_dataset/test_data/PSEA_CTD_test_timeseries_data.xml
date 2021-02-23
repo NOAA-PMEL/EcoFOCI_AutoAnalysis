@@ -30,7 +30,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="summary">Concatenated CTD Profile Data from PSEA1001 (Z,T) - Compiled by N. Cokelet </att>
-        <att name="title">PSEA CTD Profile Data (Z,T) - DSG: Profile </att>
+        <att name="title">PSEA CTD Timeseries Data (Z,T) - DSG: Profile </att>
     </addAttributes>
     <dataVariable>
         <sourceName>CTD_DATE_AX</sourceName>
@@ -176,6 +176,61 @@
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="units">days</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>P_AX</sourceName>
+        <destinationName>P_AX</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="axis">Z</att>
+            <att name="point_spacing">even</att>
+            <att name="positive">down</att>
+            <att name="standard_name">depth</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T_28</sourceName>
+        <destinationName>T_28</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="history">From all_ctd_casts_v2</att>
+            <att name="long_name">TEMPERATURE (C)</att>
+            <att name="missing_value" type="float">-1.0E34</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>S_41</sourceName>
+        <destinationName>S_41</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">-1.0E34</att>
+            <att name="history">From all_ctd_casts_v2</att>
+            <att name="long_name">SALINITY (PSU)</att>
+            <att name="missing_value" type="float">-1.0E34</att>
+            <att name="units">PSU</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
         </addAttributes>
     </dataVariable>
 </dataset>
