@@ -31,7 +31,7 @@
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">STN_NMBR, STN_NM</att>
         <att name="summary">Concatenated CTD Profile Data from PSEA1001 - Compiled by N. Cokelet </att>
-        <att name="title">PSEA1001 CTD Profile Data - trajectoryProfile DSG </att>
+        <att name="title">PSEA1001 CTD Profile Data - DSG: trajectoryProfile </att>
     </addAttributes>
     <dataVariable>
         <sourceName>P_AX</sourceName>
