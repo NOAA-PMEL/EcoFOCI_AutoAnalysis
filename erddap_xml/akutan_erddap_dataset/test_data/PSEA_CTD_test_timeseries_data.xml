@@ -30,7 +30,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="summary">Concatenated CTD Profile Data from PSEA1001 (Z,T) - Compiled by N. Cokelet </att>
-        <att name="title">PSEA CTD Profile Data (Z,T) - DSG: Profile </att>
+        <att name="title">PSEA CTD Timeseries Data (Z,T) - DSG: Profile </att>
     </addAttributes>
     <dataVariable>
         <sourceName>CTD_DATE_AX</sourceName>
