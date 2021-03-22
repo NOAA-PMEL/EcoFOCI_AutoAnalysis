@@ -135,7 +135,6 @@ So far, T/S/O/Chl are accounted for-->
             <att name="generic_name">pres</att>
             <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
             <att name="standard_name">sea_water_pressure_due_to_sea_water</att>
-            <att name="units">decibar</att>
         </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
