@@ -152,8 +152,7 @@ WPAK and special insts need to be accounted for-->
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
             <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
-            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>
-            <att name="units">dbar</att>         
+            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>        
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -441,8 +440,7 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
             <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
-            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>
-            <att name="units">dbar</att>         
+            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>        
         </addAttributes>
     </dataVariable>
     <dataVariable>
