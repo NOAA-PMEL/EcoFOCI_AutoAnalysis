@@ -1,5 +1,7 @@
 # EcoFOCI_AutoAnalysis
 
+***Being Migrated to EcoFOCIpy - no support other than absolutely necessary for transition period***
+
 ## Basic Description
 
 This package is a collection of routines used by EcoFOCI to automatically produce various products for:
