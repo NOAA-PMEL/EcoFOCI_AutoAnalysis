@@ -48,7 +48,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <att name="creator_url">https://www.pmel.noaa.gov/</att>        
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">chlorophyll, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved o2, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, O2, O_65, ocean, ocean color, oceans,
-        Salinity/Density &gt; Salinity, OST_62, oxygen, percent, practical, profile, psu, S_41, S_42, salinity, sat, sea, sea_water_practical_salinity, seawater, secondary, sigma, sigma-t, silicate, sonde, source, ST_70, profile_id, statistics, T2_35, T_28, temperature, time, Tr_904, transmissometry, umol, umol/kg, unit, water, miller, freeman, mf</att>
+        Salinity/Density &gt; Salinity, OST_62, oxygen, percent, practical, profile, psu, S_41, S_42, salinity, sat, sea, sea_water_practical_salinity, seawater, secondary, sigma, sigma-t, silicate, sonde, source, ST_70, profile_id, statistics, T2_35, T_28, T_20, temperature, time, Tr_904, transmissometry, umol, umol/kg, unit, water, miller, freeman, mf</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
@@ -251,6 +251,27 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="generic_name">temp</att>
             <att name="long_name">TEMPERATURE (C)</att>
             <att name="name">T_28</att>
+            <att name="units">degree_C</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T_20</sourceName>
+        <destinationName>T_20</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">28</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">temp</att>
+            <att name="long_name">TEMPERATURE (C)</att>
+            <att name="name">T_20</att>
             <att name="units">degree_C</att>
         </sourceAttributes -->
         <addAttributes>
