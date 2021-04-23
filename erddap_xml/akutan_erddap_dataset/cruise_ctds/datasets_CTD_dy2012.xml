@@ -23,9 +23,9 @@ dy2012
         <att name="DATA_CMNT">CTD Data from DY2012 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
-</att>
+        August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
+        January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="MOORING">AW1</att>
         <att name="WATER_DEPTH" type="int">112</att>
         <att name="WATER_MASS">B</att>
