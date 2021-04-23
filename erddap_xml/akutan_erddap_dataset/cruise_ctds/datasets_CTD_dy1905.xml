@@ -797,3 +797,297 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </addAttributes>
     </dataVariable>
 </dataset>
+
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1905_final_nuts" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    
+    <fileDir>/home/ecoraid/data/2019/CTDcasts/dy1905/erddap/final_data/nut/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <sortedColumnSourceName>time</sortedColumnSourceName>
+    <sortFilesBySourceNames>time</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+        <att name="COMPOSITE" type="int">1</att>
+        <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
+        <att name="DATA_CMNT">CTD Data from dy1905 Oxygen Data.txt</att>
+        <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
+        <att name="History">
+        August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
+        January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+        </att>
+        <att name="MOORING">AW1</att>
+        <att name="WATER_DEPTH" type="int">112</att>
+        <att name="WATER_MASS">B</att>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">profile_id, longitude, latitude</att>
+        <att name="subsetVariables">profile_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Profile</att>
+        <att name="cdm_altitude_proxy">pressure</att> 
+        <att name="cdm_profile_variables">profile_id</att>
+        <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creation_date">November 12, 2020 21:05 UTC</att>
+        <att name="history">Created from ASCII records</att>
+        <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
+        <att name="creator_email">pmel.ecofoci@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>        
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">ctd, data, density, depth, depth2, latitude, local, m**3, micromoles, micromoles/l, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_189, niskin, nitrate, nitrite, NO2_184, no3, NO3_182, number, nutrients, silicate, seawater, source, profile_id, statistics, time, transmissometry, umol, umol/kg, unit, water</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">Discrete Nutrient Data from DY1905 - Final Nutrient Data </att>
+        <att name="title">Discrete Nutrient Data from DY1905 - Final Nutrient Data</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">624</att>
+            <att name="type">EVEN</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">1</att>
+            <att name="type">EVEN</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+            <att name="standard_name">sea_water_pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">500</att>
+            <att name="type">EVEN</att>
+            <att name="units">degree_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">501</att>
+            <att name="type">EVEN</att>
+            <att name="units">degree_west</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="scale_factor" type="float">-1.</att>
+            <att name="add_offset" type="float">360.</att> 
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>BTL_103</sourceName>
+        <destinationName>BTL_103</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">103</att>
+            <att name="generic_name">BTL</att>
+            <att name="long_name">NISKIN BOTTLE NUMBER</att>
+            <att name="name">BTL_103</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>global:WATER_DEPTH</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">dbar</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>global:STATION_NAME</sourceName>
+        <destinationName>Station_Name</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="standard_name">foci_station_name</att>
+            <att name="description">FOCI station name</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">profile_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>SI_188</sourceName>
+        <destinationName>SI_188</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">188</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">SI</att>
+            <att name="long_name">SILICATE (micromoles/l)</att>
+            <att name="name">SI_188</att>
+            <att name="units">uM/l</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+            <att name="standard_name">mole_concentration_of_silicate_in_sea_water</att>
+            <att name="units">uM/l</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PO4_186</sourceName>
+        <destinationName>PO4_186</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">186</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">PO4</att>
+            <att name="long_name">PHOSPHATE (micromoles/l)</att>
+            <att name="name">PO4_186</att>
+            <att name="units">uM/l</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">4.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+            <att name="standard_name">mole_concentration_of_phosphate_in_sea_water</att>
+            <att name="units">uM/l</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NO2_184</sourceName>
+        <destinationName>NO2_184</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">184</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">NO2</att>
+            <att name="long_name">NITRITE (micromoles/l)</att>
+            <att name="name">NO2_184</att>
+            <att name="units">uM/l</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">1.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+            <att name="standard_name">mole_concentration_of_nitrite_in_sea_water</att>
+            <att name="units">uM/l</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NO3_182</sourceName>
+        <destinationName>NO3_182</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">182</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">NO3</att>
+            <att name="long_name">NITRATE (micromoles/l)</att>
+            <att name="name">NO3_182</att>
+            <att name="units">uM/l</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+            <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
+            <att name="units">uM/l</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NH4_189</sourceName>
+        <destinationName>NH4_189</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">182</att>
+            <att name="fill_value" type="double">1.0E35</att>
+            <att name="generic_name">NO3</att>
+            <att name="long_name">NITRATE (micromoles/l)</att>
+            <att name="name">NH4_189</att>
+            <att name="units">uM/l</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+            <att name="standard_name">mole_concentration_of_ammonium_in_sea_water</att>
+            <att name="units">uM/l</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
