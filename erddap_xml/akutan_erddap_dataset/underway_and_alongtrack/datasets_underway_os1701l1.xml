@@ -4,10 +4,10 @@ OS1701L1 Underway
 Data is first put on a fixed and shared time-grid.  Seperate Systems are in seperate files (GPS, ECO, TSG)
 -->
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_OS1701L1_underway" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_underway_os1701l1" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/os1701/TSG/PROCESSED/erddap/</fileDir>
+    <fileDir>/home/ecoraid/data/2017/AlongTrack/os1701/TSG/PROCESSED/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
