@@ -1,13 +1,13 @@
 
 <!--
-    Acrobat Barrow Canyon 1 - OS1701
+    Acrobat  - AQ1601
     Data is first put on a fixed and shared time-grid.  
 -->
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_OS1701L1_Acrobat" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_acrobat_aq1601" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/Volumes/Archive/ecoraid/2017/AlongTrack/os1701/acrobat/raw/OS17_BarrowCanyon2/DATA/ACROBAT/PROCESSED/erddap/</fileDir>
+    <fileDir>/home/ecoraid/data/2016/AlongTrack/AQ1601/ACROBAT/PROCESSED/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>
@@ -16,9 +16,9 @@
     <preExtractRegex></preExtractRegex>
     <postExtractRegex>\.nc</postExtractRegex>
     <extractRegex>.*</extractRegex>
-    <columnNameForExtract>trajectoryid</columnNameForExtract>
+    <columnNameForExtract>trajectory_id</columnNameForExtract>
     <removeMVRows>false</removeMVRows>
-    <sortFilesBySourceNames>trajectoryid</sortFilesBySourceNames>
+    <sortFilesBySourceNames>trajectory_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
@@ -34,11 +34,11 @@
     -->
     <addAttributes>
         <att name="cdm_data_type">Trajectory</att>
-        <att name="cdm_trajectory_variables">trajectoryid</att>
+        <att name="cdm_trajectory_variables">trajectory_id</att>
         <att name="cdm_altitude_proxy">depth</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="CREATION_DATE">null</att>
-        <att name="creation_date">February 27, 2018 17:03 UTC</att>
+        <att name="creation_date">June 7, 2018 17:03 UTC</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
         <att name="creator_type">institution</att>
@@ -46,22 +46,22 @@
         <att name="history">File Created.</att>
         <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">460nm, 695nm, 700nm, aandera, acrobat, air, channel, chemistry, concentration, conductivity, counts, currents, data, date, density, dissolved, dissolved o2, ecofoci, electrical, eng_460nm_counts, eng_695nm_counts, eng_700nm_counts, environmental, fractional, fractional_saturation_of_oxygen_in_sea_water, ground, identifier, kg/m**3, laboratory, latitude, longitude, m**3, marine, noaa, number, O2, ocean, oceans,
+        <att name="keywords">460nm, 695nm, 700nm, aandera, acrobat, air, channel, chemistry, concentration, conductivity, counts, currents, data, date, density, dissolved, dissolved ecofoci, electrical, eng_460nm_counts, eng_695nm_counts, eng_700nm_counts, environmental, fractional, ground, identifier, kg/m**3, laboratory, latitude, longitude, m**3, marine, noaa, number, ocean, oceans,
         Oceans &gt; Ocean Chemistry &gt; Oxygen,
         Oceans &gt; Salinity/Density &gt; Conductivity,
         Oceans &gt; Salinity/Density &gt; Salinity,
-        optode, os1701, over, oxygen, oxygen_airsaturation, oxygen_concentration, pacific, percent, pmel, practical, psu, record, record_number, reference, s/m, salinity, saturation, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, sigma, sigma-t, SigmaT, since, speed, speed_over_ground, temperature, Temperature_Optode, time, unit, water</att>
+        aq1601, over, oxygen, oxygen_airsaturation, oxygen_concentration, pacific, percent, pmel, practical, psu, record, record_number, reference, s/m, salinity, saturation, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, sigma, sigma-t, SigmaT, since, speed, speed_over_ground, temperature, time, unit, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
-        <att name="subsetVariables">trajectoryid, longitude, Salinity, latitude, SigmaT, speed_over_ground</att>
-        <att name="summary">Acrobat data from Barrow Canyon 1 - Cruise OS1701</att>
-        <att name="title">Acrobat data from OS1701</att>
+        <att name="subsetVariables">trajectory_id, longitude, Salinity, latitude, SigmaT, speed_over_ground</att>
+        <att name="summary">Acrobat data - Cruise AQ1601</att>
+        <att name="title">Acrobat data from AQ1601</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>trajectoryid</sourceName>
-        <destinationName>trajectoryid</destinationName>
+        <sourceName>trajectory_id</sourceName>
+        <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -86,22 +86,6 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Record Number</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Temperature_Optode</sourceName>
-        <destinationName>Temperature_Optode</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="generic_name">temp</att>
-            <att name="long_name">TEMPERATURE (C)</att>
-            <att name="name">Temperature from Aandera Optode</att>
-            <att name="units">degree_C</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Temperature</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -231,23 +215,6 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>oxygen_concentration</sourceName>
-        <destinationName>oxygen_concentration</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="generic_name">O2Conc</att>
-            <att name="long_name">Oxygen Concentration in [uM] from Aandera Optode</att>
-            <att name="name">oxygen concentration</att>
-            <att name="units">uM</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Dissolved O2</att>
-            <att name="units">umoles L-1</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
@@ -312,25 +279,6 @@
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>oxygen_airsaturation</sourceName>
-        <destinationName>oxygen_airsaturation</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="generic_name">O2Sat</att>
-            <att name="long_name">Oxygen Saturation over Air in &#37; from Aandera Optode</att>
-            <att name="name">oxygen air saturation</att>
-            <att name="units">percent</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">100.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Dissolved O2</att>
-            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
