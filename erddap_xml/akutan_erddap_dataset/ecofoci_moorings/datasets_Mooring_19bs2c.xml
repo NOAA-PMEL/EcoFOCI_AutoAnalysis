@@ -44,15 +44,16 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
+        <dataType>String</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code">TIM_601</att>
-            <att name="generic_name">time</att>
-            <att name="long_name">date and time since reference time</att>
-            <att name="standard_name">time</att>
-            <att name="units">days since 1900-01-01T00:00:00Z</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
+        </addAttributes>
             <att name="ioos_category">Time</att>
         </addAttributes>
     </dataVariable>
