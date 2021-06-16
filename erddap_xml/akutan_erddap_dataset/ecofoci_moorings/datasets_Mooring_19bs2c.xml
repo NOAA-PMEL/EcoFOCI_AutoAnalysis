@@ -108,8 +108,6 @@
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
-            <att name="scale_factor" type="double">-1.0</att>
-            <att name="add_offset" type="double">360</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

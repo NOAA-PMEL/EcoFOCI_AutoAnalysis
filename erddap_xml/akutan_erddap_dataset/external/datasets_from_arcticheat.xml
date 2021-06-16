@@ -71,6 +71,21 @@
 <dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9197" active="true">
     <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9197</sourceUrl>
 </dataset>
+<dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9199" active="true">
+    <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9199</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9234" active="true">
+    <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9234</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9235" active="true">
+    <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9235</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9276" active="true">
+    <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9276</sourceUrl>
+</dataset>
+<dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9277" active="true">
+    <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9277</sourceUrl>
+</dataset>
 <dataset type="EDDTableFromErddap" datasetID="arctic_heat_alamo_profiles_9058" active="true">
     <sourceUrl>https://data.pmel.noaa.gov/alamo/erddap/tabledap/arctic_heat_alamo_profiles_9058</sourceUrl>
 </dataset>
