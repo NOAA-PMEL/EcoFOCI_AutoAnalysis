@@ -54,8 +54,6 @@
             <att name="standard_name">time</att>
             <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
-            <att name="ioos_category">Time</att>
-        </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>depth</sourceName>
