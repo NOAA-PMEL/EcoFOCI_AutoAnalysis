@@ -1,17 +1,22 @@
 
 <!-- Tabular datasets for FOCI from PMEL -->
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_ATRH" active="true">
-    <sourceUrl>http://redwing:8080/erddap/tabledap/TELOM200_ATRH</sourceUrl>
+    <sourceUrl>http://heron:8080/erddap/tabledap/TELOM200_ATRH</sourceUrl>
+    <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_BARO" active="true">
-    <sourceUrl>http://redwing:8080/erddap/tabledap/TELOM200_BARO</sourceUrl>
+    <sourceUrl>http://heron:8080/erddap/tabledap/TELOM200_BARO</sourceUrl>
+    <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_GPS_M200" active="true">
-    <sourceUrl>http://redwing:8080/erddap/tabledap/TELOM200_GPS_M200</sourceUrl>
+    <sourceUrl>http://heron:8080/erddap/tabledap/TELOM200_GPS_M200</sourceUrl>
+    <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_PRAWC_M200" active="true">
-    <sourceUrl>http://redwing:8080/erddap/tabledap/TELOM200_PRAWC_M200</sourceUrl>
+    <sourceUrl>http://heron:8080/erddap/tabledap/TELOM200_PRAWC_M200</sourceUrl>
+    <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_WIND" active="true">
-    <sourceUrl>http://redwing:8080/erddap/tabledap/TELOM200_WIND</sourceUrl>
+    <sourceUrl>http://heron:8080/erddap/tabledap/TELOM200_WIND</sourceUrl>
+    <redirect>false</redirect>
 </dataset>
