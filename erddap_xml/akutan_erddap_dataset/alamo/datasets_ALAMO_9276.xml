@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="ALAMO_9276" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="ALAMO_9276" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/akutan/bell/in_and_outbox/data_sets/alamo/netcdf/argo.whoi.edu/etcetc/alamo/netcdf/9276/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
