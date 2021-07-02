@@ -51,7 +51,6 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="summary">ARGOS Float Data from drogued floats (2020) - Near Real Time</att>
         <att name="title">2020 ARGOS Drifter Float Data - NRT</att>
-        <att name="testOutOfDate">now-1days</att>
     </addAttributes>
     <dataVariable>
         <sourceName>***fileName,^(\S{6})\_2020.nc,1</sourceName>
