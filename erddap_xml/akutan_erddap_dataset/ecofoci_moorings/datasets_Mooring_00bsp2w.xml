@@ -36,7 +36,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         <att name="history">April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits</att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
+        <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, U_320, V_321, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="summary">QC'd (final) Gridded ADCP Vel Data from 00BSP-2W</att>
@@ -139,55 +139,17 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
             <att name="standard_name">eastward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
-    <dataVariable>
-        <sourceName>w_1204</sourceName>
-        <destinationName>w_1204</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">1204</att>
-            <att name="generic_name">w</att>
-            <att name="long_name">Vertical Velocity</att>
-            <att name="name">w_1204</att>
-            <att name="units">cm/s</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="missing_value" type="double">1.0e35</att>
-            <att name="ioos_category">Currents</att>
-            <att name="standard_name">upward_sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Werr_1201</sourceName>
-        <destinationName>Werr_1201</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">1201</att>
-            <att name="FORTRAN_format">F8.1</att>
-            <att name="generic_name">w</att>
-            <att name="long_name">Error Velocity</att>
-            <att name="name">Werr_1201</att>
-            <att name="units">cm/s</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">50.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Statistics</att>
-            <att name="missing_value" type="double">1.0e35</att>
-        </addAttributes>
-    </dataVariable>
 </dataset>
 
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_00bsp2w_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="ADCP_mooring_00bsp2w_scalar_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2000/Moorings/00bsp2w/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
+    <pathRegex>*scal.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
