@@ -1,10 +1,8 @@
 <!--
 nw1604
-
-final pulls from erddap/final_data/* and hopefully can merge multiple sources (btl, ctd, nut, oxy)
-initial pulls from csv files (or initial archive? depending on cruise)
+cruise has no data
 -->
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1604_final" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1604_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2016/CTDcasts/nw1604/erddap/final_data/ctd/</fileDir>
@@ -441,7 +439,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 </dataset>
 
 
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1604_final_nuts" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1604_final_nuts" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2016/CTDcasts/nw1604/erddap/final_data/nut/</fileDir>
