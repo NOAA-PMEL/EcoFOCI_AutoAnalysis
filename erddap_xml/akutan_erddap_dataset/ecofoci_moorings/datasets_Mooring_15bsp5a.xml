@@ -4,7 +4,7 @@ Grid data for EIN/VEL -->
 
 <!-- NOTE! The source for final_data_f8d7_75bd_ecdf has nGridVariables=8,
   but this dataset will only serve 4 because the others use different dimensions. -->
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_15bsp5a_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_15bsp5a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2015/Moorings/15bsp5a/erddap/final_data/</fileDir>
@@ -184,7 +184,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 </dataset>
 
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp5a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp5a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2015/Moorings/15bsp5a/erddap/final_data/</fileDir>
@@ -466,7 +466,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 
 So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp5a_preliminary" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp5a_preliminary" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2015/Moorings/15bsp5a/erddap/initial_archive/</fileDir>

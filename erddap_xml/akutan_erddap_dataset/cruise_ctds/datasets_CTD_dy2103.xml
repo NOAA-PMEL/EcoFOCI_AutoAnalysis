@@ -22,7 +22,7 @@
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
-        <att name="cdm_profile_variables">station_id</att>
+        <att name="cdm_profile_variables">profileid</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creation_date">May 14, 2021 17:07 UTC</att>
         <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
@@ -42,14 +42,14 @@
         <att name="title">CTD Data from DY2103 - Preliminary</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>profile_id</sourceName>
-        <destinationName>station_id</destinationName>
+        <sourceName>profileid</sourceName>
+        <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Identifier</att>
-            <att name="long_name">Station Id</att>
+            <att name="long_name">Profile Id</att>
             <att name="cf_role">profile_id</att>
         </addAttributes>
     </dataVariable>

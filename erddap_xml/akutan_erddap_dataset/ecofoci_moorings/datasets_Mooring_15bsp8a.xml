@@ -22,8 +22,8 @@ Grid data for EIN/VEL -->
         <att name="DATA_CMNT">1950.VEL</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
-</att>
+        April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="INST_TYPE">wcp</att>
         <att name="MOORING">15BSP-8A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
@@ -466,7 +466,7 @@ April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
 
 So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp8a_preliminary" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp8a_preliminary" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2015/Moorings/15bsp8a/erddap/initial_archive/</fileDir>
