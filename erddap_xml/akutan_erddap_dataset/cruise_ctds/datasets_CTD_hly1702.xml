@@ -12,9 +12,9 @@
     <preExtractRegex></preExtractRegex>
     <postExtractRegex>\.nc</postExtractRegex>
     <extractRegex>.*</extractRegex>
-    <columnNameForExtract>station_id</columnNameForExtract>
+    <columnNameForExtract>profile_id</columnNameForExtract>
     <removeMVRows>false</removeMVRows>
-    <sortFilesBySourceNames>station_id</sortFilesBySourceNames>
+    <sortFilesBySourceNames>profile_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
     <!-- sourceAttributes>
@@ -66,7 +66,7 @@ April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
         <att name="title">CTD Data from 2017 Healy DBO Cruise (HE1702)</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>station_id</sourceName>
+        <sourceName>profile_id</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>

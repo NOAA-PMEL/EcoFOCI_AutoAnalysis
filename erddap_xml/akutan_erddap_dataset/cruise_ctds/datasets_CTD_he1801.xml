@@ -56,7 +56,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <att name="title">CTD Data from 2018 Healy DBO Cruise (HE1801)</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>station_id</sourceName>
+        <sourceName>profile_id</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
