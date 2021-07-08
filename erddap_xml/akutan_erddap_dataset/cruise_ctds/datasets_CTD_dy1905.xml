@@ -629,7 +629,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     </dataVariable>
     <dataVariable>
         <sourceName>flECO-AFL</sourceName>
-        <destinationName>F_903</destinationName>
+        <destinationName>Fch_906</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
