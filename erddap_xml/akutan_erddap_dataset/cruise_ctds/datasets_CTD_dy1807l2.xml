@@ -210,7 +210,7 @@ DY1807L2
     </dataVariable>
     <dataVariable>
         <sourceName>F_903</sourceName>
-        <destinationName>F_903</destinationName>
+        <destinationName>Fch_906</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
@@ -615,7 +615,7 @@ DY1807L2
     </dataVariable>
     <dataVariable>
         <sourceName>flECO-AFL</sourceName>
-        <destinationName>F_903</destinationName>
+        <destinationName>Fch_906</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
