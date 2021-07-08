@@ -22,7 +22,7 @@
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
-        <att name="cdm_profile_variables">profileid</att>
+        <att name="cdm_profile_variables">profile_id</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creation_date">May 14, 2021 17:07 UTC</att>
         <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
