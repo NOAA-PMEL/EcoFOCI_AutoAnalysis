@@ -566,7 +566,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
     </dataVariable>
     <dataVariable>
         <sourceName>F_903</sourceName>
-        <destinationName>F_903</destinationName>
+        <destinationName>Fch_906</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
