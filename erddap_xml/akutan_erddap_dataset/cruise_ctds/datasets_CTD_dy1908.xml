@@ -221,8 +221,8 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Fch_906</sourceName>
-        <destinationName>Fch_906</destinationName>
+        <sourceName>F_903</sourceName>
+        <destinationName>F_903</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
@@ -232,7 +232,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">F_903</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -327,26 +327,19 @@ datetime,BP,U,USD,V,VSD,RH,AT
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Tr_904</sourceName>
-        <destinationName>Tr_904</destinationName>
+        <sourceName>Trb_980</sourceName>
+        <destinationName>Trb_980</destinationName>
         <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">904</att>
-            <att name="fill_value" type="double">1.0E35</att>
-            <att name="long_name">Transmissometry (CTD)</att>
-            <att name="name">Tr_904</att>
-            <att name="units">&#37;</att>
-        </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
-            <att name="units">percent</att>
-            <att name="standard_name">seawater_optical_transmission_ratio</att>
+            <att name="units">NTU</att>
+            <att name="standard_name">sea_water_turbidity</att>
         </addAttributes>
-    </dataVariable>    
+    </dataVariable>   
     <dataVariable>
         <sourceName>global:WATER_DEPTH</sourceName>
         <destinationName>Water_Depth</destinationName>
@@ -628,7 +621,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     </dataVariable>
     <dataVariable>
         <sourceName>flECO-AFL</sourceName>
-        <destinationName>Fch_906</destinationName>
+        <destinationName>F_903</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
@@ -638,7 +631,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">F_903</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -776,23 +769,16 @@ datetime,BP,U,USD,V,VSD,RH,AT
     </dataVariable>
     <dataVariable>
         <sourceName>turbWETntu0</sourceName>
-        <destinationName>Tr_904</destinationName>
+        <destinationName>Trb_980</destinationName>
         <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">904</att>
-            <att name="fill_value" type="double">1.0E35</att>
-            <att name="long_name">Transmissometry (CTD)</att>
-            <att name="name">Tr_904</att>
-            <att name="units">&#37;</att>
-        </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
-            <att name="units">percent</att>
-            <att name="standard_name">seawater_optical_transmission_ratio</att>
+            <att name="units">NTU</att>
+            <att name="standard_name">sea_water_turbidity</att>
         </addAttributes>
     </dataVariable>
 </dataset>
