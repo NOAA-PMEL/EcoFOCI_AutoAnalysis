@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2012_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2103_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2021/CTDcasts/dy2103/initial_archive/</fileDir>
