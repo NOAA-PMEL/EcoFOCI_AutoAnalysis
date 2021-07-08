@@ -32,7 +32,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
         <att name="history">
         </att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">ammonia, ammonium, bottle, BTL_103, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved nutrients, dissolved o2, Fch_906, identifier, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_189, niskin, nitrate, nitrite, NO2_184, no3, NO3_182, number, nutrients, O2, O_65, ocean, ocean color, oceans,
+        <att name="keywords">ammonia, ammonium, bottle, BTL_103, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved nutrients, dissolved o2, F_903, identifier, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_189, niskin, nitrate, nitrite, NO2_184, no3, NO3_182, number, nutrients, O2, O_65, ocean, ocean color, oceans,
         Oceans &gt; Ocean Chemistry &gt; Ammonia,
         Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
         Oceans &gt; Ocean Chemistry &gt; Nitrate,
@@ -951,8 +951,8 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Fch_906</sourceName>
-        <destinationName>Fch_906</destinationName>
+        <sourceName>F_903</sourceName>
+        <destinationName>F_903</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
@@ -962,7 +962,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">F_903</att>
             <att name="units">ugrams/l</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
