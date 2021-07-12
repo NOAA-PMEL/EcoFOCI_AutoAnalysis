@@ -420,7 +420,7 @@
         </addAttributes>
     </dataVariable>
         <dataVariable>
-        <sourceName>global:INST_TYPE</sourceName>
+        <sourceName>global:InstrumentType</sourceName>
         <destinationName>Instrument_Identifier</destinationName>
         <dataType>String</dataType>
         <addAttributes>
@@ -428,7 +428,7 @@
         </addAttributes>
     </dataVariable>    
     <dataVariable>
-        <sourceName>global:SERIAL_NUMBER</sourceName>
+        <sourceName>global:InstrumentSerialNumber</sourceName>
         <destinationName>Serial_Number</destinationName>
         <dataType>String</dataType>
         <addAttributes>
@@ -436,7 +436,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:WATER_DEPTH</sourceName>
+        <sourceName>global:WaterDepth</sourceName>
         <destinationName>Water_Depth</destinationName>
         <dataType>float</dataType>
         <addAttributes>
