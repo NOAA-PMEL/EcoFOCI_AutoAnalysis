@@ -663,7 +663,8 @@
             <att name="long_name">Datetime</att>
             <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
-             <att name="units">MM-dd-yy HH:mm:ss</att>        </addAttributes>
+             <att name="units">MM-dd-yy HH:mm:ss</att>
+        </addAttributes>
     </dataVariable>
 </dataset>
 
@@ -776,7 +777,8 @@
             <att name="long_name">Datetime</att>
             <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
-             <att name="units">MM-dd-yy HH:mm:ss</att>        </addAttributes>
+             <att name="units">yyyy-MM-dd HH:mm:ss</att>
+        </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>CEPradius</sourceName>
@@ -1009,6 +1011,7 @@
             <att name="long_name">Datetime</att>
             <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
-             <att name="units">MM-dd-yy HH:mm:ss</att>        </addAttributes>
+             <att name="units">MM-dd-yy HH:mm:ss</att>
+        </addAttributes>
     </dataVariable>
 </dataset>
