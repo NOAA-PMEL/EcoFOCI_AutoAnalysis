@@ -248,9 +248,7 @@
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">below, chemistry, chlor_fluorescence, chlorophyll, color, concentration, conductivity, data, density, depth, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, fluorescence, Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, in-situ, its, its-90, latitude, local, longitude, meters, ocean, oceans, practical, pss, pss-78, salinity, scale, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_temperature, seawater, situ, source, surface, temperature, time, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
-        <att name="Latitude_Deg_MM_dd_W">56 51.884 N</att>
         <att name="license">[standard]</att>
-        <att name="Longitude_Deg_MM_dd_N">164 02.601 W</att>
         <att name="QC_indicator">final</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
