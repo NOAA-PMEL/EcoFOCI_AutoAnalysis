@@ -407,7 +407,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
