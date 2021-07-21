@@ -441,7 +441,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 </dataset>
 
 
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy16010_final_nuts" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1610_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2016/CTDcasts/dy16010/erddap/final_data/nut/</fileDir>
@@ -736,7 +736,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 </dataset>
 
 
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1610_final_btl" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1610_final_btl" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2016/CTDcasts/dy1610/erddap/final_data/btl/</fileDir>
@@ -756,9 +756,9 @@ initial pulls from csv files (or initial archive? depending on cruise)
         <att name="DATA_CMNT">CTD Data from DY1610 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
-</att>
+        August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
+        January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="MOORING">AW1</att>
         <att name="WATER_DEPTH" type="int">112</att>
         <att name="WATER_MASS">B</att>
@@ -1092,7 +1092,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
     </dataVariable>    
 </dataset>
 
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1610_final_oxy" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1610_final_oxy" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2016/CTDcasts/dy1610/erddap/final_data/oxy/</fileDir>
@@ -1112,9 +1112,9 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
         <att name="DATA_CMNT">CTD Data from DY1610 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
-</att>
+        August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
+        January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="MOORING">AW1</att>
         <att name="WATER_DEPTH" type="int">112</att>
         <att name="WATER_MASS">B</att>
