@@ -8,7 +8,7 @@
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_BARO</sourceUrl>
     <redirect>false</redirect>
 </dataset>
-<dataset type="EDDTableFromErddap" datasetID="TELOM200_GPS_M200" active="true">
+<dataset type="EDDTableFromErddap" datasetID="TELOM200_GPS_M200" active="false">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_GPS_M200</sourceUrl>
     <redirect>false</redirect>
 </dataset>
