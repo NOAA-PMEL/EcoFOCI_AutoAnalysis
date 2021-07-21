@@ -1,6 +1,4 @@
 
-<!-- NOTE! The source for final_data_f8d7_75bd_ecdf has nGridVariables=8,
-  but this dataset will only serve 4 because the others use different dimensions. -->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_15bsp8a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     

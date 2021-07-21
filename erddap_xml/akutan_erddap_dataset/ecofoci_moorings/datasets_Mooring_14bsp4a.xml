@@ -1,6 +1,4 @@
 
-<!-- NOTE! The source for final_data_f8d7_75bd_ecdf has nGridVariables=8,
-  but this dataset will only serve 4 because the others use different dimensions. -->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_14bsp4a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
@@ -19,8 +17,8 @@
         <att name="DATA_CMNT">1950.VEL</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
-</att>
+        April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="INST_TYPE">wcp</att>
         <att name="MOORING">15BSP-4A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>

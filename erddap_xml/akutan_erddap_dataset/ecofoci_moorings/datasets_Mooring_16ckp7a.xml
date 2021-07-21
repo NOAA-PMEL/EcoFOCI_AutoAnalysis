@@ -1,8 +1,3 @@
-<!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
-
-So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_16ckp7a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
@@ -22,8 +17,8 @@ So far, T/S/O/Chl are accounted for-->
         <att name="DATA_CMNT">1950.VEL</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
-</att>
+        April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="INST_TYPE">wcp</att>
         <att name="MOORING">16CKP-7A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
