@@ -1,9 +1,4 @@
-<!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- ADCP Scal Data on P moorings mostly (especially in bering)
-Grid data for EIN/VEL -->
 
-<!-- NOTE! The source for final_data_f8d7_75bd_ecdf has nGridVariables=8,
-  but this dataset will only serve 4 because the others use different dimensions. -->
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_97ift3a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
