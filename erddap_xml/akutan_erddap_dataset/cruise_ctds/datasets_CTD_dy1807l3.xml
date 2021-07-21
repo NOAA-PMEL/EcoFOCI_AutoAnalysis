@@ -6,7 +6,7 @@ DY1807L3
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1807l3_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2018/CTDcasts/DY1807L3/erddap/final_data/ctd/</fileDir>
+    <fileDir>/home/ecoraid/data/2018/CTDcasts/dy1807l3/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -442,7 +442,7 @@ DY1807L3
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1807l3_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2018/CTDcasts/DY1807L3/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2018/CTDcasts/dy1807l3/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

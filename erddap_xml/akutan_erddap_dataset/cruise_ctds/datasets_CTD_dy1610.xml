@@ -444,7 +444,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1610_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2016/CTDcasts/dy16010/erddap/final_data/nut/</fileDir>
+    <fileDir>/home/ecoraid/data/2016/CTDcasts/dy1610/erddap/final_data/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -458,7 +458,7 @@ initial pulls from csv files (or initial archive? depending on cruise)
     <!-- sourceAttributes>
         <att name="COMPOSITE" type="int">1</att>
         <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
-        <att name="DATA_CMNT">CTD Data from dy16010 Oxygen Data.txt</att>
+        <att name="DATA_CMNT">CTD Data from dy1610 Oxygen Data.txt</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
         August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
@@ -490,8 +490,8 @@ initial pulls from csv files (or initial archive? depending on cruise)
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">Discrete Nutrient Data from DY16010 - Final Nutrient Data </att>
-        <att name="title">Discrete Nutrient Data from DY16010 - Final Nutrient Data</att>
+        <att name="summary">Discrete Nutrient Data from DY1610 - Final Nutrient Data </att>
+        <att name="title">Discrete Nutrient Data from DY1610 - Final Nutrient Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
