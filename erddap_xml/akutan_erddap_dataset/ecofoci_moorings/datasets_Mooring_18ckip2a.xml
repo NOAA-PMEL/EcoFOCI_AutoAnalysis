@@ -287,6 +287,10 @@
     </dataVariable>    
 </dataset>
 
+<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
+2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
+
+So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18ckip2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>

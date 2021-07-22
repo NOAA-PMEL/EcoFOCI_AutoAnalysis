@@ -67,7 +67,6 @@
             <att name="long_name">Depth</att>
             <att name="standard_name">depth</att>
             <att name="units">m</att>
-            <att name="_FillValue" type="byte">127</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
