@@ -1,9 +1,9 @@
 
-
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_03gb1b_final" active="true">
+<!--WPAK only with sfc moorings (M2) (C2) (GAK) - NRT and QC'd-->
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_98bsm3_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2003/Moorings/03gb1b/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/1998/Moorings/98bsm3/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -16,13 +16,13 @@
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">03gb1b_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">98bsm3_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">03gb1b</att>
+        <att name="MOORING">98bsm3</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -37,14 +37,14 @@
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
+        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_910, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 03GB-1B</att>
-        <att name="title">Mooring Data from 03GB-1B - final</att>
+        <att name="summary">QC'd (final) mooring data from 98BSM-3A</att>
+        <att name="title">Mooring Data from 98BSM-3A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -141,17 +141,12 @@
         <sourceName>P_1</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code">P_1</att>
-            <att name="generic_name">pres</att>
-            <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
-            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>            
-           <att name="units">dbar</att>
-        </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
+            <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
+            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>        
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -222,6 +217,7 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">percent</att>
+            <att name="standard_name">oxygen_saturation_over_air</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -240,6 +236,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#xb5;mole/kg</att>
+            <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -284,5 +281,4 @@
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>    
-
 </dataset>
