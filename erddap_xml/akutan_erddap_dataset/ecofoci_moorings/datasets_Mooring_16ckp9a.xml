@@ -466,6 +466,7 @@
     </dataVariable>    
 </dataset>
 
+<<<<<<< Updated upstream
 <!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
 2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
 
@@ -758,3 +759,5 @@ So far, T/S/O/Chl are accounted for: need to add more engineering like variables
         </addAttributes>
     </dataVariable>    
 </dataset>
+=======
+>>>>>>> Stashed changes
