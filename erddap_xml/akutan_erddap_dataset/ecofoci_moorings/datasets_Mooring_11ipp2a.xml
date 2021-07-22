@@ -1,8 +1,8 @@
 
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_11ipp1a_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_11ipp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2011/Moorings/11ipp1a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2011/Moorings/11ipp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -178,10 +178,10 @@
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_11ipp1a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_11ipp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2011/Moorings/11ipp1a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2011/Moorings/11ipp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -194,13 +194,13 @@
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">11ipp1a_s39_1773_0060m.asc</att>
+        <att name="DATA_CMNT">11ipp2a_s39_1773_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">11ipp1a</att>
+        <att name="MOORING">11ipp2a</att>
         <att name="SERIAL_NUMBER">1773</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
