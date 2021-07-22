@@ -1,12 +1,6 @@
-<!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
 
-So far, T/S/O/Chl are accounted for
 
-WPAK and special insts need to be accounted for-->
-
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bsitaepr2a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bsitaepr2a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2018/Moorings/18bsitaepr2a/erddap/final_data/</fileDir>
@@ -289,10 +283,6 @@ WPAK and special insts need to be accounted for-->
     </dataVariable>    
 </dataset>
 
-<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
-
-So far, T/S/O/Chl are accounted for: need to add more engineering like variables-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_18bsitaepr2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
