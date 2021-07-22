@@ -1,10 +1,4 @@
-<!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- Datasets also seperated into initial_archive (preliminary), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
 
-So far, T/S/O/Chl are accounted for
-
-WPAK and special insts need to be accounted for-->
 <!--WPAK only with sfc moorings (M2) (C2) (GAK) - NRT and QC'd-->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_04bsm2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>

@@ -1,8 +1,4 @@
-<!-- Data Seperated into: 1min, 10min, 1hr datasets : NOT NECESSARY-->
-<!-- Datasets also seperated into initial_archive (rapid_results), and final (QC/QA'd) 
-2D data like ADCP should be in a seperate dataset, each mooring is a seperate dataset
 
-So far, T/S/O/Chl are accounted for-->
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_96bs2b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
