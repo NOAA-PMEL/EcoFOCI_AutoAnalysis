@@ -1,5 +1,6 @@
 
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_11ckp1a_final" active="true">
+<!-- only one depth maintained-->
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_11ckp1a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2011/Moorings/11ckp1a/erddap/final_data/</fileDir>
