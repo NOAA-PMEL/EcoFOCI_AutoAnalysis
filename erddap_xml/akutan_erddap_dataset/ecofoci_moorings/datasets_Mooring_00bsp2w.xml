@@ -144,7 +144,7 @@
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
-    <pathRegex>*scal.cf.nc</pathRegex>
+    <pathRegex>.*_scal.cf.nc</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>

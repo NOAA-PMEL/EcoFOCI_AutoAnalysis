@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_06bst2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2005/Moorings/06bst2a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2006/Moorings/06bst2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
