@@ -6,7 +6,7 @@ csv hosting of WHOI *.bot files
 
 ??? hosting of PMEL updated oxygen data and nutrient data (appended or corrected on WHOI data) - 
 -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_he1901" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_he1901_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2019/CTDcasts/hly1901/erddap/WHOI/ctd/</fileDir>
