@@ -9,7 +9,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopTop_300434063474010_deeper_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063474010/2021/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063474010/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -229,7 +229,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopTop_300434063474010_shallow_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063474010/2021/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063474010/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -452,7 +452,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopTop_300434063474010_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063474010/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063474010/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex></pathRegex>
