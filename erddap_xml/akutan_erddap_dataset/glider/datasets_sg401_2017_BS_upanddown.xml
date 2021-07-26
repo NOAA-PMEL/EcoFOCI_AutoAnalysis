@@ -820,7 +820,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>ctd_time</sourceName>
-        <destinationName>ctd_time</destinationName>
+        <destinationName>time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="axis">T</att>
