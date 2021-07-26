@@ -9,7 +9,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063924230_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063924230/2021/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063924230/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -228,7 +228,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063924230_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063924230/2021/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063924230/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -450,7 +450,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063924230_sst_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063924230/2021/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063924230/</fileDir>
     <fileNameRegex>.*sst_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -794,7 +794,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063924230_profile_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063924230/2021/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063924230/</fileDir>
     <fileNameRegex>.*profile_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
