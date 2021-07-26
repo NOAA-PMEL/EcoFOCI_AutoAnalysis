@@ -1,15 +1,15 @@
 <!--
- 18CKC10-TPRC3800
+ 20CKC2-TPRFC9200
     Under Ice, and Bottom Data are Timeseries
     SST is TimeseriesTrajectory (if GPS is transmitted)
     Profile is Profile
 -->
 
 <!--bottom data -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_bottom_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063479200_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/300434063823800/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063479200/2021/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -47,10 +47,9 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC10-TPRC3800.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="testOutOfDate">now-42days</att>
-        <att name="title">18CKC10-TPRC3800 Bottom Data </att>
+        <att name="subsetVariables"></att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 20CKC2-TPRFC9200.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="title">20CKC2-TPRFC9200 Bottom Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -226,10 +225,10 @@
 </dataset>
 
 <!--under ice-->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_underice_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063479200_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/300434063823800/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063479200/2021/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -267,10 +266,9 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC10-TPRC3800.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="testOutOfDate">now-42days</att>
-        <att name="title">18CKC10-TPRC3800 UnderIce Data </att>
+        <att name="subsetVariables"></att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 20CKC2-TPRFC9200.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="title">20CKC2-TPRFC9200 UnderIce Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -449,10 +447,10 @@
 <!--sst-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_sst_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063479200_sst_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/300434063823800/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063479200/2021/</fileDir>
     <fileNameRegex>.*sst_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -490,10 +488,9 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC10-TPRC3800.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="testOutOfDate">now-42days</att>
-        <att name="title">18CKC10-TPRC3800 SST Data </att>
+        <att name="subsetVariables"></att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 20CKC2-TPRFC9200.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="title">20CKC2-TPRFC9200 SST Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -664,7 +661,7 @@
             <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
             <att name="units">yyyy-MM-dd HH:mm:ss</att>        
-      </addAttributes>
+        </addAttributes>
     </dataVariable>
 </dataset>
 
@@ -672,10 +669,10 @@
 <!--Irridium Message Position-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_irridium_position" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063479200_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/300434063823800/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/300434063479200/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex></pathRegex>
@@ -714,9 +711,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC10-TPRC3800.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="testOutOfDate">now-42days</att>
-        <att name="title">18CKC10-TPRC3800 Irridium Position </att>
+        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 20CKC2-TPRFC9200.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="title">20CKC2-TPRFC9200 Irridium Position </att>
     </addAttributes>
     <dataVariable>
         <sourceName>IMEI_message_id</sourceName>
