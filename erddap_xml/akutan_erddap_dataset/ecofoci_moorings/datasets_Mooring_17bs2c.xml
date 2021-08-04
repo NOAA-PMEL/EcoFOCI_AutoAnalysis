@@ -37,7 +37,7 @@
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
+        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_916, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird, U_320, V_321, northward_sea_water_velocity, eastward_sea_water_velocity</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -241,6 +241,60 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#xb5;mole/kg</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>V_321</sourceName>
+        <destinationName>v_1206</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">1206</att>
+            <att name="generic_name">v</att>
+            <att name="long_name">Northward Velocity</att>
+            <att name="name">v_1206</att>
+            <att name="units">cm/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Currents</att>
+            <att name="standard_name">northward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Trb_980</sourceName>
+        <destinationName>Trb_980</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">980</att>
+            <att name="generic_name">Trb</att>
+            <att name="long_name">Turbidity (FNU)</att>
+            <att name="name">Trb_980</att>
+            <att name="units">FNU</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>            
+            <att name="ioos_category">Optical</att>
+            <att name="standard_name">sea_water_turbidity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>U_320</sourceName>
+        <destinationName>u_1205</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">1205</att>
+            <att name="generic_name">u</att>
+            <att name="long_name">Eastward Velocity</att>
+            <att name="name">u_1205</att>
+            <att name="units">cm/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>            
+            <att name="ioos_category">Currents</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
