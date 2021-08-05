@@ -241,75 +241,37 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>U_320</sourceName>
-        <destinationName>Ucomp_Current</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">320</att>
-            <att name="generic_name">u</att>
-            <att name="long_name">Zonal Current (cm/s)</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">U_320</att>
-            <att name="ioos_category">Currents</att>
-            <att name="units">cm/s</att>
-            <att name="standard_name">eastward_sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>V_321</sourceName>
-        <destinationName>Vcomp_Current</destinationName>
+        <destinationName>vcomp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">321</att>
+            <att name="epic_code" type="int">1206</att>
             <att name="generic_name">v</att>
-            <att name="long_name">Meridional Current (cm/s)</att>
+            <att name="long_name">Northward Velocity</att>
+            <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">V_321</att>
+            <att name="missing_value" type="double">1.0e35</att>
             <att name="ioos_category">Currents</att>
-            <att name="units">cm/s</att>
             <att name="standard_name">northward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
-        <dataVariable>
-        <sourceName>CS_300</sourceName>
-        <destinationName>Current_Speed</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">320</att>
-            <att name="generic_name">u</att>
-            <att name="long_name">Current Speed (cm/s)</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">CS_300</att>
-            <att name="ioos_category">Currents</att>
-            <att name="units">cm/s</att>
-            <att name="standard_name">sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
     <dataVariable>
-        <sourceName>CD_310</sourceName>
-        <destinationName>Current_Direction</destinationName>
+        <sourceName>U_320</sourceName>
+        <destinationName>ucomp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">321</att>
-            <att name="generic_name">v</att>
-            <att name="long_name">Current Direction (degrees true)</att>
+            <att name="epic_code" type="int">1205</att>
+            <att name="generic_name">u</att>
+            <att name="long_name">Eastward Velocity</att>
+            <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">CD_310</att>
+            <att name="missing_value" type="double">1.0e35</att>            
             <att name="ioos_category">Currents</att>
-            <att name="units">degrees</att>
-            <att name="standard_name">sea_water_velocity_to_direction</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -599,75 +561,37 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>U_320</sourceName>
-        <destinationName>Ucomp_Current</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">320</att>
-            <att name="generic_name">u</att>
-            <att name="long_name">Zonal Current (cm/s)</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">U_320</att>
-            <att name="ioos_category">Currents</att>
-            <att name="units">cm/s</att>
-            <att name="standard_name">eastward_sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>V_321</sourceName>
-        <destinationName>Vcomp_Current</destinationName>
+        <destinationName>vcomp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">321</att>
+            <att name="epic_code" type="int">1206</att>
             <att name="generic_name">v</att>
-            <att name="long_name">Meridional Current (cm/s)</att>
+            <att name="long_name">Northward Velocity</att>
+            <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">V_321</att>
+            <att name="missing_value" type="double">1.0e35</att>
             <att name="ioos_category">Currents</att>
-            <att name="units">cm/s</att>
             <att name="standard_name">northward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>CS_300</sourceName>
-        <destinationName>Current_Speed</destinationName>
+        <sourceName>U_320</sourceName>
+        <destinationName>ucomp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">320</att>
+            <att name="epic_code" type="int">1205</att>
             <att name="generic_name">u</att>
-            <att name="long_name">Current Speed (cm/s)</att>
-        </sourceAttributes -->
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">CS_300</att>
-            <att name="ioos_category">Currents</att>
+            <att name="long_name">Eastward Velocity</att>
             <att name="units">cm/s</att>
-            <att name="standard_name">sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>CD_310</sourceName>
-        <destinationName>Current_Direction</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">321</att>
-            <att name="generic_name">v</att>
-            <att name="long_name">Current Direction (degrees true)</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">CD_310</att>
+            <att name="missing_value" type="double">1.0e35</att>            
             <att name="ioos_category">Currents</att>
-            <att name="units">degrees</att>
-            <att name="standard_name">sea_water_velocity_to_direction</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
