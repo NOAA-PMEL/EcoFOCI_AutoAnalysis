@@ -102,13 +102,12 @@
     </axisVariable>
     <dataVariable>
         <sourceName>V_321</sourceName>
-        <destinationName>v_1206</destinationName>
+        <destinationName>vcomp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1206</att>
             <att name="generic_name">v</att>
             <att name="long_name">Northward Velocity</att>
-            <att name="name">v_1206</att>
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
@@ -120,13 +119,12 @@
     </dataVariable>
     <dataVariable>
         <sourceName>U_320</sourceName>
-        <destinationName>u_1205</destinationName>
+        <destinationName>ucomp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1205</att>
             <att name="generic_name">u</att>
             <att name="long_name">Eastward Velocity</att>
-            <att name="name">u_1205</att>
             <att name="units">cm/s</att>
         </sourceAttributes -->
         <addAttributes>
