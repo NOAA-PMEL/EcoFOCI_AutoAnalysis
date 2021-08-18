@@ -1,9 +1,9 @@
 
-    <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_BS2_record" active="true">
+    <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_bs2_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
         <updateEveryNMillis>10000</updateEveryNMillis>
         <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_products/unified_moorings/</fileDir>
-        <fileNameRegex>Full_BS2_record.nc</fileNameRegex>
+        <fileNameRegex>Full_bs2_record.nc</fileNameRegex>
         <recursive>false</recursive>
         <pathRegex>.*</pathRegex>
         <metadataFrom>last</metadataFrom>
@@ -21,8 +21,8 @@
             <att name="keywords_vocabulary">GCMD Science Keywords</att>
             <att name="license">[standard]</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-            <att name="summary">QC'd (final) mooring data from BS2.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only 1hr_gridded_datasets.  A depth field exisists for each known instrument depth, even if the parameter wasn't measured at that depth. </att>
-            <att name="title">Gridded Mooring Data from BS2 - final</att>
+            <att name="summary">QC'd (final) mooring data from bs2.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only 1hr_gridded_datasets.  A depth field exisists for each known instrument depth, even if the parameter wasn't measured at that depth. </att>
+            <att name="title">Gridded Mooring Data from bs2 - final</att>
         </addAttributes>
         <axisVariable>
             <sourceName>depth</sourceName>
@@ -42,14 +42,14 @@
             <destinationName>time</destinationName>
             <!-- sourceAttributes>
                 <att name="calendar">proleptic_gregorian</att>
-                <att name="units">hours since 1900-01-01 00:00:00</att>
+                <att name="units">days since 1900-01-01 00:00:00</att>
             </sourceAttributes -->
             <addAttributes>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Date</att>
                 <att name="source_name">date</att>
                 <att name="standard_name">time</att>
-                <att name="units">hours since 1900-01-01 00:00:00</att>
+                <att name="units">days since 1900-01-01 00:00:00</att>
             </addAttributes>
         </axisVariable>
         <dataVariable>
