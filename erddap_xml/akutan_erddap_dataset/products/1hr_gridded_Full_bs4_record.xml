@@ -1,7 +1,6 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_bs4_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <updateEveryNMillis>10000</updateEveryNMillis>
         <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_products/unified_moorings/</fileDir>
         <fileNameRegex>Full_bs4_record.nc</fileNameRegex>
         <recursive>false</recursive>
