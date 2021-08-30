@@ -64,7 +64,7 @@ csv hosting of WHOI *.bot files
         <att name="title">CTD Data from 2019 Healy DBO Cruise (HE1901)</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>profile_id</sourceName>
+        <sourceName>station_id</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
