@@ -2,7 +2,7 @@
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/from_kongsberg/sg402/</fileDir>
-    <fileNameRegex>.*timeseries\.nc</fileNameRegex>
+    <fileNameRegex>sg402_Newport.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
