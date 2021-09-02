@@ -83,6 +83,7 @@
         <att name="subsetVariables">trajectory_id,profile_id</att>
         <att name="title">Physical data collected from Seaglider SG402 during Puget Sound deployed on 2021-9-1 - timeseries</att>
         <att name="summary">PMEL SG402 Newport Line Sep 1, 2021. Timeseries dataset.</att>
+        <att name="testOutOfDate">now-1days</att>
 
     </addAttributes>
     <dataVariable>
