@@ -462,7 +462,7 @@ Final Data is CF flavored netcdf files
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2012_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2020/CTDcasts/dy2012/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2020/CTDcasts/dy2012/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
