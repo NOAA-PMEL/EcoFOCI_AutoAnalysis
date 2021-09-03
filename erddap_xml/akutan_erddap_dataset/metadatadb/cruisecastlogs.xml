@@ -1,0 +1,580 @@
+<!-- NOTE! Since database tables don't have any metadata, you must add metadata
+  below, notably 'units' for each of the dataVariables. -->
+<dataset type="EDDTableFromDatabase" datasetID="cruisecastlogs" active="true">
+    <sourceUrl>jdbc:mariadb://161.55.82.54:3306/ecofoci_cruises</sourceUrl>
+    <driverName>org.mariadb.jdbc.Driver</driverName>
+    <connectionProperty name="user">bell</connectionProperty>
+    <connectionProperty name="password">JPster71</connectionProperty>
+    <catalogName></catalogName>
+    <schemaName></schemaName>
+    <tableName>cruisecastlogs</tableName>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Other</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="infoUrl">???</att>
+        <att name="institution">???</att>
+        <att name="keywords">altname, amt, atmosphere, atmospheric, bottom, bottomdepth, btl, bulb, cast, chlorophyll, chlorophyllbtlniskinno, chlorophyllbtlvolumes, cloud, cloud cover, cloudamt, cloudiness, cloudtype, code, color, consecutive, consecutivecastno, controlled, cover, cruise, cruiseid, data, depth, direction, dissolved, dissolved o2, dry, drybulb, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, file, filename, gmtday, gmtmonth, gmttime, gmtyear, humidity, identifier, instrument, instrumentserialnos, instrumenttype, ismooringprofilecast, latitude, latitudemin, leg, local, longitude, longitudemin, mass, max, maxdepth, measured, measuredparameters, meteorology, mooring, mooringid, name, national, niskin, nos, notes, numbers, nutrient, nutrientbtlniskinno, nutrientbtlnumbers, O2, ocean, ocean color, oxygen, oxygenbtlniskinno, oxygenbtlnumbers, parameters, pressure, profile, project, project_leg, quality, qualitycontrolled, relative, relativehumidity, salinity, salinitybtlniskinno, salinitybtlnumbers, science, sea, seastate, seawater, serial, service, source, spd, state, station, stationnameid, stationno_altname, statistics, surface, surfacetemp, temperature, type, unique, uniquecruiseid, vessel, visibility, volumes, water, watermasscode, weather, wet, wetbulb, wind, wind_from_direction, winddir, winds, windspd</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local database)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="summary">Data from a local source.</att>
+        <att name="title">Data from a local source.</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>id</sourceName>
+        <destinationName>id</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Vessel</sourceName>
+        <destinationName>vessel</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Vessel</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CruiseID</sourceName>
+        <destinationName>cruiseid</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Cruise ID</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Project_Leg</sourceName>
+        <destinationName>project_leg</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Project Leg</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>UniqueCruiseID</sourceName>
+        <destinationName>uniquecruiseid</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Unique Cruise ID</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Project</sourceName>
+        <destinationName>project</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Project</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>StationNo_altname</sourceName>
+        <destinationName>stationno_altname</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Station No Altname</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ConsecutiveCastNo</sourceName>
+        <destinationName>consecutivecastno</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Consecutive Cast No</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LatitudeDeg</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="source_name">LatitudeDeg</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LatitudeMin</sourceName>
+        <destinationName>latitudemin</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LongitudeDeg</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="source_name">LongitudeDeg</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LongitudeMin</sourceName>
+        <destinationName>longitudemin</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GMTDay</sourceName>
+        <destinationName>gmtday</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">GMTDay</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GMTMonth</sourceName>
+        <destinationName>gmtmonth</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">GMTMonth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GMTYear</sourceName>
+        <destinationName>gmtyear</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">GMTYear</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GMTTime</sourceName>
+        <destinationName>gmttime</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">GMTTime</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DryBulb</sourceName>
+        <destinationName>drybulb</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Dry Bulb</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>RelativeHumidity</sourceName>
+        <destinationName>relativehumidity</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">Relative Humidity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>WetBulb</sourceName>
+        <destinationName>wetbulb</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Wet Bulb</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SeaState</sourceName>
+        <destinationName>seastate</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Sea State</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Visibility</sourceName>
+        <destinationName>visibility</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">Visibility</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>WindDir</sourceName>
+        <destinationName>winddir</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">360.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Wind</att>
+            <att name="long_name">Wind From Direction</att>
+            <att name="standard_name">wind_from_direction</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>WindSpd</sourceName>
+        <destinationName>windspd</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Wind</att>
+            <att name="long_name">Wind Spd</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CloudAmt</sourceName>
+        <destinationName>cloudamt</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">Cloud Amt</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CloudType</sourceName>
+        <destinationName>cloudtype</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Meteorology</att>
+            <att name="long_name">Cloud Type</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Weather</sourceName>
+        <destinationName>weather</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Weather</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SurfaceTemp</sourceName>
+        <destinationName>surfacetemp</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Surface Temp</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>BottomDepth</sourceName>
+        <destinationName>bottomdepth</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Bottom Depth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>StationNameID</sourceName>
+        <destinationName>stationnameid</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Station Name ID</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>MaxDepth</sourceName>
+        <destinationName>maxdepth</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Max Depth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>InstrumentSerialNos</sourceName>
+        <destinationName>instrumentserialnos</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Instrument Serial Nos</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Notes</sourceName>
+        <destinationName>notes</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Notes</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NutrientBtlNiskinNo</sourceName>
+        <destinationName>nutrientbtlniskinno</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Nutrient Btl Niskin No</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NutrientBtlNumbers</sourceName>
+        <destinationName>nutrientbtlnumbers</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Nutrient Btl Numbers</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>OxygenBtlNiskinNo</sourceName>
+        <destinationName>oxygenbtlniskinno</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="long_name">Oxygen Btl Niskin No</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>OxygenBtlNumbers</sourceName>
+        <destinationName>oxygenbtlnumbers</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Oxygen Btl Numbers</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SalinityBtlNiskinNo</sourceName>
+        <destinationName>salinitybtlniskinno</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Salinity</att>
+            <att name="long_name">Salinity Btl Niskin No</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SalinityBtlNumbers</sourceName>
+        <destinationName>salinitybtlnumbers</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Salinity Btl Numbers</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ChlorophyllBtlNiskinNo</sourceName>
+        <destinationName>chlorophyllbtlniskinno</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Ocean Color</att>
+            <att name="long_name">Chlorophyll Btl Niskin No</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ChlorophyllBtlVolumes</sourceName>
+        <destinationName>chlorophyllbtlvolumes</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Ocean Color</att>
+            <att name="long_name">Chlorophyll Btl Volumes</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>InstrumentType</sourceName>
+        <destinationName>instrumenttype</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Instrument Type</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>WaterMassCode</sourceName>
+        <destinationName>watermasscode</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Water Mass Code</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>isMooringProfileCast</sourceName>
+        <destinationName>ismooringprofilecast</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Is Mooring Profile Cast</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>MooringID</sourceName>
+        <destinationName>mooringid</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Mooring ID</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>QualityControlled</sourceName>
+        <destinationName>qualitycontrolled</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">Quality Controlled</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>FileName</sourceName>
+        <destinationName>filename</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">File Name</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>MeasuredParameters</sourceName>
+        <destinationName>measuredparameters</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Measured Parameters</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
