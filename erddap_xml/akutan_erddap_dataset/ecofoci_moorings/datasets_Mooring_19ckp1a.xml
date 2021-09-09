@@ -2,7 +2,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_19ckp1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2018/Moorings/18ckp1a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/erddap/final_data_cf/</fileDir>
     <fileNameRegex>19ckp1a_0035m\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -244,7 +244,6 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19ckp1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
