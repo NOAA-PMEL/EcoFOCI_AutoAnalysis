@@ -653,7 +653,7 @@
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Glider</att>
-            <att name="cf_role">trajectory</att>
+            <att name="cf_role">trajectory_id</att>
         </addAttributes>
     </dataVariable>
 </dataset>
