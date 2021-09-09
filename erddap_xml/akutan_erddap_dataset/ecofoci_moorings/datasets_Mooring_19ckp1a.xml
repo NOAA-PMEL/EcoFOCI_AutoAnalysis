@@ -255,6 +255,7 @@
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">timeseries_id, Instrument_Identifier, Serial_Number, latitude, longitude</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
