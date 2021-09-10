@@ -24,11 +24,45 @@
         <att name="title">QC'd (final) ADCP Vel/Ein Data from 19CKP-1A</att>
     </addAttributes>
     <axisVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="epic_key">LON_501</att>
+            <att name="generic_name">latitude</att>
+            <att name="long_name">latitude</att>
+            <att name="name">latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="epic_key">LAT_500</att>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">624</att>
-            <att name="type">EVEN</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
             <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
@@ -47,42 +81,13 @@
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="positive">down</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
             <att name="standard_name">depth</att>
-             <att name="scale_factor" type="double">1.0</att>
+            <att name="scale_factor" type="double">1.0</att>
             <att name="units">m</att>
        </addAttributes>
-    </axisVariable>
-    <axisVariable>
-        <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </addAttributes>
-    </axisVariable>
-    <axisVariable>
-        <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-            <att name="units">degrees_east</att>
-            <att name="scale_factor" type="double">-1.0</att>
-            <att name="add_offset" type="double">360</att>
-        </addAttributes>
     </axisVariable>
     <dataVariable>
         <sourceName>v_curr_comp</sourceName>
@@ -163,81 +168,69 @@
     <dataVariable>
         <sourceName>agc1</sourceName>
         <destinationName>agc1</destinationName>
-        <dataType>float</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">1221</att>
-            <att name="generic_name">agc1</att>
-            <att name="long_name">Echo Intensity (AGC) Beam 1</att>
-            <att name="name">AGC1_1221</att>
-            <att name="units">countw</att>
+            <att name="epic_key">AGC1_1224</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Currents</att>
-            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Echo Intensity (AGC) Beam 1</att>
+            <att name="units">counts</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>agc2</sourceName>
         <destinationName>agc2</destinationName>
-        <dataType>float</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">1222</att>
-            <att name="generic_name">agc2</att>
-            <att name="long_name">Echo Intensity (AGC) Beam 1</att>
-            <att name="name">AGC2_1222</att>
-            <att name="units">countw</att>
+            <att name="epic_key">AGC2_1224</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Currents</att>
-            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Echo Intensity (AGC) Beam 2</att>
+            <att name="units">counts</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>agc3</sourceName>
         <destinationName>agc3</destinationName>
-        <dataType>float</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">1223</att>
-            <att name="generic_name">agc3</att>
-            <att name="long_name">Echo Intensity (AGC) Beam 1</att>
-            <att name="name">AGC3_1223</att>
-            <att name="units">countw</att>
+            <att name="epic_key">AGC3_1224</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Currents</att>
-            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Echo Intensity (AGC) Beam 3</att>
+            <att name="units">counts</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>agc4</sourceName>
         <destinationName>agc4</destinationName>
-        <dataType>float</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">1224</att>
-            <att name="generic_name">agc4</att>
-            <att name="long_name">Echo Intensity (AGC) Beam 1</att>
-            <att name="name">AGC4_1224</att>
-            <att name="units">countw</att>
+            <att name="epic_key">AGC4_1224</att>
         </sourceAttributes -->
         <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Currents</att>
-            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Echo Intensity (AGC) Beam 4</att>
+            <att name="units">counts</att>
         </addAttributes>
     </dataVariable>
 </dataset>
