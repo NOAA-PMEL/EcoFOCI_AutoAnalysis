@@ -2,25 +2,31 @@
 <!-- Tabular datasets for FOCI from PMEL -->
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_ATRH" active="true">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_ATRH</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_BARO" active="true">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_BARO</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_GPS_M200" active="false">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_GPS_M200</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_PRAWC_M200" active="true">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_PRAWC_M200</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_PRAWE_M200" active="true">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_PRAWE_M200</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <redirect>false</redirect>
 </dataset>
 <dataset type="EDDTableFromErddap" datasetID="TELOM200_WIND" active="true">
     <sourceUrl>http://redwing:8081/erddap/tabledap/TELOM200_WIND</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
     <redirect>false</redirect>
 </dataset>
