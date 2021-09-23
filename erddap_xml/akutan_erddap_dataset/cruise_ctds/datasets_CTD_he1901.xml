@@ -133,6 +133,24 @@ csv hosting of WHOI *.bot files
         </addAttributes>
     </dataVariable>
     <dataVariable>
+            <sourceName>BTL_103</sourceName>
+            <destinationName>BTL_103</destinationName>
+            <dataType>float</dataType>
+            <!-- sourceAttributes>
+                <att name="epic_code" type="int">103</att>
+                <att name="generic_name">BTL</att>
+                <att name="long_name">NISKIN BOTTLE NUMBER</att>
+                <att name="name">BTL_103</att>
+            </sourceAttributes -->
+            <addAttributes>
+               <att name="missing_value" type="float">-9999.0</att>
+               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="colorBarMaximum" type="double">100.0</att>
+                <att name="colorBarMinimum" type="double">0.0</att>
+                <att name="ioos_category">Statistics</att>
+            </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>Pres</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
@@ -335,6 +353,29 @@ csv hosting of WHOI *.bot files
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>global:WATER_DEPTH</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">dbar</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>global:STATION_NAME</sourceName>
+        <destinationName>Station_Name</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="standard_name">foci_station_name</att>
+            <att name="description">FOCI station name</att>
+        </addAttributes>
+    </dataVariable>  
 </dataset>
 
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_he1901_final_nuts" active="true">
