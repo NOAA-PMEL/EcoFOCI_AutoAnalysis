@@ -115,6 +115,8 @@ csv hosting of WHOI *.bot files
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
+            <att name="scale_factor" type="float">-1.</att>
+            <att name="add_offset" type="float">360.</att> 
             <att name="units">degrees_east</att>
         </addAttributes>
     </dataVariable>
