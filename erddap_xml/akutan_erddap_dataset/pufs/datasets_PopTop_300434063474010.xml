@@ -6,9 +6,9 @@
 -->
 
 <!--bottom data -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopTop_300434063474010_deeper_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopTop_300434063474010_deeper_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063474010/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/initial_archive/300434063474010/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -225,9 +225,9 @@
 </dataset>
 
 <!--under ice-->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopTop_300434063474010_shallow_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopTop_300434063474010_shallow_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063474010/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/initial_archive/300434063474010/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -447,9 +447,9 @@
 <!--Irridium Message Position-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopTop_300434063474010_irridium_position" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopTop_300434063474010_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/300434063474010/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/initial_archive/300434063474010/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex></pathRegex>

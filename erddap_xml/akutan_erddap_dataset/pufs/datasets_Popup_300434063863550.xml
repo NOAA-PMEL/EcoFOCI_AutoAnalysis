@@ -1,15 +1,17 @@
 <!--
- 18BSM5-TPRC5210
+ 20BSPCOD-TP3550    
     Under Ice, and Bottom Data are Timeseries
     SST is TimeseriesTrajectory (if GPS is transmitted)
     Profile is Profile
+
+    These floats have differences from the previous deployed floats and have a few different names
 -->
 
 <!--bottom data -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_bottom_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863550_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863550/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -42,15 +44,15 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18BSM5-TPRC5210.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">18BSM5-TPRC5210 Bottom Data </att>
+        <att name="title">20BSPCOD-TP3550    Bottom Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -113,51 +115,51 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Topside Temp</att>
+            <att name="long_name">Fast Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Topside Temp ADC</att>
+            <att name="long_name">Fast Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Underside Temp</att>
+            <att name="long_name">Slow Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="long_name">Slow Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -226,10 +228,10 @@
 </dataset>
 
 <!--under ice-->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_underice_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863550_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863550/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -262,15 +264,15 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18BSM5-TPRC5210.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">18BSM5-TPRC5210 UnderIce Data </att>
+        <att name="title">20BSPCOD-TP3550    UnderIce Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -333,51 +335,51 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Topside Temp</att>
+            <att name="long_name">Fast Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Topside Temp ADC</att>
+            <att name="long_name">Fast Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Underside Temp</att>
+            <att name="long_name">Slow Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="long_name">Slow Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -449,10 +451,10 @@
 <!--sst-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_sst_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863550_sst_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863550/</fileDir>
     <fileNameRegex>.*sst_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -485,15 +487,15 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18BSM5-TPRC5210.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">18BSM5-TPRC5210 SST Data </att>
+        <att name="title">20BSPCOD-TP3550    SST Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -556,51 +558,51 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Topside Temp</att>
+            <att name="long_name">Fast Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Topside Temp ADC</att>
+            <att name="long_name">Fast Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Underside Temp</att>
+            <att name="long_name">Slow Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="long_name">Slow Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -672,10 +674,10 @@
 <!--Irridium Message Position-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_irridium_position" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863550_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863550/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex></pathRegex>
@@ -708,15 +710,15 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18BSM5-TPRC5210.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">18BSM5-TPRC5210 Irridium Position </att>
+        <att name="title">20BSPCOD-TP3550    Irridium Position </att>
     </addAttributes>
     <dataVariable>
         <sourceName>IMEI_message_id</sourceName>
@@ -795,10 +797,10 @@
 
 
 <!--profile data -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_profile_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863550_profile_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863550/</fileDir>
     <fileNameRegex>.*profile_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -832,15 +834,15 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18BSM5-TPRC5210.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">18BSM5-TPRC5210 Profile Data </att>
+        <att name="title">20BSPCOD-TP3550    Profile Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -904,51 +906,51 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Topside Temp</att>
+            <att name="long_name">Fast Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Topside Temp ADC</att>
+            <att name="long_name">Fast Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Underside Temp</att>
+            <att name="long_name">Slow Response Temp</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="long_name">Slow Response Temp ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
