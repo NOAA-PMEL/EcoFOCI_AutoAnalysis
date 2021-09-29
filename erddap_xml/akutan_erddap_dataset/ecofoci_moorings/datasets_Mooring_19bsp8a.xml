@@ -37,8 +37,8 @@
         <att name="license">[standard]</att>
         <att name="QC_indicator">null</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel/Ein Data from 19CKP-1A</att>
-        <att name="title">QC'd (final) ADCP Vel/Ein Data from 19CKP-1A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel/Ein Data from 19BSP-8A</att>
+        <att name="title">QC'd (final) ADCP Vel/Ein Data from 19BSP-8A</att>
     </addAttributes>
     <axisVariable>
         <sourceName>latitude</sourceName>
@@ -72,9 +72,6 @@
         <addAttributes>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
-            <att name="units">degrees_east</att>
-            <att name="scale_factor" type="double">-1.0</att>
-            <att name="add_offset" type="double">360</att>
         </addAttributes>
     </axisVariable>
     <axisVariable>
