@@ -8,11 +8,10 @@
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <charset>ISO-8859-1</charset>
-    <columnSeparator></columnSeparator>
+    <columnSeparator>,</columnSeparator>
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
-    <sortedColumnSourceName>time (UTC)</sortedColumnSourceName>
-    <sortFilesBySourceNames>time (UTC)</sortFilesBySourceNames>
+
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
     </sourceAttributes -->
