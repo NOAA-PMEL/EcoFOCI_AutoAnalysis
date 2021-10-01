@@ -9,7 +9,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063925210/2019/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -229,7 +229,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063925210/2019/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -452,7 +452,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_sst_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063925210/2019/</fileDir>
     <fileNameRegex>.*sst_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -675,7 +675,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063925210/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex></pathRegex>
@@ -798,7 +798,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063925210_profile_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/initial_archive/2019/300434063925210/2019/</fileDir>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063925210/2019/</fileDir>
     <fileNameRegex>.*profile_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
