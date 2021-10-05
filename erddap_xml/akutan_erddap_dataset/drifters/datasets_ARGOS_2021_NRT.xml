@@ -195,6 +195,7 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
             <att name="long_name">Station Longitude 360</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
+            <att name="scale_factor" type="float">-1.</att>
         </addAttributes>
     </dataVariable>
 </dataset>
