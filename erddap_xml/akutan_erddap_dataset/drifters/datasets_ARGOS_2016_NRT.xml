@@ -164,13 +164,13 @@
     </dataVariable>
     <dataVariable>
         <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName>
+        <destinationName>lon360</destinationName>
         <dataType>double</dataType>
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
+            <att name="long_name">Station Longitude 360</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
             <att name="add_offset" type="float">360.</att> 
@@ -179,7 +179,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>=Math2.angle0360(row.columnDouble("longitude"))</sourceName> 
-        <destinationName>lon360</destinationName>
+        <destinationName>longitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="generic_name">longitude</att>
@@ -191,9 +191,10 @@
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Station Longitude 360</att>
+            <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
+            <att name="scale_factor" type="float">-1.</att>
         </addAttributes>
     </dataVariable>
 </dataset>
