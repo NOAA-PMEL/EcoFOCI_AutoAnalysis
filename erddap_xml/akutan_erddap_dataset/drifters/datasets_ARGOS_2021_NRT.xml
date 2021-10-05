@@ -179,7 +179,7 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>=Math2.angle0360(row.columnDouble("lon360"))</sourceName> 
+        <sourceName>=Math2.angle0360(row.columnDouble("longitude"))</sourceName> 
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
