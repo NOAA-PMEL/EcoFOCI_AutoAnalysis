@@ -171,7 +171,7 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
             <att name="generic_name">longitude</att>
             <att name="long_name">longitude</att>
             <att name="name">longitude</att>
-            <att name="units">degrees_north</att>
+            <att name="units">degrees_east</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
@@ -180,6 +180,7 @@ pacific, percent, pmel, record, record_number, reference, sea, sea_surface_tempe
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
+            <att name="scale_factor" type="float">-1.</att>
             <att name="add_offset" type="float">-360.</att> 
         </addAttributes>
     </dataVariable>
