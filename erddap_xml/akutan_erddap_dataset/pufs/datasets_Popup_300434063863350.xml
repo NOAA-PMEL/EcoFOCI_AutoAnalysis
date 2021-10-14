@@ -1,0 +1,1019 @@
+<!--
+ 20BSPCOD-TP3550    
+    Under Ice, and Bottom Data are Timeseries
+    SST is TimeseriesTrajectory (if GPS is transmitted)
+    Profile is Profile
+
+    These floats have differences from the previous deployed floats and have a few different names
+-->
+
+<!--bottom data -->
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863350_bottom_data" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863350/</fileDir>
+    <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <sortedColumnSourceName>datetime</sortedColumnSourceName>
+    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
+        <att name="subsetVariables">station, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">timeseries_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">Shaun Bell</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
+        <att name="subsetVariables">timeseries_id</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="testOutOfDate">now-42days</att>
+        <att name="title">20BSPCOD-TP3550    Bottom Data </att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>id</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>dep_lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">latitude</att>
+            <att name="long_name">latitude</att>
+            <att name="name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>dep_lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+            <att name="units">Bar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Fast Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Fast Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Slow Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Slow Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>temp_ref</sourceName>
+        <destinationName>temp_ref</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Temp Ref</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>par</sourceName>
+        <destinationName>par</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">70.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Downwelling Photosynthetic Photon Radiance In Sea Water</att>
+            <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+            <att name="units">umole m^-2 s^-1</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fluor</sourceName>
+        <destinationName>fluor</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Fluor</att>
+            <att name="units">ug/L</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>tilt</sourceName>
+        <destinationName>tilt</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Tilt</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>        
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+<!--under ice-->
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863350_underice_data" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863350/</fileDir>
+    <fileNameRegex>.*ice_data\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <sortedColumnSourceName>datetime</sortedColumnSourceName>
+    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
+        <att name="subsetVariables">station, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">timeseries_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
+        <att name="subsetVariables">timeseries_id</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="testOutOfDate">now-42days</att>
+        <att name="title">20BSPCOD-TP3550    UnderIce Data </att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>id</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>dep_lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">latitude</att>
+            <att name="long_name">latitude</att>
+            <att name="name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>dep_lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+            <att name="units">Bar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Fast Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Fast Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Slow Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Slow Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>temp_ref</sourceName>
+        <destinationName>temp_ref</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Temp Ref</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>par</sourceName>
+        <destinationName>par</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">70.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Downwelling Photosynthetic Photon Radiance In Sea Water</att>
+            <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+            <att name="units">umole m^-2 s^-1</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fluor</sourceName>
+        <destinationName>fluor</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Fluor</att>
+            <att name="units">ug/L</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>tilt</sourceName>
+        <destinationName>tilt</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Tilt</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>        
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+
+<!--sst-->
+<!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
+    measured gps lat lon and set to trajectory -->
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863350_sst_data" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863350/</fileDir>
+    <fileNameRegex>.*sst_data\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <sortedColumnSourceName>datetime</sortedColumnSourceName>
+    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
+        <att name="subsetVariables">station, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">timeseries_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
+        <att name="subsetVariables"></att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="testOutOfDate">now-42days</att>
+        <att name="title">20BSPCOD-TP3550    SST Data </att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>id</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GPSLat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">latitude</att>
+            <att name="long_name">latitude</att>
+            <att name="name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>GPSLon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+            <att name="units">Bar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Fast Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Fast Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Slow Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Slow Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>temp_ref</sourceName>
+        <destinationName>temp_ref</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Temp Ref</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>par</sourceName>
+        <destinationName>par</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">70.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Downwelling Photosynthetic Photon Radiance In Sea Water</att>
+            <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+            <att name="units">umole m^-2 s^-1</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fluor</sourceName>
+        <destinationName>fluor</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Fluor</att>
+            <att name="units">ug/L</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>tilt</sourceName>
+        <destinationName>tilt</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Tilt</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>        
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+
+<!--Irridium Message Position-->
+<!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
+    measured gps lat lon and set to trajectory -->
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863350_irridium_position" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863350/</fileDir>
+    <fileNameRegex>.*\.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex></pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <sortedColumnSourceName>datetime</sortedColumnSourceName>
+    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
+        <att name="subsetVariables">station, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Trajectory</att>
+        <att name="cdm_trajectory_variables">trajectory_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
+        <att name="subsetVariables">trajectory_id</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="testOutOfDate">now-42days</att>
+        <att name="title">20BSPCOD-TP3550    Irridium Position </att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>IMEI_message_id</sourceName>
+        <destinationName>trajectory_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">trajectory_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">latitude</att>
+            <att name="long_name">latitude</att>
+            <att name="name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>        
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CEPradius</sourceName>
+        <destinationName>CEPradius</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">CEPradius</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
+
+<!--profile data -->
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063863350_profile_data" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063863350/</fileDir>
+    <fileNameRegex>.*profile_data\.csv</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <sortedColumnSourceName>datetime</sortedColumnSourceName>
+    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
+        <att name="subsetVariables">station, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Profile</att>
+        <att name="cdm_altitude_proxy">pressure</att> 
+        <att name="cdm_profile_variables">station_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">Shaun Bell</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
+        <att name="subsetVariables"></att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="testOutOfDate">now-42days</att>
+        <att name="title">20BSPCOD-TP3550    Profile Data </att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>id</sourceName>
+        <destinationName>station_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Station Id</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>dep_lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">latitude</att>
+            <att name="long_name">latitude</att>
+            <att name="name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>dep_lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="generic_name">longitude</att>
+            <att name="long_name">longitude</att>
+            <att name="name">longitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>pressure</sourceName>
+        <destinationName>pressure</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+            <att name="units">Bar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Fast Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Fast Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Slow Response Temp</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Slow Response Temp ADC</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>temp_ref</sourceName>
+        <destinationName>temp_ref</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Temp Ref</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>par</sourceName>
+        <destinationName>par</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">70.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Downwelling Photosynthetic Photon Radiance In Sea Water</att>
+            <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+            <att name="units">umole m^-2 s^-1</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>fluor</sourceName>
+        <destinationName>fluor</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Fluor</att>
+            <att name="units">ug/L</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>tilt</sourceName>
+        <destinationName>tilt</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Tilt</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>        
+        </addAttributes>
+    </dataVariable>
+</dataset>
