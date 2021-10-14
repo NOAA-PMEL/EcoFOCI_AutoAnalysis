@@ -41,7 +41,7 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -111,8 +111,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -124,8 +124,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -135,8 +135,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -148,8 +148,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -259,7 +259,7 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -329,8 +329,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -342,8 +342,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -353,8 +353,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -366,8 +366,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -480,7 +480,7 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -550,8 +550,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <sourceName>fr_temp</sourceName>
+        <destinationName>fr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -563,8 +563,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <sourceName>fr_temp_ADC</sourceName>
+        <destinationName>fr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -574,8 +574,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <sourceName>sr_temp</sourceName>
+        <destinationName>sr_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -587,8 +587,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <sourceName>sr_temp_ADC</sourceName>
+        <destinationName>sr_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -701,7 +701,7 @@
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
+        <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, fr_temp, fr_temp_ADC, underside, sr_temp, sr_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
