@@ -1,0 +1,103 @@
+<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_fociweb_drifters_2000s" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <updateEveryNMillis>10000</updateEveryNMillis>
+    <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/drifters_parsed_from_fociweb/</fileDir>
+    <fileNameRegex>2000s_fociweb_drifters.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator>,</columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <sortedColumnSourceName>time</sortedColumnSourceName>
+    <sortFilesBySourceNames>time</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <addAttributes>
+    <att name="cdm_data_type">Trajectory</att>
+    <att name="cdm_trajectory_variables">trajectory_id</att>
+    <att name="subsetVariables">trajectory_id</att>
+    <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+    <att name="infoUrl">https://pmel.noaa.gov/</att>
+    <att name="institution">NOAA/PMEL - EcoFOCI</att>
+    <att name="keywords">argos, battery, data, date, degree, drifter, ecofoci, environmental, float, gauge, identifier, laboratory, latitude, longitude, marine, noaa, number, ocean, oceans,
+    Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature, percent, pmel, record, record_number, reference, sea, sea_surface_temperature, since, sst, strain, surface, temperature, time, voltage, location_quality</att>
+    <att name="keywords_vocabulary">GCMD Science Keywords</att>
+    <att name="license">[standard]</att>
+    <att name="sourceUrl">(local files)</att>
+    <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+    <att name="summary">Historic Drifter Data - FOCI - 2000s.  Position/time only - see source datafiles for more information. </att>
+    <att name="title">Historic Drifter Data - FOCI - 2000s </att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>trajectory_id</sourceName>
+        <destinationName>trajectory_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="units">sequential measurement id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">trajectory_id</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">time</att>
+            <att name="source_name">time_str</att>
+            <att name="standard_name">time</att>
+            <att name="time_precision">1970-01-01T00:00:00Z</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitudeN</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">500</att>
+            <att name="type">EVEN</att>
+            <att name="units">degree_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitudeE</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">501</att>
+            <att name="type">EVEN</att>
+            <att name="units">degree_west</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
