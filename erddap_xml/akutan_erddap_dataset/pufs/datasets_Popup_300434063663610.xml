@@ -1,5 +1,5 @@
 <!--
- 20BSPCOD-TP3550    
+ 20BSPCOD-TP3610    
     Under Ice, and Bottom Data are Timeseries
     SST is TimeseriesTrajectory (if GPS is transmitted)
     Profile is Profile
@@ -50,9 +50,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3610  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">20BSPCOD-TP3550    Bottom Data </att>
+        <att name="title">20BSPCOD-TP3610    Bottom Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -270,9 +270,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3610  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">20BSPCOD-TP3550    UnderIce Data </att>
+        <att name="title">20BSPCOD-TP3610    UnderIce Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -493,9 +493,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3610  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">20BSPCOD-TP3550    SST Data </att>
+        <att name="title">20BSPCOD-TP3610    SST Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
@@ -716,9 +716,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3610  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">20BSPCOD-TP3550    Irridium Position </att>
+        <att name="title">20BSPCOD-TP3610    Irridium Position </att>
     </addAttributes>
     <dataVariable>
         <sourceName>IMEI_message_id</sourceName>
@@ -840,9 +840,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables"></att>
-        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3550  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TP3610  .  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="testOutOfDate">now-42days</att>
-        <att name="title">20BSPCOD-TP3550    Profile Data </att>
+        <att name="title">20BSPCOD-TP3610    Profile Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>id</sourceName>
