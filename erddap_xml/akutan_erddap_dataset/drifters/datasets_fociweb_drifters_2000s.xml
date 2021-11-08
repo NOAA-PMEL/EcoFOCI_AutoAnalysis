@@ -81,7 +81,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>longitudeE</sourceName>
+        <sourceName>longitudeW</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -96,6 +96,7 @@
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
+            <att name="scale_factor" type="float">-1.</att>
         </addAttributes>
     </dataVariable>
 </dataset>
