@@ -1,8 +1,8 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_POPS0010_hourly" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2021_SpringDeployed_BS_BioPUFFS_surfacedata" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/</fileDir>
-    <fileNameRegex>POPS0010hrly.csv</fileNameRegex>
+    <fileNameRegex>2021_SpringDeployed_BS_BioPUFFS_sfc.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -11,6 +11,7 @@
     <columnSeparator>,</columnSeparator>
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
+
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
     </sourceAttributes -->
@@ -34,9 +35,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">EDD POPS0010 2021 Data (BIOPUFF) merged with Global Positioning Data and gridded/interpolated to 1hr.</att>
+        <att name="summary">EDD/ITAE POPS0001-0010 2021 Data (BIOPUFF) merged with Global Positioning Data and gridded/interpolated to 1hr.</att>
         <att name="testOutOfDate">now-2days</att>
-        <att name="title">POPS0010 Hourly GPS/SST Merged Data</att>
+        <att name="title">POPS0001-0010 Hourly GPS/SST Merged Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time (UTC)</sourceName>
@@ -87,7 +88,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>LatDD</sourceName>
+        <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -102,7 +103,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>LonDD</sourceName>
+        <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -114,54 +115,6 @@
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>FixQuality</sourceName>
-        <destinationName>FixQuality</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">150.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Quality</att>
-            <att name="long_name">Fix Quality</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>NumSat</sourceName>
-        <destinationName>NumSat</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Num Sat</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>HDOP</sourceName>
-        <destinationName>HDOP</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">HDOP</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Altitude</sourceName>
-        <destinationName>altitude</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Altitude</att>
-            <att name="standard_name">altitude</att>
-            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
