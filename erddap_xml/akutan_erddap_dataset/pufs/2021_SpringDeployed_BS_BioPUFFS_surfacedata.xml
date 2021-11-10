@@ -118,7 +118,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>trajectory_id</sourceName>
+        <sourceName>timeseries_id</sourceName>
         <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
