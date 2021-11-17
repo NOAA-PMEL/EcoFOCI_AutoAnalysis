@@ -670,4 +670,17 @@ Keep an EPIC key code in meta data of new final data for reference
             <att name="units">days since 1900-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">profile_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>   
 </dataset>
