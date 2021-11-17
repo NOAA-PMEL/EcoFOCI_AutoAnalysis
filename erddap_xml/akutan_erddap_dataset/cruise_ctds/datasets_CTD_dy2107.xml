@@ -1,4 +1,4 @@
-<!-- NEW CF Centric archives... 
+<!-- NEW CF Centric archives... 2020+
 initial files are for rapid review, are in csv format and attempt to use old EPIC variable names for reference
 there are no more EPIC initial nc files or final files and meta data is far more explicit in netcdf files
 Keep an EPIC key code in meta data of new final data for reference
