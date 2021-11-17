@@ -642,6 +642,7 @@ Keep an EPIC key code in meta data of new final data for reference
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="scale_factor" type="float">-1.</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
