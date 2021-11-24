@@ -1,6 +1,7 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_ckip2_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+        <updateEveryNMillis>10000</updateEveryNMillis>
         <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_products/unified_moorings/</fileDir>
         <fileNameRegex>Full_ckip2_record.nc</fileNameRegex>
         <recursive>false</recursive>
@@ -37,9 +38,12 @@
             </addAttributes>
         </axisVariable>
         <axisVariable>
-            <sourceName>time</sourceName>
+            <sourceName>date</sourceName>
             <destinationName>time</destinationName>
-
+            <!-- sourceAttributes>
+                <att name="calendar">proleptic_gregorian</att>
+                <att name="units">days since 1970-01-01 00:00:00</att>
+            </sourceAttributes -->
             <addAttributes>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Date</att>
