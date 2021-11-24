@@ -38,7 +38,7 @@
             </addAttributes>
         </axisVariable>
         <axisVariable>
-            <sourceName>date</sourceName>
+            <sourceName>time</sourceName>
             <destinationName>time</destinationName>
             <!-- sourceAttributes>
                 <att name="calendar">proleptic_gregorian</att>
