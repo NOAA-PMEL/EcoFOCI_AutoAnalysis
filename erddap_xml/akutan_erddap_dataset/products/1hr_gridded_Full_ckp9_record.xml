@@ -37,7 +37,7 @@
             </addAttributes>
         </axisVariable>
         <axisVariable>
-            <sourceName>time</sourceName>
+            <sourceName>date</sourceName>
             <destinationName>time</destinationName>
             <addAttributes>
                 <att name="ioos_category">Time</att>
