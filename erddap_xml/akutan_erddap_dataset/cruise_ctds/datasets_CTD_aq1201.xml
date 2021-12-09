@@ -475,24 +475,6 @@
         <sortedColumnSourceName>time</sortedColumnSourceName>
         <sortFilesBySourceNames>time</sortFilesBySourceNames>
         <fileTableInMemory>false</fileTableInMemory>
-
-        <!-- sourceAttributes>
-            <att name="COMPOSITE" type="int">1</att>
-            <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
-            <att name="DATA_CMNT">CTD Data from dy1805 Oxygen Data.txt</att>
-            <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
-            <att name="History">
-            August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-            January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
-            </att>
-            <att name="MOORING">AW1</att>
-            <att name="WATER_DEPTH" type="int">112</att>
-            <att name="WATER_MASS">B</att>
-        </sourceAttributes -->
-        <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-            <att name="cdm_timeseries_variables">profile_id, longitude, latitude</att>
-            <att name="subsetVariables">profile_id, longitude, latitude</att>
-        -->
         <addAttributes>
             <att name="cdm_data_type">Profile</att>
             <att name="cdm_altitude_proxy">pressure</att> 
@@ -518,11 +500,6 @@
             <sourceName>time</sourceName>
             <destinationName>time</destinationName>
             <dataType>double</dataType>
-            <!-- sourceAttributes>
-                <att name="epic_code" type="int">624</att>
-                <att name="type">EVEN</att>
-                <att name="units">days since 1900-01-01</att>
-            </sourceAttributes -->
             <addAttributes>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Time</att>
