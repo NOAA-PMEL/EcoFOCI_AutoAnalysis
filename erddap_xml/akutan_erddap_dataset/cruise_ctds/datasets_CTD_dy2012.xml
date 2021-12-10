@@ -816,7 +816,6 @@ Final Data is CF flavored netcdf files
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>datetime</sortedColumnSourceName>
     <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
 
