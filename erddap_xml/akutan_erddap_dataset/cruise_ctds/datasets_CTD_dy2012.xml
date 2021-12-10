@@ -973,7 +973,7 @@ Final Data is CF flavored netcdf files
         </addAttributes>
     </dataVariable>  
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
