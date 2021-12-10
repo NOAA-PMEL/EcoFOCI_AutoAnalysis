@@ -809,7 +809,7 @@ Final Data is CF flavored netcdf files
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2012_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-    <fileDir>/home/ecoraid/data/2020/CTDcasts/dy2012/erddap/final_data/nut/</fileDir>
+    <fileDir>/home/ecoraid/data/2020/CTDcasts/dy2012/final_data_cf/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
 
     <recursive>true</recursive>
