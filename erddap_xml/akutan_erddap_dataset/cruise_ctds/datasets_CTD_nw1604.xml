@@ -12,7 +12,7 @@ cruise has no data
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
@@ -449,7 +449,7 @@ cruise has no data
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     

@@ -22,7 +22,7 @@ csv hosting of WHOI *.bot files
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <accessibleViaFiles>false</accessibleViaFiles>
@@ -390,7 +390,7 @@ csv hosting of WHOI *.bot files
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     

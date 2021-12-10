@@ -13,7 +13,7 @@ DY1807L2
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
@@ -455,7 +455,7 @@ DY1807L2
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     

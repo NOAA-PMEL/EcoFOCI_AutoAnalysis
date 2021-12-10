@@ -15,7 +15,7 @@ Final Data is CF flavored netcdf files
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
@@ -475,7 +475,7 @@ Final Data is CF flavored netcdf files
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     

@@ -21,7 +21,7 @@ Keep an EPIC key code in meta data of new final data for reference
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     

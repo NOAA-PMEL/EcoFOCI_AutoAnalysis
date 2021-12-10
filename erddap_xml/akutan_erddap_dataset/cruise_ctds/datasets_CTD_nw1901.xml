@@ -16,7 +16,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
@@ -489,7 +489,7 @@ January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
+    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     
