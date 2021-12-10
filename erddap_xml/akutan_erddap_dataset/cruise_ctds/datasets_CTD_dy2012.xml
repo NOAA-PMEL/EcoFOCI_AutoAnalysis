@@ -811,12 +811,12 @@ Final Data is CF flavored netcdf files
 
     <fileDir>/home/ecoraid/data/2020/CTDcasts/dy2012/final_data_cf/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
 
     <!-- sourceAttributes>
@@ -858,12 +858,12 @@ Final Data is CF flavored netcdf files
         <att name="title">Discrete Nutrient Data from DY2012 - Final Nutrient Data</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>datetime</sourceName>
+        <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">624</att>
-            <att name="type">EVEN</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
             <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
