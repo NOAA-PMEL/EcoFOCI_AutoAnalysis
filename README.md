@@ -13,7 +13,7 @@ This package is a collection of routines used by EcoFOCI to automatically produc
   + erddap product generation from existing erddap datasets
   + example generation of visualizations, including use of non-local dataset
 
-It is also a source for testing github integrations, github Actions, and other tools/examples that could be useful for the EcoFOCI repository (auto-linting, auto-config updates, etc)
+It is also a source for testing GitHub integrations, GitHub Actions, and other tools/examples that could be useful for the EcoFOCI repository (auto-linting, auto-config updates, etc)
 
 ## Extended Description
 
