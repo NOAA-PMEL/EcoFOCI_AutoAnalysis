@@ -1,4 +1,4 @@
-<!-- Tabular... but this is better gridded-->
+<!-- Tabular... but this may be better gridded?-->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2017_upanddown" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
