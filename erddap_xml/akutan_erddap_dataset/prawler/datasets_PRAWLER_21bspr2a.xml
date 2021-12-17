@@ -191,7 +191,7 @@ initial_archive and final_data_cf as with other datasets
     <dataVariable>
         <sourceName>wind_speed</sourceName>
         <destinationName>wind_speed</destinationName>
-        <dataType>double</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -201,12 +201,13 @@ initial_archive and final_data_cf as with other datasets
             <att name="ioos_category">Wind</att>
             <att name="long_name">Wind Speed</att>
             <att name="standard_name">wind_speed</att>
+            <att name="units">m/s</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>wind_from_direction</sourceName>
         <destinationName>wind_from_direction</destinationName>
-        <dataType>double</dataType>
+        <dataType>float</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
@@ -216,6 +217,7 @@ initial_archive and final_data_cf as with other datasets
             <att name="ioos_category">Wind</att>
             <att name="long_name">Wind From Direction</att>
             <att name="standard_name">wind_from_direction</att>
+            <att name="units">degrees</att>
         </addAttributes>
     </dataVariable>
 </dataset>
