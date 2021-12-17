@@ -21,8 +21,8 @@ initial_archive and final_data_cf as with other datasets
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time (UTC)</sortedColumnSourceName>
-    <sortFilesBySourceNames>time (UTC)</sortFilesBySourceNames>
+    <sortedColumnSourceName>'time (UTC)'</sortedColumnSourceName>
+    <sortFilesBySourceNames>'time (UTC)'</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
@@ -54,17 +54,15 @@ initial_archive and final_data_cf as with other datasets
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>time (UTC)</sourceName>
+        <sourceName>'time (UTC)'</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Time (UTC)</att>
-            <att name="source_name">time (UTC)</att>
+            <att name="long_name">time</att>
             <att name="standard_name">time</att>
-            <att name="time_precision">1970-01-01T00:00:00Z</att>
             <att name="units">yyyy-MM-dd HH:mm:ssxxx</att>
         </addAttributes>
     </dataVariable>
