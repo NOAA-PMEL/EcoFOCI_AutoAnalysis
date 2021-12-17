@@ -10,7 +10,7 @@ initial_archive and final_data_cf as with other datasets
 <dataset type="EDDTableFromAsciiFiles" datasetID="erddap_21bspr2a_met" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/ecoraid/data/2019/Moorings/21bspr2a/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2021/Moorings/21bspr2a/initial_archive/</fileDir>
     <fileNameRegex>.*Met.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -24,19 +24,6 @@ initial_archive and final_data_cf as with other datasets
     <sortedColumnSourceName>time (UTC)</sortedColumnSourceName>
     <sortFilesBySourceNames>time (UTC)</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    <!-- sourceAttributes>
-        <att name="COMPOSITE" type="int">1</att>
-        <att name="CREATION_DATE">May 14, 2019 17:07 UTC</att>
-        <att name="DATA_CMNT">2019_BSITAE2A_all.met.download</att>
-        <att name="EPIC_FILE_GENERATOR">EcoFOCI_netCDF_write.pyc 0.4.0</att>
-        <att name="History">File Created.</att>
-        <att name="WATER_DEPTH" type="int">9999</att>
-    </sourceAttributes -->
-    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-        <att name="cdm_timeseries_variables">station, longitude, latitude</att>
-        <att name="subsetVariables">station, longitude, latitude</att>
-    -->
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id</att>
