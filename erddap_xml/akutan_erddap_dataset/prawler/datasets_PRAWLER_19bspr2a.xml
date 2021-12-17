@@ -21,8 +21,8 @@ initial_archive and final_data_cf as with other datasets
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>'time (UTC)'</sortedColumnSourceName>
-    <sortFilesBySourceNames>'time (UTC)'</sortFilesBySourceNames>
+    <sortedColumnSourceName>time</sortedColumnSourceName>
+    <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
@@ -54,7 +54,7 @@ initial_archive and final_data_cf as with other datasets
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>'time (UTC)'</sourceName>
+        <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
@@ -189,7 +189,7 @@ initial_archive and final_data_cf as with other datasets
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>wind_speed (m s-1)</sourceName>
+        <sourceName>wind_speed</sourceName>
         <destinationName>wind_speed</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -204,7 +204,7 @@ initial_archive and final_data_cf as with other datasets
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>wind_from_direction (degrees true)</sourceName>
+        <sourceName>wind_from_direction</sourceName>
         <destinationName>wind_from_direction</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
