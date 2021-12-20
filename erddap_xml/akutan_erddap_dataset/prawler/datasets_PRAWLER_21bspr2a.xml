@@ -63,7 +63,7 @@ initial_archive and final_data_cf as with other datasets
             <att name="ioos_category">Time</att>
             <att name="long_name">time</att>
             <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ssxxx</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
