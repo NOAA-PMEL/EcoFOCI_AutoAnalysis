@@ -30,7 +30,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="summary">EDD/ITAE POPS0009 2021 Data (BIOPUFF) merged with Global Positioning Data and gridded/interpolated to 1hr.</att>
+        <att name="summary">EDD/ITAE POPS0009 2021 Data (BIOPUFF) merged with Global Positioning Data and gridded/interpolated to 1hr.  QC Levels 1 and 2 maintained from QARTOD range, spike and rate of change tested for Temp, Press Variables.</att>
         <att name="testOutOfDate">now-2days</att>
         <att name="title">POPS0009 Hourly GPS/SST Merged Data</att>
     </addAttributes>
