@@ -7,7 +7,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
 -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="erddap_19bsitaepr2a_met" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2019/Moorings/19bsitaepr2a/working/erddap/met/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
@@ -224,7 +223,6 @@ datetime,BP,U,USD,V,VSD,RH,AT
 
 <dataset type="EDDTableFromAsciiFiles" datasetID="erddap_19bsitaepr2a_prawler" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2019/Moorings/19bsitaepr2a/working/erddap/prawler/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>

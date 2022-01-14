@@ -6,7 +6,6 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_underway_os1701l1" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2017/AlongTrack/os1701/TSG/PROCESSED/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>

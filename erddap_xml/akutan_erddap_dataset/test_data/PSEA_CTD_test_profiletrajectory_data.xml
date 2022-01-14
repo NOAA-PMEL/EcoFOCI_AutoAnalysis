@@ -1,6 +1,5 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA_CTD_test_profiletrajectory_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_test/</fileDir>
     <fileNameRegex>.*profile_data\.nc</fileNameRegex>
     <recursive>true</recursive>

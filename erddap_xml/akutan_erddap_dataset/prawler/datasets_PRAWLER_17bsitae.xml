@@ -6,7 +6,6 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_17bsitae_prawler" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2017/Moorings/17bsitae/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     

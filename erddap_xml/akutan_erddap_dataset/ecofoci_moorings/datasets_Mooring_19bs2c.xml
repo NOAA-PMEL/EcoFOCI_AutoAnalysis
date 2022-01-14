@@ -206,7 +206,6 @@
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19bs2c_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2019/Moorings/19bs2c/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>

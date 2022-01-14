@@ -10,7 +10,6 @@
 <!--bottom data -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
@@ -230,7 +229,6 @@
 <!--under ice-->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
@@ -453,7 +451,6 @@
     measured gps lat lon and set to trajectory -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_sst_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*sst_data\.csv</fileNameRegex>
     <recursive>true</recursive>
@@ -676,7 +673,6 @@
     measured gps lat lon and set to trajectory -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
@@ -799,7 +795,6 @@
 <!--profile data -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_profile_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*profile_data\.csv</fileNameRegex>
     <recursive>true</recursive>

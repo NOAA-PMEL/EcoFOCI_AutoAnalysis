@@ -5,7 +5,6 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="2018_Argos_Drifters_NRT" active="true">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2018/Drifters/erddap/initial/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>

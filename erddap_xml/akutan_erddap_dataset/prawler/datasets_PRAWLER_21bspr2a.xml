@@ -9,7 +9,6 @@ initial_archive and final_data_cf as with other datasets
 -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="erddap_21bspr2a_met" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/2021/Moorings/21bspr2a/initial_archive/</fileDir>
     <fileNameRegex>.*Met.*\.csv</fileNameRegex>
     <recursive>false</recursive>

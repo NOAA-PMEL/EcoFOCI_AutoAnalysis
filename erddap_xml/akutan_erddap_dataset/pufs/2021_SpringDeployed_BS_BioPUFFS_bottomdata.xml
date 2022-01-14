@@ -1,6 +1,5 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_SpringDeployed_BS_BioPUFFS_bottomdata" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2021/initial_archive/</fileDir>
     <fileNameRegex>2021_SpringDeployed_BS_BioPUFFS_btm.csv</fileNameRegex>
     <recursive>true</recursive>
@@ -30,9 +29,9 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">EDD/ITAE POPS0001-POS0010 2021 Spring Deployed Data (BIOPUFF) - Bottom Data.</att>
+        <att name="summary">UNQC'D EDD/ITAE POPS0001-POS0010 2021 Spring Deployed Data (BIOPUFF) - Bottom Data.</att>
         <att name="testOutOfDate">now-2days</att>
-        <att name="title">ITAE Spring Deployed POPS0001-0010 Bottom Data</att>
+        <att name="title">UnQC'd ITAE Spring Deployed POPS0001-0010 Bottom Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time (UTC)</sourceName>
