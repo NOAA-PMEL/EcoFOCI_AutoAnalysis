@@ -262,6 +262,48 @@
             <att name="units">count</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">timeseries_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>global:INST_TYPE</sourceName>
+        <destinationName>Instrument_Identifier</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>global:SERIAL_NUMBER</sourceName>
+        <destinationName>Serial_Number</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>global:WATER_DEPTH</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">dbar</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>    
 </dataset>
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19bsp8a_final" active="true">
