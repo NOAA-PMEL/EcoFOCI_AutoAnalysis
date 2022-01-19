@@ -249,7 +249,21 @@
             <att name="units">m</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">timeseries_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
 </dataset>
+
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_19bsp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecoraid/data/2019/Moorings/19bsp2a/final_data_cf/</fileDir>
