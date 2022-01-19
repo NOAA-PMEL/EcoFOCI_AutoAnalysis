@@ -3,7 +3,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
-    <fileNameRegex>19ckp1a*velein*\.nc</fileNameRegex>
+    <fileNameRegex>.*velein.*m.nc</fileNameRegex>
     
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
