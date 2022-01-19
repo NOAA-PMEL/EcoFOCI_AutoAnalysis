@@ -253,7 +253,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_19bsp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecoraid/data/2019/Moorings/19bsp2a/final_data_cf/</fileDir>
-    <fileNameRegex>.*velein.*\m.nc</fileNameRegex>
+    <fileNameRegex>.*velein.*m.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
