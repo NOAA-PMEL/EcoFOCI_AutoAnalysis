@@ -3,7 +3,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
-    <fileNameRegex>19ckp1a_0035m\.nc</fileNameRegex>
+    <fileNameRegex>19ckp1a*velein*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -238,7 +238,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19ckp1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
-    <fileNameRegex>.*_.*_.*.nc</fileNameRegex>
+    <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>

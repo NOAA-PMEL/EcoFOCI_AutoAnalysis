@@ -34,7 +34,7 @@
     -->
     <addAttributes>
         <att name="cdm_data_type">Timeseries</att>
-        <att name="cdm_timeseries_variables">timeseries_id, Instrument_Identifier, latitude, longitude</att>
+        <att name="cdm_timeseries_variables">timeseries_id, Instrument_Identifier, Serial_Number, latitude, longitude</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
@@ -45,7 +45,7 @@
         <att name="QC_indicator">null</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier</att>
+        <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from 19BSP-2A</att>
         <att name="title">Mooring Data from 19BSP-2A - final</att>
     </addAttributes>
