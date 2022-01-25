@@ -1,6 +1,5 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="cruisecastlogs" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/database2erddap/</fileDir>
     <fileNameRegex>c.*\.csv</fileNameRegex>
     <recursive>true</recursive>
