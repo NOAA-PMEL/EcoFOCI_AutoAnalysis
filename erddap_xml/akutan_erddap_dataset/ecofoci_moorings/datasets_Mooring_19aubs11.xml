@@ -40,7 +40,7 @@
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">days since 1900-01-01T00:00:00Z</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -224,7 +224,7 @@
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">days since 1900-01-01T00:00:00Z</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
