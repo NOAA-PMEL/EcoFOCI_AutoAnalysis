@@ -2,7 +2,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_15bsp2b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2015/Moorings/15bsp2B/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2015/Moorings/15bsp2b/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -180,7 +180,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp2b_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2015/Moorings/15bsp2B/erddap/final_data/</fileDir>
+    <fileDir>/home/ecoraid/data/2015/Moorings/15bsp2b/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -199,7 +199,7 @@
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">15bsp2B</att>
+        <att name="MOORING">15bsp2b</att>
         <att name="SERIAL_NUMBER">1673</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -458,7 +458,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_15bsp2b_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2015/Moorings/15bsp2B/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2015/Moorings/15bsp2b/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -477,7 +477,7 @@
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">15bsp2B</att>
+        <att name="MOORING">15bsp2b</att>
         <att name="SERIAL_NUMBER">1673</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
