@@ -204,8 +204,8 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>fWS_973</sourceName>
-            <destinationName>fWS_973</destinationName>
+            <sourceName>F_903</sourceName>
+            <destinationName>F_903</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">906</att>
@@ -215,7 +215,7 @@
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
                <att name="_FillValue" type="float">1.0e35</att>
-                <att name="epic_key">fWS_973</att>
+                <att name="epic_key">F_903</att>
                 <att name="units">ugrams/l</att>
                 <att name="_FillValue">1.0E35</att>
                 <att name="colorBarMaximum" type="double">30.0</att>
