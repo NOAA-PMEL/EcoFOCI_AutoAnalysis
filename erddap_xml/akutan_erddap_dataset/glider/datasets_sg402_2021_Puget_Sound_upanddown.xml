@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_2021_Puget_Sound_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2021/Profilers/OculusGlider/from_kongsberg/sg402/</fileDir>
+    <fileDir>/home/ecoraid/data/2021/Profilers/OculusGlider/Mission_Archive/sg402/PS_10_08_2021/</fileDir>
     <fileNameRegex>sg402_Puget_Sound.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
