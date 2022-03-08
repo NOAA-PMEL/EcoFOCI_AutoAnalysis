@@ -285,9 +285,9 @@
         <att name="platform_deployment_cruise_name">DY1908</att>
         <att name="platform_deployment_date">2019-09-23T23:38:00Z</att>
         <att name="platform_deployment_recovery_comments">EDD - Biodegradable Drogue fabric test
-Tube 5 @ 20m
-Tube 6 @ 68m
-On Recovery: No Tubes were recovered, no sign of them being attached to mooring.</att>
+        Tube 5 @ 20m
+        Tube 6 @ 68m
+        On Recovery: No Tubes were recovered, no sign of them being attached to mooring.</att>
         <att name="platform_recovery_cruise_name">DY2012</att>
         <att name="platform_recovery_date">2020-09-08T17:53:00Z</att>
         <att name="QC_indicator">unknown</att>
