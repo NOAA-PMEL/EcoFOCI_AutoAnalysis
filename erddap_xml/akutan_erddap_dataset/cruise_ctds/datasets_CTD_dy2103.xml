@@ -1353,7 +1353,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:WATER_DEPTH</sourceName>
+        <sourceName>global:WaterDepth</sourceName>
         <destinationName>Water_Depth</destinationName>
         <dataType>float</dataType>
         <addAttributes>
@@ -1366,7 +1366,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>  
     <dataVariable>
-        <sourceName>global:BAROMETER</sourceName>
+        <sourceName>global:Pressure</sourceName>
         <destinationName>air_pressure_at_sealevel</destinationName>
         <dataType>float</dataType>
         <addAttributes>
@@ -1380,7 +1380,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>  
     <dataVariable>
-        <sourceName>global:WIND_DIR</sourceName>
+        <sourceName>global:WindDir</sourceName>
         <destinationName>wind_direction</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -1397,7 +1397,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:WIND_SPEED</sourceName>
+        <sourceName>global:WindSpd</sourceName>
         <destinationName>wind_speed</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -1412,7 +1412,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:AIR_TEMP</sourceName>
+        <sourceName>global:DryBulb</sourceName>
         <destinationName>air_temperature</destinationName>
         <dataType>float</dataType>
         <addAttributes>
@@ -1426,7 +1426,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>global:STATION_NAME</sourceName>
+        <sourceName>global:StationNameID</sourceName>
         <destinationName>Station_Name</destinationName>
         <dataType>String</dataType>
         <addAttributes>
@@ -1436,7 +1436,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>  
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
