@@ -1,0 +1,11 @@
+<dataset type="EDDGridFromEtopo" datasetID="etopo180" />
+
+<dataset type="EDDGridFromEtopo" datasetID="etopo360" />
+
+<dataset type="EDDGridFromErddap" datasetID="usgsCeSS111" active="true">
+    <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/griddap/usgsCeSS111</sourceUrl>
+</dataset>
+
+<dataset type="EDDGridFromErddap" datasetID="etopo5" active="true">
+    <sourceUrl>https://upwell.pfeg.noaa.gov/erddap/griddap/etopo5</sourceUrl>
+</dataset>
