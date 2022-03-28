@@ -1,8 +1,8 @@
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_10gl2a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_10gl3a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/2010/Moorings/10gl2a/erddap/final_data/</fileDir>
+    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/2010/Moorings/10gl3a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -15,13 +15,13 @@
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">May 30, 2019 23:02 UTC</att>
-        <att name="DATA_CMNT">10gl2a_s39_1073_0060m.asc</att>
+        <att name="DATA_CMNT">10gl3a_s39_1073_0060m.asc</att>
         <att name="featureType">timeSeries</att>
         <att name="History">
         May 30, 2019 23:02 UTC Data Trimmed
         </att>
         <att name="INST_TYPE">s39</att>
-        <att name="MOORING">10gl2a</att>
+        <att name="MOORING">10gl3a</att>
         <att name="SERIAL_NUMBER">1073</att>
         <att name="WATER_DEPTH">74</att>
     </sourceAttributes -->
@@ -287,8 +287,8 @@
     </dataVariable>    
 </dataset>
 
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_10gl2a_final" active="true">
-    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/2010/Moorings/10gl2a/erddap/final_data/</fileDir>
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_10gl3a_final" active="true">
+    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/2010/Moorings/10gl3a/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
 
     <recursive>true</recursive>
@@ -306,7 +306,7 @@
         April 16, 2020 21:06 UTC EPIC two time-word key converted to udunits
         </att>
         <att name="INST_TYPE">wcp</att>
-        <att name="MOORING">10GL-2A</att>
+        <att name="MOORING">10GL-3A</att>
         <att name="WATER_DEPTH" type="double">72.0</att>
         <att name="WATER_MASS">B</att>
     </sourceAttributes -->
@@ -320,8 +320,8 @@
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 10GL-2A</att>
-        <att name="title">QC'd (final) ADCP Vel Data from 10GL-2A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 10GL-3A</att>
+        <att name="title">QC'd (final) ADCP Vel Data from 10GL-3A</att>
     </addAttributes>
     <axisVariable>
         <sourceName>time</sourceName>
