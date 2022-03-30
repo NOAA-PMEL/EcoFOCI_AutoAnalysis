@@ -1,0 +1,3 @@
+<dataset type="EDDGridFromErddap" datasetID="ARDEM_V2" active="true">
+    <sourceUrl>https://erddap.axiomdatascience.com/erddap/griddap/ARDEM</sourceUrl>
+</dataset>
