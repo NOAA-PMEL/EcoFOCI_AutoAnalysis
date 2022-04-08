@@ -2,7 +2,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_21bspr2a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2021/Moorings/21bsPR2a/initial_archive/</fileDir>
+    <fileDir>/home/ecoraid/data/2021/Moorings/21bspr2a/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -207,7 +207,7 @@
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_21bspr2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2021/Moorings/21bsPR2a/final_data_cf/</fileDir>
+    <fileDir>/home/ecoraid/data/2021/Moorings/21bspr2a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
