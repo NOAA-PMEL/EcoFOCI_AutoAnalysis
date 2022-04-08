@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_2021newport_timeseries" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/2021/Profilers/OculusGlider/Mission_Archive/sg402/Newport_09_02_2021_sg402/</fileDir>
+    <fileDir>/home/ecoraid/data/2021/Profilers/OculusGlider/Mission_Archive/sg402/Newport_09_02_2021_sg402/</fileDir>
     <fileNameRegex>sg402_Newport.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
