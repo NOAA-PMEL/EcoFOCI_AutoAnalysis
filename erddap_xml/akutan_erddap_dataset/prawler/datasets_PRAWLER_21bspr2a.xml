@@ -232,8 +232,6 @@ initial_archive and final_data_cf as with other datasets
     <columnNamesRow>1</columnNamesRow>
     <firstDataRow>2</firstDataRow>
     <columnNameForExtract></columnNameForExtract>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
-    <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
