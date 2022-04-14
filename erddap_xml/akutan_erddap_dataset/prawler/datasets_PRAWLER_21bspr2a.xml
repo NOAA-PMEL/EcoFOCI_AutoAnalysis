@@ -246,9 +246,9 @@ initial_archive and final_data_cf as with other datasets
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">Prawler Deployment Meteorological Data - 21BSPR-2A Preliminary (Initial processing from SDIG/EDD erddap TELOS server).</att>
-        <att name="title">Prawler Deployment Meteorological Data, 21BSPR-2A Preliminary</att>
+        <att name="subsetVariables">timeseries_id, profileNum</att>
+        <att name="summary">Prawler Deployment Profile Data - 21BSPR-2A Preliminary (Initial processing from SDIG/EDD erddap TELOS server).</att>
+        <att name="title">Prawler Deployment Profile Data, 21BSPR-2A Preliminary</att>
     </addAttributes>    
     <dataVariable>
         <sourceName>***fileName,^(\S*)\.csv,1</sourceName>
