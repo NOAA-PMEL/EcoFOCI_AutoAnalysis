@@ -159,11 +159,10 @@
             <att name="generic_name">par</att>
             <att name="long_name">Photosynthetic Active Radiation</att>
             <att name="name">PAR_908</att>
-            <att name="units">umol m-2 s-1</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="scale_factor" type="double">0.0001</att>
-
+            <att name="units">umol m-2 s-1</att>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Optical Properties</att>
