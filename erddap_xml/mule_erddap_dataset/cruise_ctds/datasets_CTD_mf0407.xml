@@ -4,7 +4,7 @@
     <dataset type="EDDTableFromNcFiles" datasetID="CTD_mf0407_final" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecoraid/data/2004/CTDcasts/mf0407/erddap/final_data/ctd/</fileDir>
+        <fileDir>/home/ecofoci_data/2004/CTDcasts/mf0407/erddap/final_data/ctd/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>

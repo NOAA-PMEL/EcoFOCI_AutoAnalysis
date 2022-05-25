@@ -4,7 +4,7 @@
     <dataset type="EDDTableFromNcFiles" datasetID="CTD_os1701l1_final" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecoraid/data/2017/CTDcasts/os1701l1/erddap/final_data/ctd/</fileDir>
+        <fileDir>/home/ecofoci_data/2017/CTDcasts/os1701l1/erddap/final_data/ctd/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>
@@ -465,7 +465,7 @@
     <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_os1701l1_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecoraid/data/2017/CTDcasts/os1701l1/erddap/final_data/nut/</fileDir>
+        <fileDir>/home/ecofoci_data/2017/CTDcasts/os1701l1/erddap/final_data/nut/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>

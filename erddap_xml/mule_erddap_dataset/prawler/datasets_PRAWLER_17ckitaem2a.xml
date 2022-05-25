@@ -4,7 +4,7 @@
 -->
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_17ckitaem2a_met" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2017/Moorings/17ckitaepr2a/initial_archive/erddap/met/</fileDir>
+    <fileDir>/home/ecofoci_data/2017/Moorings/17ckitaepr2a/initial_archive/erddap/met/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -266,7 +266,7 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_17ckitaem2a_prawler" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2017/Moorings/17ckitaepr2a/initial_archive/erddap/</fileDir>
+    <fileDir>/home/ecofoci_data/2017/Moorings/17ckitaepr2a/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>

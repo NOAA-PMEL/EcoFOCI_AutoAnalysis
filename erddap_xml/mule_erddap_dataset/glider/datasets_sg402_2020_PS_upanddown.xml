@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20201027_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20201027/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Profilers/OculusGlider/pugetsound_20201027/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -660,7 +660,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20200831_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20200831/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Profilers/OculusGlider/pugetsound_20200831/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -1319,7 +1319,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_20200804_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2020/Profilers/OculusGlider/pugetsound_20200804/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Profilers/OculusGlider/pugetsound_20200804/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

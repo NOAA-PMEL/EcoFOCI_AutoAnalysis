@@ -2,7 +2,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19aubs11_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2019/Moorings/19aubs11/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/19aubs11/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -186,7 +186,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19aubs11_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2019/Moorings/19aubs11/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/19aubs11/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

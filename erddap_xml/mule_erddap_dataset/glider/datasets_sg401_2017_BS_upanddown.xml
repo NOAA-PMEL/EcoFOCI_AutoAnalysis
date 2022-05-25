@@ -2,7 +2,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2017_upanddown" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2017/Profilers/OculusGliders/bering_sea_fall17/sg401/</fileDir>
+    <fileDir>/home/ecofoci_data/2017/Profilers/OculusGliders/bering_sea_fall17/sg401/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -660,7 +660,7 @@
 
 <dataset type="EDDGridFromNcFiles" datasetID="datasets_sg401_2017_upanddown_gridded" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2017/Profilers/OculusGliders/bering_sea_fall17/sg401/</fileDir>
+    <fileDir>/home/ecofoci_data/2017/Profilers/OculusGliders/bering_sea_fall17/sg401/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

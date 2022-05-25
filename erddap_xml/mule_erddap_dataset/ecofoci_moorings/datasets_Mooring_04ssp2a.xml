@@ -2,7 +2,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_04ssp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2004/Moorings/04ssp2a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecofoci_data/2004/Moorings/04ssp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*_vel\.cf\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -176,7 +176,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_04ssp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2004/Moorings/04ssp2a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecofoci_data/2004/Moorings/04ssp2a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>

@@ -9,7 +9,7 @@ Keep an EPIC key code in meta data of new final data for reference
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2103_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2021/CTDcasts/dy2103/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2021/CTDcasts/dy2103/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -347,7 +347,7 @@ Keep an EPIC key code in meta data of new final data for reference
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2103_final_btl" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2021/CTDcasts/dy2103/final_data_CF/btl/</fileDir>
+    <fileDir>/home/ecofoci_data/2021/CTDcasts/dy2103/final_data_CF/btl/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -682,7 +682,7 @@ Keep an EPIC key code in meta data of new final data for reference
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2103_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2021/CTDcasts/dy2103/final_data_CF/ctd/</fileDir>
+    <fileDir>/home/ecofoci_data/2021/CTDcasts/dy2103/final_data_CF/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

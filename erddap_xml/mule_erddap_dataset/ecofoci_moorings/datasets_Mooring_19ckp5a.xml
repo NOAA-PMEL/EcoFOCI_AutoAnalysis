@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_19ckp5a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2020/Moorings/19ckp5a/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Moorings/19ckp5a/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -206,7 +206,7 @@
 
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19ckp5a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2020/Moorings/19ckp5a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Moorings/19ckp5a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

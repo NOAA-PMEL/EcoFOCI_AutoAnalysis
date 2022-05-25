@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_18bsitaepr2a_met" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2018/Moorings/18bsitaepr2a/initial_archive/erddap/met/</fileDir>
+    <fileDir>/home/ecofoci_data/2018/Moorings/18bsitaepr2a/initial_archive/erddap/met/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -257,7 +257,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_18bsitaepr2a_prawler" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2018/Moorings/18bsitaepr2a/initial_archive/erddap/</fileDir>
+    <fileDir>/home/ecofoci_data/2018/Moorings/18bsitaepr2a/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>

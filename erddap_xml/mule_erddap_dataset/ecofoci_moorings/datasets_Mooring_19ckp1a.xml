@@ -2,7 +2,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_19ckp1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
     <fileNameRegex>.*velein.*m.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -237,7 +237,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19ckp1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/19ckp1a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -501,9 +501,10 @@
             <att name="generic_name">par</att>
             <att name="long_name">Photosynthetic Active Radiation</att>
             <att name="name">PAR_908</att>
-            <att name="units">uEin cm-2 s-1</att>
         </sourceAttributes -->
         <addAttributes>
+            <att name="scale_factor" type="double">10000</att>
+            <att name="units">umol m-2 s-1</att>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Optical Properties</att>

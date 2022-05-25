@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg401_2019_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2019/Profilers/OculusGliders/sg401/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Profilers/OculusGliders/sg401/</fileDir>
     <fileNameRegex>.*up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

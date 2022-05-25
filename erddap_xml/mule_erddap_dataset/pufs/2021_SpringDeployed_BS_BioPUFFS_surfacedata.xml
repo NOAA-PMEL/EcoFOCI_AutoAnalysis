@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2021_SpringDeployed_BS_BioPUFFS_surfacedata" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/ITAE/Popup_Buoys/2021/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2021/initial_archive/</fileDir>
     <fileNameRegex>2021_SpringDeployed_BS_BioPUFFS_sfc.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>

@@ -8,7 +8,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1906l1_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2019/CTDcasts/dy1906l1/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/CTDcasts/dy1906l1/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -353,7 +353,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1906l1_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2019/CTDcasts/dy1906l1/erddap/final_data/ctd/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/CTDcasts/dy1906l1/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>

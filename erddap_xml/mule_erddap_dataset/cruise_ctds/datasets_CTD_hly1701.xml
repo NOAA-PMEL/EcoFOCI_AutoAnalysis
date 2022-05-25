@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_hly1701_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecoraid/data/2017/CTDcasts/he1701/erddap/final_data/ctd/</fileDir>
+    <fileDir>/home/ecofoci_data/2017/CTDcasts/he1701/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>

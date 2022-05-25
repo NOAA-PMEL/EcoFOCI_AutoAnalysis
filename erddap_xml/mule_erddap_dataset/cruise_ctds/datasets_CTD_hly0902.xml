@@ -4,7 +4,7 @@
     <dataset type="EDDTableFromNcFiles" datasetID="CTD_hly0902_final" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecoraid/data/2009/CTDcasts/hly0902/erddap/final_data/ctd_merged/</fileDir>
+        <fileDir>/home/ecofoci_data/2009/CTDcasts/hly0902/erddap/final_data/ctd_merged/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>
@@ -465,7 +465,7 @@
     <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_hly0902_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecoraid/data/2009/CTDcasts/hly0902/erddap/final_data/ctd_merged/</fileDir>
+        <fileDir>/home/ecofoci_data/2009/CTDcasts/hly0902/erddap/final_data/ctd_merged/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>

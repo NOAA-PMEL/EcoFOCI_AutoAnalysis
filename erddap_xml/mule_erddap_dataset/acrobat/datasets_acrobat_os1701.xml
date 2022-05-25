@@ -6,7 +6,7 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_acrobat_os1701" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/2017/AlongTrack/os1701/acrobat/raw/OS17_BarrowCanyon2/DATA/ACROBAT/PROCESSED/erddap/</fileDir>
+    <fileDir>/home/ecofoci_data/2017/AlongTrack/os1701/acrobat/raw/OS17_BarrowCanyon2/DATA/ACROBAT/PROCESSED/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <accessibleViaFiles>true</accessibleViaFiles>
     <recursive>true</recursive>

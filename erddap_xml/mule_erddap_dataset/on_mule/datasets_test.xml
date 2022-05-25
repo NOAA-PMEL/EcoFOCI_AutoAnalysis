@@ -1,5 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="scripps_smithandsandwell_v23_muletest" active="false">
-    <fileDir>/home/foci_lfstore/erddap_hosted_datasets/bathymetry/scripps_smithandsandwell_23/</fileDir>
+    <fileDir>/home/ecofoci_data/bathymetry/scripps_smithandsandwell_23/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

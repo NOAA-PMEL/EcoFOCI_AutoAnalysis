@@ -8,7 +8,7 @@
 <!--bottom data -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/2019/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/2019/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -227,7 +227,7 @@
 <!--under ice-->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/2019/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/2019/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -449,7 +449,7 @@
     measured gps lat lon and set to trajectory -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_sst_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/2019/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/2019/</fileDir>
     <fileNameRegex>.*sst_data\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -671,7 +671,7 @@
     measured gps lat lon and set to trajectory -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063823800_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecoraid/data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/initial_archive/300434063823800/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex></pathRegex>
