@@ -1,8 +1,8 @@
 <!--Dataset Generated from EcoFOCIpy and has no EPIC translation-->
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_19ckp5a_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_19ckp12a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2019/Moorings/19ckp5a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/19ckp12a/final_data_cf/</fileDir>
     <fileNameRegex>.*velein.*m.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -20,8 +20,8 @@
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel/Ein Data from 19CKP-5A</att>
-        <att name="title">QC'd (final) ADCP Vel/Ein Data from 19CKP-5A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel/Ein Data from 19CKP-12A</att>
+        <att name="title">QC'd (final) ADCP Vel/Ein Data from 19CKP-12A</att>
     </addAttributes>
     <axisVariable>
         <sourceName>latitude</sourceName>
@@ -235,10 +235,10 @@
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_19ckp5a_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_19ckp12a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2020/Moorings/19ckp5a/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Moorings/19ckp12a/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -275,8 +275,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">depth, timeseries_id</att>
-        <att name="summary">Non-QC'd (preliminary) data from 19CKP-5A</att>
-        <att name="title">Mooring Data from 19CKP-5A preliminary data</att>
+        <att name="summary">Non-QC'd (preliminary) data from 19CKP-12A</att>
+        <att name="title">Mooring Data from 19CKP-12A preliminary data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
@@ -441,9 +441,9 @@
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19ckp5a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_19ckp12a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2020/Moorings/19ckp5a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2020/Moorings/19ckp12a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -465,8 +465,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 19CKP-5A</att>
-        <att name="title">Mooring Data from 19CKP-5A - final</att>
+        <att name="summary">QC'd (final) mooring data from 19CKP-12A</att>
+        <att name="title">Mooring Data from 19CKP-12A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
