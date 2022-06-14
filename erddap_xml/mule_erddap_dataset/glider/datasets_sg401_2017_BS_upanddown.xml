@@ -57,7 +57,7 @@
         <att name="quality_control_version">1.12</att>
         <att name="references">http://data.nodc.noaa.gov/accession/0092291</att>
         <att name="seaglider_software_version" type="float">66.14</att>
-        <att name="source">Seaglider SG401</att>
+        <att name="source">Oculus Coastal Glider SG401</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG401 Bering Sea</att>
         <att name="time_coverage_end">2017-04-26T22:08:28Z</att>
@@ -85,7 +85,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory_id,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG401 during Bering Sea deployed on 2017-04-26 - 5m bins</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG401 during Bering Sea deployed on 2017-04-26 - 5m bins</att>
         <att name="summary">PMEL SG401 Bering Sea Test Apr 26, 2017. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
 
     </addAttributes>
@@ -712,13 +712,13 @@
         <att name="quality_control_version">1.12</att>
         <att name="references">http://data.nodc.noaa.gov/accession/0092291</att>
         <att name="seaglider_software_version" type="float">66.13</att>
-        <att name="source">Seaglider SG401</att>
+        <att name="source">Oculus Coastal Glider SG401</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG401 Bering Sea</att>
         <att name="time_coverage_end">2017-09-26T16:09:42Z</att>
         <att name="time_coverage_resolution">PT1S</att>
         <att name="time_coverage_start">2017-07-26T17:07:25Z</att>
-        <att name="title">Physical, chemical, and biological data collected from Seaglider SG401 during Bering Sea deployed on 2017-07-26</att>
+        <att name="title">Physical, chemical, and biological data collected from Oculus Coastal Glider SG401 during Bering Sea deployed on 2017-07-26</att>
         <att name="uuid">5a33b3ec-b3e9-11e7-a13f-0013d4217869</att>
     </sourceAttributes -->
     <addAttributes>

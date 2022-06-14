@@ -56,7 +56,7 @@
         <att name="quality_control_version">1.12</att>
         <att name="references">http://data.nodc.noaa.gov/accession/0092291</att>
         <att name="seaglider_software_version" type="float">66.14</att>
-        <att name="source">Seaglider SG404</att>
+        <att name="source">Oculus Coastal Glider SG404</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG404 Puget Sound</att>
         <att name="time_coverage_end">2020-08-04T22:08:28Z</att>
@@ -84,7 +84,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG404 during most recent deployment - Profile / up and down</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG404 during most recent deployment - Profile / up and down</att>
         <att name="summary">PMEL SG404 most recent deployment - binned.</att>
         <att name="testOutOfDate">now-1days</att>
 

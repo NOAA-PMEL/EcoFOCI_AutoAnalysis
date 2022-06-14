@@ -56,7 +56,7 @@
         <att name="quality_control_version">1.12</att>
         <att name="references">http://data.nodc.noaa.gov/accession/0092291</att>
         <att name="seaglider_software_version" type="float">66.14</att>
-        <att name="source">Seaglider SG402</att>
+        <att name="source">Oculus Coastal Glider SG402</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG402 Puget Sound</att>
         <att name="time_coverage_end">2020-08-04T22:08:28Z</att>
@@ -84,7 +84,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG402 during Newport Line deployed on 2021-9-1 - 5m bins</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG402 during Newport Line deployed on 2021-9-1 - 5m bins</att>
         <att name="summary">PMEL SG402 Newport Line Sep 1, 2021. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
         <att name="testOutOfDate">now-1days</att>
 
@@ -715,7 +715,7 @@
         <att name="quality_control_version">1.12</att>
         <att name="references">http://data.nodc.noaa.gov/accession/0092291</att>
         <att name="seaglider_software_version" type="float">66.14</att>
-        <att name="source">Seaglider SG402</att>
+        <att name="source">Oculus Coastal Glider SG402</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG402 Puget Sound</att>
         <att name="time_coverage_end">2020-08-04T22:08:28Z</att>
@@ -743,7 +743,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG402 during Newport Line deployed on 2021-9-1 - 5m bins</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG402 during Newport Line deployed on 2021-9-1 - 5m bins</att>
         <att name="summary">PMEL SG402 Newport Line Sep 1, 2021. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
         <att name="testOutOfDate">now-1days</att>
 
@@ -1340,7 +1340,7 @@
         <att name="Metadata_Conventions">null</att>
         <att name="references">https://data.nodc.noaa.gov/accession/0092291</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="title">Physical data collected from Seaglider SG402 during Newport Line deployed on 2021-9-1 - 5m bins</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG402 during Newport Line deployed on 2021-9-1 - 5m bins</att>
         <att name="summary">PMEL SG402 Newport Line Sep 1, 2021. Up and Down 5.0m dataset.  Data is binned to 5m intervals.</att>
     </addAttributes>
     <axisVariable>

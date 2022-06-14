@@ -53,7 +53,7 @@
         <att name="quality_control_version">1.12</att>
         <att name="references">http://data.nodc.noaa.gov/accession/0092291</att>
         <att name="seaglider_software_version" type="float">66.14</att>
-        <att name="source">Seaglider SG401</att>
+        <att name="source">Oculus Coastal Glider SG401</att>
         <att name="standard_name_vocabulary">CF-1.6</att>
         <att name="summary">SG401 Bering Sea</att>
         <att name="time_coverage_end">2020-08-04T22:08:28Z</att>
@@ -81,7 +81,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory_id,profile_id</att>
-        <att name="title">Physical data collected from Seaglider SG401 during Bering Sea deployed on 2020-08-31 - timeseries</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG401 during Bering Sea deployed on 2020-08-31 - timeseries</att>
         <att name="summary">PMEL SG401 Bering Sea Test Aug 04, 2020. Timeseries dataset.</att>
 
     </addAttributes>
