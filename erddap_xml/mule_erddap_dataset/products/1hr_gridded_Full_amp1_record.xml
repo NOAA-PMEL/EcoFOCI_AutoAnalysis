@@ -1,7 +1,7 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_amp1_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-            <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_products/unified_moorings/</fileDir>
+        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/unified_moorings/</fileDir>
         <fileNameRegex>Full_amp1_record.nc</fileNameRegex>
         <recursive>false</recursive>
         <pathRegex>.*</pathRegex>
