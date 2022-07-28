@@ -21,7 +21,7 @@ Final Data is CF flavored netcdf files
         <att name="comment">Provisional data</att>
         <att name="conventions">”CF-1.6, ~OceanSITES-1.5, ACDD-1.2”</att>
         <att name="creator_email">shaun.bell (at) noaa.gov</att>
-        <att name="creator_institution">PMEL</att>
+        <att name="creator_institution">NOAA/PMEL EcoFOCI</att>
         <att name="creator_name">Shaun Bell</att>
         <att name="CruiseID">DY2012</att>
         <att name="CruiseLocation">Bering Sea</att>

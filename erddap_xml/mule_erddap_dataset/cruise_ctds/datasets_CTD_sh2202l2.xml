@@ -673,7 +673,7 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="comment">Provisional data</att>
         <att name="conventions">”CF-1.6, ~OceanSITES-1.5, ACDD-1.2”</att>
         <att name="creator_email">shaun.bell (at) noaa.gov</att>
-        <att name="creator_institution">PMEL</att>
+        <att name="creator_institution">NOAA/PMEL EcoFOCI</att>
         <att name="creator_name">Shaun Bell</att>
         <att name="CruiseID">sh2202l2</att>
         <att name="CruiseLocation">Bering Sea</att>

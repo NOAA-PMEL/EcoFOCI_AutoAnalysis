@@ -360,7 +360,7 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="comment">Provisional data</att>
         <att name="conventions">&#x201d;CF-1.6, ~OceanSITES-1.5, ACDD-1.2&#x201d;</att>
         <att name="creator_email">shaun.bell (at) noaa.gov</att>
-        <att name="creator_institution">PMEL</att>
+        <att name="creator_institution">NOAA/PMEL EcoFOCI</att>
         <att name="creator_name">Shaun Bell</att>
         <att name="CruiseID">dy2107</att>
         <att name="CruiseLocation">Gulf of Alaska</att>
