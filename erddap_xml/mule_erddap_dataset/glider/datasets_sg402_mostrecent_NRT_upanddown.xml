@@ -1,8 +1,8 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_sg402_mostrecent_NRT_upanddown" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_sg402_mostrecent_NRT_upanddown_1m" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
     <fileDir>/home/foci_lfstore/oculusgliderNRT/2022/sg402/</fileDir>
-    <fileNameRegex>.*_up_and_down_profile\.nc</fileNameRegex>
+    <fileNameRegex>.*_1\.0m_up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
