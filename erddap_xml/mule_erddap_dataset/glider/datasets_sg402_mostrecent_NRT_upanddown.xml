@@ -1,8 +1,8 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_sg402_mostrecent_NRT_upanddown_1m" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_mostrecent_NRT_1m_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
     <fileDir>/home/foci_lfstore/oculusgliderNRT/2022/sg402/</fileDir>
-    <fileNameRegex>.*_1\.0m_up_and_down_profile\.nc</fileNameRegex>
+    <fileNameRegex>.*1\.0m_up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -76,8 +76,7 @@
         <att name="creator_url">https://www.nodc.noaa.gov/</att>
         <att name="infoUrl">https://data.nodc.noaa.gov/accession/0092291</att>
         <att name="institution">NOAA/PMEL</att>
-        <att name="instrument">magnetometer sbe41</att>
-        <att name="keywords">acoustic, acoustics, applied, bin, bin_time, chemistry, collected, concentration, conductivity, conductivity_raw, ctd, ctd_depth, ctd_pressure, ctd_time, currents, data, date, density, density_insitu, deployed, depth, depth_avg_curr_east, depth_avg_curr_north, depth_avg_curr_qc, depth_time, dissolved, dissolved o2, dissolved_oxygen_sat, dive, dive_number, during, earth, Earth Science &gt; Oceans &gt; Ocean Acoustics &gt; Acoustic Velocity, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Oxygen, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, end, end_latitude, end_longitude, end_time, glider, global, gps, hour, insitu, lab, latitude, latitude_gsm, latlong_qc, log, log_gps_time, longitude, longitude_gsm, mole, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, molecular, month, number, O2, ocean, oceanography, oceans, oxygen, physical, physical oceanography, physics, positioning, potential, potential density, potential temperature, practical, pressure, puget, quality, raw, salinity, salinity_raw, sbect, sbect_time, science, sea, sea_water_density, sea_water_electrical_conductivity, sea_water_potential_temperature, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_t, sea_water_sigma_theta, sea_water_temperature, seaglider, seattle, seawater, sg402, sigma, sigma_t, sigma_theta, sonde, sound, sound_velocity, speed, speed_of_sound_in_sea_water, start, start_latitude, start_longitude, start_time, statistics, system, temperature, temperature_raw, theta, time, university, velocity, washington, water, water temperature, year</att>
+        <att name="instrument">magnetometer wlbb2fl aa4330 satPAR sbe41 </att>        <att name="keywords">acoustic, acoustics, applied, bin, bin_time, chemistry, collected, concentration, conductivity, conductivity_raw, ctd, ctd_depth, ctd_pressure, ctd_time, currents, data, date, density, density_insitu, deployed, depth, depth_avg_curr_east, depth_avg_curr_north, depth_avg_curr_qc, depth_time, dissolved, dissolved o2, dissolved_oxygen_sat, dive, dive_number, during, earth, Earth Science &gt; Oceans &gt; Ocean Acoustics &gt; Acoustic Velocity, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Oxygen, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Potential Temperature, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Density, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, end, end_latitude, end_longitude, end_time, glider, global, gps, hour, insitu, lab, latitude, latitude_gsm, latlong_qc, log, log_gps_time, longitude, longitude_gsm, mole, mole_concentration_of_dissolved_molecular_oxygen_in_sea_water, molecular, month, number, O2, ocean, oceanography, oceans, oxygen, physical, physical oceanography, physics, positioning, potential, potential density, potential temperature, practical, pressure, puget, quality, raw, salinity, salinity_raw, sbect, sbect_time, science, sea, sea_water_density, sea_water_electrical_conductivity, sea_water_potential_temperature, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_t, sea_water_sigma_theta, sea_water_temperature, seaglider, seattle, seawater, sg402, sigma, sigma_t, sigma_theta, sonde, sound, sound_velocity, speed, speed_of_sound_in_sea_water, start, start_latitude, start_longitude, start_time, statistics, system, temperature, temperature_raw, theta, time, university, velocity, washington, water, water temperature, year</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="Metadata_Conventions">null</att>
         <att name="references">https://data.nodc.noaa.gov/accession/0092291</att>
@@ -656,4 +655,35 @@
             <att name="cf_role">trajectory_id</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>satPAR_PARuV</sourceName>
+        <destinationName>satPAR_PARuV</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">as reported by instrument</att>
+            <att name="instrument">satPAR</att>
+            <att name="units">umol photons/m2/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="long_name">Sat PAR PARu V</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>satPAR_time</sourceName>
+        <destinationName>satPAR_time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="comment">time for PAR in GMT epoch format</att>
+            <att name="standard_name">time</att>
+            <att name="units">seconds since 1970-1-1 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Sat PAR Time</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>    
 </dataset>
