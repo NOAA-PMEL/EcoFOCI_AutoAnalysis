@@ -465,25 +465,24 @@
     <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1301_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecofoci_data/2013/CTDcasts/nw1301/erddap/final_data/nut/</fileDir>
+        <fileDir>/home/ecofoci_data/2012/CTDcasts/nw1301/final_data_cf/nut/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
-
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
         <metadataFrom>last</metadataFrom>
         <standardizeWhat>0</standardizeWhat>
-        
-        <sortFilesBySourceNames>time</sortFilesBySourceNames>
+        <removeMVRows>true</removeMVRows>
+        <sortFilesBySourceNames></sortFilesBySourceNames>
         <fileTableInMemory>false</fileTableInMemory>
 
         <!-- sourceAttributes>
             <att name="COMPOSITE" type="int">1</att>
-            <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
+            <att name="CREATION_DATE">January 09, 2012 21:05 UTC</att>
             <att name="DATA_CMNT">CTD Data from dy1805 Oxygen Data.txt</att>
             <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
             <att name="History">
             August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-            January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+            January 09, 2012 21:05 UTC EPIC two time-word key converted to udunits
             </att>
             <att name="MOORING">AW1</att>
             <att name="WATER_DEPTH" type="int">112</att>
@@ -499,7 +498,7 @@
             <att name="cdm_profile_variables">profile_id</att>
             <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
             <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-            <att name="creation_date">November 12, 2020 21:05 UTC</att>
+            <att name="creation_date">November 12, 2012 21:05 UTC</att>
             <att name="history">Created from ASCII records</att>
             <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
             <att name="creator_email">pmel.ecofoci@noaa.gov</att>
@@ -519,8 +518,8 @@
             <destinationName>time</destinationName>
             <dataType>double</dataType>
             <!-- sourceAttributes>
-                <att name="epic_code" type="int">624</att>
-                <att name="type">EVEN</att>
+                <att name="_FillValue" type="double">NaN</att>
+                <att name="calendar">proleptic_gregorian</att>
                 <att name="units">days since 1900-01-01</att>
             </sourceAttributes -->
             <addAttributes>
@@ -540,18 +539,19 @@
                 <att name="units">dbar</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">8000.0</att>
                 <att name="colorBarMinimum" type="double">-8000.0</att>
                 <att name="colorBarPalette">TopographyDepth</att>
                 <att name="ioos_category">Pressure</att>
                 <att name="long_name">Pressure</att>
                 <att name="standard_name">sea_water_pressure</att>
+                <att name="units">dbar</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>lat</sourceName>
+            <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
@@ -560,8 +560,8 @@
                 <att name="units">degree_north</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">90.0</att>
                 <att name="colorBarMinimum" type="double">-90.0</att>
                 <att name="ioos_category">Location</att>
@@ -571,7 +571,7 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>lon</sourceName>
+            <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
@@ -580,19 +580,17 @@
                 <att name="units">degree_west</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="ioos_category">Location</att>
                 <att name="long_name">Longitude</att>
                 <att name="standard_name">longitude</att>
-                <att name="scale_factor" type="float">-1.</att>
-                <att name="add_offset" type="float">360.</att> 
                 <att name="units">degrees_east</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>BTL_103</sourceName>
-            <destinationName>BTL_103</destinationName>
+            <sourceName>BTLID</sourceName>
+            <destinationName>BTLID</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">103</att>
@@ -601,8 +599,8 @@
                 <att name="name">BTL_103</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">100.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Statistics</att>
@@ -632,7 +630,7 @@
             </addAttributes>
         </dataVariable>  
         <dataVariable>
-            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+            <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
             <dataType>String</dataType>
             <!-- sourceAttributes>
@@ -645,8 +643,8 @@
             </addAttributes>
         </dataVariable>    
         <dataVariable>
-            <sourceName>SI_188</sourceName>
-            <destinationName>SI_188</destinationName>
+            <sourceName>SI</sourceName>
+            <destinationName>SI</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">188</att>
@@ -657,8 +655,8 @@
                 <att name="units">uM/l</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">50.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Dissolved Nutrients</att>
@@ -667,8 +665,8 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>PO4_186</sourceName>
-            <destinationName>PO4_186</destinationName>
+            <sourceName>PO4</sourceName>
+            <destinationName>PO4</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">186</att>
@@ -679,8 +677,8 @@
                 <att name="units">uM/l</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">4.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Dissolved Nutrients</att>
@@ -689,8 +687,8 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>NO2_184</sourceName>
-            <destinationName>NO2_184</destinationName>
+            <sourceName>NO2</sourceName>
+            <destinationName>NO2</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">184</att>
@@ -701,8 +699,8 @@
                 <att name="units">uM/l</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">1.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Dissolved Nutrients</att>
@@ -711,8 +709,8 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>NO3_182</sourceName>
-            <destinationName>NO3_182</destinationName>
+            <sourceName>NO3</sourceName>
+            <destinationName>NO3</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">182</att>
@@ -723,8 +721,8 @@
                 <att name="units">uM/l</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">50.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Dissolved Nutrients</att>
@@ -733,8 +731,8 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>NH4_189</sourceName>
-            <destinationName>NH4_189</destinationName>
+            <sourceName>NH4</sourceName>
+            <destinationName>NH4</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="epic_code" type="int">182</att>
@@ -745,8 +743,8 @@
                 <att name="units">uM/l</att>
             </sourceAttributes -->
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">50.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Dissolved Nutrients</att>
@@ -755,4 +753,3 @@
             </addAttributes>
         </dataVariable>
     </dataset>
-    
