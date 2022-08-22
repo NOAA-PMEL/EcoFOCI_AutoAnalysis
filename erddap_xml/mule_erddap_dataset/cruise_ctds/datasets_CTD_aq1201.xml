@@ -384,7 +384,7 @@
                 <att name="_FillValue" type="float">1.0e35</att>
                 <att name="ioos_category">Pressure</att>
                 <att name="standard_name">seafloor_depth</att>
-                <att name="units">dbar</att>
+                <att name="units">m</att>
                 <att name="description">estimated seafloor depth at station by ek60 during cast</att>
             </addAttributes>
         </dataVariable>  
@@ -594,7 +594,7 @@
                 <att name="_FillValue" type="float">1.0e35</att>
                 <att name="ioos_category">Pressure</att>
                 <att name="standard_name">seafloor_depth</att>
-                <att name="units">dbar</att>
+                <att name="units">m</att>
                 <att name="description">estimated seafloor depth at station by ek60 during cast</att>
             </addAttributes>
         </dataVariable>  
