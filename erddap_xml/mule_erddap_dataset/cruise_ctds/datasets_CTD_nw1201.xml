@@ -26,8 +26,8 @@
             <att name="cdm_profile_variables">profile_id</att>
             <att name="subsetVariables">time, latitude, longitude, profile_id</att>
             <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-            <att name="creation_date">January 09, 2020 21:05 UTC</att>
-            <att name="history">August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits</att>
+            <att name="creation_date">January 09, 2012 21:05 UTC</att>
+            <att name="history">August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files January 09, 2012 21:05 UTC EPIC two time-word key converted to udunits</att>
             <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
             <att name="creator_email">pmel.ecofoci@noaa.gov</att>
             <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
@@ -465,7 +465,7 @@
     <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1201_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecofoci_data/2020/CTDcasts/nw1201/final_data_cf/nut/</fileDir>
+        <fileDir>/home/ecofoci_data/2012/CTDcasts/nw1201/final_data_cf/nut/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
@@ -477,12 +477,12 @@
 
         <!-- sourceAttributes>
             <att name="COMPOSITE" type="int">1</att>
-            <att name="CREATION_DATE">January 09, 2020 21:05 UTC</att>
+            <att name="CREATION_DATE">January 09, 2012 21:05 UTC</att>
             <att name="DATA_CMNT">CTD Data from dy1805 Oxygen Data.txt</att>
             <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
             <att name="History">
             August 07, 2018 20:27 UTC File created by merging oxygen analysis and bottle report files
-            January 09, 2020 21:05 UTC EPIC two time-word key converted to udunits
+            January 09, 2012 21:05 UTC EPIC two time-word key converted to udunits
             </att>
             <att name="MOORING">AW1</att>
             <att name="WATER_DEPTH" type="int">112</att>
@@ -498,7 +498,7 @@
             <att name="cdm_profile_variables">profile_id</att>
             <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
             <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-            <att name="creation_date">November 12, 2020 21:05 UTC</att>
+            <att name="creation_date">November 12, 2012 21:05 UTC</att>
             <att name="history">Created from ASCII records</att>
             <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
             <att name="creator_email">pmel.ecofoci@noaa.gov</att>
