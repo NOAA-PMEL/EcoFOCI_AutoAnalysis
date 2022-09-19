@@ -31,7 +31,7 @@
         <att name="subsetVariables">timeseries_id</att>
         <att name="summary">UNQC'D EDD/ITAE POPS0011-POS0030 2022 Fall Released Data (BIOPUFF) - Bottom Data.</att>
         <att name="testOutOfDate">now-2days</att>
-        <att name="title">UnQC'd ITAE Spring Deployed POPS0011-0030 Bottom Data</att>
+        <att name="title">UnQC'd ITAE Fall Recovered POPS0011-0030 Bottom Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time (UTC)</sourceName>
