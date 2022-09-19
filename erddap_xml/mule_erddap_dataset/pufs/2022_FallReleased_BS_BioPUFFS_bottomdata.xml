@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2022_FallReleased_BS_BioPUFFS_bottomdata" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2021/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2022/initial_archive/</fileDir>
     <fileNameRegex>2022_FallReleased_BS_BioPUFFS_btm.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
