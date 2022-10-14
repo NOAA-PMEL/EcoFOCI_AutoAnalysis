@@ -15,11 +15,11 @@ jobs:
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
       - name: Checkout code
-        uses: actions/checkout@v3.0.2
+        uses: actions/checkout@v3.1.0
 
       # Runs the Super-Linter action
       - name: Run Super-Linter
-        uses: github/super-linter@v4.9.6
+        uses: github/super-linter@v4.9.7
         env:
           VALIDATE_XML: false  
           VALIDATE_JSCPD: false
