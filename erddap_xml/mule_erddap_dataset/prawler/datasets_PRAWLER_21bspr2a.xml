@@ -52,7 +52,7 @@ initial_archive and final_data_cf as with other datasets
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>time</sourceName>
+        <sourceName>time (UTC)</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
