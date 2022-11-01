@@ -204,7 +204,7 @@
     </dataVariable>
 </dataset>
 
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_21cb1a_final" active="false">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_21cb1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2021/Moorings/21cb1a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
