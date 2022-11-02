@@ -1,0 +1,207 @@
+
+<!--
+ 2022 ARGOS Service Drifter Data (position,sst,strain,voltage)
+-->
+
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_ARGOS_Historic_fociweb" active="true">
+    <reloadEveryNMinutes>1440</reloadEveryNMinutes>
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/historic_focidrifter_archive/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <preExtractRegex></preExtractRegex>
+    <postExtractRegex></postExtractRegex>
+    <extractRegex></extractRegex>
+    <columnNameForExtract></columnNameForExtract>
+    <removeMVRows>false</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <addAttributes>
+        <att name="cdm_data_type">Trajectory</att>
+        <att name="cdm_trajectory_variables">trajectory_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creation_date">March 12, 2022 21:34 UTC</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="history">File Created from ARGSOS Drifter Data.</att>
+        <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">argos, battery, data, date, degree, drifter, ecofoci, environmental, float, gauge, identifier, laboratory, latitude, longitude, marine, noaa, number, ocean, oceans,
+    Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature,
+    pacific, percent, pmel, record, record_number, reference, sea, sea_surface_temperature, since, sst, strain, surface, temperature, time, voltage, location_quality</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">https://www.ecofoci.noaa.gov/drifters/efoci_drifterData.shtml</att>
+        <att name="subsetVariables">trajectory_id</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="summary">Historic FOCI Drogued Drifter Dataset (also available on website).  Files have been converted from initial ascii to netcdf.</att>
+        <att name="title">1986-2015 Historic FOCI Drifter Dataset</att>
+        <att name="testOutOfDate">now-1days</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>drogue</sourceName>
+        <destinationName>strain</destinationName>
+        <dataType>long</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="long">1.0e35</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Strain</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>battery</sourceName>
+        <destinationName>battery</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Battery</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>sst</sourceName>
+        <destinationName>sst</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Sea Surface Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>satqual</sourceName>
+        <destinationName>satqual</destinationName>
+        <dataType>long</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="long">1.0e35</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Satqual</att>
+            <att name="description">0: error gt 1500m 1: 500m gt error lt 1500m 2: 250m gt error lt 500m 3: error lt 250m </att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ice</sourceName>
+        <destinationName>ice</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Ice Distribution</att>
+            <att name="long_name">Ice</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <destinationName>trajectory_file_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>global:Drifter_number_(5_chars_required)</sourceName>
+        <destinationName>trajectory_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">trajectory_id</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>global:Deployment_ship_code</sourceName>
+        <destinationName>Deployment_ship_code</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>global:Cruise_number</sourceName>
+        <destinationName>Cruise_number</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>global:Drogue_depth</sourceName>
+        <destinationName>Drogue_depth</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="units">meters</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>global:Manufacturer</sourceName>
+        <destinationName>Manufacturer</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>  
+</dataset>
+
+

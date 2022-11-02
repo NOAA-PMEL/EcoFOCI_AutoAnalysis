@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_fociweb_drifters_1990s" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_fociweb_drifters_1990s" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/drifters_parsed_from_fociweb/</fileDir>
     <fileNameRegex>1990s_fociweb_drifters.csv</fileNameRegex>
