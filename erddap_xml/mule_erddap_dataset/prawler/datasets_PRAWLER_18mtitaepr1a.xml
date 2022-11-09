@@ -42,8 +42,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">Prawler Deployment Meteorological Data - 18MTITAEPR-1A</att>
-        <att name="title">Prawler Deployment Meteorological Data, 18MTITAEPR-1A</att>
+        <att name="summary">Prawler Deployment Meteorological Data - 18MTITAEPR-1A Preliminary</att>
+        <att name="title">Prawler Deployment Meteorological Data, 18MTITAEPR-1A Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>timeseries_id</sourceName>
@@ -296,7 +296,7 @@
         <att name="history">File Created.  Aanderaa Optode Dissolved O2 compensated for Salinity/Depth</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
         <att name="institution">NOAA/PMEL - ITAE</att>
-        <att name="keywords">18MTITAEPR-1A, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, deployment, depth, depth2, dissolved, dissolved o2, ecofoci, environmental, fnu, identifier, kg/m**3, laboratory, m**3, marine, noaa, number, O2, ocean, ocean color, oceans,
+        <att name="keywords">18MTITAEPR-1A Preliminary, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, deployment, depth, depth2, dissolved, dissolved o2, ecofoci, environmental, fnu, identifier, kg/m**3, laboratory, m**3, marine, noaa, number, O2, ocean, ocean color, oceans,
 Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
 Oceans &gt; Salinity/Density &gt; Salinity,
 oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practical, prawler, profile, profile_id, psu, record, record_number, reference, salinity, sat, sea, sea_water_practical_salinity, seawater, sigma, sigma-t, SigmaT, since, temperature, time, turbidity, umol, umol/kg, unit, water</att>
@@ -305,8 +305,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">profile_id</att>
-        <att name="summary">Prawler Deployment Data - 18MTITAEPR-1A</att>
-        <att name="title">Prawler Deployment Data, 18MTITAEPR-1A</att>
+        <att name="summary">Prawler Deployment Data - 18MTITAEPR-1A Preliminary</att>
+        <att name="title">Prawler Deployment Data, 18MTITAEPR-1A Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profile_id</sourceName>

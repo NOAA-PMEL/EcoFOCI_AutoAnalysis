@@ -58,8 +58,8 @@ No Met data for 2019 Arctic
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">profile_id</att>
-        <att name="summary">Prawler Deployment Data - 19CKITAEPR-2A</att>
-        <att name="title">Prawler Deployment Data, 19CKITAEPR-2A</att>
+        <att name="summary">Prawler Deployment Data - 19CKITAEPR-2A Preliminary</att>
+        <att name="title">Prawler Deployment Data, 19CKITAEPR-2A Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profilenumber</sourceName>

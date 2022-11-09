@@ -25,7 +25,7 @@ initial_archive and final_data_cf as with other datasets
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creation_date">May 14, 2019 17:07 UTC</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
-        <att name="institution">NOAA/PMEL - ITAE</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">air, Air_Temp, atmosphere, atmospheric, baro, BaroPres, data, depth, direction, earth, Earth Science &gt; Atmosphere &gt; Atmospheric Winds &gt; Surface Winds, latitude, local, longitude, pres, profiler, salinity, salinity-temperature-depth, science, source, speed, std, surface, temperature, time, u, U_wind, uwind, Uwind_Std, v, V_wind, vwind, Vwind_Std, wind, wind_from_direction, wind_speed, winds</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
@@ -238,7 +238,7 @@ initial_archive and final_data_cf as with other datasets
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creation_date">May 14, 2019 17:07 UTC</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
-        <att name="institution">NOAA/PMEL - ITAE</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">aand, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, corr, data, density, depth, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, epoch, Epoch_Time, fdom, local, nephelometric, ntu, O2, O2_corr, O2_corr_aandT, O2_corr_umkg, O2_corr_umkg_aandT, O2PercentSat, O2PercentSat_aandT, ocean, ocean color, oceans, optode, Optode_Dissolved_O2, Optode_Temp, oxygen, percent, practical, salinity, Salinity_PSU_aandT, sat, SB_Conductivity, SB_Depth, SB_Temp, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, temperature, time, turbidity, umkg, units, water, wetlab, wetlab_Chlorophyll, wetlab_Chlorophyll_ug_l, wetlab_FDOM, wetlab_FDOM_NTU</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>

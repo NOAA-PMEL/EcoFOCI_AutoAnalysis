@@ -44,8 +44,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">timeseries_id</att>
-        <att name="summary">Prawler Deployment Meteorological Data - 17CKITAEM-2A</att>
-        <att name="title">Prawler Deployment Meteorological Data, 17CKITAEM-2A</att>
+        <att name="summary">Prawler Deployment Meteorological Data - 17CKITAEM-2A Preliminary</att>
+        <att name="title">Prawler Deployment Meteorological Data, 17CKITAEM-2A Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>timeseries_id</sourceName>
@@ -313,8 +313,8 @@ In order to have the vanilla prawler data be erddap compatible, the files must h
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v57</att>
         <att name="subsetVariables">profileid</att>
-        <att name="summary">Prawler Deployment Data - 17CKITAEM-2A</att>
-        <att name="title">Prawler Deployment Data, 17CKITAEM-2A</att>
+        <att name="summary">Prawler Deployment Data - 17CKITAEM-2A Preliminary</att>
+        <att name="title">Prawler Deployment Data, 17CKITAEM-2A Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profileid</sourceName>
