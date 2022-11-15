@@ -1,11 +1,3 @@
-<!--
-csv hosting of WHOI processed *.dccs files. These have been concatenated into a single csv file 
-with proper headings and formatting to be erddap friendly.
-
-datetime,BP,U,USD,V,VSD,RH,AT
-
--->
-
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1901_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
