@@ -182,7 +182,7 @@ Keep an EPIC key code in meta data of new final data for reference
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>flECO-AFL</sourceName>
+        <sourceName>wetStar</sourceName>
         <destinationName>Fch_906</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -329,7 +329,7 @@ Keep an EPIC key code in meta data of new final data for reference
             <att name="units">%</att>
         </addAttributes>
     </dataVariable>
-    <dataVariable>
+    <!-- <dataVariable>
         <sourceName>turbWETntu0</sourceName>
         <destinationName>Trb_980</destinationName>
         <dataType>float</dataType>
@@ -342,7 +342,7 @@ Keep an EPIC key code in meta data of new final data for reference
             <att name="units">NTU</att>
             <att name="standard_name">sea_water_turbidity</att>
         </addAttributes>
-    </dataVariable>  
+    </dataVariable>   -->
     <dataVariable>
         <sourceName>CStarTr0</sourceName>
         <destinationName>Tr_904</destinationName>
