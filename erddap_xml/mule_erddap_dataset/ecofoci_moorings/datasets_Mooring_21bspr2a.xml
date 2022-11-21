@@ -383,6 +383,48 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>oxy_percentsat</sourceName>
+        <destinationName>Oxygen_Saturation</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">62</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">Oxygen &#37;sat</att>
+            <att name="name">OST_62</att>
+            <att name="units">&#37;</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="units">percent</att>
+            <att name="long_name">Percent Saturation of oxygen over air</att>
+            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>oxy_conc</sourceName>
+        <destinationName>Oxygen_Concentration</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">65</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">OXYGEN (UMOL/KG)</att>
+            <att name="name">O_65</att>
+            <att name="units">umol/kg</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="units">&#xb5;micromole/kg</att>
+            <att name="long_name">concentration of oxygen in seawater</att>
+            <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
