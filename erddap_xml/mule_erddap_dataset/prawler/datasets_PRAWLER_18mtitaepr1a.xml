@@ -305,8 +305,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
         <att name="subsetVariables">profile_id</att>
-        <att name="summary">Prawler Deployment Data - 18MTITAEPR-1A Preliminary</att>
-        <att name="title">Prawler Deployment Data, 18MTITAEPR-1A Preliminary</att>
+        <att name="summary">Prawler Deployment Profile Data - 18MTITAEPR-1A Preliminary</att>
+        <att name="title">Prawler Deployment Profile Data, 18MTITAEPR-1A Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profile_id</sourceName>

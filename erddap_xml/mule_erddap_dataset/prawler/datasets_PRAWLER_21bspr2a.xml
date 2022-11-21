@@ -279,7 +279,7 @@ initial_archive and final_data_cf as with other datasets
     <dataVariable>
         <sourceName>profileNum</sourceName>
         <destinationName>profileNum</destinationName>
-        <dataType>float</dataType>
+        <dataType>int</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
