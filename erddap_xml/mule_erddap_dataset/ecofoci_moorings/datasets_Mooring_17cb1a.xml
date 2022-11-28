@@ -446,7 +446,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_17cb1a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2017/Moorings/17cb1a/final_data_cf/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
+    <fileNameRegex>.*[^n]\_[0-9][0-9][0-9][0-9]m\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
