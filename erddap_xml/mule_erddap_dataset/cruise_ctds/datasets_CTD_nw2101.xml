@@ -390,7 +390,7 @@ Keep an EPIC key code in meta data of new final data for reference
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw2101_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2022/CTDcasts/nw2101/final_data_cf/ctd/</fileDir>
+    <fileDir>/home/ecofoci_data/2021/CTDcasts/nw2101/final_data_cf/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -408,9 +408,9 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="creator_name">Shaun Bell</att>
         <att name="CruiseID">nw2101</att>
         <att name="CruiseLocation">Bering Sea</att>
-        <att name="CruiseYear" type="int">2022</att>
+        <att name="CruiseYear" type="int">2021</att>
         <att name="ctdlogs_pdf_name">nw2101_CTDCastLogs.pdf</att>
-        <att name="date_created">2022-11-17T15:44:49Z</att>
+        <att name="date_created">2021-11-17T15:44:49Z</att>
         <att name="Description">FOCI Spring Mooring Cruise</att>
         <att name="EndPort">Kodiak, AK</att>
         <att name="featureType">timeSeries</att>
