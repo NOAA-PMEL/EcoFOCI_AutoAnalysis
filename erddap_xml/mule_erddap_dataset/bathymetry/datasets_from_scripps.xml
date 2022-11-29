@@ -1,0 +1,80 @@
+<dataset type="EDDGridFromNcFiles" datasetID="scripps_smithandsandwell_v23_muletest" active="true">
+    <fileDir>/home/ecofoci_data/bathymetry/scripps_smithandsandwell_23/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <matchAxisNDigits>20</matchAxisNDigits>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+        <att name="_NCProperties">version=2,netcdf=4.8.0,hdf5=1.12.1</att>
+        <att name="Conventions">CF-1.7</att>
+        <att name="GMT_version">6.2.0 [64-bit]</att>
+        <att name="history">grdsample -R-180/180/-80/80 -I1m @GMTAPI@-S-I-G-G-G-N-000001 -Gtopo_23.1.nc -fg - - GMT_HISTORY=readonly</att>
+        <att name="node_offset" type="int">1</att>
+    </sourceAttributes -->
+    <addAttributes>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">CF-1.7, COARDS, ACDD-1.3</att>
+        <att name="creator_name">Scripps</att>
+        <att name="creator_url">https://scripps.ucsd.edu/</att>
+        <att name="infoUrl">https://topex.ucsd.edu/marine_topo/</att>
+        <att name="institution">Scripps</att>
+        <att name="keywords">data, local, scripps, source</att>
+        <att name="license">[standard]</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="summary">Topographic Data from v23 of Smith and Sandwell datset.</att>
+        <att name="title">Smith and Sandwell Bathymetry V23.</att>
+    </addAttributes>
+    <axisVariable>
+        <sourceName>lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">9600</att>
+            <att name="actual_range" type="doubleList">-80.0 80.0</att>
+            <att name="axis">Y</att>
+            <att name="long_name">latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="int">21600</att>
+            <att name="actual_range" type="doubleList">-180.0 180.0</att>
+            <att name="axis">X</att>
+            <att name="long_name">longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+        </addAttributes>
+    </axisVariable>
+    <dataVariable>
+        <sourceName>z</sourceName>
+        <destinationName>z</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_ChunkSizes" type="intList">128 129</att>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="actual_range" type="doubleList">-10804.89453125 8516.9990234375</att>
+            <att name="long_name">z</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_ChunkSizes">null</att>
+            <att name="colorBarMaximum" type="double">10000.0</att>
+            <att name="colorBarMinimum" type="double">-15000.0</att>
+            <att name="ioos_category">Location</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>

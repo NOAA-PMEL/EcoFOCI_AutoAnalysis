@@ -21,11 +21,8 @@ Keep an EPIC key code in meta data of new final data for reference
     <postExtractRegex></postExtractRegex>
     <extractRegex></extractRegex>
     <columnNameForExtract></columnNameForExtract>
-    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
@@ -34,10 +31,10 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="creation_date">May 14, 2021 17:07 UTC</att>
         <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
         <att name="creator_email">pmel.ecofoci@noaa.gov</att>
-        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator">NOAA/PMEL - EcoFOCI</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>        
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI / EMA</att>
         <att name="keywords">chlorophyll, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved o2, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, O2, O_65, ocean, ocean color, oceans,
         Salinity/Density &gt; Salinity, OST_62, oxygen, percent, practical, profile, psu, S_41, S_42, salinity, sat, sea, sea_water_practical_salinity, seawater, secondary, sigma, sigma-t, silicate, sonde, source, ST_70, profile_id, statistics, T2_35, T_28, temperature, time, Tr_904, transmissometry, umol, umol/kg, unit, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
@@ -439,7 +436,7 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="Conventions">&quot;CF-1.6, ~OceanSITES-1.5, ACDD-1.3&quot;, COARDS</att>
         <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
         <att name="creator_email">pmel.ecofoci@noaa.gov</att>
-        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator">NOAA/PMEL - EcoFOCI / EMA</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>        
         <att name="institution">NOAA/PMEL - EcoFOCI</att>

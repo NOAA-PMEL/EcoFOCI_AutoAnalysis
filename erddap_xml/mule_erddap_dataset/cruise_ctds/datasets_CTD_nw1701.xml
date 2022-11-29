@@ -33,7 +33,7 @@
             <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
             <att name="creator_type">institution</att>
             <att name="creator_url">https://www.pmel.noaa.gov/</att>        
-            <att name="institution">NOAA/PMEL - EcoFOCI</att>
+            <att name="institution">NOAA/PMEL - EcoFOCI / EMA</att>
             <att name="keywords">chlorophyll, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved o2, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, O2, O_65, ocean, ocean color, oceans,
             Salinity/Density &gt; Salinity, OST_62, oxygen, percent, practical, profile, psu, S_41, S_42, salinity, sat, sea, sea_water_practical_salinity, seawater, secondary, sigma, sigma-t, silicate, sonde, source, ST_70, profile_id, statistics, T2_35, T_28, temperature, time, Tr_904, transmissometry, umol, umol/kg, unit, water, miller, freeman, mf</att>
             <att name="license">[standard]</att>
@@ -506,7 +506,7 @@
             <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
             <att name="creator_type">institution</att>
             <att name="creator_url">https://www.pmel.noaa.gov/</att>        
-            <att name="institution">NOAA/PMEL - EcoFOCI</att>
+            <att name="institution">NOAA/PMEL - EcoFOCI / EMA</att>
             <att name="keywords">ctd, data, density, depth, depth2, latitude, local, m**3, micromoles, micromoles/l, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_189, niskin, nitrate, nitrite, NO2_184, no3, NO3_182, number, nutrients, silicate, seawater, source, profile_id, statistics, time, transmissometry, umol, umol/kg, unit, water</att>
             <att name="license">[standard]</att>
             <att name="sourceUrl">(local files)</att>
