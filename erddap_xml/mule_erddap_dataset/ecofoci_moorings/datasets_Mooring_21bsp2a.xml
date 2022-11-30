@@ -2,7 +2,7 @@
 <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_21bsp2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2021/Moorings/21bsp2a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/21bsp2a/final_data_cf/</fileDir>
     <fileNameRegex>.*velein.*m.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -19,7 +19,7 @@
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="summary">QC'd (final) Gridded ADCP Vel/Ein Data from 21BSP-2A</att>
         <att name="title">QC'd (final) ADCP Vel/Ein Data from 21BSP-2A</att>
     </addAttributes>

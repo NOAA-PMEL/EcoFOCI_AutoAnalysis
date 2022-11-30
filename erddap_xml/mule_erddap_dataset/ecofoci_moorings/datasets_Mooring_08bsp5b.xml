@@ -33,7 +33,7 @@
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="summary">QC'd (final) Gridded ADCP Vel Data from 08BSP-5B</att>
         <att name="title">QC'd (final) ADCP Vel Data from 08BSP-5B</att>
     </addAttributes>
@@ -217,7 +217,7 @@
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from 08BSP-5B</att>
         <att name="title">Mooring Data from 08BSP-5B - final</att>

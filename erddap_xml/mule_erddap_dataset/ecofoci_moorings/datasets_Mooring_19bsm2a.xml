@@ -29,7 +29,7 @@
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">timeseries_id</att>
         <att name="summary">ARGOS Meteorological Data from Peggy Mooring (2019) - Final (QC'd) data as downloaded from weatherpak's and supplemented where necessary from ARGOS Transmissions</att>
         <att name="title">Meteorological Data from 19BSM-2A - final</att>
@@ -331,7 +331,7 @@
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">timeseries_id</att>
         <att name="summary">ARGOS Meteorological Data from Peggy Mooring (2019) - Near Real Time</att>
         <att name="title">Meteorological Data from 19BSM-2A - NRT</att>
@@ -571,7 +571,7 @@
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">QC'd (final) mooring data from 19BSM-2A</att>
         <att name="title">Mooring Data from 19BSM-2A - final</att>
@@ -856,7 +856,7 @@
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
         <att name="summary">Non-QC'd (preliminary) mooring data from 19BSM-2A</att>
         <att name="title">Mooring Data from 19BSM-2A - preliminary</att>
