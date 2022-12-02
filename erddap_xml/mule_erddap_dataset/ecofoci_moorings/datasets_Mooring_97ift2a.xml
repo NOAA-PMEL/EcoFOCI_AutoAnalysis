@@ -100,7 +100,7 @@
     </axisVariable>
     <dataVariable>
         <sourceName>v_1206</sourceName>
-        <destinationName>vcomp_current</destinationName>
+        <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1206</att>
@@ -118,7 +118,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>u_1205</sourceName>
-        <destinationName>ucomp_current</destinationName>
+        <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">1205</att>

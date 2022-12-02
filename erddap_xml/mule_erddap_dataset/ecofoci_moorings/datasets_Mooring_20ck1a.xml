@@ -385,7 +385,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>v_curr_comp</sourceName>
-        <destinationName>vcomp_current</destinationName>
+        <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">321</att>
@@ -403,7 +403,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>u_curr_comp</sourceName>
-        <destinationName>ucomp_current</destinationName>
+        <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">320</att>
