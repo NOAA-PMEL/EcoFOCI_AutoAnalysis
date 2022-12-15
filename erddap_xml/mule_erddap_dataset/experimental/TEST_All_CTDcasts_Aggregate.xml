@@ -2,12 +2,11 @@
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="TEST_All_CTDcasts_Aggregate" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>/home/ecofoci_data/(|[0-9]{4}/)(|CTDcasts/)(|[a-z]{2}[0-9]{4}/)(|erddap/)(|final_data/)(|ctd/)</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
