@@ -199,23 +199,6 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>DYN_10</sourceName>
-        <destinationName>DYN_10</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">10</att>
-            <att name="FORTRAN_format">f10.4</att>
-            <att name="generic_name">dynhgt</att>
-            <att name="long_name">DYNAMIC METERS           </att>
-            <att name="name">DYN</att>
-            <att name="units">dyn-m</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">DYNAMIC METERS</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>cruise_id</destinationName>
         <dataType>String</dataType>
