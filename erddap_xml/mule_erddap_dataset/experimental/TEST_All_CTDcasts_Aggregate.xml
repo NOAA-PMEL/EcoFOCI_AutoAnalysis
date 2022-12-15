@@ -4,7 +4,7 @@
     <fileDir>/home/akutan/bell/test_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>/home/akutan/bell/test_data/(|mf[0-9]{4}/)</pathRegex>
+    <pathRegex>/home/akutan/bell/test_data/(|[0-9]{4}/)(|mf[0-9]{4}/)</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
@@ -68,8 +68,7 @@
         <addAttributes>
             <att name="_FillValue" type="int">2147483647</att>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Time2</att>
-            <att name="source_name">time2</att>
+            <att name="long_name">time</att>
             <att name="standard_name">time</att>
         </addAttributes>
     </dataVariable>
