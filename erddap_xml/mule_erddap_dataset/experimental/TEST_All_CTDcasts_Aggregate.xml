@@ -4,6 +4,7 @@
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
+    <pathRegex>\/home\/ecofoci_data\/(|2000\/|2001\/)</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
