@@ -1,7 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="TEST_All_CTDcasts_Aggregate" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
-    <fileDir>/home/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>/home/ecofoci_data/(|[0-9]{4}/CTDcasts/(|mf[0-9]{4}/))</pathRegex>
