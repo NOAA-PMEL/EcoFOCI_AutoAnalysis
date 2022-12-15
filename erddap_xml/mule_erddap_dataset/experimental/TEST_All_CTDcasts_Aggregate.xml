@@ -2,9 +2,9 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
+    <fileNameRegex>.*</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>/home/ecofoci_data/(|[0-9]{4}/CTDcasts/(|mf[0-9]{5}/))erddap/final_data/ctd/</pathRegex>
+    <pathRegex>/home/ecofoci_data/(|[0-9]{4}/CTDcasts/(|mf[0-9]{4}/))</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
