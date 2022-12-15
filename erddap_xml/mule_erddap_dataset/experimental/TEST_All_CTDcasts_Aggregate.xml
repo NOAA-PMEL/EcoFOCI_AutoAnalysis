@@ -4,7 +4,7 @@
     <fileDir>/home/akutan/bell/test_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>/home/akutan/bell/test_data/(|[0-9]{4}/)(|mf[0-9]{4}/)</pathRegex>
+    <pathRegex>/home/akutan/bell/test_data/(|[0-9]{4}/)CTDcasts/(|mf[0-9]{4}/)</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
