@@ -4,7 +4,7 @@
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>([0-9]{4})\/CTDcasts\/.*\/final_data\/ctd\/.*\.nc </pathRegex>
+    <pathRegex>([0-9]{4})\/CTDcasts\/.*\/final_data\/ctd\/</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
