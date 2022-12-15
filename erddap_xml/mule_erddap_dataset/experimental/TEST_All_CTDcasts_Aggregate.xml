@@ -53,7 +53,7 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">time, latitude, longitude, profile_id</att>
+        <att name="subsetVariables">time, latitude, longitude, profile_id, cruise_id</att>
         <att name="summary">Data from a local source.</att>
         <att name="title">Data from a local source.</att>
     </addAttributes>
@@ -250,6 +250,18 @@
     </dataVariable>
     <dataVariable>
         <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <destinationName>cruise_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">profile_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable> 
+    <dataVariable>
+        <sourceName>***fileName,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
