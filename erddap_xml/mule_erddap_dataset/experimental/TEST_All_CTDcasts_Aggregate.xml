@@ -61,21 +61,21 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>int</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">624</att>
             <att name="type">EVEN</att>
-            <att name="units">msec since 0:00 GMT</att>
+            <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="_FillValue" type="int">2147483647</att>
             <att name="ioos_category">Time</att>
-            <att name="long_name">time</att>
+            <att name="long_name">Time</att>
             <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>dep</sourceName>
+        <sourceName>depth</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -84,8 +84,14 @@
             <att name="units">dbar</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Dep</att>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure</att>
+            <att name="standard_name">sea_water_pressure</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -98,6 +104,8 @@
             <att name="units">degree_north</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -116,8 +124,14 @@
             <att name="units">degree_west</att>
         </sourceAttributes -->
         <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Location</att>
-            <att name="long_name">Lon</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="scale_factor" type="float">-1.</att>
+            <att name="add_offset" type="float">360.</att> 
+            <att name="units">degrees_east</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
