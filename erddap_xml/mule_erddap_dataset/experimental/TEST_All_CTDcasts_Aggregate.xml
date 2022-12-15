@@ -11,34 +11,6 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <!-- sourceAttributes>
-        <att name="AIR_TEMP" type="float">9.0</att>
-        <att name="BAROMETER" type="int">1018</att>
-        <att name="CAST">020</att>
-        <att name="CLOUD_AMOUNT">7</att>
-        <att name="CLOUD_TYPE">4</att>
-        <att name="COORD_SYSTEM">GEOGRAPHICAL</att>
-        <att name="CREATION_DATE">19:15 22-SEP-00</att>
-        <att name="CRUISE">RB0007L2</att>
-        <att name="DATA_CMNT">Data from Seasoft File CTD020.CNV</att>
-        <att name="DATA_TYPE">CTD</att>
-        <att name="EPIC_FILE_GENERATOR">SEASOFT2EPIC_CTD (Version 1.33, 19November1999)</att>
-        <att name="INST_TYPE">Sea-Bird CTD SBE 9</att>
-        <att name="PROG_CMNT1">Variables Extrapolated from 1 db to 0</att>
-        <att name="SEA_STATE">3</att>
-        <att name="STATION_NAME">bs3nw</att>
-        <att name="VISIBILITY">7</att>
-        <att name="WATER_DEPTH" type="int">120</att>
-        <att name="WATER_MASS">B</att>
-        <att name="WEATHER">1</att>
-        <att name="WET_BULB" type="float">7.0</att>
-        <att name="WIND_DIR" type="int">320</att>
-        <att name="WIND_SPEED" type="int">15</att>
-    </sourceAttributes -->
-    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
-        <att name="subsetVariables">station_id, longitude, latitude</att>
-    -->
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
@@ -53,7 +25,7 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">time, latitude, longitude, profile_id, cruise_id</att>
+        <att name="subsetVariables">profile_id, cruise_id</att>
         <att name="summary">Data from a local source.</att>
         <att name="title">Data from a local source.</att>
     </addAttributes>
