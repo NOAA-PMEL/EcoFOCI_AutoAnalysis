@@ -1,3 +1,5 @@
+<!-- old school datasets /erddap/final_data/ctd-->
+
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="TEST_All_CTDcasts_Aggregate" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
@@ -338,3 +340,6 @@
         </addAttributes>
     </dataVariable>  
 </dataset>
+
+<!-- old school datasets nuts/oxy-->
+<!-- new school datasets /final_data_cf/ctd-->
