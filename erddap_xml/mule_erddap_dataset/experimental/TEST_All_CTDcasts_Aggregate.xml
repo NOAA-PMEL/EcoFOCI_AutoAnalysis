@@ -200,7 +200,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,^([a-zA-Z]{2}[0-9]{4})\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^([a-zA-Z]{2}[0-9]{4})\S*\.cf\.nc,1</sourceName>
         <destinationName>cruise_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
