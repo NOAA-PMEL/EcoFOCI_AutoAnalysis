@@ -5,10 +5,9 @@
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>/home/ecofoci_data/(|[0-9]{4}/)(|CTDcasts/)(|[a-z]{2}[0-9]{4}/)(|erddap/)(|final_data/)(|ctd/)</pathRegex>
-    <metadataFrom>first</metadataFrom>
+    <pathRegex>/home/ecofoci_data/(|[12]{2}[0-9]{2}/)(|CTDcasts/)(|[a-z]{2}[0-9]{4}/)(|erddap/)(|final_data/)(|ctd/)</pathRegex>
+    <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
@@ -28,6 +27,8 @@
         <att name="subsetVariables">profile_id, cruise_id, Station_Name</att>
         <att name="summary">Data from a local source.</att>
         <att name="title">Data from a local source.</att>
+        <att name="treatDimensionsAs">lat, lon, time</att> 
+
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
