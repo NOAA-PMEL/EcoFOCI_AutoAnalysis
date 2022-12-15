@@ -1,6 +1,6 @@
 <!-- old school datasets /erddap/final_data/ctd-->
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="TEST_All_CTDcasts_Aggregate" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="TEST_All_CTDcasts_Aggregate" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
