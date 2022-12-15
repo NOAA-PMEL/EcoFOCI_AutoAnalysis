@@ -261,7 +261,7 @@
         </addAttributes>
     </dataVariable> 
     <dataVariable>
-        <sourceName>***fileName,1</sourceName>
+        <sourceName>***fileName</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
