@@ -32,12 +32,12 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
+        <dataType>float</dataType>
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">days since 1900-01-01</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
