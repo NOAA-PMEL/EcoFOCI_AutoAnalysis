@@ -5,7 +5,7 @@
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
-    <pathRegex>/home/ecofoci_data/(|[2]{1}[0]{1}[1-2]{1}[0-9]{1}/)(|CTDcasts/)(|[a-z]{2}[0-9]{4}/)(|erddap/)(|final_data/)(|ctd/)</pathRegex>
+    <pathRegex>/home/ecofoci_data/(|[2]{1}[0]{1}[0-2]{1}[0-9]{1}/)(|CTDcasts/)(|[a-z]{2}[0-9]{4}/)(|erddap/)(|final_data/)(|ctd/)</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortFilesBySourceNames></sortFilesBySourceNames>
@@ -200,7 +200,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^([a-zA-Z]{2}[0-9]{4})\.cf\.nc,1</sourceName>
         <destinationName>cruise_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
@@ -212,7 +212,7 @@
         </addAttributes>
     </dataVariable> 
     <dataVariable>
-        <sourceName>***fileName</sourceName>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
