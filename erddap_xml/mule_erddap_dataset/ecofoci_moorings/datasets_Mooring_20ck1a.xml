@@ -384,7 +384,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>v_curr_comp</sourceName>
+        <sourceName>v_comp_current</sourceName>
         <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -402,7 +402,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_curr_comp</sourceName>
+        <sourceName>u_comp_current</sourceName>
         <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>

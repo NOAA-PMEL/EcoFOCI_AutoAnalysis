@@ -32,7 +32,7 @@
         <att name="history"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">acoustic, adcp, adcp_beam_echo_intensity, agc, agc1, agc2, agc3, agc4, beam, circulation, cm/s, current, currents, data, depth, doppler, earth, Earth Science &gt; Oceans &gt; Ocean Circulation &gt; Ocean Currents, eastward, eastward_sea_water_velocity, echo, error, intensity, latitude, local, longitude, meridional, northward, northward_sea_water_velocity, ocean, oceans, profiler, science, sea, seawater, source, statistics, time, u_curr_comp, upward, upward_sea_water_velocity, upward_sea_water_velocity_error, v_curr_comp, velocity, vertical, w_curr_comp, w_curr_comp_err, water, zonal</att>
+        <att name="keywords">acoustic, adcp, adcp_beam_echo_intensity, agc, agc1, agc2, agc3, agc4, beam, circulation, cm/s, current, currents, data, depth, doppler, earth, Earth Science &gt; Oceans &gt; Ocean Circulation &gt; Ocean Currents, eastward, eastward_sea_water_velocity, echo, error, intensity, latitude, local, longitude, meridional, northward, northward_sea_water_velocity, ocean, oceans, profiler, science, sea, seawater, source, statistics, time, u_comp_current, upward, upward_sea_water_velocity, upward_sea_water_velocity_error, v_comp_current, velocity, vertical, w_comp_current, w_comp_current_err, water, zonal</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="QC_indicator">null</att>
@@ -107,13 +107,13 @@
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>u_curr_comp</sourceName>
-        <destinationName>u_curr_comp</destinationName>
+        <sourceName>u_comp_current</sourceName>
+        <destinationName>u_comp_current</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="epic_key">u_1205</att>
-            <att name="generic_name">u_curr_comp</att>
+            <att name="generic_name">u_comp_current</att>
             <att name="long_name">Zonal Current (Eastward) cm/s</att>
             <att name="standard_name">eastward_sea_water_velocity</att>
             <att name="units">cm s-1</att>
@@ -125,13 +125,13 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>v_curr_comp</sourceName>
-        <destinationName>v_curr_comp</destinationName>
+        <sourceName>v_comp_current</sourceName>
+        <destinationName>v_comp_current</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="epic_key">v_1206</att>
-            <att name="generic_name">v_curr_comp</att>
+            <att name="generic_name">v_comp_current</att>
             <att name="long_name">Meridional Current (Northward) cm/s</att>
             <att name="standard_name">northward_sea_water_velocity</att>
             <att name="units">cm s-1</att>
@@ -143,13 +143,13 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>w_curr_comp</sourceName>
-        <destinationName>w_curr_comp</destinationName>
+        <sourceName>w_comp_current</sourceName>
+        <destinationName>w_comp_current</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="epic_key">w_1204</att>
-            <att name="generic_name">w_curr_comp</att>
+            <att name="generic_name">w_comp_current</att>
             <att name="long_name">Vertical Current (Upward) cm/s</att>
             <att name="standard_name">upward_sea_water_velocity</att>
             <att name="units">cm s-1</att>
@@ -161,13 +161,13 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>w_curr_comp_err</sourceName>
-        <destinationName>w_curr_comp_err</destinationName>
+        <sourceName>w_comp_current_err</sourceName>
+        <destinationName>w_comp_current_err</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="epic_key">Werr_1201</att>
-            <att name="generic_name">w_curr_comp_err</att>
+            <att name="generic_name">w_comp_current_err</att>
             <att name="long_name">Vertical Current Error (Upward) cm/s</att>
             <att name="standard_name">upward_sea_water_velocity_error</att>
             <att name="units">cm s-1</att>
