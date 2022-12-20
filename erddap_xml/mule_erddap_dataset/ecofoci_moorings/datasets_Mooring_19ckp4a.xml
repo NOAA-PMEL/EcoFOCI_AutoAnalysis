@@ -682,7 +682,7 @@
        </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>v_comp_current</sourceName>
+        <sourceName>v_curr_comp</sourceName>
         <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -700,7 +700,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_comp_current</sourceName>
+        <sourceName>u_curr_comp</sourceName>
         <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -718,7 +718,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>w_comp_current</sourceName>
+        <sourceName>w_curr_comp</sourceName>
         <destinationName>w_1204</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -737,7 +737,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>w_comp_current_err</sourceName>
+        <sourceName>w_curr_comp_err</sourceName>
         <destinationName>Werr_1201</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
