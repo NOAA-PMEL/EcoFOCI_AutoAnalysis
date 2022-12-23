@@ -1247,7 +1247,8 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Quality</att>
             <att name="long_name">PHOSPHATE WOCE Flag</att>
-">phosphate_quality_flag_woce</at        </addAttributes>
+            <att name="standard_name">phosphate_quality_flag_woce</att>
+        </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>SI_WOCE_FLAG</sourceName>
