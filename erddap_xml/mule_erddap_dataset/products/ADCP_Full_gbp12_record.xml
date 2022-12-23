@@ -1,7 +1,7 @@
 
-    <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Full_amp1_record" active="true">
+    <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Full_gbp12_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp/amp1/</fileDir>
+        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp/gbp12/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
@@ -19,8 +19,8 @@
             <att name="keywords">bin, bin_width, comp, current, currents, data, depth, direction, latitude, local, longitude, source, speed, time, u, u_comp_current, v, v_comp_current, width</att>
             <att name="license">[standard]</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-                <att name="summary">Complete collection of ADCP data from mooring data from amp1.  Speed/Direction Calculated and included. </att>
-                <att name="title">Composite ADCP Mooring Data from amp1 - final</att>
+                <att name="summary">Complete collection of ADCP data from mooring data from gbp12.  Speed/Direction Calculated and included. </att>
+                <att name="title">Composite ADCP Mooring Data from gbp12 - final</att>
         </addAttributes>
         <axisVariable>
             <sourceName>time</sourceName>
