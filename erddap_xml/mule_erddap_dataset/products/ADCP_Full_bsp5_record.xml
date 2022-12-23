@@ -50,7 +50,7 @@
                 <att name="units">m</att>
             </addAttributes>
         </axisVariable>
-        <axisVariable>
+        <dataVariable>
             <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
             <!-- sourceAttributes>
@@ -62,8 +62,8 @@
                 <att name="standard_name">latitude</att>
                 <att name="units">degrees_north</att>
             </addAttributes>
-        </axisVariable>
-        <axisVariable>
+        </dataVariable>
+        <dataVariable>
             <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
             <!-- sourceAttributes>
@@ -75,7 +75,7 @@
                 <att name="standard_name">longitude</att>
                 <att name="units">degrees_east</att>
             </addAttributes>
-        </axisVariable>
+        </dataVariable>
         <dataVariable>
             <sourceName>u_comp_current</sourceName>
             <destinationName>u_comp_current</destinationName>
