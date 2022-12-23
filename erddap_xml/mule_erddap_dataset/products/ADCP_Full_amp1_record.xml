@@ -1,4 +1,4 @@
-<dataset type="EDDGridFromNcFiles" datasetID="amp1_d42a_ac6c_f43e" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Full_amp1_record" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merded_adcp/amp1/</fileDir>
