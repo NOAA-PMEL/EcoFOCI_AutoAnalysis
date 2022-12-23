@@ -53,6 +53,7 @@
         <dataVariable>
             <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
+            <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="_FillValue" type="double">NaN</att>
             </sourceAttributes -->
@@ -66,6 +67,7 @@
         <dataVariable>
             <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
+            <dataType>float</dataType>
             <!-- sourceAttributes>
                 <att name="_FillValue" type="double">NaN</att>
             </sourceAttributes -->
