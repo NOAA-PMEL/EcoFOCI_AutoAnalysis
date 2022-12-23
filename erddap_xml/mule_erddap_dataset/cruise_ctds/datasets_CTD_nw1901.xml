@@ -843,7 +843,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1901_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-    <fileDir>/home/ecofoci_data/2020/CTDcasts/nw1901/final_data_cf/nut/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/CTDcasts/nw1901/final_data_cf/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -1231,7 +1231,6 @@
             <att name="units">uM/l</att>
         </addAttributes>
     </dataVariable>    
-
     <dataVariable>
         <sourceName>PO4_WOCE_FLAG</sourceName>
         <destinationName>PO4_WOCE_FLAG</destinationName>
