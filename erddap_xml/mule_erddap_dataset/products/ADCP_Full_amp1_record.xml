@@ -1,7 +1,7 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Full_amp1_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp/amp1/</fileDir>
+        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp//amp1/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
@@ -26,14 +26,20 @@
             <sourceName>time</sourceName>
             <destinationName>time</destinationName>
             <!-- sourceAttributes>
+                <att name="_CoordinateAxisType">Time</att>
                 <att name="_FillValue" type="double">NaN</att>
+                <att name="actual_range" type="doubleList">1.0525428E9 1.0650348E9</att>
+                <att name="axis">T</att>
                 <att name="calendar">proleptic_gregorian</att>
-                <att name="units">days since 1970-01-01</att>
-            </sourceAttributes -->
-            <addAttributes>
+                <att name="epic_code" type="int">624</att>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Time</att>
                 <att name="standard_name">time</att>
+                <att name="time_origin">01-JAN-1970 00:00:00</att>
+                <att name="type">EVEN</att>
+                <att name="units">days since 1970-01-01</att>
+            </sourceAttributes -->
+            <addAttributes>
                 <att name="units">days since 1970-01-01T00:00:00Z</att>
             </addAttributes>
         </axisVariable>
@@ -41,65 +47,32 @@
             <sourceName>depth</sourceName>
             <destinationName>depth</destinationName>
             <!-- sourceAttributes>
+                <att name="_CoordinateAxisType">Height</att>
+                <att name="_CoordinateZisPositive">down</att>
                 <att name="_FillValue" type="double">NaN</att>
-            </sourceAttributes -->
-            <addAttributes>
+                <att name="actual_range" type="doubleList">32.0 400.0</att>
+                <att name="axis">Z</att>
+                <att name="epic_code" type="int">1</att>
                 <att name="ioos_category">Location</att>
                 <att name="long_name">Depth</att>
+                <att name="positive">down</att>
                 <att name="standard_name">depth</att>
+                <att name="type">UNEVEN</att>
                 <att name="units">m</att>
+            </sourceAttributes -->
+            <addAttributes>
             </addAttributes>
         </axisVariable>
         <dataVariable>
-            <sourceName>latitude</sourceName>
-            <destinationName>latitude</destinationName>
-            <dataType>float</dataType>
+            <sourceName>bin_width</sourceName>
+            <destinationName>bin_width</destinationName>
+            <dataType>double</dataType>
             <!-- sourceAttributes>
                 <att name="_FillValue" type="double">NaN</att>
             </sourceAttributes -->
             <addAttributes>
-                <att name="ioos_category">Location</att>
-                <att name="long_name">Latitude</att>
-                <att name="standard_name">latitude</att>
-                <att name="units">degrees_north</att>
-            </addAttributes>
-        </dataVariable>
-        <dataVariable>
-            <sourceName>longitude</sourceName>
-            <destinationName>longitude</destinationName>
-            <dataType>float</dataType>
-            <!-- sourceAttributes>
-                <att name="_FillValue" type="double">NaN</att>
-            </sourceAttributes -->
-            <addAttributes>
-                <att name="ioos_category">Location</att>
-                <att name="long_name">Longitude</att>
-                <att name="standard_name">longitude</att>
-                <att name="units">degrees_east</att>
-            </addAttributes>
-        </dataVariable>
-        <dataVariable>
-            <sourceName>u_comp_current</sourceName>
-            <destinationName>u_comp_current</destinationName>
-            <dataType>float</dataType>
-            <!-- sourceAttributes>
-                <att name="_FillValue" type="float">NaN</att>
-            </sourceAttributes -->
-            <addAttributes>
-                <att name="ioos_category">Currents</att>
-                <att name="long_name">U Comp Current</att>
-            </addAttributes>
-        </dataVariable>
-        <dataVariable>
-            <sourceName>v_comp_current</sourceName>
-            <destinationName>v_comp_current</destinationName>
-            <dataType>float</dataType>
-            <!-- sourceAttributes>
-                <att name="_FillValue" type="float">NaN</att>
-            </sourceAttributes -->
-            <addAttributes>
-                <att name="ioos_category">Currents</att>
-                <att name="long_name">V Comp Current</att>
+                <att name="ioos_category">Unknown</att>
+                <att name="long_name">Bin Width</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
@@ -129,15 +102,51 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>bin_width</sourceName>
-            <destinationName>bin_width</destinationName>
+            <sourceName>v_comp_current</sourceName>
+            <destinationName>v_comp_current</destinationName>
+            <dataType>float</dataType>
+            <!-- sourceAttributes>
+                <att name="_FillValue" type="float">NaN</att>
+            </sourceAttributes -->
+            <addAttributes>
+                <att name="ioos_category">Currents</att>
+                <att name="long_name">V Comp Current</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>u_comp_current</sourceName>
+            <destinationName>u_comp_current</destinationName>
+            <dataType>float</dataType>
+            <!-- sourceAttributes>
+                <att name="_FillValue" type="float">NaN</att>
+            </sourceAttributes -->
+            <addAttributes>
+                <att name="ioos_category">Currents</att>
+                <att name="long_name">U Comp Current</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>lat</sourceName>
+            <destinationName>lat</destinationName>
+            <dataType>float</dataType>
+            <!-- sourceAttributes>
+                <att name="_FillValue" type="float">NaN</att>
+            </sourceAttributes -->
+            <addAttributes>
+                <att name="ioos_category">Location</att>
+                <att name="long_name">Lat</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>lon</sourceName>
+            <destinationName>lon</destinationName>
             <dataType>double</dataType>
             <!-- sourceAttributes>
                 <att name="_FillValue" type="double">NaN</att>
             </sourceAttributes -->
             <addAttributes>
-                <att name="ioos_category">Unknown</att>
-                <att name="long_name">Bin Width</att>
+                <att name="ioos_category">Location</att>
+                <att name="long_name">Lon</att>
             </addAttributes>
         </dataVariable>
     </dataset>
