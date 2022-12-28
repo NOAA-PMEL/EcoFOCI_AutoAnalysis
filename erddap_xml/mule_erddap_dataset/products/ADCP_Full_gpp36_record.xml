@@ -1,7 +1,7 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Full_gpp36_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp//gpp36</fileDir>
+        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp/gpp36/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
