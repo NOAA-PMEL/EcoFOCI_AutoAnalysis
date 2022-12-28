@@ -1,7 +1,7 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="ADCP_Full_kep41_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp/kep41/</fileDir>
+        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_adcp//kep41</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
@@ -73,6 +73,7 @@
             <addAttributes>
                 <att name="ioos_category">Unknown</att>
                 <att name="long_name">Bin Width</att>
+                <att name="units">meters</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
@@ -85,6 +86,7 @@
             <addAttributes>
                 <att name="ioos_category">Currents</att>
                 <att name="long_name">Speed</att>
+                <att name="units">cm/s</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
@@ -111,6 +113,7 @@
             <addAttributes>
                 <att name="ioos_category">Currents</att>
                 <att name="long_name">V Comp Current</att>
+                <att name="units">cm/s</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
@@ -123,6 +126,7 @@
             <addAttributes>
                 <att name="ioos_category">Currents</att>
                 <att name="long_name">U Comp Current</att>
+                <att name="units">cm/s</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
