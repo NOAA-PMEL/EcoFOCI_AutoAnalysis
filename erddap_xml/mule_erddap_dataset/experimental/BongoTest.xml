@@ -9,27 +9,6 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    <!-- sourceAttributes>
-        <att name="_NCProperties">version=2,netcdf=4.7.4,hdf5=1.12.0,</att>
-        <att name="Cast_Mark_Time">1712</att>
-        <att name="Consecutive_Cast_Number">148</att>
-        <att name="Cruise">2MF01</att>
-        <att name="Date_(GMT)">09MAY01</att>
-        <att name="EPIC_Coordinate_System">GEOGRAPHICAL</att>
-        <att name="EPIC_Data_Type">CTD</att>
-        <att name="Instrument_Type">Sea-Bird Seacat SBE 19</att>
-        <att name="Latitude">54 41.99 N</att>
-        <att name="LatitudeDD" type="double">54.6998</att>
-        <att name="Longitude">160 11.15 W</att>
-        <att name="LongitudeDD" type="double">-160.1858</att>
-        <att name="Station_ID">146</att>
-        <att name="Water_Depth">86</att>
-        <att name="Water_Mass_Code">G</att>
-    </sourceAttributes -->
-    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
-        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
-        <att name="subsetVariables">station_id, longitude, latitude</att>
-    -->
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
@@ -165,7 +144,19 @@
             <att name="long_name">Dir Val</att>
         </addAttributes>
     </dataVariable>
-   
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+            <att name="cf_role">profile_id</att>
+            <att name="long_name">timeseries id</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>    
     <dataVariable>
         <sourceName>global:LatitudeDD</sourceName>
         <destinationName>latitude</destinationName>
