@@ -224,7 +224,6 @@
             <att name="ioos_category">Unknown</att>
             <att name="long_name">FOCI Cruise ID</att>
         </addAttributes>
-        </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>global:Water_Mass_Code</sourceName>
@@ -234,22 +233,21 @@
             <att name="ioos_category">Unknown</att>
             <att name="long_name">FOCI Water Mass Code</att>
         </addAttributes>
-        </addAttributes>
     </dataVariable>    
-        <dataVariable>
-            <sourceName>global:ISO_Time</sourceName>
-            <destinationName>time</destinationName>
-            <dataType>double</dataType>
-            <!-- sourceAttributes>
-                <att name="epic_code" type="int">624</att>
-                <att name="type">EVEN</att>
-                <att name="units">days since 1900-01-01</att>
-            </sourceAttributes -->
-            <addAttributes>
-                <att name="ioos_category">Time</att>
-                <att name="long_name">Time</att>
-                <att name="standard_name">time</att>
-                <att name="units">days since 1900-01-01T00:00:00Z</att>
-            </addAttributes>
-        </dataVariable>
+    <dataVariable>
+        <sourceName>global:ISO_Time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">624</att>
+            <att name="type">EVEN</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
 </dataset>
