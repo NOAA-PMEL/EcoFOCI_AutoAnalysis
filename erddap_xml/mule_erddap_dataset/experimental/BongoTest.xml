@@ -237,7 +237,7 @@
     <dataVariable>
         <sourceName>global:ISO_Time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
+        <dataType>string</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">624</att>
             <att name="type">EVEN</att>
