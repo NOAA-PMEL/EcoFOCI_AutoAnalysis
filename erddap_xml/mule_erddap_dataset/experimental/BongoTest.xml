@@ -214,7 +214,7 @@
         </addAttributes>
     </dataVariable>    
     <dataVariable>
-        <sourceName>global:ISO_Time</sourceName>
+        <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
