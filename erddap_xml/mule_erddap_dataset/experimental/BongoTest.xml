@@ -22,8 +22,8 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">Data from a local source.</att>
-        <att name="title">Data from a local source.</att>
+        <att name="summary">Processed seabird up/cnv files with metadata included - stored as netcdf and aggregated in this dataset.</att>
+        <att name="title">Bongo Seacat Archive - AFSC.</att>
     </addAttributes>
     <dataVariable>
         <sourceName>Pressure</sourceName>
