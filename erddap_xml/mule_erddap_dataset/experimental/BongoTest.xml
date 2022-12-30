@@ -216,7 +216,7 @@
     <dataVariable>
         <sourceName>global:ISO_Time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
+        <dataType>String</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="calendar">proleptic_gregorian</att>
