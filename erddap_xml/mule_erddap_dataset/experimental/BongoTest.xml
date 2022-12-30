@@ -13,7 +13,7 @@
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">Pressure</att> 
         <att name="cdm_profile_variables">profile_id</att>
-        <att name="subsetVariables">CruiseID, Water_Mass_Code, profile_id</att>
+        <att name="subsetVariables">CruiseID, Water_Mass_Code, profile_id, dir_val</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="infoUrl">www.pmel.noaa.gov</att>
         <att name="institution">EcoFOCI</att>
@@ -145,7 +145,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
