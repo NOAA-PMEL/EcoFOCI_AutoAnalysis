@@ -216,11 +216,11 @@
     <dataVariable>
         <sourceName>global:ISO_Time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>String</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="calendar">proleptic_gregorian</att>
-            <att name="units">days since 1900-01-01T00:00:00Z</att>
+            <att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Time</att>
