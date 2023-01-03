@@ -17,8 +17,8 @@
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="CREATION_DATE">null</att>
         <att name="creation_date">19:15 22-SEP-00</att>
-        <att name="infoUrl">???</att>
-        <att name="institution">???</att>
+        <att name="infoUrl">https://pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">data, density, dep, DYN_10, dynamic, earth, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, kg/m**3, latitude, local, m**3, meters, ocean, oceans, practical, psu, S_41, S_42, salinity, science, sea, sea_water_practical_salinity, seawater, secondary, sigma, sigma-t, source, ST_70, T2_35, T_28, temperature, time, unit, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>

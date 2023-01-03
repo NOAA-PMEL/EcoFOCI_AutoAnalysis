@@ -243,7 +243,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>U_320</sourceName>
-        <destinationName>Ucomp_Current</destinationName>
+        <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">320</att>
@@ -261,7 +261,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>V_321</sourceName>
-        <destinationName>Vcomp_Current</destinationName>
+        <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">321</att>
@@ -601,7 +601,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>U_320</sourceName>
-        <destinationName>Ucomp_Current</destinationName>
+        <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">320</att>
@@ -619,7 +619,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>V_321</sourceName>
-        <destinationName>Vcomp_Current</destinationName>
+        <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">321</att>
