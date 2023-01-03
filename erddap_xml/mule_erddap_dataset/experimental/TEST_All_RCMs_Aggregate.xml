@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="TEST_All_RCMs_Aggregate" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
+    <fileNameRegex>.*_an.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>/home/ecofoci_data/(|[12]{1}[09]{1}[0129]{1}[0-9]{1}/)(|Moorings/)(|[0-9]{2}.*/)(|erddap/final_data/)</pathRegex>
     <metadataFrom>first</metadataFrom>
