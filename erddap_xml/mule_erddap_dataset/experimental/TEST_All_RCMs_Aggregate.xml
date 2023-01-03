@@ -6,7 +6,7 @@
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>/home/ecofoci_data/(|[1-2]{1}[0,9]{1}[0-9]{2}/)(|Moorings/)(|[0-9]{2}.*/)(|erddap/)(|final_data/)</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
