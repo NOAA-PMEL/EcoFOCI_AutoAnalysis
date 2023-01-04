@@ -4,10 +4,10 @@ no prelim data for cruises prior to 2015 only final
 watch for changes in epic keys on fluor/oxy/voltage etc
 -->
 
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_hx259_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_hx245_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2002/CTDcasts/hx259/erddap/final_data/ctd/</fileDir>
+    <fileDir>/home/ecofoci_data/2001/CTDcasts/hx245/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -52,8 +52,8 @@ watch for changes in epic keys on fluor/oxy/voltage etc
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-        <att name="summary">CTD Data from hx259 - Final </att>
-        <att name="title">CTD Data from hx259 - Final</att>
+        <att name="summary">CTD Data from hx245 - Final </att>
+        <att name="title">CTD Data from hx245 - Final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
