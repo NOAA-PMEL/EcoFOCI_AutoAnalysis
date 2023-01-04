@@ -233,7 +233,7 @@
         </addAttributes>
     </dataVariable>       
     <dataVariable>
-        <sourceName>***fileName,(.*[_]{1})(an|sg),1</sourceName>
+        <sourceName>***fileName,^(\S*)_(an|sg).*\.cf\.nc,1</sourceName>
         <destinationName>mooring_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
