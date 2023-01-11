@@ -700,7 +700,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>par</sourceName>
-        <destinationName>PAR</destinationName>
+        <destinationName>par</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">908</att>
@@ -738,7 +738,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>oxy_percentsat</sourceName>
-        <destinationName>Oxygen_Saturation</destinationName>
+        <destinationName>oxygen_saturation</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">62</att>
@@ -778,7 +778,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>oxy_conc_umkg</sourceName>
-        <destinationName>Oxygen_Concentration</destinationName>
+        <destinationName>oxygen_concentration</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">65</att>
