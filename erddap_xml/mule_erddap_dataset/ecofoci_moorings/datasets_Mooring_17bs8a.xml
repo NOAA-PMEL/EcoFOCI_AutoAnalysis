@@ -133,7 +133,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>P_1</sourceName>
+        <sourceName>omit_from_one_ingest</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
