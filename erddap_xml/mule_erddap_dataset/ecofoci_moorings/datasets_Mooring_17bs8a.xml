@@ -152,6 +152,7 @@
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
+           <att name="units">dbar</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
