@@ -334,7 +334,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Fch_906</sourceName>
-        <destinationName>Chlorophyll_Fluorescence</destinationName>
+        <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
