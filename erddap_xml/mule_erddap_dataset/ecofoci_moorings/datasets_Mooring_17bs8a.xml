@@ -134,7 +134,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>manually_removed</sourceName>
+        <sourceName>P_1</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -148,6 +148,8 @@
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
+            <att name="long_name">Sea water pressure, equals 0 at sea-level</att>
+            <att name="standard_name">sea_water_pressure_due_to_sea_water</att>            
            <att name="units">db</att>
         </addAttributes>
     </dataVariable>
