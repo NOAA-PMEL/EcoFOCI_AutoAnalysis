@@ -6,11 +6,7 @@
     <fileDir>/home/ecofoci_data/2017/Moorings/17bs8a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
-    <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
     <metadataFrom>first</metadataFrom>
-    <sortedColumnSourceName>time</sortedColumnSourceName>
-    <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <standardizeWhat>4096</standardizeWhat>
     
