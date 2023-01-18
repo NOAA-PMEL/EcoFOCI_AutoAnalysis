@@ -9,7 +9,6 @@
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>first</metadataFrom>
-    <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
