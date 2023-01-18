@@ -134,7 +134,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>P_1</sourceName>
+        <sourceName>manually_removed</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
