@@ -8,7 +8,7 @@
     
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
@@ -152,7 +152,7 @@
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
-           <att name="units">dbar</att>
+           <att name="units">db</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
