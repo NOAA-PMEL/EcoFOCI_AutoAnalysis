@@ -789,7 +789,6 @@ DY1807L2
                <att name="missing_value" type="float">-9999.0</att>
                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="epic_key">PAR_905</att>
-                <att name="_FillValue">1.0E35</att>
                 <att name="ioos_category">Optical Properties</att>
                 <att name="generic_name">PAR</att>
                 <att name="standard_name">downwelling_photosynthetic_photon_spherical_irradiance_in_sea_water</att>
