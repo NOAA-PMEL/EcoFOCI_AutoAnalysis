@@ -545,6 +545,7 @@ Keep an EPIC key code in meta data of new final data for reference
             <att name="long_name">Downwelling Photosynthetic Photon Radiance In Sea Water</att>
             <att name="missing_value" type="double">NaN</att>
             <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
+           <att name="units">uEin*m-2*s-1</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
