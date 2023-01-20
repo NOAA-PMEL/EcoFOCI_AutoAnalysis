@@ -1,5 +1,5 @@
 
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_14bsp6a_final" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_14bsp6a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2014/Moorings/14bsp6a/erddap/final_data/</fileDir>
@@ -458,7 +458,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14bsp6a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2015/Moorings/14bsp6a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2014/Moorings/14bsp6a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
