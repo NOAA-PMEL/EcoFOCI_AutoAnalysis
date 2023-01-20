@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_2021_Puget_Sound_upanddown" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_2021_Puget_Sound_upanddown" active="false">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2021/Profilers/OculusGlider/Mission_Archive/sg402/PS_10_08_2021/</fileDir>
