@@ -458,7 +458,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14bsp8a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2015/Moorings/14bsp8a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2014/Moorings/14bsp8a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
