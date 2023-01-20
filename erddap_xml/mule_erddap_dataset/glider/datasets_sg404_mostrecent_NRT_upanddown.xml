@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg404_mostrecent_NRT_upanddown" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg404_mostrecent_NRT_upanddown" active="false">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
     <fileDir>/home/foci_lfstore/oculusgliderNRT/2022/sg404/</fileDir>
