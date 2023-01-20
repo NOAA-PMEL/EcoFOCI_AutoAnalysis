@@ -353,7 +353,7 @@ datetime,BP,U,USD,V,VSD,RH,AT
             <destinationName>PAR_905</destinationName>
             <dataType>float</dataType>
             <!-- sourceAttributes>
-                <att name="epic_code" type="int">908</att>
+                <att name="epic_code" type="int">905</att>
                 <att name="generic_name">par</att>
                 <att name="long_name">Photosynthetic Active Radiation</att>
                 <att name="name">PAR_908</att>

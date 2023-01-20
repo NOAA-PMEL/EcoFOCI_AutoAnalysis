@@ -178,6 +178,7 @@
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Optical Properties</att>
+           <att name="comment">Units converted from original EPIC specified units by scaling by 10000.</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
