@@ -184,7 +184,7 @@
 </dataset>
 
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Mooring_19aubs11_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_19aubs11_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2019/Moorings/19aubs11/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
