@@ -330,7 +330,7 @@
         <att name="History"></att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, Fch_906, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_910, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
+        <att name="keywords">active, C_50, channel, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, data, density, depth, depth2, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, CPHL_938, fluorometer, Fvt_900, latitude, local, O2, O_65, ocean, ocean color, oceans, optical, optical properties, OST_62, oxygen, P_1, PAR_908, PAR_910, percent, photosynthetic, practical, pressure, properties, psu, radiation, S_41, salinity, sat, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, T_20, temperature, time, umol, umol/kg, unit, V0_3333, volts, water, seacat, seabird</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
@@ -475,7 +475,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Fch_906</sourceName>
+        <sourceName>CPHL_938</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -485,7 +485,7 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">CPHL_938</att>
             <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -494,6 +494,20 @@
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>Fvt_900</sourceName>
+        <destinationName>fluorometer_voltage</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">CPHL_938</att>
+            <att name="units">volts</att>
+            <att name="colorBarMaximum" type="double">5.0</att>
+            <att name="colorBarMinimum" type="double">0.00</att>
+            <att name="standard_name">voltage_from_fluorometer</att>
+        </addAttributes>
+    </dataVariable>    
     <dataVariable>
         <sourceName>OST_62</sourceName>
         <destinationName>oxygen_saturation</destinationName>
