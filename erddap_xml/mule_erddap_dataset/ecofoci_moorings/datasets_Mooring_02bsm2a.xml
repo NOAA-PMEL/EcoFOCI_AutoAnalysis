@@ -475,7 +475,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Fch_906</sourceName>
+        <sourceName>CPHL_938</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -485,7 +485,7 @@
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="epic_key">Fch_906</att>
+            <att name="epic_key">CPHL_938</att>
             <att name="units">ugrams/l</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>

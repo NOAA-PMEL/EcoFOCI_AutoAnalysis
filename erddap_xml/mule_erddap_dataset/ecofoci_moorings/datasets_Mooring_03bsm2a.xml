@@ -495,6 +495,20 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>Fvt_900</sourceName>
+        <destinationName>fluorometer_voltage</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">CPHL_938</att>
+            <att name="units">volts</att>
+            <att name="colorBarMaximum" type="double">5.0</att>
+            <att name="colorBarMinimum" type="double">0.00</att>
+            <att name="standard_name">voltage_from_fluorometer</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
         <sourceName>OST_62</sourceName>
         <destinationName>oxygen_saturation</destinationName>
         <dataType>float</dataType>
