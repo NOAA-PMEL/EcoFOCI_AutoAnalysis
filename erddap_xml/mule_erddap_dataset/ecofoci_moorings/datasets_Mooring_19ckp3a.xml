@@ -408,7 +408,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>chlorophyll_fluorescence</sourceName>
+        <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -737,7 +737,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>chlorophyll_fluorescence</sourceName>
+        <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
