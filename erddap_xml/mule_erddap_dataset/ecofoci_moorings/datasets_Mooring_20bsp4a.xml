@@ -252,7 +252,7 @@
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">below, chemistry, chlor_fluorescence, chlorophyll, color, concentration, conductivity, data, density, depth, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, fluorescence, Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, in-situ, its, its-90, latitude, local, longitude, meters, ocean, oceans, practical, pss, pss-78, salinity, scale, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_temperature, seawater, situ, source, surface, temperature, time, water</att>
+        <att name="keywords">below, chemistry, chlorophyll_fluorescence, chlorophyll, color, concentration, conductivity, data, density, depth, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, fluorescence, Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, in-situ, its, its-90, latitude, local, longitude, meters, ocean, oceans, practical, pss, pss-78, salinity, scale, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_temperature, seawater, situ, source, surface, temperature, time, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
         <att name="QC_indicator">final</att>
@@ -394,13 +394,13 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>chlor_fluorescence</sourceName>
-        <destinationName>chlor_fluorescence</destinationName>
+        <sourceName>chlorophyll_fluorescence</sourceName>
+        <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="epic_key">Fch_906</att>
-            <att name="generic_name">chlor_fluorescence</att>
+            <att name="generic_name">chlorophyll_fluorescence</att>
             <att name="long_name">Mass Concentration of chlorophyll from chlorophyll fluorescence</att>
             <att name="standard_name">mass_concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>
