@@ -276,7 +276,7 @@
         <addAttributes>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>            
-            <att name="ioos_category">Optical</att>
+            <att name="ioos_category">Optical Properties</att>
             <att name="standard_name">sea_water_turbidity</att>
         </addAttributes>
     </dataVariable>
