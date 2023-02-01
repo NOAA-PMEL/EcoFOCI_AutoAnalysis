@@ -511,7 +511,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>chlor_fluorescence</sourceName>
+        <sourceName>chlorophyll_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>

@@ -506,6 +506,7 @@
             <att name="colorBarMaximum" type="double">5.0</att>
             <att name="colorBarMinimum" type="double">0.00</att>
             <att name="standard_name">voltage_from_fluorometer</att>
+            <att name="ioos_category">Other</att>
         </addAttributes>
     </dataVariable>    
     <dataVariable>

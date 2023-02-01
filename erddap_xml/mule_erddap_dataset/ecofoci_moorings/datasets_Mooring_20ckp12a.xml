@@ -410,7 +410,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>chlor_fluorescence</sourceName>
-        <destinationName>chlor_fluorescence</destinationName>
+        <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="epic_code" type="int">906</att>
@@ -622,7 +622,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>chlor_fluorescence</sourceName>
-        <destinationName>chlor_fluorescence</destinationName>
+        <destinationName>chlorophyll_fluorescence</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
