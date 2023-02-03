@@ -8,7 +8,7 @@ Keep an EPIC key code in meta data of new final data for reference
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1806_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2018/CTDcasts/dy1806/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2018/CTDcasts/dy1806/initial_archive/ctd/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
