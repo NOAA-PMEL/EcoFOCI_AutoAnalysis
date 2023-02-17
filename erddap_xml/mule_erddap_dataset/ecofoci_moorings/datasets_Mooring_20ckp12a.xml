@@ -470,7 +470,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>oxy_conc_umkg</sourceName>
+        <sourceName>oxy_conc</sourceName>
         <destinationName>oxygen_concentration</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -759,7 +759,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>oxy_conc</sourceName>
+        <sourceName>oxy_concM</sourceName>
         <destinationName>Oxygen_Concentration_Molar</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -778,7 +778,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>oxy_conc_umkg</sourceName>
+        <sourceName>oxy_conc</sourceName>
         <destinationName>oxygen_concentration</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
