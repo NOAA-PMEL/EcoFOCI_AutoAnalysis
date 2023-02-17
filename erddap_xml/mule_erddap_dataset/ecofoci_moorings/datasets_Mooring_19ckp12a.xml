@@ -661,6 +661,42 @@
             </addAttributes>
         </dataVariable>
     <dataVariable>
+        <sourceName>v_curr_comp</sourceName>
+        <destinationName>v_comp_current</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">321</att>
+            <att name="generic_name">v</att>
+            <att name="long_name">Northward Velocity</att>
+            <att name="units">cm/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Currents</att>
+            <att name="standard_name">northward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>u_curr_comp</sourceName>
+        <destinationName>u_comp_current</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="epic_code" type="int">320</att>
+            <att name="generic_name">u</att>
+            <att name="long_name">Eastward Velocity</att>
+            <att name="units">cm/s</att>
+        </sourceAttributes -->
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>            
+            <att name="ioos_category">Currents</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>oxy_percentsat</sourceName>
         <destinationName>oxygen_saturation</destinationName>
         <dataType>float</dataType>
