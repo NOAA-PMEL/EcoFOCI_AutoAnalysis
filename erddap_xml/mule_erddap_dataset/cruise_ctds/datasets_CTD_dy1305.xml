@@ -461,7 +461,7 @@
     <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1305_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecofoci_data/2021/CTDcasts/dy1305/final_data_cf/nut/</fileDir>
+        <fileDir>/home/ecofoci_data/2013/CTDcasts/dy1305/final_data_cf/nut/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
