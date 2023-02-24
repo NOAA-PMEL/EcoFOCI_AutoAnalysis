@@ -759,7 +759,7 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="cdm_profile_variables">profile_id</att>
         <att name="subsetVariables">time, latitude, longitude, profile_id</att>
         <att name="Conventions">&quot;CF-1.6, ~OceanSITES-1.5, ACDD-1.3&quot;, COARDS</att>
-        <att name="creator_type">person</att>
+        <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
         <att name="infoUrl">https://www.pmel.noaa.gov/</att>
         <att name="institution">NOAA/PMEL - EcoFOCI</att>
