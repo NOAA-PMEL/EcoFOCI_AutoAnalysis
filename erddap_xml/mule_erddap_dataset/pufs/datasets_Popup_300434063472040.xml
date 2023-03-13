@@ -8,7 +8,7 @@
 -->
 
 <!--bottom data -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_bottom_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2020_PopUP_300434063472040_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
@@ -115,50 +115,50 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp</sourceName>
-        <destinationName>fr_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Fast Response Temp</att>
+            <att name="long_name">TTP (Fast Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp_ADC</sourceName>
-        <destinationName>fr_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Fast Response Temp ADC</att>
+            <att name="long_name">TTP (Fast Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp</sourceName>
-        <destinationName>sr_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Slow Response Temp</att>
+            <att name="long_name">SST (Slow Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp_ADC</sourceName>
-        <destinationName>sr_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Slow Response Temp ADC</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">SST (Slow Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -227,7 +227,7 @@
 </dataset>
 
 <!--under ice-->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_underice_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2020_PopUP_300434063472040_underice_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*ice_data\.csv</fileNameRegex>
@@ -334,50 +334,50 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp</sourceName>
-        <destinationName>fr_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Fast Response Temp</att>
+            <att name="long_name">TTP (Fast Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp_ADC</sourceName>
-        <destinationName>fr_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Fast Response Temp ADC</att>
+            <att name="long_name">TTP (Fast Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp</sourceName>
-        <destinationName>sr_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Slow Response Temp</att>
+            <att name="long_name">SST (Slow Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp_ADC</sourceName>
-        <destinationName>sr_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Slow Response Temp ADC</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">SST (Slow Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -452,7 +452,7 @@
 <!--Irridium Message Position-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472040_irridium_position" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2020_PopUP_300434063472040_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063472040/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>

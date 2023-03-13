@@ -22,7 +22,7 @@
 <!--Irridium Message Position-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2021_PopUP_300434063472030_irridium_position" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2020_PopUP_300434063472030_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063472030/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>

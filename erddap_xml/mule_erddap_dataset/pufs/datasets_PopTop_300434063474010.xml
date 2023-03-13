@@ -113,13 +113,13 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp</sourceName>
-        <destinationName>fr_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Fast Response Temp</att>
+            <att name="long_name">TTP (Fast Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="comment">Sensor on top side of buoy</att>
             <att name="units">degree_C</att>
@@ -127,25 +127,25 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp_ADC</sourceName>
-        <destinationName>fr_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Fast Response Temp ADC</att>
+            <att name="long_name">TTP (Fast Response) Temperature ADC</att>
             <att name="comment">Sensor on top side of buoy</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp</sourceName>
-        <destinationName>sr_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Slow Response Temp</att>
+            <att name="long_name">SST (Slow Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="comment">Sensor on bottom side of buoy</att>
             <att name="units">degree_C</att>
@@ -153,13 +153,13 @@
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp_ADC</sourceName>
-        <destinationName>sr_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">SST (Slow Response) Temperature ADC</att>
             <att name="comment">Sensor on bottom side of buoy</att>
         </addAttributes>
     </dataVariable>
@@ -336,13 +336,13 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp</sourceName>
-        <destinationName>fr_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Fast Response Temp</att>
+            <att name="long_name">TTP (Fast Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="comment">Sensor on top side of buoy</att>
             <att name="units">degree_C</att>
@@ -350,25 +350,25 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fr_temp_ADC</sourceName>
-        <destinationName>fr_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Fast Response Temp ADC</att>
+            <att name="long_name">TTP (Fast Response) Temperature ADC</att>
             <att name="comment">Sensor on top side of buoy</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp</sourceName>
-        <destinationName>sr_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Slow Response Temp</att>
+            <att name="long_name">SST (Slow Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="comment">Sensor on bottom side of buoy</att>
             <att name="units">degree_C</att>
@@ -376,13 +376,13 @@
     </dataVariable>
     <dataVariable>
         <sourceName>sr_temp_ADC</sourceName>
-        <destinationName>sr_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Underside Temp ADC</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">SST (Slow Response) Temperature ADC</att>
             <att name="comment">Sensor on bottom side of buoy</att>
         </addAttributes>
     </dataVariable>

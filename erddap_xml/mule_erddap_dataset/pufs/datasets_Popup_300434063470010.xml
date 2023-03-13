@@ -145,7 +145,7 @@
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
+            <att name="ioos_category">Temperature</att>
             <att name="long_name">TTP (Fast Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
@@ -169,7 +169,7 @@
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
+            <att name="ioos_category">Temperature</att>
             <att name="long_name">SST (Slow Response) Temperature ADC</att>
         </addAttributes>
     </dataVariable>
