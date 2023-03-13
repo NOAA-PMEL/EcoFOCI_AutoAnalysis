@@ -6,7 +6,7 @@
 -->
 
 <!--bottom data -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2020_PopUP_300434063470010_bottom_data" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063470010_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/initial_archive/300434063470010/</fileDir>
     <fileNameRegex>.*bottom_data\.csv</fileNameRegex>
@@ -227,7 +227,7 @@
 <!--Irridium Message Position-->
 <!-- Note: two lat/lons available.  Either use the deployment lat/lon and set data type as timeseries or use
     measured gps lat lon and set to trajectory -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="2020_PopUP_300434063470010_irridium_position" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_300434063470010_irridium_position" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/initial_archive/300434063470010/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
