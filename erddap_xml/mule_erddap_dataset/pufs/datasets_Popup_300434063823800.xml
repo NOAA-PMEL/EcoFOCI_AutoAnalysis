@@ -113,7 +113,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -126,7 +126,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -137,7 +137,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -150,7 +150,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -332,7 +332,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -345,7 +345,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -356,7 +356,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -369,7 +369,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -554,7 +554,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>topside_temp</sourceName>
-        <destinationName>topside_temp</destinationName>
+        <destinationName>ttp_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -567,7 +567,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>topside_temp_ADC</destinationName>
+        <destinationName>ttp_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -578,7 +578,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>underside_temp</sourceName>
-        <destinationName>underside_temp</destinationName>
+        <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -591,7 +591,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>underside_temp_ADC</destinationName>
+        <destinationName>sst_temp_ADC</destinationName>
         <dataType>short</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
