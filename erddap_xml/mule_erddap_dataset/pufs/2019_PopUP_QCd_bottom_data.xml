@@ -46,7 +46,7 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables"></att>
+        <att name="subsetVariables">timeseries_id</att>
         <att name="summary">2019 Deployed UnderIce prototype Version 5 buoys - QC'd.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="title">2019 Aggregate Popup Bottom Data - QC'd </att>
     </addAttributes>
