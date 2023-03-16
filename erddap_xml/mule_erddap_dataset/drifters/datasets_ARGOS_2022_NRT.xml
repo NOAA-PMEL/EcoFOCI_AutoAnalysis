@@ -17,6 +17,7 @@
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <standardizeWhat>4096</standardizeWhat>
     <addAttributes>
         <att name="cdm_data_type">Trajectory</att>
         <att name="cdm_trajectory_variables">trajectory_id</att>

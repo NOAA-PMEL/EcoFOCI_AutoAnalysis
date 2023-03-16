@@ -17,6 +17,7 @@
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
+    <standardizeWhat>4096</standardizeWhat>
     
     <!-- sourceAttributes>
         <att name="CREATION_DATE">March 12, 2021 21:34 UTC</att>
