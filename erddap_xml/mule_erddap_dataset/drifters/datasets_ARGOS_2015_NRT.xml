@@ -185,7 +185,6 @@
             <att name="generic_name">longitude</att>
             <att name="long_name">longitude</att>
             <att name="name">longitude</att>
-            <att name="units">degrees_north</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
