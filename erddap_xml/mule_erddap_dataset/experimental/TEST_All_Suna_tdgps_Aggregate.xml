@@ -108,8 +108,8 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
-            <att name="ioos_category">TDGP Sensor Temperature</att>
-            <att name="long_name">Sea temperature in-situ ITS-90 scale at pressure sensor</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">TDGP Sea temperature in-situ ITS-90 scale at pressure sensor</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
         </addAttributes>
