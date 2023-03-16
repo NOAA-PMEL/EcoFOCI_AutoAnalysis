@@ -143,7 +143,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">35.0</att>
             <att name="colorBarMinimum" type="double">28.0</att>
-            <att name="ioos_category">Optical</att>
+            <att name="ioos_category">Optical Properties</att>
             <att name="long_name">absorbance at 254 nm</att>
             <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
             <att name="units">uM</att>
@@ -158,7 +158,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">35.0</att>
             <att name="colorBarMinimum" type="double">28.0</att>
-            <att name="ioos_category">Optical</att>
+            <att name="ioos_category">Optical Properties</att>
             <att name="long_name">absorbance at 350 nm</att>
             <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
             <att name="units">uM</att>
@@ -173,7 +173,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">35.0</att>
             <att name="colorBarMinimum" type="double">28.0</att>
-            <att name="ioos_category">dissolved_nutrients</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
             <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
             <att name="units">uM</att>
         </addAttributes>
