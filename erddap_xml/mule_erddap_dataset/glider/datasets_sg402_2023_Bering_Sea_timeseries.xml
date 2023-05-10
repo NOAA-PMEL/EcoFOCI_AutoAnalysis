@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_sg402_mostrecent_NRT_timeseries" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_2023_Bering_Sea_timeseries" active="false">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/foci_lfstore/oculusgliderNRT/2023/sg402/</fileDir>
+    <fileDir>/home/ecofoci_data/2023/Profilers/OculusGlider/Mission_Archive/sg402/</fileDir>
     <fileNameRegex>.*timeseries\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -81,8 +81,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
         <att name="subsetVariables">trajectory,profile_id</att>
-        <att name="title">Physical data collected from Oculus Coastal Glider SG402 during most recent deployment - timeseries</att>
-        <att name="summary">PMEL SG402 during most recent deployment. Timeseries dataset.</att>
+        <att name="title">Physical data collected from Oculus Coastal Glider SG402 during Puget_Sound Virtual Mooring 2022-2-8 - timeseries</att>
+        <att name="summary">PMEL SG402 Puget_Sound Virtual Mooring Feb 8, 2022. Timeseries dataset.</att>
         <att name="testOutOfDate">now-1days</att>
 
     </addAttributes>
