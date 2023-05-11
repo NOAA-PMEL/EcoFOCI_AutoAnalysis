@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_sg402_mostrecent_NRT_1m_upanddown" active="true">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
-    <fileDir>/home/foci_lfstore/oculusgliderNRT/2022/sg402/</fileDir>
+    <fileDir>/home/foci_lfstore/oculusgliderNRT/2023/sg402/</fileDir>
     <fileNameRegex>.*1\.0m_up_and_down_profile\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
