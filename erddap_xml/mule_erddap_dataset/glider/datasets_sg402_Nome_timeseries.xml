@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_sg402_Nome_timeseries" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_sg402_Nome_timeseries" active="false">
     <reloadEveryNMinutes>60</reloadEveryNMinutes>
     
     <fileDir>/home/foci_lfstore/oculusgliderNRT/2022/sg402/</fileDir>
