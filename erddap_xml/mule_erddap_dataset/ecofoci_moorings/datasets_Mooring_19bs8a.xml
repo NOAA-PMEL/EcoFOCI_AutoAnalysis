@@ -461,7 +461,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>oxy_conc_umkg</sourceName>
+        <sourceName>oxy_conc</sourceName>
         <destinationName>oxygen_concentration</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
