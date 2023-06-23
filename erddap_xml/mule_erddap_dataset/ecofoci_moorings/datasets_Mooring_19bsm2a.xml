@@ -300,7 +300,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Met_19bsm2a_NRT" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2019/Moorings/19bsm2a/erddap/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2019/Moorings/19bsm2a/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
