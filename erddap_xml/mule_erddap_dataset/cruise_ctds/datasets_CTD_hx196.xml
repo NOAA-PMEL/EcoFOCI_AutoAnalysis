@@ -151,10 +151,9 @@ watch for changes in epic keys on fluor/oxy/voltage etc
     </dataVariable>
     <dataVariable>
         <sourceName>S_42</sourceName>
-        <destinationName>S_42</destinationName>
+        <destinationName>salinity_ch2</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">42</att>
             <att name="fill_value" type="double">1.0E35</att>
             <att name="generic_name">sal</att>
             <att name="long_name">SALINITY (PSU)</att>
@@ -169,14 +168,14 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
+            <att name="epic_code" type="int">42</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>S_41</sourceName>
-        <destinationName>S_41</destinationName>
+        <destinationName>salinity_ch1</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">41</att>
             <att name="fill_value" type="double">1.0E35</att>
             <att name="generic_name">sal</att>
             <att name="long_name">SALINITY (PSU)</att>
@@ -191,6 +190,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="ioos_category">Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
+            <att name="epic_code" type="int">41</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -242,10 +242,9 @@ watch for changes in epic keys on fluor/oxy/voltage etc
     </dataVariable>
     <dataVariable>
         <sourceName>T_28</sourceName>
-        <destinationName>T_28</destinationName>
+        <destinationName>temperature_ch1</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">28</att>
             <att name="fill_value" type="double">1.0E35</att>
             <att name="FORTRAN_format">f10.2</att>
             <att name="generic_name">temp</att>
@@ -259,6 +258,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
+            <att name="epic_code" type="int">28</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -326,10 +326,9 @@ watch for changes in epic keys on fluor/oxy/voltage etc
     </dataVariable>
     <dataVariable>
         <sourceName>T2_35</sourceName>
-        <destinationName>T2_35</destinationName>
+        <destinationName>temperature_ch2</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-            <att name="epic_code" type="int">35</att>
             <att name="fill_value" type="double">1.0E35</att>
             <att name="FORTRAN_format">f10.2</att>
             <att name="generic_name">temp</att>
@@ -343,6 +342,7 @@ watch for changes in epic keys on fluor/oxy/voltage etc
             <att name="ioos_category">Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
+            <att name="epic_code" type="int">35</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
