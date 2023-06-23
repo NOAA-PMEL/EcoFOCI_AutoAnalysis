@@ -793,6 +793,7 @@
             <att name="institution">NOAA/PMEL - EcoFOCI</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
             <att name="subsetVariables">time3, time, latitude, lon</att>
+            <att name="sourceUrl">(local files)</att>
             <att name="summary">Discrete Chlorophyll-A Data from NW1201 - Final ChlorA Data </att>
             <att name="title">Discrete Chlorophyll-A Data from NW1201 - Final ChlorA Data</att>
         </addAttributes>
