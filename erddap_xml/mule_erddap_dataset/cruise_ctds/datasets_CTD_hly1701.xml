@@ -23,10 +23,10 @@
         <att name="DATA_CMNT">hly1702c141.xlsx</att>
         <att name="EPIC_FILE_GENERATOR">nc_epic2udunits_time.py V0.4.0</att>
         <att name="History">
-April 25, 2018 15:42 UTC C. Mordy - upper 500 m only (ml/l + 0.2310)* 44.661))
-Niskin 19 tripped at 2 m
-April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
-</att>
+        April 25, 2018 15:42 UTC C. Mordy - upper 500 m only (ml/l + 0.2310)* 44.661))
+        Niskin 19 tripped at 2 m
+        April 25, 2018 15:53 UTC EPIC two time-word key converted to udunits
+        </att>
         <att name="MOORING" type="int">141</att>
         <att name="WATER_DEPTH" type="int">9999</att>
     </sourceAttributes -->
