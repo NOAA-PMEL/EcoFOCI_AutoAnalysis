@@ -37,8 +37,7 @@
         <dataVariable>
             <sourceName>time</sourceName>
             <destinationName>time</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Time</att>
@@ -49,8 +48,7 @@
         <dataVariable>
             <sourceName>pressure</sourceName>
             <destinationName>pressure</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -65,8 +63,7 @@
         <dataVariable>
             <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -81,8 +78,7 @@
         <dataVariable>
             <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -95,8 +91,7 @@
         <dataVariable>
             <sourceName>BTLID</sourceName>
             <destinationName>BTLID</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -131,8 +126,7 @@
         <dataVariable>
             <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
-            <dataType>String</dataType>
-            
+            <dataType>String</dataType>            
             <addAttributes>
                 <att name="ioos_category">Identifier</att>
                 <att name="cf_role">profile_id</att>
@@ -141,8 +135,7 @@
         <dataVariable>
             <sourceName>SI</sourceName>
             <destinationName>SI</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -156,8 +149,7 @@
         <dataVariable>
             <sourceName>PO4</sourceName>
             <destinationName>PO4</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -171,8 +163,7 @@
         <dataVariable>
             <sourceName>NO2</sourceName>
             <destinationName>NO2</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -186,8 +177,7 @@
         <dataVariable>
             <sourceName>NO3</sourceName>
             <destinationName>NO3</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -201,8 +191,7 @@
         <dataVariable>
             <sourceName>NH4</sourceName>
             <destinationName>NH4</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -216,8 +205,7 @@
         <dataVariable>
             <sourceName>PO4_WOCE_FLAG</sourceName>
             <destinationName>PO4_WOCE_FLAG</destinationName>
-            <dataType>int</dataType>
-            
+            <dataType>int</dataType>            
             <addAttributes>
                 <att name="_FillValue" type="int">2147483647</att>
                 <att name="colorBarMaximum" type="double">150.0</att>
@@ -230,8 +218,7 @@
         <dataVariable>
             <sourceName>SI_WOCE_FLAG</sourceName>
             <destinationName>SI_WOCE_FLAG</destinationName>
-            <dataType>int</dataType>
-            
+            <dataType>int</dataType>            
             <addAttributes>
                 <att name="_FillValue" type="int">2147483647</att>
                 <att name="colorBarMaximum" type="double">150.0</att>
@@ -244,8 +231,7 @@
         <dataVariable>
             <sourceName>NO3_WOCE_FLAG</sourceName>
             <destinationName>NO3_WOCE_FLAG</destinationName>
-            <dataType>int</dataType>
-            
+            <dataType>int</dataType>            
             <addAttributes>
                 <att name="_FillValue" type="int">2147483647</att>
                 <att name="colorBarMaximum" type="double">150.0</att>
@@ -258,8 +244,7 @@
         <dataVariable>
             <sourceName>NO2_WOCE_FLAG</sourceName>
             <destinationName>NO2_WOCE_FLAG</destinationName>
-            <dataType>int</dataType>
-            
+            <dataType>int</dataType>            
             <addAttributes>
                 <att name="_FillValue" type="int">2147483647</att>
                 <att name="colorBarMaximum" type="double">150.0</att>
@@ -272,8 +257,7 @@
         <dataVariable>
             <sourceName>NH4_WOCE_FLAG</sourceName>
             <destinationName>NH4_WOCE_FLAG</destinationName>
-            <dataType>int</dataType>
-            
+            <dataType>int</dataType>            
             <addAttributes>
                 <att name="_FillValue" type="int">2147483647</att>
                 <att name="colorBarMaximum" type="double">150.0</att>

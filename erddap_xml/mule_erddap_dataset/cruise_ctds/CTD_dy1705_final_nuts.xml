@@ -10,9 +10,6 @@
 <removeMVRows>true</removeMVRows>
 <sortFilesBySourceNames />
 <fileTableInMemory>false</fileTableInMemory>
-
-
-
 <addAttributes>
     <att name="cdm_data_type">Profile</att>
     <att name="cdm_altitude_proxy">pressure</att> 

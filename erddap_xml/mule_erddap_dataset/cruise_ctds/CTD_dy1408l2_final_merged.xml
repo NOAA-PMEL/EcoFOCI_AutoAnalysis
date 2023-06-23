@@ -14,8 +14,7 @@
             <columnNameForExtract />
             <sortedColumnSourceName>time_str</sortedColumnSourceName>
             <sortFilesBySourceNames>time_str</sortFilesBySourceNames>
-            <fileTableInMemory>false</fileTableInMemory>
-            
+            <fileTableInMemory>false</fileTableInMemory>            
             <addAttributes>
             <att name="cdm_data_type">Profile</att>
             <att name="cdm_altitude_proxy">pressure</att> 

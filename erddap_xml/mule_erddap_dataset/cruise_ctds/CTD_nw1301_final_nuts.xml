@@ -37,8 +37,7 @@
         <dataVariable>
             <sourceName>time</sourceName>
             <destinationName>time</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Time</att>
@@ -49,8 +48,7 @@
         <dataVariable>
             <sourceName>depth</sourceName>
             <destinationName>pressure</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -66,8 +64,7 @@
         <dataVariable>
             <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -82,8 +79,7 @@
         <dataVariable>
             <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -96,8 +92,7 @@
         <dataVariable>
             <sourceName>BTLID</sourceName>
             <destinationName>BTLID</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -132,8 +127,7 @@
         <dataVariable>
             <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
-            <dataType>String</dataType>
-            
+            <dataType>String</dataType>            
             <addAttributes>
                 <att name="ioos_category">Identifier</att>
                 <att name="cf_role">profile_id</att>
@@ -142,8 +136,7 @@
         <dataVariable>
             <sourceName>SI</sourceName>
             <destinationName>SI</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -157,8 +150,7 @@
         <dataVariable>
             <sourceName>PO4</sourceName>
             <destinationName>PO4</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -172,8 +164,7 @@
         <dataVariable>
             <sourceName>NO2</sourceName>
             <destinationName>NO2</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -187,8 +178,7 @@
         <dataVariable>
             <sourceName>NO3</sourceName>
             <destinationName>NO3</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -202,8 +192,7 @@
         <dataVariable>
             <sourceName>NH4</sourceName>
             <destinationName>NH4</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>

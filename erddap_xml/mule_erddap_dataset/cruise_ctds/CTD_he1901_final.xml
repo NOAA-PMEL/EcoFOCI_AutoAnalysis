@@ -89,8 +89,7 @@
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-            
+            <att name="standard_name">longitude</att>            
             <att name="units">degrees_east</att>
         </addAttributes>
     </dataVariable>
@@ -110,8 +109,7 @@
     <dataVariable>
             <sourceName>BTL_103</sourceName>
             <destinationName>BTL_103</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
                <att name="_FillValue" type="float">1.0e35</att>

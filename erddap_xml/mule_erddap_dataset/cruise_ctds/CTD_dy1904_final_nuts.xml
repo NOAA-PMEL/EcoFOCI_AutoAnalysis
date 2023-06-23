@@ -10,9 +10,6 @@
 <removeMVRows>true</removeMVRows>
 <sortFilesBySourceNames />
 <fileTableInMemory>false</fileTableInMemory>
-
-
-
 <addAttributes>
     <att name="cdm_data_type">Profile</att>
     <att name="cdm_altitude_proxy">pressure</att> 
@@ -283,9 +280,6 @@
         <att name="standard_name">ammonium_quality_flag_woce</att>
     </addAttributes>
 </dataVariable>
-</dataset>
-
-
-    
+</dataset>    
 
     

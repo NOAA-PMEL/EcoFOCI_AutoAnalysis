@@ -41,8 +41,7 @@
         <dataVariable>
             <sourceName>Pres</sourceName>
             <destinationName>pressure</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="missing_value" type="float">-9999.0</att>
                 <att name="_FillValue" type="float">1.0e35</att>
@@ -57,8 +56,7 @@
         <dataVariable>
             <sourceName>T90(1)</sourceName>
             <destinationName>T_28</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
                <att name="_FillValue" type="float">1.0e35</att>
@@ -70,8 +68,7 @@
         <dataVariable>
             <sourceName>T90(2)</sourceName>
             <destinationName>T2_35</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
                <att name="_FillValue" type="float">1.0e35</att>
@@ -83,8 +80,7 @@
         <dataVariable>
             <sourceName>Sal(1)</sourceName>
             <destinationName>S_41</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                 <att name="ioos_category">Unknown</att>
                 <att name="long_name">Sal(1)</att>
@@ -93,8 +89,7 @@
         <dataVariable>
             <sourceName>Sal(2)</sourceName>
             <destinationName>S_42</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                 <att name="ioos_category">Unknown</att>
                 <att name="long_name">Sal(2)</att>
@@ -103,8 +98,7 @@
         <dataVariable>
             <sourceName>OXYG</sourceName>
             <destinationName>OXYG</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                 <att name="long_name">O_60</att>
                 <att name="missing_value" type="float">-9999.0</att>
@@ -117,8 +111,7 @@
         <dataVariable>
             <sourceName>OXYG2</sourceName>
             <destinationName>OXYG2</destinationName>
-            <dataType>double</dataType>
-            
+            <dataType>double</dataType>            
             <addAttributes>
                 <att name="long_name">O_2060</att>
                 <att name="missing_value" type="float">-9999.0</att>
@@ -131,8 +124,7 @@
         <dataVariable>
             <sourceName>Trans</sourceName>
             <destinationName>Tr_904</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
                <att name="_FillValue" type="float">1.0e35</att>
@@ -146,8 +138,7 @@
         <dataVariable>
             <sourceName>Flur</sourceName>
             <destinationName>fWS_973</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
             <att name="_FillValue" type="double">NaN</att>
             <att name="generic_name">chlor_fluorescence</att>
@@ -160,8 +151,7 @@
         <dataVariable>
             <sourceName>Altimeter</sourceName>
             <destinationName>Altimeter</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="ioos_category">Unknown</att>
                 <att name="long_name">Altimeter</att>
@@ -170,8 +160,7 @@
         <dataVariable>
             <sourceName>wocecode</sourceName>
             <destinationName>wocecode</destinationName>
-            <dataType>long</dataType>
-            
+            <dataType>long</dataType>            
             <addAttributes>
                 <att name="_FillValue" type="long">9223372036854775807</att>
                 <att name="ioos_category">Unknown</att>
@@ -181,8 +170,7 @@
         <dataVariable>
             <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="colorBarMaximum" type="double">90.0</att>
                 <att name="colorBarMinimum" type="double">-90.0</att>
@@ -195,8 +183,7 @@
         <dataVariable>
             <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
-            <dataType>float</dataType>
-            
+            <dataType>float</dataType>            
             <addAttributes>
                 <att name="colorBarMaximum" type="double">180.0</att>
                 <att name="colorBarMinimum" type="double">-180.0</att>
@@ -209,8 +196,7 @@
         <dataVariable>
             <sourceName>time</sourceName>
             <destinationName>time</destinationName>
-            <dataType>String</dataType>
-            
+            <dataType>String</dataType>            
             <addAttributes>
                 <att name="ioos_category">Time</att>
                 <att name="long_name">Time</att>
@@ -222,8 +208,7 @@
         <dataVariable>
             <sourceName>station_id</sourceName>
             <destinationName>profile_id</destinationName>
-            <dataType>String</dataType>
-            
+            <dataType>String</dataType>            
             <addAttributes>
                 <att name="ioos_category">Identifier</att>
                 <att name="cf_role">profile_id</att>
