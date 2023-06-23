@@ -219,7 +219,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>transmissometry</sourceName>
-        <destinationName>transmissometry</destinationName>
+        <destinationName>transmission</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>

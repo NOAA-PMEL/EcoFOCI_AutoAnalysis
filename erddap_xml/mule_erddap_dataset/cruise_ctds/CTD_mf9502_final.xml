@@ -219,9 +219,10 @@
                 <att name="standard_name">sea_water_temperature</att>
                 <att name="units">degree_C</att>
                             </addAttributes>
-        </dataVariable>        <dataVariable>
+        </dataVariable>        
+       <dataVariable>
             <sourceName>Tr_904</sourceName>
-            <destinationName>Tr_904</destinationName>
+            <destinationName>transmission</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
@@ -231,6 +232,7 @@
                 <att name="ioos_category">Unknown</att>
                 <att name="units">percent</att>
                 <att name="standard_name">seawater_optical_transmission_ratio</att>
+                <att name="epic_code" type="int">904</att>
             </addAttributes>
         </dataVariable>    
         <dataVariable>
