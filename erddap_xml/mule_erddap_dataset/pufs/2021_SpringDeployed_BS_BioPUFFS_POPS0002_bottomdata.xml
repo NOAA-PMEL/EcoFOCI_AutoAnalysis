@@ -37,8 +37,7 @@
         <sourceName>time (UTC)</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time (UTC)</att>
@@ -52,8 +51,7 @@
         <sourceName>Pressure_Bar</sourceName>
         <destinationName>Pressure_Bar</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure Bar</att>
@@ -63,8 +61,7 @@
         <sourceName>Temp_DegC_0</sourceName>
         <destinationName>Temp_DegC_0</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Temp Deg C 0</att>
@@ -74,8 +71,7 @@
         <sourceName>Temp_DegC_1</sourceName>
         <destinationName>Temp_DegC_1</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Temp Deg C 1</att>
@@ -85,8 +81,7 @@
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -100,8 +95,7 @@
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -115,8 +109,7 @@
         <sourceName>timeseries_id</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
+        
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>

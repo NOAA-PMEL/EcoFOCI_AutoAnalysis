@@ -2,7 +2,7 @@
 csv hosting of matlab - thingspeak data
 
 -->
-<dataset type="EDDTableFromAsciiFiles" datasetID="OfficeRedboard_WxStation" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="OfficeRedboard_WxStation" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/Volumes/WDC_internal/Users/bell/Downloads/personal/WeatherStations/office_temp_sensor/</fileDir>

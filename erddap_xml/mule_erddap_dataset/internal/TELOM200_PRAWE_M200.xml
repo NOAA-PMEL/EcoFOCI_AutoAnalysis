@@ -1,0 +1,5 @@
+<dataset type="EDDTableFromErddap" datasetID="TELOM200_PRAWE_M200" active="true">
+    <sourceUrl>http://redwing:8080/erddap/tabledap/TELOM200_PRAWE_M200</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <redirect>false</redirect>
+</dataset>

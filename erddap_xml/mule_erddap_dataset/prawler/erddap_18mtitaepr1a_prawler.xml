@@ -1,0 +1,213 @@
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_18mtitaepr1a_prawler" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/home/ecofoci_data/2018/Moorings/18mtitaepr1a/initial_archive/erddap/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    
+    <recursive>true</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <preExtractRegex />
+    <postExtractRegex>\.nc</postExtractRegex>
+    <extractRegex>.*</extractRegex>
+    <columnNameForExtract>profile_id</columnNameForExtract>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames>profile_id</sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    
+    
+    
+    <addAttributes>
+        <att name="cdm_altitude_proxy">depth</att>
+        <att name="cdm_data_type">Profile</att>
+        <att name="cdm_profile_variables">profile_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creation_date">May, 4 2018 20:37 UTC</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - ITAE</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="history">File Created.  Aanderaa Optode Dissolved O2 compensated for Salinity/Depth</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
+        <att name="institution">NOAA/PMEL - ITAE</att>
+        <att name="keywords">18MTITAEPR-1A Preliminary, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, deployment, depth, depth2, dissolved, dissolved o2, ecofoci, environmental, fnu, identifier, kg/m**3, laboratory, m**3, marine, noaa, number, O2, ocean, ocean color, oceans,
+Oceans &gt; Ocean Chemistry &gt; Chlorophyll,
+Oceans &gt; Salinity/Density &gt; Salinity,
+oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practical, prawler, profile, profile_id, psu, record, record_number, reference, salinity, sat, sea, sea_water_practical_salinity, seawater, sigma, sigma-t, SigmaT, since, temperature, time, turbidity, umol, umol/kg, unit, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v29</att>
+        <att name="subsetVariables">profile_id</att>
+        <att name="summary">Prawler Deployment Profile Data - 18MTITAEPR-1A Preliminary</att>
+        <att name="title">Prawler Deployment Profile Data, 18MTITAEPR-1A Preliminary</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>profile_id</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>String</dataType>
+        
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Chlorophyll</sourceName>
+        <destinationName>Chlorophyll</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">30.0</att>
+            <att name="colorBarMinimum" type="double">0.03</att>
+            <att name="colorBarScale">Log</att>
+            <att name="ioos_category">Ocean Color</att>
+            <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Oxy_Sat</sourceName>
+        <destinationName>Oxy_Sat</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="units">percent</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Temperature</sourceName>
+        <destinationName>Temperature</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Oxy_Temperature</sourceName>
+        <destinationName>Oxy_Temperature</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Salinity</sourceName>
+        <destinationName>Salinity</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+            <att name="units">PSU</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Depth</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="standard_name">depth</att>
+            <att name="units">m</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Time</att>
+            <att name="standard_name">time</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SigmaT</sourceName>
+        <destinationName>SigmaT</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Turbidity</sourceName>
+        <destinationName>Turbidity</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Oxy_Conc</sourceName>
+        <destinationName>Oxy_Conc</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+           <att name="ioos_category">Dissolved O2</att>
+           <att name="units">umol/kg</att>
+           <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+        </addAttributes>
+    </dataVariable>    
+</dataset>
