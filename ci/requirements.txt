@@ -3,4 +3,4 @@ matplotlib==3.7.1
 numpy==1.24.3
 pandas==2.0.2
 netcdf4==1.6.4
-erddapy==2.0.1
+erddapy==2.0.2
