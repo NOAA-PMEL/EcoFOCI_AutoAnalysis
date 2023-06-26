@@ -31,7 +31,7 @@
         <att name="title">Labeled output data from RBR - Fishing Fleet Sensors.</att>
     </addAttributes>
     <dataVariable>
-        <sourceName></sourceName>
+        <sourceName>Time</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
