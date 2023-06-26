@@ -27,8 +27,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">trip_number, label, POS, VesselDeploymentID</att>
-        <att name="summary">Data from a local source.</att>
-        <att name="title">Data from a local source.</att>
+        <att name="summary">Labeled output data from RBR - Fishing Fleet Sensors</att>
+        <att name="title">Labeled output data from RBR - Fishing Fleet Sensors.</att>
     </addAttributes>
     <dataVariable>
         <sourceName></sourceName>
