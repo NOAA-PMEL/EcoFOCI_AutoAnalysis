@@ -38,7 +38,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">time, latitude, longitude, profile_id</att>
-        <att name="summary">Preliminary (not final QC) Hydrographic data from dy2306 (Oscar Dyson 22-06) Cruise</att>
+        <att name="summary">Preliminary (not final QC) Hydrographic data from dy2306 (Oscar Dyson 23-06) Cruise</att>
         <att name="title">CTD Data from DY2306 - Preliminary</att>
     </addAttributes>
     <dataVariable>
