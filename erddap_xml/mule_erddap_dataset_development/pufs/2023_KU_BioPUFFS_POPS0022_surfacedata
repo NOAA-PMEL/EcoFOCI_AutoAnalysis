@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="2023_KU_BioPUFFS_POPS0022_Surfacedata" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="2023_KU_BioPUFFS_POPS0022_surfacedata" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2023/initial_archive/BioPUFFS_0021-0030_indiv/</fileDir>
     <fileNameRegex>2023_KU_BioPUFFSPOPS0022_sfc.csv</fileNameRegex>
