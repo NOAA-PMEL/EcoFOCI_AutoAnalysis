@@ -232,6 +232,7 @@
                 <att name="ioos_category">Unknown</att>
                 <att name="units">percent</att>
                 <att name="standard_name">seawater_optical_transmission_ratio</att>
+            <att name="epic_key">Tr_904</att>
                 <att name="epic_code" type="int">904</att>
             </addAttributes>
         </dataVariable>    

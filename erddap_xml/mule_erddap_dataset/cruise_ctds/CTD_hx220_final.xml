@@ -143,7 +143,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>ST_70</sourceName>
-        <destinationName>ST_70</destinationName>
+        <destinationName>sigma_t_ch1</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -154,11 +154,12 @@
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">sea_water_sigma_t</att>
             <att name="units">kg m-3</att>
+            <att name="epic_key">ST_70</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>fWS_973</sourceName>
-        <destinationName>fWS_973</destinationName>
+        <destinationName> chlor_fluorescence </destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -192,7 +193,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>OST_62</sourceName>
-        <destinationName>OST_62</destinationName>
+        <destinationName>oxypercent_sat_ch1</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -201,12 +202,13 @@
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
+            <att name="epic_key">OST_62</att>
             <att name="units">percent</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>O_65</sourceName>
-        <destinationName>O_65</destinationName>
+        <destinationName>oxy_conc_ch1</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -214,6 +216,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
+            <att name="epic_key">O_65</att>
             <att name="units">umol/kg</att>
         </addAttributes>
     </dataVariable>
@@ -233,7 +236,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Tr_904</sourceName>
-        <destinationName>Tr_904</destinationName>
+        <destinationName>transmission</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -244,11 +247,12 @@
             <att name="ioos_category">Unknown</att>
             <att name="units">percent</att>
             <att name="standard_name">seawater_optical_transmission_ratio</att>
+            <att name="epic_key">Tr_904</att>
         </addAttributes>
     </dataVariable>    
     <dataVariable>
         <sourceName>PAR_905</sourceName>
-        <destinationName>PAR_905</destinationName>
+        <destinationName>par</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
