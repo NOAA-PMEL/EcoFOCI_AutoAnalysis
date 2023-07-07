@@ -159,7 +159,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>fWS_973</sourceName>
-        <destinationName> chlor_fluorescence </destinationName>
+        <destinationName>chlor_fluorescence</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
