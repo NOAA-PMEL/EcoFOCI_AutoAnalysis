@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_mf9403_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_su9406_final" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecofoci_data/1994/CTDcasts/mf9403/erddap/final_data/ctd/</fileDir>
+        <fileDir>/home/ecofoci_data/1994/CTDcasts/su9406/erddap/final_data/ctd/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>
@@ -32,8 +32,8 @@
             <att name="license">[standard]</att>
             <att name="sourceUrl">(local files)</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-            <att name="summary">CTD Data from mf9403 - Final </att>
-            <att name="title">CTD Data from mf9403 - Final</att>
+            <att name="summary">CTD Data from su9406 - Final </att>
+            <att name="title">CTD Data from su9406 - Final</att>
         </addAttributes>
         <dataVariable>
             <sourceName>time</sourceName>
