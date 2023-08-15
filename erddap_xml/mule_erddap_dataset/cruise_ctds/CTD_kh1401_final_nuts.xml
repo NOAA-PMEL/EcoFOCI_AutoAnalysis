@@ -32,8 +32,8 @@
             <att name="license">[standard]</att>
             <att name="sourceUrl">(local files)</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-            <att name="summary">Discrete Nutrient Data from KH1401 - Final Nutrient Data </att>
-            <att name="title">Discrete Nutrient Data from KH1401 - Final Nutrient Data</att>
+            <att name="summary">Discrete Nutrient Data from KH1401 -  RUSALCA2014 - Final Nutrient Data </att>
+            <att name="title">Discrete Nutrient Data from KH1401 -  RUSALCA2014 - Final Nutrient Data</att>
         </addAttributes>
         <dataVariable>
             <sourceName>time</sourceName>

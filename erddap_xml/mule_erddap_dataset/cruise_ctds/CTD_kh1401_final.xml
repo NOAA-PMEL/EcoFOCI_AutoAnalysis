@@ -32,8 +32,8 @@
             <att name="license">[standard]</att>
             <att name="sourceUrl">(local files)</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-            <att name="summary">CTD Data from KH1401 - Final </att>
-            <att name="title">CTD Data from KH1401 - Final</att>
+            <att name="summary">CTD Data from KH1401 - RUSALCA2014 - Final </att>
+            <att name="title">CTD Data from KH1401 - RUSALCA2014 - Final</att>
         </addAttributes>
         <dataVariable>
             <sourceName>time</sourceName>
