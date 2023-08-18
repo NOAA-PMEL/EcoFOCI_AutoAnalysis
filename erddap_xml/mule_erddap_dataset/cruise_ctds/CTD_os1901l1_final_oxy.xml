@@ -124,5 +124,14 @@
             <att name="epic_code" type="int">103</att>
         </addAttributes>
     </dataVariable>  
+        <dataVariable>
+            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+            <destinationName>profile_id</destinationName>
+            <dataType>String</dataType>            
+            <addAttributes>
+                <att name="ioos_category">Identifier</att>
+                <att name="cf_role">profile_id</att>
+            </addAttributes>
+        </dataVariable>  
 </dataset>
     
