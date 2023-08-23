@@ -1,6 +1,6 @@
 
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1807l3_final_merged" active="true">
-            <fileDir>.</fileDir>
+            <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_ctdnutdata_from_erddap/</fileDir>
             <fileNameRegex>dy1807l3_merged.csv</fileNameRegex>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
