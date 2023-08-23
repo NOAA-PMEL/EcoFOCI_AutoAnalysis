@@ -109,7 +109,7 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>BTL_103</sourceName>
+                <sourceName>BTLID</sourceName>
                 <destinationName>BTLID</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
