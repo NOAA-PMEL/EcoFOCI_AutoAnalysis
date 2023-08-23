@@ -1,6 +1,6 @@
 
         <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1305_final_merged" active="true">
-            <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_ctdnutdata_from_erddap/</fileDir>
+            <fileDir>.</fileDir>
             <fileNameRegex>dy1305_merged.csv</fileNameRegex>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
@@ -109,23 +109,19 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>BTL_103</sourceName>
-                <destinationName>BTL_103</destinationName>
-                <dataType>float</dataType>
-                <!-- sourceAttributes>
-                    <att name="epic_code" type="int">103</att>
-                    <att name="generic_name">BTL</att>
-                    <att name="long_name">NISKIN BOTTLE NUMBER</att>
-                    <att name="name">BTL_103</att>
-                </sourceAttributes -->
+                <sourceName>BTLID</sourceName>
+                <destinationName>BTLID</destinationName>
+                <dataType>float</dataType>            
                 <addAttributes>
-                   <att name="missing_value" type="float">-9999.0</att>
-                   <att name="_FillValue" type="float">1.0e35</att>
+                    <att name="missing_value" type="float">-9999.0</att>
+                    <att name="_FillValue" type="float">1.0e35</att>
                     <att name="colorBarMaximum" type="double">100.0</att>
                     <att name="colorBarMinimum" type="double">0.0</att>
+                    <att name="long_name">NISKIN BOTTLE NUMBER</att>
                     <att name="ioos_category">Statistics</att>
+                    <att name="epic_code" type="int">103</att>
                 </addAttributes>
-            </dataVariable>
+            </dataVariable>  
             <dataVariable>
                 <sourceName>salinity_ch2</sourceName>
                 <destinationName>salinity_ch2</destinationName>
@@ -193,6 +189,29 @@
                     <att name="units">kg m-3</att>
                 </addAttributes>
             </dataVariable>
+            <dataVariable>
+                <sourceName>sigma_t_ch2</sourceName>
+                <destinationName>sigma_t_ch2</destinationName>
+                <dataType>float</dataType>
+                <!-- sourceAttributes>
+                    <att name="epic_code" type="int">2070</att>
+                    <att name="fill_value" type="double">1.0E35</att>
+                    <att name="FORTRAN_format">f10.2</att>
+                    <att name="generic_name">den</att>
+                    <att name="long_name">SIGMA-T (KG/M**3)</att>
+                    <att name="name">ST_2070</att>
+                    <att name="units">kg m-3</att>
+                </sourceAttributes -->
+                <addAttributes>
+                   <att name="missing_value" type="float">-9999.0</att>
+                   <att name="_FillValue" type="float">1.0e35</att>
+                    <att name="colorBarMaximum" type="double">200.0</att>
+                    <att name="colorBarMinimum" type="double">0.0</att>
+                    <att name="ioos_category">Unknown</att>
+                    <att name="standard_name">sea_water_sigma_t</att>
+                    <att name="units">kg m-3</att>
+                </addAttributes>
+            </dataVariable>            
             <dataVariable>
                 <sourceName>chlor_fluorescence</sourceName>
                 <destinationName>chlor_fluorescence</destinationName>
