@@ -97,7 +97,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>BTL_103</sourceName>
-        <destinationName>BTL_103</destinationName>
+        <destinationName>BTLID</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
