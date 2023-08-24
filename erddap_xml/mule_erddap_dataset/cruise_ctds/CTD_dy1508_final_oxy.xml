@@ -1,6 +1,7 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1507_final_oxy" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1508_final_oxy" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2015/CTDcasts/dy1507/final_data_cf/oxy/</fileDir>
+    <fileDir>/home/ecofoci_data/2015
+    /CTDcasts/dy1508/final_data_cf/oxy/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -27,8 +28,8 @@
         <att name="keywords">BO_61, bottle, BTL_103, data, depth, depth2, dissolved, dissolved o2, latitude, local, micromoles, micromoles/l, niskin, number, O2, oxygen, source, statistics, time</att>        <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">Winkler Titrated Oxygen Data from DY1507</att>
-        <att name="title">Winkler Titrated Oxygen Data from DY1507</att>
+        <att name="summary">Winkler Titrated Oxygen Data from DY1508</att>
+        <att name="title">Winkler Titrated Oxygen Data from DY1508</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
