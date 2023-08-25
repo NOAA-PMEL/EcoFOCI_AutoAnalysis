@@ -100,14 +100,15 @@
             <att name="epic_code" type="int">61</att>
             <att name="generic_name">BO</att>
             <att name="long_name">BOTTLE OXYGEN (micromoles/l)</att>
-            <att name="name">BO_61</att>
+            <att name="name">BO_60</att>
             <att name="units">uM/l</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="long_name">Winkler Bottle Oxygen</att>
-            <att name="epic_code" type="int">61</att>
+            <att name="epic_code" type="int">60</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
+            <att name="units">uM/l</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
