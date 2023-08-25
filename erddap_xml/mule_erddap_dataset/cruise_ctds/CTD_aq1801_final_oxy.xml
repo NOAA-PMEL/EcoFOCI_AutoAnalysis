@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_aq1801_final_oxy" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2018/CTDcasts/aq1801/erddap/final_data/oxy/</fileDir>
+    <fileDir>/home/ecofoci_data/2018/CTDcasts/aq1801/final_data_cf/oxy/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -47,7 +47,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>depth</sourceName>
+        <sourceName>pressure</sourceName>
             <destinationName>pressure</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
@@ -62,7 +62,7 @@
             </addAttributes>
         </dataVariable>
     <dataVariable>
-        <sourceName>lat</sourceName>
+        <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -80,7 +80,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>lon</sourceName>
+        <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>float</dataType>
         <addAttributes>
@@ -93,7 +93,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>BO_61</sourceName>
+        <sourceName>O2</sourceName>
         <destinationName>bottle_oxygen</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -111,7 +111,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>BTL_103</sourceName>
+        <sourceName>BTLID</sourceName>
         <destinationName>BTLID</destinationName>
         <dataType>float</dataType>            
         <addAttributes>
@@ -125,7 +125,7 @@
         </addAttributes>
     </dataVariable>  
         <dataVariable>
-            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+            <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
             <dataType>String</dataType>            
             <addAttributes>
@@ -134,7 +134,7 @@
             </addAttributes>
         </dataVariable>  
         <dataVariable>
-            <sourceName>global:WATER_DEPTH</sourceName>
+            <sourceName>global:WaterDepth</sourceName>
             <destinationName>Water_Depth</destinationName>
             <dataType>float</dataType>
             <addAttributes>
@@ -147,7 +147,7 @@
             </addAttributes>
         </dataVariable>  
         <dataVariable>
-            <sourceName>global:STATION_NAME</sourceName>
+            <sourceName>global:StationNameID</sourceName>
             <destinationName>Station_Name</destinationName>
             <dataType>String</dataType>
             <addAttributes>
