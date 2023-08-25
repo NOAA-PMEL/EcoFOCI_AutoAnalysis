@@ -125,7 +125,7 @@
         </addAttributes>
     </dataVariable>  
         <dataVariable>
-            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+            <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
             <dataType>String</dataType>            
             <addAttributes>
