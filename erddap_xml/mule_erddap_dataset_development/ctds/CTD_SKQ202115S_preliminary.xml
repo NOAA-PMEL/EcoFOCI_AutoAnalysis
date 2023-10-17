@@ -5,7 +5,7 @@ Keep an EPIC key code in meta data of new final data for reference
 ### May make final data variable names epic too... for consistency although it does add confusion 
 -->
 
-<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_SKQ202115S_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_skq202115s_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2021/CTDcasts/skq202115s/initial_archive/</fileDir>
