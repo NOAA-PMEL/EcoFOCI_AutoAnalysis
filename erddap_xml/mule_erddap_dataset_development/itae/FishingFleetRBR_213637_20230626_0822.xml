@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="FishingFleetRBR_213637_20230626_0822" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/ITAE/FishingFleetRBR/processed/213637_20230626_0822/</fileDir>
+    <fileDir>/home/ecofoci_data/2023/SpecialProjects/RBR_Kuskokwim/processed/213637_20230626_0822/</fileDir>
     <fileNameRegex>.*\.labeled.txt</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
