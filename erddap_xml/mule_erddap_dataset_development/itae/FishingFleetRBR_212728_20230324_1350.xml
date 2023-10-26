@@ -4,7 +4,7 @@
     <fileNameRegex>.*</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <charset>ISO-8859-1</charset>
     <columnSeparator>,</columnSeparator>
