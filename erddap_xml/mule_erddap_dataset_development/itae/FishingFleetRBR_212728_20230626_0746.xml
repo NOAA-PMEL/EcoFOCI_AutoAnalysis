@@ -4,7 +4,7 @@
     <fileNameRegex>.*</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <charset>ISO-8859-1</charset>
     <columnSeparator>,</columnSeparator>
@@ -40,7 +40,7 @@
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss.SSS</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
