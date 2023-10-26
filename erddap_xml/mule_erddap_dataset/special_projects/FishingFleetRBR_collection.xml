@@ -28,12 +28,12 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">trajectory_id</att>
-        <att name="subsetVariables">dynamic_label,logbook_label</att>
-        <att name="summary">Labeled output data from RBR - Fishing Fleet Sensors - 212728_20230324_1350</att>
-        <att name="title">Labeled output data from RBR - Fishing Fleet Sensors - 212728_20230324_1350.</att>
+        <att name="subsetVariables">dynamic_label,logbook_label,VesselDeploymentID</att>
+        <att name="summary">Labeled output data from RBR - Fishing Fleet Sensors - 2023</att>
+        <att name="title">Labeled output data from RBR - Fishing Fleet Sensors - 2023.</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>trajectory_id</destinationName>
         <dataType>String</dataType>
         <addAttributes>
