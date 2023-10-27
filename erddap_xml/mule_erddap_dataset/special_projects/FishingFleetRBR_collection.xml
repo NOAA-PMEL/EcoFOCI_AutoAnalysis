@@ -44,14 +44,20 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>String</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="_CoordinateAxisType">Time</att>
+            <att name="actual_range" type="doubleList">1.685664E9 1.6858368E9</att>
+            <att name="axis">T</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss</att>
+            <att name="time_origin">01-JAN-1970 00:00:00</att>
+            <att name="units">seconds since 1970-01-01T00:00:00Z</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1.68585E9</att>
+            <att name="colorBarMinimum" type="double">1.68565E9</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -59,10 +65,14 @@
         <destinationName>Temperature</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="actual_range" type="doubleList">3.2551699 25.168756</att>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Temperature</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="colorBarMaximum" type="double">30.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -70,10 +80,14 @@
         <destinationName>Pressure</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="actual_range" type="doubleList">10.0492241 25.1558651</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="colorBarMaximum" type="double">30.0</att>
+            <att name="colorBarMinimum" type="double">5.0</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -81,10 +95,14 @@
         <destinationName>Sea_pressure</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="actual_range" type="doubleList">-0.0832759 15.0233651</att>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Sea Pressure</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="colorBarMaximum" type="double">20.0</att>
+            <att name="colorBarMinimum" type="double">-5.0</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -92,15 +110,21 @@
         <destinationName>depth</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="_CoordinateAxisType">Height</att>
+            <att name="_CoordinateZisPositive">down</att>
+            <att name="actual_range" type="doubleList">-0.0825968 14.9008549</att>
+            <att name="axis">Z</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
+            <att name="positive">down</att>
             <att name="standard_name">depth</att>
             <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -108,12 +132,15 @@
         <destinationName>trip_number</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="actual_range" type="floatList">-99.0 -99.0</att>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
             <att name="long_name">Trip Number</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">-99.0</att>
+            <att name="missing_value" type="float">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -121,10 +148,14 @@
         <destinationName>tow</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="actual_range" type="floatList">440.0 446.0</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Tow #</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="colorBarMaximum" type="double">448.0</att>
+            <att name="colorBarMinimum" type="double">438.0</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -132,11 +163,11 @@
         <destinationName>logbook_depth</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
             <att name="ioos_category">Location</att>
             <att name="long_name">Logbook Depth</att>
             <att name="standard_name">depth</att>
+        </sourceAttributes -->
+        <addAttributes>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -144,10 +175,14 @@
         <destinationName>POS</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="actual_range" type="floatList">0.0 1.0</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">POS [0 Is Set, 1 Is Haul]</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="colorBarMaximum" type="double">1.5</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -155,14 +190,18 @@
         <destinationName>latitude</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="_CoordinateAxisType">Lat</att>
+            <att name="actual_range" type="floatList">59.30167 59.59</att>
+            <att name="axis">Y</att>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
             <att name="standard_name">latitude</att>
             <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -170,14 +209,18 @@
         <destinationName>longitude</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
+            <att name="_CoordinateAxisType">Lon</att>
+            <att name="actual_range" type="floatList">-164.3883 -163.7367</att>
+            <att name="axis">X</att>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
             <att name="standard_name">longitude</att>
             <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="float">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -185,10 +228,10 @@
         <destinationName>MT</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">MT</att>
+        </sourceAttributes -->
+        <addAttributes>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -196,10 +239,10 @@
         <destinationName>comment</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Comment</att>
+        </sourceAttributes -->
+        <addAttributes>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -207,10 +250,10 @@
         <destinationName>logbook_label</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Label</att>
+        </sourceAttributes -->
+        <addAttributes>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -218,10 +261,10 @@
         <destinationName>dynamic_label</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Label</att>
+        </sourceAttributes -->
+        <addAttributes>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -229,10 +272,10 @@
         <destinationName>VesselDeploymentID</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Vessel Deployment ID</att>
+        </sourceAttributes -->
+        <addAttributes>
         </addAttributes>
     </dataVariable>
 </dataset>
