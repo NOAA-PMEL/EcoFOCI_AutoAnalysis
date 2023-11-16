@@ -1,5 +1,0 @@
-<dataset type="EDDTableFromErddap" datasetID="TELOM200_BARO" active="true">
-    <sourceUrl>http://redwing.pmel.noaa.gov:8080/erddap/tabledap/TELOM200_BARO</sourceUrl>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <redirect>false</redirect>
-</dataset>
