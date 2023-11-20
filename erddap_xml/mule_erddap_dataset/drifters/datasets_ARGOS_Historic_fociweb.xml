@@ -123,7 +123,9 @@ All Historic Drifters (position,sst,strain,voltage)
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Temperature</att>
-            <att name="long_name">Sea Surface Temperature</att>
+            <att name="long_name">Sea Surface temperature in-situ ITS-90 scale</att>
+            <att name="standard_name">sea_surface_temperature</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -137,6 +139,7 @@ All Historic Drifters (position,sst,strain,voltage)
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Satqual</att>
             <att name="description">0: error gt 1500m 1: 500m gt error lt 1500m 2: 250m gt error lt 500m 3: error lt 250m </att>
+            <att name="standard_name">satellite_quality_flag</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -149,10 +152,12 @@ All Historic Drifters (position,sst,strain,voltage)
         <addAttributes>
             <att name="ioos_category">Ice Distribution</att>
             <att name="long_name">Ice</att>
+            <att name="standard_name">sea_ice_concentration</att>
+            <att name="units">percent</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,^(\*)\.nc,1</sourceName>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>trajectory_file_id</destinationName>
         <dataType>String</dataType>
         <addAttributes>
