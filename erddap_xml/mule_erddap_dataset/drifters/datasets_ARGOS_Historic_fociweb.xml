@@ -4,7 +4,7 @@ All Historic Drifters (position,sst,strain,voltage)
 -->
 
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_ARGOS_Historic_fociweb" active="true">
-    <reloadEveryNMinutes>1440</reloadEveryNMinutes>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/historic_focidrifter_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
