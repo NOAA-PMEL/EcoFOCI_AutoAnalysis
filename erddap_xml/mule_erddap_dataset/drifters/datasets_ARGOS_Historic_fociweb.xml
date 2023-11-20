@@ -33,11 +33,11 @@ All Historic Drifters (position,sst,strain,voltage)
     Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature,
     pacific, percent, pmel, record, record_number, reference, sea, sea_surface_temperature, since, sst, strain, surface, temperature, time, voltage, location_quality</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
-        <att name="license">[standard]</att>
+        <att name="license">CC0-1.0</att>
         <att name="sourceUrl">https://www.ecofoci.noaa.gov/drifters/efoci_drifterData.shtml</att>
-        <att name="subsetVariables">trajectory_id, trajectory_file_id</att>
+        <att name="subsetVariables">trajectory_id, trajectory_file_id, Deployment_ship_code, Cruise_number</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">Historic FOCI Drogued Drifter Dataset (also available on website).  Files have been converted from initial ascii to netcdf.</att>
+        <att name="summary">Historic FOCI Drogued Drifter Dataset (also available on FOCI website).  Files have been converted from initial ascii to netcdf.  As the program evolved, temperature sensors were added to the drifters.  Nearby ice concentration from SSMI satellites had also been added to some datastreams.  Please visit the source ascii files or the netcdf files in the erddap "filesystem" for the maximum amount of meta-data information as not all details are broadcast to the collection.</att>
         <att name="title">1986-2015 Historic FOCI Drifter Dataset</att>
     </addAttributes>
     <dataVariable>
@@ -110,6 +110,7 @@ All Historic Drifters (position,sst,strain,voltage)
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Battery</att>
+            <att name="units">volts</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
