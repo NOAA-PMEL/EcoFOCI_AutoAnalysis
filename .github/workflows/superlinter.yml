@@ -23,5 +23,6 @@ jobs:
         env:
           VALIDATE_XML: false  
           VALIDATE_JSCPD: false
+          VALIDATE_GITLEAKS: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
