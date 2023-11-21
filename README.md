@@ -1,6 +1,6 @@
 # EcoFOCI_AutoAnalysis
 
-***Being Migrated to EcoFOCIpy - no support other than absolutely necessary for transition period***
+***Being Migrated to EcoFOCIpy - no support other than erddap xml snippets***
 
 ## Basic Description
 
