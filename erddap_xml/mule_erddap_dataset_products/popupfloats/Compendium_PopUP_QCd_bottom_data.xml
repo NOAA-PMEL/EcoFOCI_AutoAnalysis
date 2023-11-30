@@ -124,7 +124,6 @@
         <sourceName>sst_temp_degc</sourceName>
         <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">SST (Slow Response) Temperature</att>
@@ -142,7 +141,7 @@
             <att name="long_name">Datetime</att>
             <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss</att>        
+            <att name="units">yyyy-MM-ddTHH:mm:ssZ</att>        
         </addAttributes>
     </dataVariable>
 </dataset>
