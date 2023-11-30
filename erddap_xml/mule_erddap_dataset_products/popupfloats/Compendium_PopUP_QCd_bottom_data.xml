@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="2019_PopUP_QCd_bottom_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2019/final/bottom/</fileDir>
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/itae_foci/popups_bottom/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -34,25 +34,41 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables">timeseries_id</att>
+        <att name="subsetVariables">timeseries_id, imei_id</att>
         <att name="summary">2019 Deployed UnderIce prototype Version 5 buoys - QC'd.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
         <att name="title">2019 Aggregate Popup Bottom Data - QC'd </att>
     </addAttributes>
     <dataVariable>
-        <sourceName>id</sourceName>
+        <sourceName>deployment_id</sourceName>
         <destinationName>timeseries_id</destinationName>
-        <dataType>String</dataType>
-        
+        <dataType>String</dataType>        
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>id</sourceName>
+        <destinationName>imei_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>dep_year</sourceName>
+        <destinationName>deployment_year</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Deployment Year</att>
+            <att name="standard_name">year</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
         <sourceName>dep_lat</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -65,7 +81,6 @@
         <sourceName>dep_lon</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -76,10 +91,9 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>pressure</sourceName>
+        <sourceName>pressure_bar</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
@@ -87,29 +101,19 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp</sourceName>
-        <destinationName>ttp_temp</destinationName>
+        <sourceName>ttp_temp_degc</sourceName>
+        <destinationName>topside_temp</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">TTP (Fast Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
+            <att name="comment">This sensor is on the upper half of the buoy.  It has a faster response (for profiling) and may have solar/air contamination in near surface data</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>topside_temp_ADC</sourceName>
-        <destinationName>ttp_temp_ADC</destinationName>
-        <dataType>short</dataType>
-        
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">TTP (Fast Response) Temperature ADC</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>underside_temp</sourceName>
+        <sourceName>sst_temp_degc</sourceName>
         <destinationName>sst_temp</destinationName>
         <dataType>double</dataType>
         
@@ -118,68 +122,13 @@
             <att name="long_name">SST (Slow Response) Temperature</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>underside_temp_ADC</sourceName>
-        <destinationName>sst_temp_ADC</destinationName>
-        <dataType>short</dataType>
-        
-        <addAttributes>
-            <att name="ioos_category">Temperature</att>
-            <att name="long_name">SST (Slow Response) Temperature ADC</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>temp_ref</sourceName>
-        <destinationName>temp_ref</destinationName>
-        <dataType>short</dataType>
-        
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Temp Ref</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>par</sourceName>
-        <destinationName>par</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">70.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Optical Properties</att>
-            <att name="long_name">Downwelling Photosynthetic Photon Radiance In Sea Water</att>
-            <att name="standard_name">downwelling_photosynthetic_photon_radiance_in_sea_water</att>
-            <att name="units">umole m^-2 s^-1</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>fluor</sourceName>
-        <destinationName>fluor</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
-            <att name="ioos_category">Optical Properties</att>
-            <att name="long_name">Fluor</att>
-            <att name="units">ug/L</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>tilt</sourceName>
-        <destinationName>tilt</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Tilt</att>
+            <att name="comment">This sensor is on the lower half of the buoy.  It has a slow thermal response and is going to be about a third of a meter below the waterline</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>datetime</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Datetime</att>
