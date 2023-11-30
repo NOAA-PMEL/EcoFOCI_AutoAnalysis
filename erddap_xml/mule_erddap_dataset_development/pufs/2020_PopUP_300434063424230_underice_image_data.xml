@@ -1,5 +1,5 @@
-<dataset type="EDDTableFromFileNames" datasetID="2020_PopUP_300434063479200_underice_image_data" active="true">
-    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063479200/</fileDir>
+<dataset type="EDDTableFromFileNames" datasetID="2020_PopUP_300434063424230_underice_image_data" active="true">
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063424230/</fileDir>
     <fileNameRegex>.*\.jpg</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -21,8 +21,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables" />
-        <att name="summary">2020 Deployed UnderIce prototype Version 3.1 buoys - 20CKC2-TPRFC9200.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="title">20CKC2-TPRFC9200 Bottom Data </att>
+        <att name="summary">2020 Deployed UnderIce prototype Version 3.1 buoys - 20CKC12-TPRFC4230.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
+        <att name="title">20CKC12-TPRFC4230 Bottom Data </att>
     </addAttributes>
     <dataVariable>
         <sourceName>url</sourceName>
