@@ -140,7 +140,7 @@
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">"yyyy-MM-dd'T'HH:mm:ss'Z'"</att>
+            <att name="units">yyyy-MM-dd'T'HH:mm:ss'Z'</att>
         </addAttributes>
     </dataVariable>
 </dataset>
