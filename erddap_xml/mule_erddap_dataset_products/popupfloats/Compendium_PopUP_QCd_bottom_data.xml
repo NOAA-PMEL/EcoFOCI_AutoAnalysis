@@ -138,10 +138,9 @@
         <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Datetime</att>
-            <att name="source_name">datetime</att>
+            <att name="long_name">Time</att>
             <att name="standard_name">time</att>
-            <att name="units">"yyyy-MM-dd'T'HH:mm:ssZ"</att>
+            <att name="units">"yyyy-MM-dd'T'HH:mm:ss'Z'"</att>
         </addAttributes>
     </dataVariable>
 </dataset>
