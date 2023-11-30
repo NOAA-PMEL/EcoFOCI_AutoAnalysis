@@ -26,17 +26,17 @@
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">Shaun Bell</att>
         <att name="creator_type">institution</att>
-        <att name="creator_url">https://www.pmel.noaa.gov/</att>
-        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_url">https://www.ecofoci.noaa.gov/</att>
+        <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI / ITAE</att>
         <att name="keywords">active, adc, available, data, datetime, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, ecofoci, environmental, fluor, laboratory, local, marine, noaa, ocean, oceans, optical, optical properties, optics, pacific, par, photon, photosynthetic, photosynthetically, pmel, pressure, properties, radiance, radiation, ref, science, sea, seawater, source, temp_ref, temperature, tilt, time, time2, topside, topside_temp, topside_temp_ADC, underside, underside_temp, underside_temp_ADC, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
-        <att name="license">[standard]</att>
+        <att name="license">CC0-1.0</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
-        <att name="subsetVariables">timeseries_id, imei_id</att>
-        <att name="summary">2019 Deployed UnderIce prototype Version 5 buoys - QC'd.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="title">2019 Aggregate Popup Bottom Data - QC'd </att>
+        <att name="subsetVariables">timeseries_id, imei_id, deployment_year, model_version</att>
+        <att name="summary">Compendium of Pop Up Floats - QC'd - Bottom Temperature Only.  Standard measurements are topside and bottomside temperature (topside is for bottom temp / profileing / under ice, bottomside is for sst / under ice, topside may provide air data).  Optional measurements are PAR, fluorescence and occasionally images when under ice are available too via request to EcoFOCI.</att>
+        <att name="title">Compendium of Pop Up Floats - QC'd - Bottom Temperature Only </att>
     </addAttributes>
     <dataVariable>
         <sourceName>deployment_id</sourceName>
@@ -54,7 +54,15 @@
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
-    </dataVariable>    
+    </dataVariable>   
+    <dataVariable>
+        <sourceName>model</sourceName>
+        <destinationName>model_version</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>        
     <dataVariable>
         <sourceName>dep_year</sourceName>
         <destinationName>deployment_year</destinationName>
