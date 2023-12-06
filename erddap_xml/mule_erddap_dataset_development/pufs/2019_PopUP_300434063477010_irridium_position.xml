@@ -36,7 +36,6 @@
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">2019 Deployed Bottom Temperature buoys - 19BSITAE-TP7010. </att>
-        <att name="testOutOfDate">now-7days</att>
         <att name="title">19BSITAE-TP7010 Irridium Position </att>
     </addAttributes>
     <dataVariable>

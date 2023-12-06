@@ -37,7 +37,6 @@
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables" />
         <att name="summary">2018 Deployed UnderIce prototype Version 5 buoys - 18CKC2-TPRFC1240.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="testOutOfDate">now-42days</att>
         <att name="title">18CKC2-TPRFC1240 Profile Data </att>
     </addAttributes>
     <dataVariable>

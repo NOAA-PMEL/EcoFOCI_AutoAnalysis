@@ -36,7 +36,6 @@
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">2020 Deployed UnderIce prototype Version 5 buoys - 20BSPCOD-TPR2560.  Standard measurements are topside and bottomside temperature (topside is for bottom temp, bottomside is for sst, topside may provide air data), PAR, and fluorescence.  Irridium Position is based on the transmission communications and not the onboard GPS which is in the SST feed. Images when under ice are available too via request to EcoFOCI.</att>
-        <att name="testOutOfDate">now-42days</att>
         <att name="title">20BSPCOD-TPR2560 Irridium Position </att>
     </addAttributes>
     <dataVariable>
