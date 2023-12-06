@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_SKQ202115S_final_nuts" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_skq202115s_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-    <fileDir>/home/ecofoci_data/2021/CTDcasts/SKQ202115S/final_data_cf/nut/</fileDir>
+    <fileDir>/home/ecofoci_data/2021/CTDcasts/skq202115s/final_data_cf/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
