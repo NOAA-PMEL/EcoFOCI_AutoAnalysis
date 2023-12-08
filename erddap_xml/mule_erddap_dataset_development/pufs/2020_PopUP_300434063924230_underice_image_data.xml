@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromFileNames" datasetID="2020_PopUP_300434063924230_underice_image_data" active="true">
-    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/initial_archive/300434063924230/</fileDir>
+    <fileDir>/home/ecofoci_data/ITAE/Popup_Buoys/2020/final/images/300434063924230/</fileDir>
     <fileNameRegex>.*\.jpg</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
