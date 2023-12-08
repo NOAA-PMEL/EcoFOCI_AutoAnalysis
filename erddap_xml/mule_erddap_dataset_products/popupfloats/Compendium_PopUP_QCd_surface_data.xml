@@ -112,7 +112,7 @@
     </dataVariable>    
     <dataVariable>
         <sourceName>dep_lon</sourceName>
-        <destinationName>longitude</destinationName>
+        <destinationName>dep_lon</destinationName>
         <dataType>double</dataType>
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
