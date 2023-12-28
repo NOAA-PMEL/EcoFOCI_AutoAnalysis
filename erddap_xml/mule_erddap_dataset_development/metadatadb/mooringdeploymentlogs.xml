@@ -3,8 +3,8 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="mooringdeploymentlogs" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/database2erddap/</fileDir>
-    <fileNameRegex>m.*\.csv</fileNameRegex>
-    <recursive>true</recursive>
+    <fileNameRegex>mooringdeployedinstruments_dump\.csv</fileNameRegex>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
