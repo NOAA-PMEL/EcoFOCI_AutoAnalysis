@@ -2,7 +2,7 @@
   below, notably 'units' for each of the dataVariables. -->
 <dataset type="EDDTableFromAsciiFiles" datasetID="mooringdeploymentlogs" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/database2erddap/</fileDir>
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/database2erddap/</fileDir>
     <fileNameRegex>mooringdeployedinstruments_dump\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
