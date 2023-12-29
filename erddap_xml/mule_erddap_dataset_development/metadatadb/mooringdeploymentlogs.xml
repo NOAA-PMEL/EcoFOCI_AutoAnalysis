@@ -30,7 +30,8 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">Mooring Deployment Logs from EcoFOCI Database - Last Dumped 9/3/2021.</att>
+        <att name="subsetVariables">DeploymentStatus,SiteTypeID,SiteID,GeographicRegion,CruiseNumber_x</att>
+        <att name="summary">Mooring Deployment Logs from EcoFOCI Database - Last Dumped 12/25/2023.</att>
         <att name="title">Mooring Deployment Logs from EcoFOCI Database.</att>
     </addAttributes>
     <dataVariable>
@@ -57,7 +58,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>HistoricMooringID</sourceName>
+        <sourceName>HistoricMooringID_x</sourceName>
         <destinationName>HistoricMooringID</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
@@ -90,7 +91,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>latitude</sourceName>
+        <sourceName>latitude_x</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -106,7 +107,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>longitude</sourceName>
+        <sourceName>longitude_x</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -122,7 +123,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>DeploymentDepth</sourceName>
+        <sourceName>DeploymentDepth_x</sourceName>
         <destinationName>DeploymentDepth</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
@@ -134,7 +135,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>CruiseNumber</sourceName>
+        <sourceName>CruiseNumber_x</sourceName>
         <destinationName>CruiseNumber</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
@@ -153,6 +154,17 @@
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Deployment Date Time GMT</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>RecoveryDateTimeGMT</sourceName>
+        <destinationName>RecoveryDateTimeGMT</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Recovery Date Time GMT</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
