@@ -167,6 +167,41 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>GMTDay</sourceName>
+        <destinationName>GMTDay</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="int">-999</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">GMT Day</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GMTMonth</sourceName>
+        <destinationName>GMTMonth</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">GMT Month</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>GMTYear</sourceName>
+        <destinationName>GMTYear</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="int">-999</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">GMT Year</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>DryBulb</sourceName>
         <destinationName>DryBulb</destinationName>
         <dataType>float</dataType>
