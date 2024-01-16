@@ -1,15 +1,11 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="FishingFleetRBR_212728_20230324_1350" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2023/SpecialProjects/RBR_Kuskokwim/processed/212728_20230324_1350/split/</fileDir>
-    <fileNameRegex>.*</fileNameRegex>
+    <fileDir>/home/ecofoci_data/2023/SpecialProjects/RBR_Kuskokwim/processed/212728_20230324_1350/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <charset>ISO-8859-1</charset>
-    <columnSeparator>,</columnSeparator>
-    <columnNamesRow>1</columnNamesRow>
-    <firstDataRow>2</firstDataRow>
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
     </sourceAttributes -->
@@ -31,56 +27,11 @@
         <att name="title">Labeled output data from RBR - Fishing Fleet Sensors - 212728_20230324_1350.</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>time</sourceName>
-        <destinationName>time</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Time</att>
-            <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Temperature</sourceName>
-        <destinationName>Temperature</destinationName>
+        <sourceName>Depth_rbr</sourceName>
+        <destinationName>Depth_rbr</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Temperature</att>
-            <att name="long_name">Temperature</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Pressure</sourceName>
-        <destinationName>Pressure</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Pressure</att>
-            <att name="long_name">Pressure</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Sea pressure</sourceName>
-        <destinationName>Sea_pressure</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Pressure</att>
-            <att name="long_name">Sea Pressure</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Depth</sourceName>
-        <destinationName>depth</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">8000.0</att>
@@ -88,129 +39,97 @@
             <att name="colorBarPalette">TopographyDepth</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
+            <att name="missing_value" type="double">NaN</att>
             <att name="standard_name">depth</att>
-            <att name="units">m</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>trip number</sourceName>
-        <destinationName>trip_number</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">100.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Statistics</att>
-            <att name="long_name">Trip Number</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>tow #</sourceName>
-        <destinationName>tow</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Tow #</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>depth</sourceName>
-        <destinationName>logbook_depth</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Logbook Depth</att>
-            <att name="standard_name">depth</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>POS [0 is set, 1 is haul]</sourceName>
-        <destinationName>POS</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">POS [0 Is Set, 1 Is Haul]</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">180.0</att>
-            <att name="colorBarMinimum" type="double">-180.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-            <att name="units">degrees_east</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>MT</sourceName>
         <destinationName>MT</destinationName>
-        <dataType>String</dataType>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">MT</att>
+            <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>comment</sourceName>
-        <destinationName>comment</destinationName>
-        <dataType>String</dataType>
+        <sourceName>POS_[0_is_set,_1_is_haul]</sourceName>
+        <destinationName>POS_0_is_set_1_is_haul</destinationName>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-            <att name="long_name">Comment</att>
+            <att name="long_name">POS [0 Is Set, 1 Is Haul]</att>
+            <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>logbook_label</sourceName>
-        <destinationName>logbook_label</destinationName>
-        <dataType>String</dataType>
+        <sourceName>Pressure_data</sourceName>
+        <destinationName>Pressure_data</destinationName>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Label</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure Data</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>label</sourceName>
-        <destinationName>dynamic_label</destinationName>
-        <dataType>String</dataType>
+        <sourceName>Pressure_rbr</sourceName>
+        <destinationName>Pressure_rbr</destinationName>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Label</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Pressure Rbr</att>
+            <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Sea_pressure_rbr</sourceName>
+        <destinationName>Sea_pressure_rbr</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Pressure</att>
+            <att name="long_name">Sea Pressure Rbr</att>
+            <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Temperature_data</sourceName>
+        <destinationName>Temperature_data</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Temperature Data</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Temperature_rbr</sourceName>
+        <destinationName>Temperature_rbr</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Temperature Rbr</att>
+            <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -222,6 +141,166 @@
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Vessel Deployment ID</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>comment</sourceName>
+        <destinationName>comment</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Comment</att>
+            <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>date</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="units">days since 2023-02-26 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Date</att>
+            <att name="missing_value" type="double">NaN</att>
+            <att name="source_name">date</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 2023-02-26T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>datetime</sourceName>
+        <destinationName>datetime</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth</att>
+            <att name="missing_value" type="double">NaN</att>
+            <att name="standard_name">depth</att>
+            <att name="units">m</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>label</sourceName>
+        <destinationName>label</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Label</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="missing_value" type="double">NaN</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>logbook_label</sourceName>
+        <destinationName>logbook_label</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Logbook Label</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>logtime</sourceName>
+        <destinationName>logtime</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Logtime</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="missing_value" type="double">NaN</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>tow_#</sourceName>
+        <destinationName>tow</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Tow #</att>
+            <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>trip_number</sourceName>
+        <destinationName>trip_number</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Trip Number</att>
+            <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
 </dataset>
