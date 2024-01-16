@@ -103,24 +103,6 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>date</sourceName>
-        <destinationName>date</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="calendar">proleptic_gregorian</att>
-            <att name="units">days since 2023-02-26 00:00:00</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Date</att>
-            <att name="missing_value" type="double">NaN</att>
-            <att name="source_name">date</att>
-            <att name="standard_name">time</att>
-            <att name="units">days since 2023-02-26T00:00:00Z</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>datetime</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
