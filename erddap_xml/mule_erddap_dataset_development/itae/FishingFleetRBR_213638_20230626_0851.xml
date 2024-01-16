@@ -27,36 +27,6 @@
         <att name="title">Labeled output data from RBR - Fishing Fleet Sensors - 213638_20230626_0851.</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>Depth_rbr</sourceName>
-        <destinationName>Depth_rbr</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">8000.0</att>
-            <att name="colorBarMinimum" type="double">-8000.0</att>
-            <att name="colorBarPalette">TopographyDepth</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Depth</att>
-            <att name="missing_value" type="double">NaN</att>
-            <att name="standard_name">depth</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>MT</sourceName>
-        <destinationName>MT</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">MT</att>
-            <att name="missing_value" type="double">NaN</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>POS_[0_is_set,_1_is_haul]</sourceName>
         <destinationName>POS_0_is_set_1_is_haul</destinationName>
         <dataType>double</dataType>
@@ -82,32 +52,6 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Pressure_rbr</sourceName>
-        <destinationName>Pressure_rbr</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Pressure</att>
-            <att name="long_name">Pressure Rbr</att>
-            <att name="missing_value" type="double">NaN</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Sea_pressure_rbr</sourceName>
-        <destinationName>Sea_pressure_rbr</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Pressure</att>
-            <att name="long_name">Sea Pressure Rbr</att>
-            <att name="missing_value" type="double">NaN</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>Temperature_data</sourceName>
         <destinationName>Temperature_data</destinationName>
         <dataType>double</dataType>
@@ -117,19 +61,6 @@
         <addAttributes>
             <att name="ioos_category">Temperature</att>
             <att name="long_name">Temperature Data</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Temperature_rbr</sourceName>
-        <destinationName>Temperature_rbr</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Temperature</att>
-            <att name="long_name">Temperature Rbr</att>
-            <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -191,7 +122,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>depth</sourceName>
+        <sourceName>Sea_pressure_data</sourceName>
         <destinationName>depth</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -205,7 +136,7 @@
             <att name="long_name">Depth</att>
             <att name="missing_value" type="double">NaN</att>
             <att name="standard_name">depth</att>
-            <att name="units">m</att>
+            <att name="units">dbar</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -256,6 +187,17 @@
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Logtime</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>log_depth</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Logbook Depth</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
