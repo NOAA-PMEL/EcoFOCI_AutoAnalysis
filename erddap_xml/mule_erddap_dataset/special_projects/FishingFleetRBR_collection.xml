@@ -173,7 +173,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>date</sourceName>
-        <destinationName>time</destinationName>
+        <destinationName>date</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
@@ -191,7 +191,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>datetime</sourceName>
-        <destinationName>datetime</destinationName>
+        <destinationName>time</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="double">NaN</att>
