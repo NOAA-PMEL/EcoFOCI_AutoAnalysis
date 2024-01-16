@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_17bsitae_prawler" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="erddap_16bsitae_prawler" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2016/Moorings/16bsitae/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
