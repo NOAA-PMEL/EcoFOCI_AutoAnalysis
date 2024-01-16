@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="FishingFleetRBR_212728_20230626_0746" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="FishingFleetRBR_212728_20230626_0746" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2023/SpecialProjects/RBR_Kuskokwim/processed/212728_20230626_0746/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
