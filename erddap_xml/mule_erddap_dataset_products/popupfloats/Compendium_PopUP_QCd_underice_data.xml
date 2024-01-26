@@ -16,9 +16,7 @@
     <sortedColumnSourceName>datetime</sortedColumnSourceName>
     <sortFilesBySourceNames>datetime</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    
-    
+    <defaultDataQuery>&amp;time&gt;=max(time)-100year</defaultDataQuery>
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id</att>
