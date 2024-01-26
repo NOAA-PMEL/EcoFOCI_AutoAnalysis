@@ -66,7 +66,6 @@
         <destinationName>deployment_year</destinationName>
         <dataType>int</dataType>
         <addAttributes>
-            <att name="_FillValue" type="float">2147483647</att>
             <att name="ioos_category">Time</att>
             <att name="long_name">Deployment Year</att>
             <att name="standard_name">year</att>
