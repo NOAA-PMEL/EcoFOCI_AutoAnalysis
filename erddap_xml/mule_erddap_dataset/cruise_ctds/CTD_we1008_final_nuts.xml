@@ -3,16 +3,12 @@
 
     <fileDir>/home/ecofoci_data/2010/CTDcasts/we1008/final_data_cf/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames />
     <fileTableInMemory>false</fileTableInMemory>
-
-    
-    
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
