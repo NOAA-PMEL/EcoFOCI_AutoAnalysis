@@ -262,7 +262,7 @@
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Optical Properties</att>
             <att name="generic_name">PAR</att>
-            <att name="standard_name">downwelling_photosynthetic_photon_spherical_irradiance_in_sea_water</att>
+            <att name="standard_name">spherical_photosynthetic_photon_irradiance_in_sea_water</att>
             <att name="long_name">Photosynthetic Active Radiation</att>
             <att name="units">uEin cm-2 s-1</att>
         </addAttributes>
