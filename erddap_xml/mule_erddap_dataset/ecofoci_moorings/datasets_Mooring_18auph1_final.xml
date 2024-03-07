@@ -35,7 +35,7 @@
             <att name="long_name">Datetime</att>
             <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
-            <att name="units">yyyy-MM-dd HH:mm:ss</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
