@@ -27,8 +27,7 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">trajectory_id</att>
-        <att name="subsetVariables">trajectory_id,label,logbook_label,VesselDeploymentID</att>
+        <att name="subsetVariables">trajectory_id,logbook_label,VesselDeploymentID</att>
         <att name="summary">Labeled output data from RBR - Fishing Fleet Sensors - 2023</att>
         <att name="title">Labeled output data from RBR - Fishing Fleet Sensors - 2023.</att>
     </addAttributes>
