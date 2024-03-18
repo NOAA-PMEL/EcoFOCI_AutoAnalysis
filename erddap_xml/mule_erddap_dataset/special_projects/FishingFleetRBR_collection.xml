@@ -27,8 +27,7 @@
         <att name="license">[standard]</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">trajectory_id</att>
-        <att name="subsetVariables">trajectory_id,label,logbook_label,VesselDeploymentID</att>
+        <att name="subsetVariables">trajectory_id,logbook_label,VesselDeploymentID</att>
         <att name="summary">Labeled output data from RBR - Fishing Fleet Sensors - 2023</att>
         <att name="title">Labeled output data from RBR - Fishing Fleet Sensors - 2023.</att>
     </addAttributes>
@@ -55,19 +54,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Pressure_data</sourceName>
-        <destinationName>Pressure_data</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Pressure</att>
-            <att name="long_name">Pressure Data</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Temperature_data</sourceName>
+        <sourceName>Temperature_rbr</sourceName>
         <destinationName>Temperature_data</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -90,19 +77,6 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>comment</sourceName>
-        <destinationName>comment</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Comment</att>
-            <att name="missing_value" type="double">NaN</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>datetime</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
@@ -119,7 +93,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Sea_pressure_data</sourceName>
+        <sourceName>Sea_pressure_rbr</sourceName>
         <destinationName>depth</destinationName>
         <dataType>double</dataType>
         <!-- sourceAttributes>
@@ -134,17 +108,6 @@
             <att name="missing_value" type="double">NaN</att>
             <att name="standard_name">depth</att>
             <att name="units">m</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>label</sourceName>
-        <destinationName>label</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Label</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -173,28 +136,6 @@
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Logbook Label</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>logtime</sourceName>
-        <destinationName>logtime</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Logtime</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>depth</sourceName>
-        <destinationName>log_depth</destinationName>
-        <dataType>String</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Logbook Depth</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
