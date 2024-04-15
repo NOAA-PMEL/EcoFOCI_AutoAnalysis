@@ -11,9 +11,6 @@
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    
-    
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id, Instrument_Identifier, Serial_Number, latitude, longitude</att>
