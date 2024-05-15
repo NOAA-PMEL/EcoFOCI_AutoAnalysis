@@ -24,27 +24,21 @@
     </addAttributes>
     <axisVariable>
         <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName>
-        
-        <addAttributes>
+        <destinationName>latitude</destinationName><addAttributes>
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
         </addAttributes>
     </axisVariable>
     <axisVariable>
         <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName>
-        
-        <addAttributes>
+        <destinationName>longitude</destinationName><addAttributes>
             <att name="ioos_category">Location</att>
             <att name="long_name">Longitude</att>
         </addAttributes>
     </axisVariable>
     <axisVariable>
         <sourceName>time</sourceName>
-        <destinationName>time</destinationName>
-        
-        <addAttributes>
+        <destinationName>time</destinationName><addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -53,9 +47,7 @@
     </axisVariable>
     <axisVariable>
         <sourceName>depth</sourceName>
-        <destinationName>depth</destinationName>
-        
-        <addAttributes>
+        <destinationName>depth</destinationName><addAttributes>
             <att name="positive">down</att>
             <att name="ioos_category">Location</att>
             <att name="long_name">Depth</att>
@@ -67,9 +59,7 @@
     <dataVariable>
         <sourceName>v_curr_comp</sourceName>
         <destinationName>v_comp_current</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
@@ -80,9 +70,7 @@
     <dataVariable>
         <sourceName>u_curr_comp</sourceName>
         <destinationName>u_comp_current</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>            
@@ -93,9 +81,7 @@
     <dataVariable>
         <sourceName>w_curr_comp</sourceName>
         <destinationName>w_1204</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
@@ -106,9 +92,7 @@
     <dataVariable>
         <sourceName>w_comp_current_err</sourceName>
         <destinationName>Werr_1201</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">50.0</att>
@@ -120,9 +104,7 @@
     <dataVariable>
         <sourceName>agc1</sourceName>
         <destinationName>agc1</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -135,9 +117,7 @@
     <dataVariable>
         <sourceName>agc2</sourceName>
         <destinationName>agc2</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -150,9 +130,7 @@
     <dataVariable>
         <sourceName>agc3</sourceName>
         <destinationName>agc3</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -165,9 +143,7 @@
     <dataVariable>
         <sourceName>agc4</sourceName>
         <destinationName>agc4</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>

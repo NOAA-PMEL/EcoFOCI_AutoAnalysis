@@ -28,9 +28,7 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -40,9 +38,7 @@
     <dataVariable>
         <sourceName>temperature</sourceName>
         <destinationName>temperature</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Temperature</att>
@@ -51,9 +47,7 @@
     <dataVariable>
         <sourceName>heading</sourceName>
         <destinationName>heading</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Inst Heading</att>
             <att name="standard_name">inst heading</att>
@@ -62,9 +56,7 @@
     <dataVariable>
         <sourceName>pitch</sourceName>
         <destinationName>pitch</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">inst pitch</att>
         </addAttributes>
@@ -72,9 +64,7 @@
     <dataVariable>
         <sourceName>roll</sourceName>
         <destinationName>roll</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">inst roll</att>
         </addAttributes>
@@ -82,9 +72,7 @@
     <dataVariable>
         <sourceName>heading_stdev</sourceName>
         <destinationName>heading_stdev</destinationName>
-        <dataType>int</dataType>
-        
-        <addAttributes>
+        <dataType>int</dataType><addAttributes>
             <att name="_FillValue" type="int">2147483647</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -94,9 +82,7 @@
     <dataVariable>
         <sourceName>pitch_stdev</sourceName>
         <destinationName>pitch_stdev</destinationName>
-        <dataType>int</dataType>
-        
-        <addAttributes>
+        <dataType>int</dataType><addAttributes>
             <att name="_FillValue" type="int">2147483647</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -106,9 +92,7 @@
     <dataVariable>
         <sourceName>roll_stdev</sourceName>
         <destinationName>roll_stdev</destinationName>
-        <dataType>int</dataType>
-        
-        <addAttributes>
+        <dataType>int</dataType><addAttributes>
             <att name="_FillValue" type="int">2147483647</att>
             <att name="colorBarMaximum" type="double">50.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -118,9 +102,7 @@
     <dataVariable>
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -130,9 +112,7 @@
     <dataVariable>
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -142,9 +122,7 @@
     <dataVariable>
         <sourceName>depth</sourceName>
         <destinationName>depth</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -155,9 +133,7 @@
     <dataVariable>
         <sourceName>pressure</sourceName>
         <destinationName>pressure</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Sea Level</att>
@@ -179,9 +155,7 @@
     <dataVariable>
         <sourceName>par</sourceName>
         <destinationName>par</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="scale_factor" type="double">10000</att>
             <att name="units">umol m-2 s-1</att>
            <att name="missing_value" type="float">-9999.0</att>
@@ -192,9 +166,7 @@
     <dataVariable>
         <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
@@ -209,9 +181,7 @@
     <dataVariable>
         <sourceName>oxy_percentsat</sourceName>
         <destinationName>oxygen_saturation</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -224,9 +194,7 @@
     <dataVariable>
         <sourceName>oxy_conc</sourceName>
         <destinationName>Oxygen_Concentration_Molar</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -237,9 +205,7 @@
     <dataVariable>
         <sourceName>oxy_conc_umkg</sourceName>
         <destinationName>oxygen_concentration</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -250,9 +216,7 @@
     <dataVariable>
         <sourceName>v_curr_comp</sourceName>
         <destinationName>v_comp_current</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
@@ -263,9 +227,7 @@
     <dataVariable>
         <sourceName>u_curr_comp</sourceName>
         <destinationName>u_comp_current</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>            
@@ -276,9 +238,7 @@
     <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
-        <dataType>String</dataType>
-        
-        <addAttributes>
+        <dataType>String</dataType><addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
         </addAttributes>

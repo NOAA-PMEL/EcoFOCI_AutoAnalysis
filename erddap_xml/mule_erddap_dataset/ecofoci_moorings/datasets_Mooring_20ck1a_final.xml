@@ -28,9 +28,7 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -40,9 +38,7 @@
     <dataVariable>
         <sourceName>temperature</sourceName>
         <destinationName>temperature</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Temperature</att>
@@ -51,9 +47,7 @@
     <dataVariable>
         <sourceName>conductivity</sourceName>
         <destinationName>conductivity</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">30.0</att>
             <att name="ioos_category">Salinity</att>
@@ -63,9 +57,7 @@
     <dataVariable>
         <sourceName>salinity</sourceName>
         <destinationName>salinity</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
@@ -74,9 +66,7 @@
     <dataVariable>
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -86,9 +76,7 @@
     <dataVariable>
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -98,9 +86,7 @@
     <dataVariable>
         <sourceName>depth</sourceName>
         <destinationName>depth</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -111,9 +97,7 @@
     <dataVariable>
         <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
@@ -138,9 +122,7 @@
     <dataVariable>
         <sourceName>v_comp_current</sourceName>
         <destinationName>v_comp_current</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>
@@ -151,9 +133,7 @@
     <dataVariable>
         <sourceName>u_comp_current</sourceName>
         <destinationName>u_comp_current</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="missing_value" type="double">1.0e35</att>            
@@ -164,9 +144,7 @@
     <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
-        <dataType>String</dataType>
-        
-        <addAttributes>
+        <dataType>String</dataType><addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
         </addAttributes>

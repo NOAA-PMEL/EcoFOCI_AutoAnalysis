@@ -33,9 +33,7 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
+        <dataType>double</dataType><addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -45,9 +43,7 @@
     <dataVariable>
         <sourceName>depth</sourceName>
         <destinationName>depth</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
@@ -60,9 +56,7 @@
      <dataVariable>
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -76,9 +70,7 @@
     <dataVariable>
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
@@ -94,9 +86,7 @@
     <dataVariable>
         <sourceName>T_20</sourceName>
         <destinationName>T_20</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">40.0</att>
@@ -108,63 +98,49 @@
     <dataVariable>
         <sourceName>Roll_1217</sourceName>
         <destinationName>Roll_1217</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>HSD_1218</sourceName>
         <destinationName>HSD_1218</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>RSD_1220</sourceName>
         <destinationName>RSD_1220</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>Ptch_1216</sourceName>
         <destinationName>Ptch_1216</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>Hdg_1215</sourceName>
         <destinationName>Hdg_1215</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>PSD_1219</sourceName>
         <destinationName>PSD_1219</destinationName>
-        <dataType>float</dataType>
-        
-        <addAttributes>
+        <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Unknown</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
-        <dataType>String</dataType>
-        
-        <addAttributes>
+        <dataType>String</dataType><addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
         </addAttributes>
