@@ -1,9 +1,9 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2306_preliminary_nuts" active="false">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2306_preliminary_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
     <fileDir>/home/ecofoci_data/2023/CTDcasts/dy2306/initial_archive/nut/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <recursive>true</recursive>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
