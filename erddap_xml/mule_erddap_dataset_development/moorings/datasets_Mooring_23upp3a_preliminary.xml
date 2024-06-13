@@ -1,7 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_23upp3a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    
-    <fileDir>/home/ecofoci_data/2021/Moorings/23upp3a/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/20213/Moorings/23upp3a/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -17,8 +16,6 @@
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id, latitude, longitude</att>
