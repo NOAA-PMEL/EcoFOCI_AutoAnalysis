@@ -73,6 +73,39 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>oxy_concM_ch2</sourceName>
+        <destinationName>oxy_concM_ch2</destinationName>
+        <dataType>double</dataType>
+        
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">500.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>oxy_percentsat_ch2</sourceName>
+        <destinationName>oxy_percentsat_ch2</destinationName>
+        <dataType>double</dataType>
+        
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>oxy_conc_ch2</sourceName>
+        <destinationName>oxy_conc_ch2</destinationName>
+        <dataType>double</dataType>
+        
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">500.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>salinity_ch1</sourceName>
         <destinationName>salinity_ch1</destinationName>
         <dataType>double</dataType>
