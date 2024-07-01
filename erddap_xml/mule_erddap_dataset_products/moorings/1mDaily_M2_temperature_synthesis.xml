@@ -1,75 +1,79 @@
 
     <dataset type="EDDGridFromNcFiles" datasetID="1mDaily_M2_temperature_synthesis" active="true">
-        <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/1m_mooring_synthesis/</fileDir>
-        <fileNameRegex>M2_composite_1m.daily.nc</fileNameRegex>
-        <recursive>false</recursive>
-        <pathRegex>.*</pathRegex>
-        <metadataFrom>last</metadataFrom>
-        <matchAxisNDigits>20</matchAxisNDigits>
-        <fileTableInMemory>false</fileTableInMemory>
-        <accessibleViaFiles>false</accessibleViaFiles>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="cdm_data_type">Grid</att>
-            <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-            <att name="infoUrl">https://pmel.noaa.gov/</att>
-            <att name="institution">NOAA/PMEL - EcoFOCI</att>
-            <att name="keywords">gridded, depth, earth, Earth Science &gt; Oceans &gt; Earth Science &gt; Oceans &gt; Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, Earth Science &gt; Oceans &gt; latitude, local, longitude, seawater, temperature, water</att>
-            <att name="keywords_vocabulary">GCMD Science Keywords</att>
-            <att name="license">[standard]</att>
-            <att name="standard_name_vocabulary">CF Standard Name Table v85</att>
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/1m_mooring_synthesis/</fileDir>
+    <fileNameRegex>M2_composite_1m.daily.nc</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <matchAxisNDigits>20</matchAxisNDigits>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+        <att name="_NCProperties">version=2,netcdf=4.7.4,hdf5=1.12.0,</att>
+        <att name="history">FERRET V5.70 (alpha) 30-Oct-09</att>
+    </sourceAttributes -->
+    <addAttributes>
+        <att name="_NCProperties">null</att>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
+        <att name="infoUrl">https://pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">data, depth, gday, invar, local, source, temperature, time</att>
+        <att name="license">[standard]</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
             <att name="summary">QC'd (final) Synthesized Mooring Temperature data from M2.  This dataset has been gridded to daily temporal resolution and 1m depth resolution.  It is a sysnthesis between moored time-series data, ctd data and satellite retrieved SST.  Discussion of how gaps in space and depth are addressed can be found in ()</att>
             <att name="title">Daily Synthesized Mooring Temperature data from M2</att>
+    </addAttributes>
+    <axisVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <!-- sourceAttributes>
+            <att name="axis">T</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="time_origin">15-JAN-1901</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
         </addAttributes>
-        <axisVariable>
-            <sourceName>depth</sourceName>
-            <destinationName>depth</destinationName>
-            <!-- sourceAttributes>
-                <att name="_FillValue" type="double">NaN</att>
-            </sourceAttributes -->
-            <addAttributes>
-                <att name="ioos_category">Location</att>
-                <att name="long_name">Depth</att>
-                <att name="standard_name">depth</att>
-                <att name="units">m</att>
-            </addAttributes>
-        </axisVariable>
-        <axisVariable>
-            <sourceName>time</sourceName>
-            <destinationName>time</destinationName>
-            <!-- sourceAttributes>
-                <att name="calendar">proleptic_gregorian</att>
-                <att name="units">days since 1970-01-01 00:00:00</att>
-            </sourceAttributes -->
-            <addAttributes>
-                <att name="ioos_category">Time</att>
-                <att name="long_name">Date</att>
-                <att name="source_name">date</att>
-                <att name="standard_name">time</att>
-                <att name="units">days since 1970-01-01 00:00:00</att>
-            </addAttributes>
-        </axisVariable>
-        <dataVariable>
-            <sourceName>temperature</sourceName>
-            <destinationName>temperature</destinationName>
-            <dataType>double</dataType>
-            <!-- sourceAttributes>
-                <att name="_FillValue" type="double">NaN</att>
-            </sourceAttributes -->
-            <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
-                <att name="epic_key">T_20</att>
-                <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
-                <att name="standard_name">sea_water_temperature</att>
-                <att name="units">degree_C</att>
-                <att name="colorBarMaximum" type="double">20.0</att>
-                <att name="colorBarMinimum" type="double">-2.0</att>
-                <att name="ioos_category">Temperature</att>
-                <att name="standard_name">sea_water_temperature</att>
-            </addAttributes>
-        </dataVariable>
-    </dataset>
-    
+    </axisVariable>
+    <axisVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>depth</destinationName>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="axis">Z</att>
+            <att name="point_spacing">even</att>
+            <att name="positive">down</att>
+            <att name="units">M</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth</att>
+            <att name="standard_name">depth</att>
+        </addAttributes>
+    </axisVariable>
+    <dataVariable>
+        <sourceName>temperature</sourceName>
+        <destinationName>temperature</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">T_20</att>
+            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+            <att name="colorBarMaximum" type="double">20.0</att>
+            <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_water_temperature</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
