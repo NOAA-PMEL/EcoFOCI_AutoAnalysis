@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="mooringdeploymentlogs" active="true">
     <reloadEveryNMinutes>1440</reloadEveryNMinutes>
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/database2erddap/</fileDir>
-    <fileNameRegex>mooringdeploymentlogs_dump\.csv</fileNameRegex>
+    <fileNameRegex>MooringDatabase\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
