@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="cruisecastlogs" active="true">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <reloadEveryNMinutes>1440</reloadEveryNMinutes>
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/database2erddap/</fileDir>
     <fileNameRegex>cruisecastlogs_dump\.csv</fileNameRegex>
     <recursive>false</recursive>
