@@ -69,7 +69,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>DeploymentDateTimeGMT</sourceName>
-        <destinationName>time</destinationName>
+        <destinationName>DeploymentDateTimeGMT</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
