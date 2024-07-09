@@ -120,7 +120,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Latitude</sourceName>
-        <destinationName>latitude</destinationName>
+        <destinationName>latitudeS</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -133,7 +133,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Longitude</sourceName>
-        <destinationName>longitude</destinationName>
+        <destinationName>longitudeS</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
