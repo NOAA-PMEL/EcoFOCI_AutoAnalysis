@@ -44,11 +44,13 @@ completeness, or usefulness, of this information.</att>
     <addAttributes>
         <att name="_NCProperties">null</att>
         <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_timeseries_variables">timeseries_id</att>
         <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="subsetVariables">timeseries_id</att>
         <att name="keywords">05bs8a, active, available, chemistry, chlorophyll, chlorophyll_fluorescence, color, concentration, concentration_of_chlorophyll_in_sea_water, control, data, date, density, depth, dissolved, dissolved o2, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, ecofoci, environmental, final, gridded, in-situ, its, its-90, laboratory, latitude, local, longitude, marine, mooring, noaa, noaa/pmel, number, O2, ocean, ocean color, oceans, optical, optical properties, optics, oxygen, oxygen_concentration, oxygen_saturation, pacific, par, photon, photosynthetic, photosynthetically, pmel, practical, pressure, properties, quality, radiance, radiation, salinity, salinity/density, saturation, scale, science, sea, sea_water_practical_salinity, sea_water_temperature, seawater, serial, serial_number, situ, source, statistics, temperature, time, water</att>
         <att name="summary">Synthesized Bottom Temperature Timeseries from Bering Sea moorings M2, M4, M5, M8</att>
         <att name="title">BeringSeaMoorings BottomTemperatures Complete Timeseries, final</att>
