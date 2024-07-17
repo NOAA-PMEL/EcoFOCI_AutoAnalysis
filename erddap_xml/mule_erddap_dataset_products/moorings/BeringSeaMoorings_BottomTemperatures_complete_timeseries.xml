@@ -43,6 +43,7 @@ completeness, or usefulness, of this information.</att>
     -->
     <addAttributes>
         <att name="_NCProperties">null</att>
+        <att name="cdm_data_type">TimeSeries</att>
         <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
@@ -91,6 +92,15 @@ completeness, or usefulness, of this information.</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
         </addAttributes>
     </dataVariable>
 </dataset>
