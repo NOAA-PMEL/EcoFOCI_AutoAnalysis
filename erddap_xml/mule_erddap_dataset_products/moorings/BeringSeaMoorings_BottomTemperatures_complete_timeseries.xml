@@ -97,6 +97,21 @@ completeness, or usefulness, of this information.</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">depth</att>
+            <att name="standard_name">depth</att>
+            <att name="units">m</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
