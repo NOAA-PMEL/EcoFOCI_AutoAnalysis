@@ -102,7 +102,7 @@ completeness, or usefulness, of this information.</att>
         <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
-            <att name="cf_role">timeseries_id</att>
+            <!-- <att name="cf_role">timeseries_id</att> -->
         </addAttributes>
     </dataVariable>
 </dataset>
