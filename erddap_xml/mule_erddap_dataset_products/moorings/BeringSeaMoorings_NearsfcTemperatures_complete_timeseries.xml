@@ -1,0 +1,109 @@
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="BeringSeaMoorings_NearsfcTemperatures_complete_timeseries" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/nearsfc_temps_moorings/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+        <att name="_NCProperties">version=2,netcdf=4.9.2,hdf5=1.14.1</att>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="geospatial_vertical_max" type="double">71.0</att>
+        <att name="geospatial_vertical_min" type="double">14.0</att>
+        <att name="geospatial_vertical_positive">down</att>
+        <att name="geospatial_vertical_units">m</att>
+        <att name="history">2024-06-21T17:23:36Z (local files)
+2024-06-21T17:23:36Z http://akutan.pmel.noaa.gov:8081/erddap/griddap/1hr_gridded_datasets_Mooring_05bs8a_final.nc</att>
+        <att name="infoUrl">https://pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">active, available, chemistry, chlorophyll, Chlorophyll_Fluorescence, color, concentration, concentration_of_chlorophyll_in_sea_water, data, date, density, depth, dissolved, dissolved o2, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, gridded, latitude, local, longitude, number, O2, ocean, ocean color, oceans, optical, optical properties, optics, oxygen, Oxygen_Concentration, Oxygen_Saturation, PAR, photon, photosynthetic, photosynthetically, practical, pressure, properties, radiance, radiation, salinity, saturation, science, sea, sea_water_practical_salinity, seawater, serial, Serial_Number, source, statistics, temperature, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">The data may be used and redistributed for free but is not intended
+for legal use, since it may contain inaccuracies. Neither the data
+Contributor, ERD, NOAA, nor the United States Government, nor any
+of their employees or contractors, makes any warranty, express or
+implied, including warranties of merchantability and fitness for a
+particular purpose, or assumes any legal liability for the accuracy,
+completeness, or usefulness, of this information.</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
+        <att name="summary">QC&#39;d (final) mooring data from 05BS8A.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only datasets from the associated erddap tabular datasets_Mooring_05bs8a_final.  A depth field exisists for each known instrument depth, even if the parameter wasn&#39;t measured at that depth.</att>
+        <att name="time_coverage_end">2005-09-28T04:00:00Z</att>
+        <att name="time_coverage_start">2005-07-15T16:00:00Z</att>
+        <att name="title">Gridded Mooring Data from 05BS8A - final</att>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="_NCProperties">null</att>
+        <!-- <att name="cdm_data_type">TimeSeries</att> -->
+        <!-- <att name="cdm_timeseries_variables">timeseries_id</att> -->
+        <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
+        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="subsetVariables">timeseries_id</att>
+        <att name="keywords">active, available, chemistry, chlorophyll, chlorophyll_fluorescence, color, concentration, concentration_of_chlorophyll_in_sea_water, control, data, date, density, depth, dissolved, dissolved o2, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, ecofoci, environmental, final, gridded, in-situ, its, its-90, laboratory, latitude, local, longitude, marine, mooring, noaa, noaa/pmel, number, O2, ocean, ocean color, oceans, optical, optical properties, optics, oxygen, oxygen_concentration, oxygen_saturation, pacific, par, photon, photosynthetic, photosynthetically, pmel, practical, pressure, properties, quality, radiance, radiation, salinity, salinity/density, saturation, scale, science, sea, sea_water_practical_salinity, sea_water_temperature, seawater, serial, serial_number, situ, source, statistics, temperature, time, water</att>
+        <att name="summary">Synthesized Midwater  Temperature Timeseries from Bering Sea moorings M2, M4, M5, M8.  Instrument chosen +/-2m from the 20m depth from each mooring at site. Sometimes multiple instruments qualify and if thats the case, a daily mean of temp and depth is taken.  Data is synthesized from "final" datasets and not "preliminary" datasets.  Some gaps may be fillable with preliminary data that has not made it to the final archive.</att>
+        <att name="title">Daily BeringSeaMoorings Midwater Temperatures (20m) Complete Timeseries, Final</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_CoordinateAxisType">Time</att>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="actual_range" type="doubleList">1.1214432E9 1.12788E9</att>
+            <att name="axis">T</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Date</att>
+            <att name="source_name">date</att>
+            <att name="standard_name">time</att>
+            <att name="time_origin">01-JAN-1970 00:00:00</att>
+            <att name="units">days since 1970-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1.128E9</att>
+            <att name="colorBarMinimum" type="double">1.12E9</att>
+            <att name="units">days since 1970-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>temperature</sourceName>
+        <destinationName>temperature</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="colorBarMaximum" type="double">20.0</att>
+            <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="epic_key">T_20</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="missing_value" type="double">NaN</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <!-- <att name="cf_role">timeseries_id</att> -->
+        </addAttributes>
+    </dataVariable>
+</dataset>
+
