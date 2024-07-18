@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="model_sfctemps_moorings_5dc5_333f_0c19" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="JPLMUR_FOCISites" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/disk3/projects/ecofoci/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/model_sfctemps_moorings/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
