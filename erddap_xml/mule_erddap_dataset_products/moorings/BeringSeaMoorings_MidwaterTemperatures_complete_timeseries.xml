@@ -84,7 +84,8 @@ completeness, or usefulness, of this information.</att>
         <sourceName>temperature</sourceName>
         <destinationName>temperature</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
+        <addAttributes>
+            <att name="missing_value" type="double">NaN</att>
             <att name="_FillValue" type="double">NaN</att>
             <att name="colorBarMaximum" type="double">20.0</att>
             <att name="colorBarMinimum" type="double">-2.0</att>
@@ -93,9 +94,6 @@ completeness, or usefulness, of this information.</att>
             <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
             <att name="standard_name">sea_water_temperature</att>
             <att name="units">degree_C</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
