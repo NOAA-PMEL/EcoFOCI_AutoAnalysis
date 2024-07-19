@@ -31,7 +31,7 @@ completeness, or usefulness, of this information.</att>
     </sourceAttributes -->
     <addAttributes>
         <att name="_NCProperties">null</att>
-        <!-- <att name="cdm_data_type">TimeSeries</att> -->
+        <att name="cdm_data_type">Other</att>
         <!-- <att name="cdm_timeseries_variables">timeseries_id</att> -->
         <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
         <att name="creator_email">pmel.info@noaa.gov</att>

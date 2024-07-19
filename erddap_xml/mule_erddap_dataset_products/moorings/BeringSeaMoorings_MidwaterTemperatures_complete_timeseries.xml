@@ -11,7 +11,6 @@
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
         <att name="_NCProperties">version=2,netcdf=4.9.2,hdf5=1.14.1</att>
-        <att name="cdm_data_type">Grid</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="geospatial_vertical_max" type="double">71.0</att>
         <att name="geospatial_vertical_min" type="double">14.0</att>
@@ -41,7 +40,7 @@ completeness, or usefulness, of this information.</att>
     -->
     <addAttributes>
         <att name="_NCProperties">null</att>
-        <!-- <att name="cdm_data_type">TimeSeries</att> -->
+        <att name="cdm_data_type">Other</att>
         <!-- <att name="cdm_timeseries_variables">timeseries_id</att> -->
         <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
