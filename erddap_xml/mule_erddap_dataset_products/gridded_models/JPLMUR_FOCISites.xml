@@ -228,7 +228,7 @@ completeness, or usefulness, of this information.</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>***fileName,^(\S*)\.,1</sourceName>
+        <sourceName>***fileName,\.(.*?)\.,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
         <addAttributes>
