@@ -150,7 +150,7 @@
         </dataVariable>
         <dataVariable>
             <sourceName>F_903</sourceName>
-            <destinationName>F_903</destinationName>
+            <destinationName>chlor_fluorescence</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
