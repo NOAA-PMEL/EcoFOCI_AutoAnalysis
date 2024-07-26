@@ -183,4 +183,32 @@
             <att name="missing_value" type="double">NaN</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
+        <sourceName>JPLSST_(nearest)</sourceName>
+        <destinationName>JPL_sst</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="long_name">Sea Surface Temperature from JPL MUR 4.1</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+            <att name="colorBarMaximum" type="double">20.0</att>
+            <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>btm_temp_mean</sourceName>
+        <destinationName>mean_btm_temperature</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="long_name">Mean Bottom Temperature from in-situ measurements</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+            <att name="colorBarMaximum" type="double">20.0</att>
+            <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>    
 </dataset>
