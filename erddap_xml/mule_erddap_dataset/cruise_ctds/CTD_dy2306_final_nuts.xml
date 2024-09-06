@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2306_final_nuts" active="false">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2306_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
     <fileDir>/home/ecofoci_data/2023/CTDcasts/dy2306/final_data_cf/nut/</fileDir>
