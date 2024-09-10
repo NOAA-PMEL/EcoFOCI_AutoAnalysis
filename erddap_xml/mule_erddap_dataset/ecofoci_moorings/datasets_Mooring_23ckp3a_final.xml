@@ -1,6 +1,6 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_23ckp1a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_23ckp3a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2023/Moorings/23ckp1a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2023/Moorings/23ckp3a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -22,8 +22,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 23CKP-1A</att>
-        <att name="title">Mooring Data from 23CKP-1A - final</att>
+        <att name="summary">QC'd (final) mooring data from 23CKP-3A</att>
+        <att name="title">Mooring Data from 23CKP-3A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
