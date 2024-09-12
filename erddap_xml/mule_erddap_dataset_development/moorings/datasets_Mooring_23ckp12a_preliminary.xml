@@ -1,6 +1,6 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_23ckp9a_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="datasets_Mooring_23ckp12a_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2023/Moorings/23ckp9a/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2023/Moorings/23ckp12a/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -29,8 +29,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id</att>
-        <att name="summary">Non-QC'd (preliminary) data from 23CKP-9A</att>
-        <att name="title">Mooring Data from 23CKP-9A preliminary data</att>
+        <att name="summary">Non-QC'd (preliminary) data from 23CKP-12A</att>
+        <att name="title">Mooring Data from 23CKP-12A preliminary data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>
