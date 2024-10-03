@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1805_final_oxy" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2018/CTDcasts/dy1805/erddap/final_data_cf/oxy/</fileDir>
+    <fileDir>/home/ecofoci_data/2018/CTDcasts/dy1805/final_data_cf/oxy/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
@@ -125,7 +125,7 @@
         </addAttributes>
     </dataVariable>  
         <dataVariable>
-            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+            <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
             <destinationName>profile_id</destinationName>
             <dataType>String</dataType>            
             <addAttributes>
