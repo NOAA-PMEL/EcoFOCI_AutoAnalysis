@@ -39,7 +39,7 @@
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">time, latitude, longitude, profile_id</att>
         <att name="summary">Preliminary (not final QC) Hydrographic data from DY2407 (Oscar Dyson 24-07) Cruise</att>
-        <att name="title">CTD Data from DY2410 - Preliminary</att>
+        <att name="title">CTD Data from DY2407 - Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profileid</sourceName>
