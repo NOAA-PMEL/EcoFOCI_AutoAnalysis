@@ -4,9 +4,9 @@
     <fileDir>/home/ecofoci_data/2017/Moorings/17ckp4a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
-    <recursive>first</recursive>
+    <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>4096</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
