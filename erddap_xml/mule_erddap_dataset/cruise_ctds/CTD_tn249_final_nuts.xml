@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_tn249_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
-        <fileDir>/home/ecofoci_data/2010/CTDcasts/tn249/erddap/final_data/nut/</fileDir>
+        <fileDir>/home/ecofoci_data/2010/CTDcasts/tn249/erddap/final_data/merged/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
 
         <recursive>true</recursive>
