@@ -1,5 +1,5 @@
 <!-- JPL High Resolution SST -->
-<dataset type="EDDGridFromErddap" datasetID="jplG1SST" active="true">
+<dataset type="EDDGridFromErddap" datasetID="jplG1SST" active="false">
     <!-- GHRSST Global 1-km Sea Surface Temperature (G1SST), Global, 0.01 Degree, Daily -->
     <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/griddap/jplG1SST</sourceUrl>
 </dataset>
