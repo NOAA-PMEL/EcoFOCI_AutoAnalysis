@@ -26,6 +26,8 @@
             <att name="creator_type">institution</att>
             <att name="creator_url">https://www.pmel.noaa.gov/</att>        
             <att name="institution">NOAA/PMEL - EcoFOCI</att>
+            <att name="license">[standard]</att>
+            <att name="sourceUrl">(local files)</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
             <att name="subsetVariables">time3, time, latitude, lon</att>
             <att name="summary">Discrete Chlorophyll-A Data from NW1202 - Final ChlorA Data </att>
