@@ -2,7 +2,7 @@
 
 <dataset type="EDDGridFromEtopo" datasetID="etopo360" />
 
-<dataset type="EDDGridFromErddap" datasetID="usgsCeSS111" active="true">
+<dataset type="EDDGridFromErddap" datasetID="usgsCeSS111" active="false">
     <sourceUrl>https://coastwatch.pfeg.noaa.gov/erddap/griddap/usgsCeSS111</sourceUrl>
 </dataset>
 
