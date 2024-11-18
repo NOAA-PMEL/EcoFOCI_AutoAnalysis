@@ -146,6 +146,18 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>oxy_conc_umkg_ctdcorr</sourceName>
+        <destinationName>oxygen_concentration_ctdcorrected</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="units">&#181;micromole/kg</att>
+            <att name="long_name">corrected concentration of oxygen in seawater</att>
+            <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType><addAttributes>
