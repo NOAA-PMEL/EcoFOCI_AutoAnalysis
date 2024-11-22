@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="datasets_OculusGlider_2017_sg401_gridded" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/foci_lfstore/2020/ladd/GRL/gridded/</fileDir>
+    <fileDir>/home/foci_lfstore/glider_datasets/2017/ladd/GRL/gridded/gridded/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
