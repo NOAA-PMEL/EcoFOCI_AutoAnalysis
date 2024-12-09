@@ -2,8 +2,6 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2018/Moorings/18bsitaepr2a/initial_archive/erddap/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    
-    <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <preExtractRegex />
@@ -13,9 +11,6 @@
     <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames>profile_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    
-    
     <addAttributes>
         <att name="cdm_altitude_proxy">depth</att>
         <att name="cdm_data_type">Profile</att>
@@ -45,8 +40,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>profile_id</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
-        
-        <addAttributes>
+            <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">profile_id</att>
         </addAttributes>
@@ -55,8 +49,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Chlorophyll</sourceName>
         <destinationName>Chlorophyll</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -70,8 +63,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Oxy_Sat</sourceName>
         <destinationName>Oxy_Sat</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -84,8 +76,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Temperature</sourceName>
         <destinationName>Temperature</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
@@ -95,8 +86,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Oxy_Temperature</sourceName>
         <destinationName>Oxy_Temperature</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
@@ -106,8 +96,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Salinity</sourceName>
         <destinationName>Salinity</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
@@ -121,8 +110,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Depth</sourceName>
         <destinationName>depth</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
@@ -137,8 +125,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Time</att>
@@ -149,8 +136,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>SigmaT</sourceName>
         <destinationName>SigmaT</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
@@ -162,8 +148,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Turbidity</sourceName>
         <destinationName>Turbidity</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Unknown</att>
@@ -173,8 +158,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>Oxy_Conc</sourceName>
         <destinationName>Oxy_Conc</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
            <att name="ioos_category">Dissolved O2</att>
@@ -186,8 +170,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">180.0</att>
@@ -200,8 +183,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -209,6 +191,6 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="ioos_category">Location</att>
             <att name="long_name">Latitude</att>
         </addAttributes>
-    </dataVariable>    
+    </dataVariable>
 </dataset>
 
