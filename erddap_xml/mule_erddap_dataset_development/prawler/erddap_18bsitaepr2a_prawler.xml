@@ -57,6 +57,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="colorBarScale">Log</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
+            <att name="units">ugrams l-1</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -70,7 +71,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">percent</att>
-        </addAttributes>
+            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water</att>
+        </addAttributes> 
     </dataVariable>
     <dataVariable>
         <sourceName>Temperature</sourceName>
@@ -80,6 +82,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -90,6 +94,8 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
+            <att name="standard_name">temperature_of_sensor_for_oxygen_in_sea_water</att>
+            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -102,6 +108,7 @@ oxy, Oxy_Conc, Oxy_Sat, Oxy_Temperature, oxygen, pacific, percent, pmel, practic
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
+            <att name="long_name">Sea Water Practical Salinity</att>
             <att name="standard_name">sea_water_practical_salinity</att>
             <att name="units">PSU</att>
         </addAttributes>

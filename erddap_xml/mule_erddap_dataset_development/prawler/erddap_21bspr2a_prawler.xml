@@ -32,7 +32,6 @@
         <sourceName>***fileName,^(\S*)\.csv,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
@@ -42,7 +41,6 @@
         <sourceName>time (UTC)</sourceName>
         <destinationName>time</destinationName>
         <dataType>String</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -56,7 +54,6 @@
         <sourceName>profileNum</sourceName>
         <destinationName>profileNum</destinationName>
         <dataType>int</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Profile Num</att>
@@ -66,7 +63,6 @@
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -80,7 +76,6 @@
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -94,7 +89,6 @@
         <sourceName>SB_Depth</sourceName>
         <destinationName>depth</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
@@ -110,7 +104,6 @@
         <sourceName>SB_Temp</sourceName>
         <destinationName>Temperature</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
@@ -123,7 +116,6 @@
         <sourceName>SB_Conductivity</sourceName>
         <destinationName>Conductivity</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">30.0</att>
@@ -136,7 +128,6 @@
         <sourceName>Optode_Temp</sourceName>
         <destinationName>Oxy_Temperature</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
@@ -148,7 +139,6 @@
         <sourceName>Salinity (PSU)</sourceName>
         <destinationName>Salinity</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
@@ -164,7 +154,6 @@
         <sourceName>Salinity (PSU) aandT</sourceName>
         <destinationName>Salinity_aandT</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -180,7 +169,6 @@
         <sourceName>wetlab_Chlorophyll_ug/l</sourceName>
         <destinationName>Chlorophyll</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -195,7 +183,6 @@
         <sourceName>wetlab_FDOM_NTU</sourceName>
         <destinationName>Turbidity</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue" type="float">1.0e35</att>
@@ -208,7 +195,6 @@
         <sourceName>O2_corr_umkg_aandT</sourceName>
         <destinationName>Oxy_Conc_aandT</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -222,7 +208,6 @@
         <sourceName>O2_corr_umkg</sourceName>
         <destinationName>Oxy_Conc</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -235,7 +220,6 @@
         <sourceName>O2PercentSat</sourceName>
         <destinationName>Oxy_Sat</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
