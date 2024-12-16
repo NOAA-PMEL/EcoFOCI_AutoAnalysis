@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_ae1501_final_nuts" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_ae1501_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
         <fileDir>/home/ecofoci_data/2015/CTDcasts/ae1501/erddap/final_data/nut/</fileDir>
@@ -15,7 +15,7 @@
         
         
         <addAttributes>
-            <att name="cdm_data_type">Other</att>
+            <att name="cdm_data_type">Profile</att>
             <att name="cdm_altitude_proxy">pressure</att> 
             <att name="cdm_profile_variables">profile_id</att>
             <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
