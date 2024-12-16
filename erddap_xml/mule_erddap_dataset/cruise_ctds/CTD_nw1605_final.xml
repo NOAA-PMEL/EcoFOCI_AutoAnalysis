@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1605_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1605_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2016/CTDcasts/nw1605/erddap/final_data/ctd/</fileDir>

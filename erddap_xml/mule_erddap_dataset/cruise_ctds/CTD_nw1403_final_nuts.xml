@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_nw1403_final_nuts" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_nw1403_final_nuts" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
         <fileDir>/home/ecofoci_data/2014/CTDcasts/nw1403/erddap/final_data/nut/</fileDir>

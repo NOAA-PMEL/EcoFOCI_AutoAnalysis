@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy1504_final_oxy" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy1504_final_oxy" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2015/CTDcasts/dy1504/final_data_cf/oxy/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
