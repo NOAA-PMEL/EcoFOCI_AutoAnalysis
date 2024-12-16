@@ -15,7 +15,7 @@
         
         
         <addAttributes>
-            <att name="cdm_data_type">Profile</att>
+            <att name="cdm_data_type">Other</att>
             <att name="cdm_altitude_proxy">pressure</att> 
             <att name="cdm_profile_variables">profile_id</att>
             <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
