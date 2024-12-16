@@ -51,7 +51,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>profileNum</sourceName>
+        <sourceName>profile_id</sourceName>
         <destinationName>profileNum</destinationName>
         <dataType>int</dataType>
         <addAttributes>
