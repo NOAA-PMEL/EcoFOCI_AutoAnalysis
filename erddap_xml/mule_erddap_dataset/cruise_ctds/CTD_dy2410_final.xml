@@ -36,7 +36,6 @@
         <sourceName>depth</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -52,7 +51,6 @@
         <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlor_fluorescence</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -64,7 +62,6 @@
         <sourceName>temperature_ch1</sourceName>
         <destinationName>temperature_ch1</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -75,7 +72,6 @@
         <sourceName>temperature_ch2</sourceName>
         <destinationName>temperature_ch2</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -86,7 +82,6 @@
         <sourceName>par</sourceName>
         <destinationName>par</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">70.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -101,36 +96,14 @@
         <sourceName>turbidity</sourceName>
         <destinationName>turbidity</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Unknown</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>temperature_rinko</sourceName>
-        <destinationName>temperature_rinko</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">32.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Temperature</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>voltage_rinko</sourceName>
-        <destinationName>voltage_rinko</destinationName>
-        <dataType>double</dataType>
-        
-        <addAttributes>
-            <att name="ioos_category">Dissolved O2</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>salinity_ch1</sourceName>
         <destinationName>salinity_ch1</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -141,7 +114,6 @@
         <sourceName>salinity_ch2</sourceName>
         <destinationName>salinity_ch2</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
@@ -152,7 +124,6 @@
         <sourceName>sigma_t_ch1</sourceName>
         <destinationName>sigma_t_ch1</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -163,7 +134,6 @@
         <sourceName>sigma_t_ch2</sourceName>
         <destinationName>sigma_t_ch2</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">200.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -174,7 +144,6 @@
         <sourceName>oxy_concM_ch1</sourceName>
         <destinationName>oxy_concM_ch1</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -185,7 +154,6 @@
         <sourceName>oxy_conc_ch1</sourceName>
         <destinationName>oxy_conc_ch1</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -196,7 +164,6 @@
         <sourceName>oxy_percentsat_ch1</sourceName>
         <destinationName>oxy_percentsat_ch1</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -207,7 +174,6 @@
         <sourceName>oxy_concM_ch2</sourceName>
         <destinationName>oxy_concM_ch2</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -218,7 +184,6 @@
         <sourceName>oxy_conc_ch2</sourceName>
         <destinationName>oxy_conc_ch2</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">500.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -229,7 +194,6 @@
         <sourceName>oxy_percentsat_ch2</sourceName>
         <destinationName>oxy_percentsat_ch2</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -240,7 +204,6 @@
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -254,7 +217,6 @@
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -268,7 +230,6 @@
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
@@ -280,7 +241,6 @@
         <sourceName>chlor_fluorescence_QC</sourceName>
         <destinationName>chlor_fluorescence_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -292,7 +252,6 @@
         <sourceName>temperature_ch1_QC</sourceName>
         <destinationName>temperature_ch1_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -304,7 +263,6 @@
         <sourceName>temperature_ch2_QC</sourceName>
         <destinationName>temperature_ch2_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -316,7 +274,6 @@
         <sourceName>par_QC</sourceName>
         <destinationName>par_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -328,7 +285,6 @@
         <sourceName>turbidity_QC</sourceName>
         <destinationName>turbidity_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -340,7 +296,6 @@
         <sourceName>temperature_rinko_QC</sourceName>
         <destinationName>temperature_rinko_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -352,7 +307,6 @@
         <sourceName>voltage_rinko_QC</sourceName>
         <destinationName>voltage_rinko_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -364,7 +318,6 @@
         <sourceName>salinity_ch1_QC</sourceName>
         <destinationName>salinity_ch1_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -376,7 +329,6 @@
         <sourceName>salinity_ch2_QC</sourceName>
         <destinationName>salinity_ch2_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -388,7 +340,6 @@
         <sourceName>sigma_t_ch1_QC</sourceName>
         <destinationName>sigma_t_ch1_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -400,7 +351,6 @@
         <sourceName>sigma_t_ch2_QC</sourceName>
         <destinationName>sigma_t_ch2_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -412,7 +362,6 @@
         <sourceName>oxy_concM_ch1_QC</sourceName>
         <destinationName>oxy_concM_ch1_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -424,7 +373,6 @@
         <sourceName>oxy_conc_ch1_QC</sourceName>
         <destinationName>oxy_conc_ch1_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -436,7 +384,6 @@
         <sourceName>oxy_percentsat_ch1_QC</sourceName>
         <destinationName>oxy_percentsat_ch1_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -448,7 +395,6 @@
         <sourceName>oxy_concM_ch2_QC</sourceName>
         <destinationName>oxy_concM_ch2_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -460,7 +406,6 @@
         <sourceName>oxy_conc_ch2_QC</sourceName>
         <destinationName>oxy_conc_ch2_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -472,7 +417,6 @@
         <sourceName>oxy_percentsat_ch2_QC</sourceName>
         <destinationName>oxy_percentsat_ch2_QC</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
             <att name="colorBarMaximum" type="double">150.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
@@ -511,7 +455,6 @@
         <sourceName>global:WindDir</sourceName>
         <destinationName>wind_direction</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-999.0</att>
             <att name="_FillValue">1.0E35</att>
@@ -527,7 +470,6 @@
         <sourceName>global:WindSpd</sourceName>
         <destinationName>wind_speed</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-99.9</att>
             <att name="_FillValue">1.0E35</att>
@@ -565,7 +507,6 @@
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">profile_id</att>
