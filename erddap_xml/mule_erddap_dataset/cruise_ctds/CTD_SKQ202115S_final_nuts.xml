@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_skq202115s_final_nuts" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_skq202115s_final_nuts" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
     <fileDir>/home/ecofoci_data/2021/CTDcasts/skq202115s/final_data_cf/nut/</fileDir>

@@ -45,11 +45,11 @@
         
         <addAttributes>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Time (UTC)</att>
-            <att name="source_name">time (UTC)</att>
+            <att name="long_name">Time</att>
+            <att name="source_name">time</att>
             <att name="standard_name">time</att>
             <att name="time_precision">1970-01-01T00:00:00Z</att>
-            <att name="units">yyyy-MM-dd HH:mm:ssxxx</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

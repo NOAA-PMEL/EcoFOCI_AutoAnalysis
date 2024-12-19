@@ -1,4 +1,5 @@
-<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_23ckp4a_final" active="true">
+<!-- unit failed -->
+<dataset type="EDDGridFromNcFiles" datasetID="ADCP_Mooring_23ckp4a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2023/Moorings/23ckp4a/final_data_cf/</fileDir>

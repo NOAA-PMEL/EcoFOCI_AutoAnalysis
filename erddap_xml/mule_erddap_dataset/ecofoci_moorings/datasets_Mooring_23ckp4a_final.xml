@@ -1,10 +1,9 @@
-<!-- SENSOR FAILED -->
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_23ckp4a_final" active="false">
+<!-- ADCP SENSOR FAILED -->
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_23ckp4a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2023/Moorings/23ckp4a/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
+\    <pathRegex>.*</pathRegex>
     <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>

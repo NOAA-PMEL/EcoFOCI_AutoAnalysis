@@ -2,7 +2,6 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2018/Moorings/18bsitaepr2a/initial_archive/erddap/met/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -13,9 +12,6 @@
     <removeMVRows>false</removeMVRows>
     <sortFilesBySourceNames>timeseries_id</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    
-    
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
         <att name="cdm_timeseries_variables">timeseries_id, longitude, latitude</att>
@@ -37,7 +33,6 @@
         <sourceName>timeseries_id</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
-        
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">timeseries_id</att>
@@ -47,7 +42,6 @@
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -61,7 +55,6 @@
         <sourceName>wind_speed</sourceName>
         <destinationName>wind_speed</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -75,7 +68,6 @@
         <sourceName>northward_wind</sourceName>
         <destinationName>northward_wind</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -89,7 +81,6 @@
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -104,7 +95,6 @@
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -119,7 +109,6 @@
         <sourceName>air_pressure_at_sealevel</sourceName>
         <destinationName>air_pressure</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -133,7 +122,6 @@
         <sourceName>relative_humidity</sourceName>
         <destinationName>relative_humidity</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -147,7 +135,6 @@
         <sourceName>air_temperature</sourceName>
         <destinationName>air_temperature</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -161,7 +148,6 @@
         <sourceName>wind_from_direction</sourceName>
         <destinationName>wind_from_direction</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
@@ -175,7 +161,6 @@
         <sourceName>eastward_wind</sourceName>
         <destinationName>eastward_wind</destinationName>
         <dataType>float</dataType>
-        
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>

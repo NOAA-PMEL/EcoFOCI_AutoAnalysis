@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="CTD_dy2306_final_btl" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy2306_final_btl" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2023/CTDcasts/dy2306/final_data_cf/btl/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>

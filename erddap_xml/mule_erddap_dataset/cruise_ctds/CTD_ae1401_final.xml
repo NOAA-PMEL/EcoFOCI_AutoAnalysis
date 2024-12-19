@@ -1,19 +1,13 @@
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_ae1401_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    
     <fileDir>/home/ecofoci_data/2014/CTDcasts/ae1401/erddap/final_data/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
-    
-    
-    
     <addAttributes>
         <att name="cdm_data_type">Profile</att>
         <att name="cdm_altitude_proxy">pressure</att> 
@@ -26,8 +20,7 @@
         <att name="creator_email">pmel.ecofoci@noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
         <att name="creator_type">institution</att>
-        <att name="creator_url">https://www.pmel.noaa.gov/</att>        
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>            <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">chlorophyll, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, ctd, data, density, depth, depth2, dissolved, dissolved o2, kg/m**3, latitude, local, m**3, micromoles, micromoles/l, mole, O2, O_65, ocean, ocean color, oceans,
         Salinity/Density &gt; Salinity, OST_62, oxygen, percent, practical, profile, psu, S_41, S_42, salinity, sat, sea, sea_water_practical_salinity, seawater, secondary, sigma, sigma-t, silicate, sonde, source, ST_70, profile_id, statistics, T2_35, T_28, temperature, time, Tr_904, transmissometry, umol, umol/kg, unit, water, miller, freeman, mf</att>
         <att name="license">[standard]</att>
@@ -40,8 +33,7 @@
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
-        
-        <addAttributes>
+            <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -52,8 +44,7 @@
         <sourceName>depth</sourceName>
         <destinationName>pressure</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">8000.0</att>
@@ -68,8 +59,7 @@
         <sourceName>lat</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -84,8 +74,7 @@
         <sourceName>lon</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Location</att>
@@ -100,8 +89,7 @@
         <sourceName>BTL_103</sourceName>
         <destinationName>BTLID</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -113,8 +101,7 @@
         <sourceName>S_42</sourceName>
         <destinationName>salinity_ch2</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
@@ -129,8 +116,7 @@
         <sourceName>S_41</sourceName>
         <destinationName>salinity_ch1</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">37.0</att>
@@ -145,8 +131,7 @@
         <sourceName>ST_70</sourceName>
         <destinationName>sigma_t_ch1</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">200.0</att>
@@ -161,8 +146,7 @@
         <sourceName>fWS_973</sourceName>
         <destinationName>chlor_fluorescence</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">fWS_973</att>
@@ -174,15 +158,13 @@
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
             <att name="units">ugrams/l</att>
-            <att name="instrument">wetstar</att>        
-        </addAttributes>
+            <att name="instrument">wetstar</att>            </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>T_28</sourceName>
         <destinationName>temperature_ch1</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
@@ -195,8 +177,7 @@
         <sourceName>OST_62</sourceName>
         <destinationName>oxypercent_sat_ch1</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -210,8 +191,7 @@
         <sourceName>O_65</sourceName>
         <destinationName>oxy_conc_ch1</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
@@ -224,8 +204,7 @@
         <sourceName>T2_35</sourceName>
         <destinationName>temperature_ch2</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Temperature</att>
@@ -238,8 +217,7 @@
         <sourceName>Tr_904</sourceName>
         <destinationName>transmission</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="colorBarMaximum" type="double">100.0</att>
@@ -249,13 +227,11 @@
             <att name="standard_name">seawater_optical_transmission_ratio</att>
             <att name="epic_key">Tr_904</att>
         </addAttributes>
-    </dataVariable>    
-    <dataVariable>
+    </dataVariable>    <dataVariable>
         <sourceName>PAR_905</sourceName>
         <destinationName>par</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">PAR_905</att>
@@ -271,13 +247,11 @@
         <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
-        
-        <addAttributes>
+            <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="cf_role">profile_id</att>
         </addAttributes>
-    </dataVariable>    
-    <dataVariable>
+    </dataVariable>    <dataVariable>
         <sourceName>global:INST_TYPE</sourceName>
         <destinationName>Instrument_Identifier</destinationName>
         <dataType>String</dataType>
@@ -316,8 +290,7 @@
         <sourceName>global:WIND_DIR</sourceName>
         <destinationName>wind_direction</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-999.0</att>
             <att name="_FillValue">1.0E35</att>
             <att name="colorBarMaximum" type="double">360.0</att>
@@ -332,8 +305,7 @@
         <sourceName>global:WIND_SPEED</sourceName>
         <destinationName>wind_speed</destinationName>
         <dataType>float</dataType>
-        
-        <addAttributes>
+            <addAttributes>
            <att name="missing_value" type="float">-99.9</att>
             <att name="_FillValue">1.0E35</att>
             <att name="ioos_category">Unknown</att>

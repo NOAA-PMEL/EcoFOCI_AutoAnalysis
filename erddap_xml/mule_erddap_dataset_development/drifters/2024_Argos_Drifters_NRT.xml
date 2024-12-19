@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="2024_Argos_Drifters_NRT" active="true">
-    <reloadEveryNMinutes>1440</reloadEveryNMinutes>
+    <reloadEveryNMinutes>720</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2024/Drifters/erddap/initial/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
@@ -105,14 +105,14 @@
     <dataVariable>
         <sourceName>location_quality</sourceName>
         <destinationName>location_quality</destinationName>
-        <dataType>int</dataType>
+        <dataType>String</dataType>
         
         <addAttributes>
             <att name="colorBarMaximum" type="double">4.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">location_quality_flag</att>
-            <att name="description">0: error gt 1500m 1: 500m gt error lt 1500m 2: 250m gt error lt 500m 3: error lt 250m </att>
+            <att name="description">0: error gt 1500m 1: 500m gt error lt 1500m 2: 250m gt error lt 500m 3: error lt 250m G: error GPS </att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
