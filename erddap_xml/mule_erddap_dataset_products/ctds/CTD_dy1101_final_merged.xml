@@ -1,7 +1,7 @@
 
-        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_nw1703_final_merged" active="true">
+        <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy1101_final_merged" active="true">
             <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/merged_ctdnutdata_from_erddap/</fileDir>
-            <fileNameRegex>nw1703_merged.csv</fileNameRegex>
+            <fileNameRegex>dy1101_merged.csv</fileNameRegex>
             <recursive>false</recursive>
             <pathRegex>.*</pathRegex>
             <metadataFrom>last</metadataFrom>
@@ -32,8 +32,8 @@
             <att name="license">[standard]</att>
             <att name="sourceUrl">(local files)</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-            <att name="summary">CTD Data from NW1703 - Final Merged </att>
-            <att name="title">CTD Data from NW1703 - Final Merged </att>
+            <att name="summary">CTD Data from DY1101 - Final Merged </att>
+            <att name="title">CTD Data from DY1101 - Final Merged </att>
             </addAttributes>
             <dataVariable>
                 <sourceName>time_str</sourceName>
@@ -111,31 +111,27 @@
             <dataVariable>
                 <sourceName>BTLID</sourceName>
                 <destinationName>BTLID</destinationName>
-                <dataType>float</dataType>
-                <!-- sourceAttributes>
-                    <att name="epic_code" type="int">103</att>
-                    <att name="generic_name">BTL</att>
-                    <att name="long_name">NISKIN BOTTLE NUMBER</att>
-                    <att name="name">BTL_103</att>
-                </sourceAttributes -->
+                <dataType>float</dataType>            
                 <addAttributes>
-                   <att name="missing_value" type="float">-9999.0</att>
-                   <att name="_FillValue" type="float">1.0e35</att>
+                    <att name="missing_value" type="float">-9999.0</att>
+                    <att name="_FillValue" type="float">1.0e35</att>
                     <att name="colorBarMaximum" type="double">100.0</att>
                     <att name="colorBarMinimum" type="double">0.0</att>
+                    <att name="long_name">NISKIN BOTTLE NUMBER</att>
                     <att name="ioos_category">Statistics</att>
+                    <att name="epic_code" type="int">103</att>
                 </addAttributes>
-            </dataVariable>
+            </dataVariable>  
             <dataVariable>
-                <sourceName>salinity_ch2</sourceName>
-                <destinationName>salinity_ch2</destinationName>
+                <sourceName>salinity_ch1</sourceName>
+                <destinationName>salinity_ch1</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
-                    <att name="epic_code" type="int">42</att>
+                    <att name="epic_code" type="int">41</att>
                     <att name="fill_value" type="double">1.0E35</att>
                     <att name="generic_name">sal</att>
                     <att name="long_name">SALINITY (PSU)</att>
-                    <att name="name">S_42</att>
+                    <att name="name">S_41</att>
                     <att name="units">psu</att>
                 </sourceAttributes -->
                 <addAttributes>
@@ -149,15 +145,15 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>salinity_ch1</sourceName>
-                <destinationName>salinity_ch1</destinationName>
+                <sourceName>salinity_ch2</sourceName>
+                <destinationName>salinity_ch2</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
-                    <att name="epic_code" type="int">41</att>
+                    <att name="epic_code" type="int">42</att>
                     <att name="fill_value" type="double">1.0E35</att>
                     <att name="generic_name">sal</att>
                     <att name="long_name">SALINITY (PSU)</att>
-                    <att name="name">S_41</att>
+                    <att name="name">S_42</att>
                     <att name="units">psu</att>
                 </sourceAttributes -->
                 <addAttributes>
@@ -236,7 +232,28 @@
                     <att name="colorBarScale">Log</att>
                     <att name="ioos_category">Ocean Color</att>
                     <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
-                    <att name="units">ugrams/l</att>        </addAttributes>
+                    <att name="units">ugrams/l</att>
+                </addAttributes>
+            </dataVariable>
+            <dataVariable>
+                <sourceName>par</sourceName>
+                <destinationName>par</destinationName>
+                <dataType>float</dataType>
+                <!-- sourceAttributes>
+                    <att name="epic_code" type="int">905</att>
+                    <att name="fill_value" type="double">1.0E35</att>
+                    <att name="FORTRAN_format">f10.2</att>
+                    <att name="generic_name">par</att>
+                    <att name="long_name">Photosynthetic Active Radiation</att>
+                    <att name="name">PAR_905</att>
+                </sourceAttributes -->
+                <addAttributes>
+                   <att name="missing_value" type="float">-9999.0</att>
+                   <att name="_FillValue" type="float">1.0e35</att>
+                    <att name="ioos_category">Optical Properties</att>
+                    <att name="standard_name">spherical_photosynthetic_irradiance_in_sea_water</att>
+                    <att name="units">umol m-2 s-1</att>
+                </addAttributes>
             </dataVariable>
             <dataVariable>
                 <sourceName>temperature_ch1</sourceName>
@@ -269,6 +286,27 @@
                     <att name="generic_name">ox</att>
                     <att name="long_name">OXYGEN, &#37;SAT</att>
                     <att name="name">OST_62</att>
+                    <att name="units">&#37;</att>
+                </sourceAttributes -->
+                <addAttributes>
+                   <att name="missing_value" type="float">-9999.0</att>
+                   <att name="_FillValue" type="float">1.0e35</att>
+                    <att name="colorBarMaximum" type="double">100.0</att>
+                    <att name="colorBarMinimum" type="double">0.0</att>
+                    <att name="ioos_category">Dissolved O2</att>
+                    <att name="units">percent</att>
+                </addAttributes>
+            </dataVariable>
+            <dataVariable>
+                <sourceName>oxy_percentsat_ch2</sourceName>
+                <destinationName>oxy_percentsat_ch2</destinationName>
+                <dataType>float</dataType>
+                <!-- sourceAttributes>
+                    <att name="epic_code" type="int">4220</att>
+                    <att name="fill_value" type="double">1.0E35</att>
+                    <att name="generic_name">ox</att>
+                    <att name="long_name">CTD OXYGEN, &#37;SAT</att>
+                    <att name="name">CTDOST_4220</att>
                     <att name="units">&#37;</att>
                 </sourceAttributes -->
                 <addAttributes>
@@ -321,7 +359,7 @@
                     <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
                     <att name="units">umol/kg</att>
                 </addAttributes>
-            </dataVariable>  
+            </dataVariable>            
             <dataVariable>
                 <sourceName>temperature_ch2</sourceName>
                 <destinationName>temperature_ch2</destinationName>
@@ -344,28 +382,8 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>PAR_905</sourceName>
-                <destinationName>par</destinationName>
-                <dataType>float</dataType>
-                <!-- sourceAttributes>
-                    <att name="epic_code" type="int">905</att>
-                    <att name="fill_value" type="double">1.0E35</att>
-                    <att name="FORTRAN_format">f10.2</att>
-                    <att name="generic_name">par</att>
-                    <att name="long_name">Photosynthetic Active Radiation</att>
-                    <att name="name">PAR_905</att>
-                </sourceAttributes -->
-                <addAttributes>
-                   <att name="missing_value" type="float">-9999.0</att>
-                   <att name="_FillValue" type="float">1.0e35</att>
-                    <att name="ioos_category">Optical Properties</att>
-                    <att name="standard_name">spherical_photosynthetic_irradiance_in_sea_water</att>
-                    <att name="units">umol m-2 s-1</att>
-                </addAttributes>
-            </dataVariable>
-            <dataVariable>
-                <sourceName>Tr_904</sourceName>
-                <destinationName>transmission</destinationName>
+                <sourceName>transmissometry</sourceName>
+                <destinationName>transmissometry</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
                     <att name="epic_code" type="int">904</att>
@@ -481,7 +499,7 @@
                 </addAttributes>
             </dataVariable>       
             <dataVariable>
-                <sourceName>SI_188</sourceName>
+                <sourceName>SI</sourceName>
                 <destinationName>SI</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
@@ -503,7 +521,7 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>PO4_186</sourceName>
+                <sourceName>PO4</sourceName>
                 <destinationName>PO4</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
@@ -525,7 +543,7 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>NO2_184</sourceName>
+                <sourceName>NO2</sourceName>
                 <destinationName>NO2</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
@@ -547,7 +565,7 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>NO3_182</sourceName>
+                <sourceName>NO3</sourceName>
                 <destinationName>NO3</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
@@ -569,7 +587,7 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
-                <sourceName>NH4_189</sourceName>
+                <sourceName>NH4</sourceName>
                 <destinationName>NH4</destinationName>
                 <dataType>float</dataType>
                 <!-- sourceAttributes>
