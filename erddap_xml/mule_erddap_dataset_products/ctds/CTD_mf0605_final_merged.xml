@@ -298,6 +298,27 @@
                 </addAttributes>
             </dataVariable>
             <dataVariable>
+                <sourceName>oxy_percentsat_ch2</sourceName>
+                <destinationName>oxy_percentsat_ch2</destinationName>
+                <dataType>float</dataType>
+                <!-- sourceAttributes>
+                    <att name="epic_code" type="int">4220</att>
+                    <att name="fill_value" type="double">1.0E35</att>
+                    <att name="generic_name">ox</att>
+                    <att name="long_name">CTD OXYGEN, &#37;SAT</att>
+                    <att name="name">CTDOST_4220</att>
+                    <att name="units">&#37;</att>
+                </sourceAttributes -->
+                <addAttributes>
+                   <att name="missing_value" type="float">-9999.0</att>
+                   <att name="_FillValue" type="float">1.0e35</att>
+                    <att name="colorBarMaximum" type="double">100.0</att>
+                    <att name="colorBarMinimum" type="double">0.0</att>
+                    <att name="ioos_category">Dissolved O2</att>
+                    <att name="units">percent</att>
+                </addAttributes>
+            </dataVariable>
+            <dataVariable>
                 <sourceName>oxy_conc_ch1</sourceName>
                 <destinationName>oxy_conc_ch1</destinationName>
                 <dataType>float</dataType>
