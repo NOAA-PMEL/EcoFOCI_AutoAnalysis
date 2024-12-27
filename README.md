@@ -12,7 +12,9 @@ This package is a collection of routines used by EcoFOCI to automatically produc
 * Jupyter Notebook files
   + erddap product generation from existing erddap datasets
   + example generation of visualizations, including use of non-local dataset
-
+* PIXI projects
+  + often used to setup automatic emailers
+  
 It is also a source for testing GitHub integrations, GitHub Actions, and other tools/examples that could be useful for the EcoFOCI repository (auto-linting, auto-config updates, etc)
 
 ## Extended Description
