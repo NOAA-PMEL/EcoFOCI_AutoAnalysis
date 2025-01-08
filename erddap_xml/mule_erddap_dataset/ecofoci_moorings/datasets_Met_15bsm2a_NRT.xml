@@ -3,7 +3,7 @@
     
     <fileDir>/home/ecofoci_data/2015/Moorings/15bsm2a/erddap/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
-    <recursive>true</recursive>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
