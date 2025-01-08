@@ -2,7 +2,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2009/Moorings/09bsm2a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*(an|ecf|mt|sc|s37).*\.nc</fileNameRegex>
+    <fileNameRegex>.*(an|sg|ecf|mt|sc|s16|s37|s39|s56|suna|tdgp).*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
