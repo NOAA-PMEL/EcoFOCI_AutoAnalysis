@@ -1,0 +1,62 @@
+<dataset type="EDDGridFromNcFiles" datasetID="M2prawler_griddedhourly_collection" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/prawler_products/M2/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <matchAxisNDigits>20</matchAxisNDigits>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <addAttributes>
+        <att name="cdm_data_type">Grid</att>
+        <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
+        <att name="infoUrl">https://pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">data, depth, local, source, temperature, time</att>
+        <att name="license">[standard]</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="summary">Prawler Data at M2 over mulitiple deployments.  Gridded on 1m depths and hourly.  Currently only temperature</att>
+        <att name="title">M2 Gridded Hourly Prawler Data - Collection</att>
+    </addAttributes>
+    <axisVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </axisVariable>
+    <axisVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>depth</destinationName>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Depth</att>
+            <att name="standard_name">depth</att>
+            <att name="units">m</att>
+        </addAttributes>
+    </axisVariable>
+    <dataVariable>
+        <sourceName>temperature</sourceName>
+        <destinationName>temperature</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Temperature</att>
+            <att name="long_name">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
