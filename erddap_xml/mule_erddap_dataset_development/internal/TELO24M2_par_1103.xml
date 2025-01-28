@@ -1,6 +1,0 @@
-<dataset type="EDDTableFromErddap" datasetID="TELO24M2_par_1103" active="true">
-    <sourceUrl>http://redwing.pmel.noaa.gov:8080/erddap/tabledap/TELO24M2_par_1103</sourceUrl>
-    <reloadEveryNMinutes>60</reloadEveryNMinutes>
-    <redirect>false</redirect>
-</dataset>
-
