@@ -1,5 +1,5 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="erddap_24bspr2a_prawler" active="true">
-    <fileDir>/home/ecofoci_data/2024/Moorings/24bspr2a/rawconverted/praw/</fileDir>
+    <fileDir>/home/ecofoci_data/2024/Moorings/24bspr2a/initial_archive/prawler/</fileDir>
     <fileNameRegex>.*Prawler.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
