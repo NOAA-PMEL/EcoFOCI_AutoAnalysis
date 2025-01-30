@@ -168,7 +168,7 @@
         <dataType>float</dataType>
         <addAttributes>
             <att name="_FillValue" type="float">NaN</att>
-            <att name="ioos_category">other</att>
+            <att name="ioos_category">Other</att>
             <att name="long_name">Photosynthetic Active Radiation</att>
             <att name="standard_name">surface_downwelling_photosynthetic_photon_flux_in_air</att>
             <att name="units">micromol m-2 s-1</att>
@@ -180,7 +180,7 @@
         <dataType>float</dataType>
         <addAttributes>
             <att name="_FillValue" type="float">NaN</att>
-            <att name="ioos_category">meteorology</att>
+            <att name="ioos_category">Meteorology</att>
             <att name="long_name">Shortwave Radiation</att>
             <att name="standard_name">downwelling_shortwave_flux_in_air</att>
             <att name="units">W m-2 </att>
