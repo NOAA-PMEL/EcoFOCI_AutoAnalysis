@@ -97,6 +97,7 @@
     <dataVariable>
         <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
+        <att name="units">micrograms (ug) / l</att>
         <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
@@ -104,21 +105,21 @@
             <att name="ioos_category">Ocean Color</att>
         </addAttributes>
     </dataVariable>
-        <dataVariable>
-            <sourceName>par</sourceName>
-            <destinationName>par</destinationName>
-            <dataType>float</dataType>
-            
-            <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
-                <att name="ioos_category">Optical Properties</att>
-                <att name="generic_name">PAR</att>
-                <att name="standard_name">downwelling_photosynthetic_photon_spherical_irradiance_in_sea_water</att>
-                <att name="long_name">Photosynthetic Active Radiation</att>
-                <att name="units">uEin m-2 s-1</att>
-            </addAttributes>
-        </dataVariable>
+    <dataVariable>
+        <sourceName>par</sourceName>
+        <destinationName>par</destinationName>
+        <dataType>float</dataType>
+        
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="generic_name">PAR</att>
+            <att name="standard_name">downwelling_photosynthetic_photon_spherical_irradiance_in_sea_water</att>
+            <att name="long_name">Photosynthetic Active Radiation</att>
+            <att name="units">uEin m-2 s-1</att>
+        </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>oxy_percentsat</sourceName>
         <destinationName>oxygen_saturation</destinationName>

@@ -97,6 +97,7 @@
     <dataVariable>
         <sourceName>chlor_fluorescence</sourceName>
         <destinationName>chlorophyll_fluorescence</destinationName>
+        <att name="units">micrograms (ug) / l</att>
         <dataType>double</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>

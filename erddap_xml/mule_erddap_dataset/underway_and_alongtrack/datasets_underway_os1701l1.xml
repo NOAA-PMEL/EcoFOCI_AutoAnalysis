@@ -73,7 +73,7 @@ Data is first put on a fixed and shared time-grid.  Seperate Systems are in sepe
             <att name="generic_name">chl</att>
             <att name="long_name">Chlorophyll A</att>
             <att name="name">Chlorophyll</att>
-            <att name="units">ugrams/l</att>        </sourceAttributes -->
+            <att name="units">micrograms (ug) / l</att>        </sourceAttributes -->
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
