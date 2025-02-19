@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_21bspr2a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2018/Moorings/21bspr2a/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2021/Moorings/21bspr2a/final_data_cf/</fileDir>
     <fileNameRegex>.*met.*\.nc</fileNameRegex>
     
     <recursive>false</recursive>
