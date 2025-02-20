@@ -112,7 +112,7 @@
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>
             <att name="ioos_category">Ocean Color</att>
-           <att name="units">"micrograms (ug) / l"</att>
+           <att name="units">micrograms (ug) / l</att>
         </addAttributes>
     </dataVariable>
         <dataVariable>

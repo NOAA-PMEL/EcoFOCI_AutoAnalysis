@@ -145,7 +145,7 @@
             <att name="generic_name">chlor_fluorescence</att>
             <att name="long_name">Mass Concdentration of chlorophyll from chlorophyll fluorescence</att>
             <att name="standard_name">mass_concentration_of_chlorophyll_in_sea_water</att>
-            <att name="units">"micrograms (ug) / l"</att>
+            <att name="units">micrograms (ug) / l</att>
             <att name="ioos_category">Ocean Color</att>
             </addAttributes>
         </dataVariable>
