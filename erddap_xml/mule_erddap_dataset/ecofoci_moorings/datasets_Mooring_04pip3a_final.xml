@@ -33,7 +33,8 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>

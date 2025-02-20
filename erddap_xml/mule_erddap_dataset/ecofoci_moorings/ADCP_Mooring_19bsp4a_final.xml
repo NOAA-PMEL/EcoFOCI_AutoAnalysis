@@ -55,7 +55,8 @@
     <dataVariable>
         <sourceName>u_curr_comp</sourceName>
         <destinationName>u_comp_current</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">0.5</att>
             <att name="colorBarMinimum" type="double">-0.5</att>
             <att name="ioos_category">Currents</att>
@@ -64,7 +65,8 @@
     <dataVariable>
         <sourceName>v_curr_comp</sourceName>
         <destinationName>v_comp_current</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">0.5</att>
             <att name="colorBarMinimum" type="double">-0.5</att>
             <att name="ioos_category">Currents</att>
@@ -73,7 +75,8 @@
     <dataVariable>
         <sourceName>w_curr_comp</sourceName>
         <destinationName>w_comp_current</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">0.5</att>
             <att name="colorBarMinimum" type="double">-0.5</att>
             <att name="ioos_category">Currents</att>
@@ -82,7 +85,8 @@
     <dataVariable>
         <sourceName>w_curr_comp_err</sourceName>
         <destinationName>w_comp_current_err</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">0.1</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
@@ -91,7 +95,8 @@
     <dataVariable>
         <sourceName>agc1</sourceName>
         <destinationName>agc1</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
@@ -103,7 +108,8 @@
     <dataVariable>
         <sourceName>agc2</sourceName>
         <destinationName>agc2</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
@@ -115,7 +121,8 @@
     <dataVariable>
         <sourceName>agc3</sourceName>
         <destinationName>agc3</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>
@@ -127,7 +134,8 @@
     <dataVariable>
         <sourceName>agc4</sourceName>
         <destinationName>agc4</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">100.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Statistics</att>

@@ -33,7 +33,8 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Time</att>
         </addAttributes>
     </dataVariable>
@@ -134,7 +135,7 @@
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>

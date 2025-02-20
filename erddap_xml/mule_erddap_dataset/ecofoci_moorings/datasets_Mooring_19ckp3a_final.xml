@@ -28,7 +28,8 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -38,7 +39,8 @@
     <dataVariable>
         <sourceName>temperature</sourceName>
         <destinationName>temperature</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">32.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Temperature</att>
@@ -47,7 +49,8 @@
     <dataVariable>
         <sourceName>heading</sourceName>
         <destinationName>heading</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Inst Heading</att>
             <att name="standard_name">inst heading</att>
@@ -56,7 +59,8 @@
     <dataVariable>
         <sourceName>pitch</sourceName>
         <destinationName>pitch</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">inst pitch</att>
         </addAttributes>
@@ -64,7 +68,8 @@
     <dataVariable>
         <sourceName>roll</sourceName>
         <destinationName>roll</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Unknown</att>
             <att name="standard_name">inst roll</att>
         </addAttributes>
@@ -102,7 +107,8 @@
     <dataVariable>
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
             <att name="ioos_category">Location</att>
@@ -112,7 +118,8 @@
     <dataVariable>
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
             <att name="ioos_category">Location</att>
@@ -122,7 +129,8 @@
     <dataVariable>
         <sourceName>depth</sourceName>
         <destinationName>depth</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="colorBarMaximum" type="double">8000.0</att>
             <att name="colorBarMinimum" type="double">-8000.0</att>
             <att name="colorBarPalette">TopographyDepth</att>
@@ -170,7 +178,7 @@
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="epic_key">Fch_906</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
             <att name="colorBarMaximum" type="double">30.0</att>
             <att name="colorBarMinimum" type="double">0.03</att>
             <att name="colorBarScale">Log</att>

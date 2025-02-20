@@ -31,7 +31,8 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
@@ -156,7 +157,8 @@
     <dataVariable>
         <sourceName>Qs_133</sourceName>
         <destinationName>solar_radiation</destinationName>
-        <dataType>double</dataType><addAttributes>
+                    <dataType>double</dataType>
+            <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
             <att name="_FillValue">1.0E35</att>
             <att name="epic_key">Qs_133</att>

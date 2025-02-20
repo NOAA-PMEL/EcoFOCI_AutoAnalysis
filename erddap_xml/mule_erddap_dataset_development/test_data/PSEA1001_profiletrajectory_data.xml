@@ -331,7 +331,7 @@
             <att name="history">From all_ctd_casts_v2</att>
             <att name="long_name">Fl Chl-a, Factory Cal.</att>
             <att name="missing_value" type="float">-1.0E34</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -588,7 +588,7 @@
             <att name="history">From all_ctd_casts_v2</att>
             <att name="long_name">Upcast Chl-a, Discrete Lab Samples</att>
             <att name="missing_value" type="float">-1.0E34</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -607,7 +607,7 @@
             <att name="history">From all_ctd_casts_v2</att>
             <att name="long_name">Welschmeyer Chlorophyll-a total</att>
             <att name="missing_value" type="float">-1.0E34</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">30.0</att>
@@ -626,7 +626,7 @@
             <att name="history">From all_ctd_casts_v2</att>
             <att name="long_name">Phaeopigments</att>
             <att name="missing_value" type="float">-1.0E34</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Unknown</att>

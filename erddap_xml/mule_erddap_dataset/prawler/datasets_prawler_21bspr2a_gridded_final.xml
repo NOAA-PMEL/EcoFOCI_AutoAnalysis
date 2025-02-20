@@ -105,7 +105,7 @@
             <att name="colorBarScale">Log</att>
             <att name="ioos_category">Ocean Color</att>
             <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
-            <att name="units">micrograms (ug) / l</att>
+            <att name="units">"micrograms (ug) / l"</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
