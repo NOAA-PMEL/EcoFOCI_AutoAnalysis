@@ -53,7 +53,7 @@
             </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>lat</sourceName>
+        <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>float</dataType><addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
@@ -65,7 +65,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>lon</sourceName>
+        <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>float</dataType><addAttributes>
             <att name="ioos_category">Location</att>
@@ -73,7 +73,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>AT_21</sourceName>
+        <sourceName>temperature</sourceName>
         <destinationName>air_temperature</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -87,7 +87,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>BP_915</sourceName>
+        <sourceName>pressure</sourceName>
         <destinationName>air_pressure</destinationName>
         <dataType>float</dataType>
         <addAttributes>
@@ -102,7 +102,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>WD_410</sourceName>
+        <sourceName>wind_from_direction</sourceName>
         <destinationName>wind_direction</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -115,59 +115,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Teq_1800</sourceName>
-        <destinationName>Teq_1800</destinationName>
-        <dataType>float</dataType>
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">40.0</att>
-            <att name="colorBarMinimum" type="double">-10.0</att>
-            <att name="epic_key">Teq_1800</att>
-            <att name="ioos_category">Temperature</att>
-            <att name="units">degree_C</att>
-            <att name="long_name">Equilibrator Temperature</att>
-            <att name="description">Engineering value: Equilibrator Temperature - not a environmental parameter</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>BAT_106</sourceName>
-        <destinationName>battery_voltage</destinationName>
-        <dataType>float</dataType><addAttributes>
-            <att name="_FillValue">1.0E35</att>
-            <att name="epic_key">BAT_106</att>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">internal battery voltage</att>
-            <att name="units">voltage</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>RH_910</sourceName>
-        <destinationName>relative_humidity</destinationName>
-        <dataType>float</dataType><addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-            <att name="_FillValue">1.0E35</att>
-            <att name="epic_key">RH_910</att>
-            <att name="colorBarMaximum" type="double">100.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Meteorology</att>
-            <att name="standard_name">relative_humidity</att>
-            <att name="units">%</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Qs_133</sourceName>
-        <destinationName>solar_radiation</destinationName>
-        <dataType>double</dataType><addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-            <att name="_FillValue">1.0E35</att>
-            <att name="epic_key">Qs_133</att>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">incoming_solar_radiation</att>
-            <att name="standard_name">downwelling_shortwave_flux_in_air</att>
-            <att name="units">W m-2</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>WV_423</sourceName>
+        <sourceName>northward_wind</sourceName>
         <destinationName>northward_wind</destinationName>
         <dataType>float</dataType>
         <addAttributes>
@@ -181,21 +129,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>comp_1404</sourceName>
-        <destinationName>compass_direction</destinationName>
-        <dataType>float</dataType>
-        <addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-            <att name="_FillValue">1.0E35</att>
-            <att name="epic_key">comp_1404</att>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">compass direction</att>
-            <att name="units">degrees</att>
-            <att name="standard_name">compass_direction</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>WS_401</sourceName>
+        <sourceName>wind_speed</sourceName>
         <destinationName>wind_speed</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -208,7 +142,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>WU_422</sourceName>
+        <sourceName>eastward_wind</sourceName>
         <destinationName>eastward_wind</destinationName>
         <dataType>float</dataType>
         <addAttributes>
