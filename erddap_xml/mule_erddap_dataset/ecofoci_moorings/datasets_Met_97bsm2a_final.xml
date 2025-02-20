@@ -2,7 +2,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/1997/Moorings/97bsm2a/erddap/final_data/</fileDir>
-    <fileNameRegex>.*wpak.*\.nc</fileNameRegex>
+    <fileNameRegex>.*amp.*\.nc</fileNameRegex>
     
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>

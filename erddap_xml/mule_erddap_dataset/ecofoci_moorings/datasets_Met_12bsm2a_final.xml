@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_12bsm2a_final" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="datasets_Met_12bsm2a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2012/Moorings/12bsm2a/erddap/final_data/</fileDir>
