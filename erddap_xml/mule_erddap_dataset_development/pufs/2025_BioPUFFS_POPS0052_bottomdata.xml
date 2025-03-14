@@ -31,7 +31,7 @@
         <att name="subsetVariables">trajectory_id</att>
         <att name="summary">24BSBIOPUF-TPRFC52 2024 (BIOPUFF) - Bottom Data.  QC Levels 1 and 2 maintained from QARTOD range, spike and rate of change tested for Temp, Press Variables.</att>
         <att name="testOutOfDate">now-2days</att>
-        <att name="title">24BSBIOPUF-TPRFC52 Hourly GPS/SST Merged Data</att>
+        <att name="title">24BSBIOPUF-TPRFC52 Bottom Data</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time (UTC)</sourceName>
