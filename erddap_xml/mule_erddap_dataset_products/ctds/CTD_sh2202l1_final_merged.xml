@@ -225,14 +225,14 @@
                    <att name="missing_value" type="float">-9999.0</att>
                    <att name="_FillValue" type="float">1.0e35</att>
                     <att name="epic_key">Fch_906</att>
-                    <att name="units">micrograms (ug) / l</att>
+                    <att name="units">ugrams/l</att>
                     <att name="_FillValue">1.0E35</att>
                     <att name="colorBarMaximum" type="double">30.0</att>
                     <att name="colorBarMinimum" type="double">0.03</att>
                     <att name="colorBarScale">Log</att>
                     <att name="ioos_category">Ocean Color</att>
                     <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
-                    <att name="units">micrograms (ug) / l</att>
+                    <att name="units">ugrams/l</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
