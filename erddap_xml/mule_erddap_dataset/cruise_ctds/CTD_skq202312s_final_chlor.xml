@@ -1,53 +1,50 @@
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_skq202312s_final_chlor" active="false">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2023/CTDcasts/skq202312s/final_data_cf/chlor/</fileDir>
-    <fileNameRegex>.*\.nc</fileNameRegex>
-    <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
-    <standardizeWhat>0</standardizeWhat>
-    <removeMVRows>true</removeMVRows>
-    <sortFilesBySourceNames />
-    <fileTableInMemory>false</fileTableInMemory>
-
-    <addAttributes>
-        <att name="cdm_data_type">Profile</att>
-        <att name="cdm_altitude_proxy">pressure</att> 
-        <att name="cdm_profile_variables">profile_id</att>
-        <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
-        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-        <att name="creation_date">November 12, 2020 21:05 UTC</att>
-        <att name="history">Created from ASCII records</att>
-        <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
-        <att name="creator_email">pmel.ecofoci@noaa.gov</att>
-        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
-        <att name="creator_type">institution</att>
-        <att name="creator_url">https://www.pmel.noaa.gov/</att>        
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="keywords">BO_61, bottle, BTL_103, data, depth, depth2, dissolved, dissolved o2, latitude, local, micromoles, micromoles/l, niskin, number, O2, oxygen, source, statistics, time</att>        <att name="license">[standard]</att>
-        <att name="sourceUrl">(local files)</att>
-        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">Bottle Chlorophyl Data from skq202312s</att>
-        <att name="title">Bottle Chlorophyl Data from skq202312s</att>
-    </addAttributes>
-    <dataVariable>
-        <sourceName>time</sourceName>
-        <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">624</att>
-            <att name="type">EVEN</att>
-            <att name="units">days since 1900-01-01</att>
-        </sourceAttributes -->
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_skq202312s_final_chlor" active="true">
+        <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+        <updateEveryNMillis>10000</updateEveryNMillis>
+        <fileDir>/home/ecofoci_data/2023/CTDcasts/skq202312s/final_data/chla/</fileDir>
+        <fileNameRegex>.*\.nc</fileNameRegex>
+        <recursive>true</recursive>
+        <pathRegex>.*</pathRegex>
+        <metadataFrom>last</metadataFrom>
+        <standardizeWhat>0</standardizeWhat>
+        <removeMVRows>true</removeMVRows>
+        <sortFilesBySourceNames />
+        <fileTableInMemory>false</fileTableInMemory>
+        
+        
         <addAttributes>
-            <att name="ioos_category">Time</att>
-            <att name="long_name">Time</att>
-            <att name="standard_name">time</att>
-            <att name="units">days since 1900-01-01T00:00:00Z</att>
+            <att name="cdm_data_type">Profile</att>
+            <att name="cdm_altitude_proxy">pressure</att> 
+            <att name="cdm_profile_variables">profile_id</att>
+            <att name="subsetVariables">time, latitude, longitude, profile_id, Station_Name</att>
+            <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+            <att name="creation_date">November 12, 2020 21:05 UTC</att>
+            <att name="history">Created from ASCII records</att>
+            <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
+            <att name="creator_email">pmel.ecofoci@noaa.gov</att>
+            <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+            <att name="creator_type">institution</att>
+            <att name="creator_url">https://www.pmel.noaa.gov/</att>        
+            <att name="institution">NOAA/PMEL - EcoFOCI</att>
+            <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+            <att name="subsetVariables">time, latitude, longitude</att>
+            <att name="sourceUrl">(local files)</att>
+            <att name="summary">Discrete Chlorophyll-A Data from SKQ202312S - Final ChlorA Data </att>
+            <att name="title">Discrete Chlorophyll-A Data from SKQ202312S - Final ChlorA Data</att>
         </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>depth</sourceName>
+        <dataVariable>
+            <sourceName>time</sourceName>
+            <destinationName>time</destinationName>
+            <dataType>double</dataType>            
+            <addAttributes>
+                <att name="ioos_category">Time</att>
+                <att name="long_name">Time</att>
+                <att name="standard_name">time</att>
+                <att name="units">days since 1900-01-01T00:00:00Z</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>depth</sourceName>
             <destinationName>pressure</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
@@ -61,58 +58,46 @@
                 <att name="standard_name">sea_water_pressure</att>
             </addAttributes>
         </dataVariable>
-    <dataVariable>
-        <sourceName>lat</sourceName>
-        <destinationName>latitude</destinationName>
-        <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="epic_code" type="int">500</att>
-            <att name="type">EVEN</att>
-            <att name="units">degree_north</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="colorBarMaximum" type="double">90.0</att>
-            <att name="colorBarMinimum" type="double">-90.0</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-            <att name="standard_name">latitude</att>
-            <att name="units">degrees_north</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>lon</sourceName>
-        <destinationName>longitude</destinationName>
-        <dataType>float</dataType>
-        <addAttributes>
-            <att name="missing_value" type="float">-9999.0</att>
-            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-            <att name="standard_name">longitude</att>
-            <att name="units">degrees_east</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>BTL_103</sourceName>
-        <destinationName>BTLID</destinationName>
-        <dataType>float</dataType>            
-        <addAttributes>
-            <att name="missing_value" type="float">-9999.0</att>
-            <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">100.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="long_name">NISKIN BOTTLE NUMBER</att>
-            <att name="ioos_category">Statistics</att>
-            <att name="epic_code" type="int">103</att>
-        </addAttributes>
-    </dataVariable>  
         <dataVariable>
-            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
-            <destinationName>profile_id</destinationName>
-            <dataType>String</dataType>            
+            <sourceName>lat</sourceName>
+            <destinationName>latitude</destinationName>
+            <dataType>float</dataType>            
             <addAttributes>
-                <att name="ioos_category">Identifier</att>
-                <att name="cf_role">profile_id</att>
+               <att name="missing_value" type="float">-9999.0</att>
+               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="colorBarMaximum" type="double">90.0</att>
+                <att name="colorBarMinimum" type="double">-90.0</att>
+                <att name="ioos_category">Location</att>
+                <att name="long_name">Latitude</att>
+                <att name="standard_name">latitude</att>
+                <att name="units">degrees_north</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>lon</sourceName>
+            <destinationName>longitude</destinationName>
+            <dataType>float</dataType>            
+            <addAttributes>
+               <att name="missing_value" type="float">-9999.0</att>
+               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="ioos_category">Location</att>
+                <att name="long_name">Longitude</att>
+                <att name="standard_name">longitude</att>
+                <att name="scale_factor" type="float">-1.</att>
+                <att name="add_offset" type="float">360.</att> 
+                <att name="units">degrees_east</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>BTL_103</sourceName>
+            <destinationName>BTLID</destinationName>
+            <dataType>float</dataType>            
+            <addAttributes>
+               <att name="missing_value" type="float">-9999.0</att>
+               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="colorBarMaximum" type="double">100.0</att>
+                <att name="colorBarMinimum" type="double">0.0</att>
+                <att name="ioos_category">Statistics</att>
             </addAttributes>
         </dataVariable>  
         <dataVariable>
@@ -138,5 +123,40 @@
                 <att name="description">FOCI station name</att>
             </addAttributes>
         </dataVariable>  
-</dataset>
+        <dataVariable>
+            <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+            <destinationName>profile_id</destinationName>
+            <dataType>String</dataType>            
+            <addAttributes>
+                <att name="ioos_category">Identifier</att>
+                <att name="cf_role">profile_id</att>
+            </addAttributes>
+        </dataVariable>    
+        <dataVariable>
+            <sourceName>Chl_2933</sourceName>
+            <destinationName>Chl_2933</destinationName>
+            <dataType>float</dataType>            
+            <addAttributes>
+                <att name="colorBarMaximum" type="double">30.0</att>
+                <att name="colorBarMinimum" type="double">0.03</att>
+                <att name="colorBarScale">Log</att>
+                <att name="ioos_category">Ocean Color</att>
+                <att name="long_name">Bottle Chlorophyll-a, discrete sampled</att>
+                <att name="units">microgram liter^-1</att>
+                <att name="standard_name">mass_concentration_of_chlorophyll_a_in_sea_water</att>
+            </addAttributes>
+        </dataVariable>
+        <dataVariable>
+            <sourceName>Fph_907</sourceName>
+            <destinationName>Fph_907</destinationName>
+            <dataType>float</dataType>            
+            <addAttributes>
+                <att name="ioos_category">Ocean Color</att>
+                <att name="units">microgram liter^-1</att>
+                <att name="standard_name">mass_concentration_of_phaeopigments_in_sea_water</att>
+            </addAttributes>
+        </dataVariable>
+    </dataset>
+    
+
     

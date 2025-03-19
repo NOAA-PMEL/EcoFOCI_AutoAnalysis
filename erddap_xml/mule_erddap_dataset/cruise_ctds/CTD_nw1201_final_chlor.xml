@@ -141,9 +141,9 @@
                 <att name="colorBarMinimum" type="double">0.03</att>
                 <att name="colorBarScale">Log</att>
                 <att name="ioos_category">Ocean Color</att>
-                <att name="long_name">Chlorophyll-a total (Bottle)</att>
-                <att name="units">micrograms (ug) / l</att>
-                <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
+                <att name="long_name">Bottle Chlorophyll-a, discrete sampled</att>
+                <att name="units">microgram liter^-1</att>
+                <att name="standard_name">mass_concentration_of_chlorophyll_a_in_sea_water</att>
             </addAttributes>
         </dataVariable>
         <dataVariable>
@@ -151,9 +151,9 @@
             <destinationName>Fph_907</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
-                <att name="ioos_category">Unknown</att>
-                <att name="units">micrograms (ug) / l</att>
-                <att name="standard_name">concentration_of_phaeopigments_in_sea_water</att>
+                <att name="ioos_category">Ocean Color</att>
+                <att name="units">microgram liter^-1</att>
+                <att name="standard_name">mass_concentration_of_phaeopigments_in_sea_water</att>
             </addAttributes>
         </dataVariable>
     </dataset>
