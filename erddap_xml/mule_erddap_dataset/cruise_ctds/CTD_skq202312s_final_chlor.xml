@@ -58,7 +58,7 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>lat</sourceName>
+            <sourceName>latitude</sourceName>
             <destinationName>latitude</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
@@ -73,7 +73,7 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>lon</sourceName>
+            <sourceName>longitude</sourceName>
             <destinationName>longitude</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
@@ -88,12 +88,13 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>BTL_103</sourceName>
+            <sourceName>BTLID</sourceName>
             <destinationName>BTLID</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
-               <att name="missing_value" type="float">-9999.0</att>
-               <att name="_FillValue" type="float">1.0e35</att>
+                <att name="epic_key">BTL_103</att>
+                <att name="missing_value" type="float">-9999.0</att>
+                <att name="_FillValue" type="float">1.0e35</att>
                 <att name="colorBarMaximum" type="double">100.0</att>
                 <att name="colorBarMinimum" type="double">0.0</att>
                 <att name="ioos_category">Statistics</att>
@@ -132,10 +133,11 @@
             </addAttributes>
         </dataVariable>    
         <dataVariable>
-            <sourceName>Chl_2933</sourceName>
-            <destinationName>Chl_2933</destinationName>
+            <sourceName>chlorophyll_a</sourceName>
+            <destinationName>chlorophyll_a</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
+                <att name="epic_key">Chl_2933</att>
                 <att name="colorBarMaximum" type="double">30.0</att>
                 <att name="colorBarMinimum" type="double">0.03</att>
                 <att name="colorBarScale">Log</att>
@@ -146,10 +148,11 @@
             </addAttributes>
         </dataVariable>
         <dataVariable>
-            <sourceName>Fph_907</sourceName>
-            <destinationName>Fph_907</destinationName>
+            <sourceName>phaeopigment</sourceName>
+            <destinationName>phaeopigment</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
+                <att name="epic_key">Fph_907</att>
                 <att name="ioos_category">Ocean Color</att>
                 <att name="units">microgram liter^-1</att>
                 <att name="standard_name">mass_concentration_of_phaeopigments_in_sea_water</att>
