@@ -1,7 +1,6 @@
 <dataset type="EDDTableFromNcFiles" datasetID="CTD_skq202312s_final_chlor" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-        <updateEveryNMillis>10000</updateEveryNMillis>
-        <fileDir>/home/ecofoci_data/2023/CTDcasts/skq202312s/final_data/chla/</fileDir>
+        <fileDir>/home/ecofoci_data/2023/CTDcasts/skq202312s/final_data/chlor/</fileDir>
         <fileNameRegex>.*\.nc</fileNameRegex>
         <recursive>true</recursive>
         <pathRegex>.*</pathRegex>
