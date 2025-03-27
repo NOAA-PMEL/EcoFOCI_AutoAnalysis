@@ -101,7 +101,7 @@
             <att name="generic_name">BO</att>
             <att name="long_name">BOTTLE OXYGEN (micromoles/l)</att>
             <att name="name">BO_61</att>
-            <att name="units">uM/l</att>
+            <att name="units">micromoles/l</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="long_name">Winkler Bottle Oxygen</att>

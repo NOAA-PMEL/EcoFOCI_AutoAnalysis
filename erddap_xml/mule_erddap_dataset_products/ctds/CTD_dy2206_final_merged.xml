@@ -508,7 +508,7 @@
                     <att name="generic_name">SI</att>
                     <att name="long_name">SILICATE (micromoles/l)</att>
                     <att name="name">SI_188</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </sourceAttributes -->
                 <addAttributes>
                    <att name="missing_value" type="float">-9999.0</att>
@@ -517,7 +517,7 @@
                     <att name="colorBarMinimum" type="double">0.0</att>
                     <att name="ioos_category">Dissolved Nutrients</att>
                     <att name="standard_name">mole_concentration_of_silicate_in_sea_water</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
@@ -530,7 +530,7 @@
                     <att name="generic_name">PO4</att>
                     <att name="long_name">PHOSPHATE (micromoles/l)</att>
                     <att name="name">PO4_186</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </sourceAttributes -->
                 <addAttributes>
                    <att name="missing_value" type="float">-9999.0</att>
@@ -539,7 +539,7 @@
                     <att name="colorBarMinimum" type="double">0.0</att>
                     <att name="ioos_category">Dissolved Nutrients</att>
                     <att name="standard_name">mole_concentration_of_phosphate_in_sea_water</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
@@ -552,7 +552,7 @@
                     <att name="generic_name">NO2</att>
                     <att name="long_name">NITRITE (micromoles/l)</att>
                     <att name="name">NO2_184</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </sourceAttributes -->
                 <addAttributes>
                    <att name="missing_value" type="float">-9999.0</att>
@@ -561,7 +561,7 @@
                     <att name="colorBarMinimum" type="double">0.0</att>
                     <att name="ioos_category">Dissolved Nutrients</att>
                     <att name="standard_name">mole_concentration_of_nitrite_in_sea_water</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
@@ -574,7 +574,7 @@
                     <att name="generic_name">NO3</att>
                     <att name="long_name">NITRATE (micromoles/l)</att>
                     <att name="name">NO3_182</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </sourceAttributes -->
                 <addAttributes>
                    <att name="missing_value" type="float">-9999.0</att>
@@ -583,7 +583,7 @@
                     <att name="colorBarMinimum" type="double">0.0</att>
                     <att name="ioos_category">Dissolved Nutrients</att>
                     <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>
@@ -596,7 +596,7 @@
                     <att name="generic_name">NO3</att>
                     <att name="long_name">NITRATE (micromoles/l)</att>
                     <att name="name">NH4_189</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </sourceAttributes -->
                 <addAttributes>
                    <att name="missing_value" type="float">-9999.0</att>
@@ -605,7 +605,7 @@
                     <att name="colorBarMinimum" type="double">0.0</att>
                     <att name="ioos_category">Dissolved Nutrients</att>
                     <att name="standard_name">mole_concentration_of_ammonium_in_sea_water</att>
-                    <att name="units">uM/l</att>
+                    <att name="units">micromoles/l</att>
                 </addAttributes>
             </dataVariable>
             <dataVariable>

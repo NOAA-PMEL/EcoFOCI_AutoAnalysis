@@ -153,7 +153,7 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved Nutrients</att>
             <att name="standard_name">mole_concentration_of_silicate_in_sea_water</att>
-            <att name="units">uM/l</att>
+            <att name="units">micromoles/l</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -168,7 +168,7 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved Nutrients</att>
             <att name="standard_name">mole_concentration_of_phosphate_in_sea_water</att>
-            <att name="units">uM/l</att>
+            <att name="units">micromoles/l</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -183,7 +183,7 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved Nutrients</att>
             <att name="standard_name">mole_concentration_of_nitrite_in_sea_water</att>
-            <att name="units">uM/l</att>
+            <att name="units">micromoles/l</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -198,7 +198,7 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved Nutrients</att>
             <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
-            <att name="units">uM/l</att>
+            <att name="units">micromoles/l</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -213,7 +213,7 @@
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Dissolved Nutrients</att>
             <att name="standard_name">mole_concentration_of_ammonium_in_sea_water</att>
-            <att name="units">uM/l</att>
+            <att name="units">micromoles/l</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
