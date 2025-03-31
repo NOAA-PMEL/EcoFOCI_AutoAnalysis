@@ -5,7 +5,7 @@
     <fileNameRegex>.*met.*\.nc</fileNameRegex>
     
     <recursive>false</recursive>
-    <pathRegex>.*</pathRegex>
+    <pathRegex>.*(telos|hobo).*\.nc</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
