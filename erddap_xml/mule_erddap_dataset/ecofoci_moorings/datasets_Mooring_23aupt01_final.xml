@@ -1,6 +1,6 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_23pt01_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_23aupt01_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2023/Moorings/23pt01/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2023/Moorings/23aupt01/final_data_cf/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
