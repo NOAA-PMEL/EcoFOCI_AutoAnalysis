@@ -2,10 +2,10 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2023/Moorings/23bspr2a/final_data_cf/</fileDir>
-    <fileNameRegex>.*met.*\.nc</fileNameRegex>
+    <fileNameRegex>.*(telos|hobo).*\.nc</fileNameRegex>
     
     <recursive>false</recursive>
-    <pathRegex>.*(telos|hobo).*\.nc</pathRegex>
+    <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
