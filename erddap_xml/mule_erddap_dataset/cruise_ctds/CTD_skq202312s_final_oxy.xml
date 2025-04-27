@@ -47,7 +47,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>depth</sourceName>
+        <sourceName>pressure</sourceName>
             <destinationName>pressure</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
