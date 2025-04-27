@@ -93,7 +93,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>BO_61</sourceName>
+        <sourceName>O2</sourceName>
         <destinationName>bottle_oxygen</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
