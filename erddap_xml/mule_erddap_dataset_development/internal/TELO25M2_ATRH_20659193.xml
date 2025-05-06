@@ -1,0 +1,5 @@
+<dataset type="EDDTableFromErddap" datasetID="TELO25M2_ATRH_20659193" active="true">
+    <sourceUrl>http://redwing.pmel.noaa.gov:8080/erddap/tabledap/TELO25M2_ATRH_20659193</sourceUrl>
+    <reloadEveryNMinutes>60</reloadEveryNMinutes>
+    <redirect>false</redirect>
+</dataset>
