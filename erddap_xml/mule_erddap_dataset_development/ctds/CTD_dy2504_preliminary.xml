@@ -1,7 +1,7 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2504_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2025/CTDcasts/dy2504/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2025/CTDCasts/dy2504/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
