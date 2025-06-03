@@ -65,6 +65,7 @@
             <att name="colorBarMaximum" type="double">37.0</att>
             <att name="colorBarMinimum" type="double">32.0</att>
             <att name="ioos_category">Salinity</att>
+            <att name="units">PSU</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
