@@ -182,7 +182,7 @@
         </dataVariable>
         <dataVariable>
             <sourceName>NO3_182</sourceName>
-            <destinationName>NO3_182</destinationName>
+            <destinationName>NO3</destinationName>
             <dataType>float</dataType>            
             <addAttributes>
                <att name="missing_value" type="float">-9999.0</att>
