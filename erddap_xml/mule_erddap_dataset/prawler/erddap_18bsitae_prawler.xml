@@ -1,5 +1,5 @@
 <dataset type="EDDGridFromNcFiles" datasetID="erddap_18bsitaepr2a_prawler_1m" active="true">
-    <fileDir>/home/ecofoci_data/2018/Moorings/final_data_cf/</fileDir>
+    <fileDir>/home/ecofoci_data/2018/Moorings/18bsitaepr2a/final_data_cf/</fileDir>
     <fileNameRegex>.*1m.*\.nc</fileNameRegex>
     
     <recursive>false</recursive>
