@@ -22,20 +22,6 @@
         <att name="title">QC'd Prawler Deployment Profile Data, 19BSITAEPR2A (M2) Final Data, 1m gridded</att>
     </addAttributes>
     <axisVariable>
-        <sourceName>latitude</sourceName>
-        <destinationName>latitude</destinationName><addAttributes>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Latitude</att>
-        </addAttributes>
-    </axisVariable>
-    <axisVariable>
-        <sourceName>longitude</sourceName>
-        <destinationName>longitude</destinationName><addAttributes>
-            <att name="ioos_category">Location</att>
-            <att name="long_name">Longitude</att>
-        </addAttributes>
-    </axisVariable>
-    <axisVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName><addAttributes>
             <att name="ioos_category">Time</att>
@@ -55,6 +41,24 @@
             <att name="units">m</att>
        </addAttributes>
     </axisVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+        </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>Temperature</sourceName>
         <destinationName>temperature</destinationName>
