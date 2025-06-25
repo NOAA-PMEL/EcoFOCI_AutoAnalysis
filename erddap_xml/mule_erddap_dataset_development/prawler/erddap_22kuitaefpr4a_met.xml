@@ -1,7 +1,5 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="erddap_22kuitaefpr4
-a_met" active="true">
-    <fileDir>/home/ecofoci_data/2022/Moorings/22kuitaefpr4
-    a/initial_archive/</fileDir>
+<dataset type="EDDTableFromAsciiFiles" datasetID="erddap_22kuitaefpr4a_met" active="true">
+    <fileDir>/home/ecofoci_data/2022/Moorings/22kuitaefpr4a/initial_archive/</fileDir>
     <fileNameRegex>.*Met.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
