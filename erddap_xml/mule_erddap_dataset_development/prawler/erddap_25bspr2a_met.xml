@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromAsciiFiles" datasetID="erddap_25bspr2a_met" active="true">
     <fileDir>/home/ecofoci_data/2025/Moorings/25bspr2a/initial_archive/prawler/</fileDir>
-    <fileNameRegex>.*Met.*\.csv</fileNameRegex>
+    <fileNameRegex>.*Met.10min*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
