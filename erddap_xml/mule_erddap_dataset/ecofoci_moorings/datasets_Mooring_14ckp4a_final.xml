@@ -5,7 +5,8 @@
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
-    <pathRegex>.*(erddap|final_data_cf).*</pathRegex>
+    <!-- this allows multiple dirs for files of CF convention-->
+    <pathRegex>.*(erddap).*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
