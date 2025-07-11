@@ -5,7 +5,7 @@
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
-    <pathRegex>.*erddap|final_data_cf.*</pathRegex>
+    <pathRegex>.*(erddap|final_data_cf).*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
