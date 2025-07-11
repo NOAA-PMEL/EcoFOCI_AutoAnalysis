@@ -1,11 +1,11 @@
 <dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_14ckp4a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2014/Moorings/14ckp4a/erddap/final_data/</fileDir>
+    <fileDir>/home/ecofoci_data/2014/Moorings/14ckp4a/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
-    <pathRegex>.*</pathRegex>
+    <pathRegex>.*final.*</pathRegex>
     <metadataFrom>last</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
