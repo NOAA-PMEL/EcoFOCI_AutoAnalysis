@@ -155,6 +155,28 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>v_curr_comp</sourceName>
+        <destinationName>v_comp_current</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>
+            <att name="ioos_category">Currents</att>
+            <att name="standard_name">northward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>u_curr_comp</sourceName>
+        <destinationName>u_comp_current</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="missing_value" type="double">1.0e35</att>            
+            <att name="ioos_category">Currents</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType><addAttributes>
