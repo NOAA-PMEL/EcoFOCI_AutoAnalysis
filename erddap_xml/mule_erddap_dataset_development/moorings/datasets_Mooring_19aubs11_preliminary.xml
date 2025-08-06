@@ -28,11 +28,11 @@
     <dataVariable>
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
-        <dataType>double</dataType>
-        
+        <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Time</att>
-            <att name="long_name">Time</att>
+            <att name="long_name">Datetime</att>
+            <att name="source_name">datetime</att>
             <att name="standard_name">time</att>
             <att name="units">yyyy-MM-dd HH:mm:ss</att>
         </addAttributes>
