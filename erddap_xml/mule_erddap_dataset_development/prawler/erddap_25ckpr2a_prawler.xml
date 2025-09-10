@@ -1,0 +1,233 @@
+<dataset type="EDDTableFromAsciiFiles" datasetID="erddap_25ckfpr2a_prawler" active="true">
+    <fileDir>/home/ecofoci_data/2025/Moorings/25ckfpr2a/initial_archive/prawler/</fileDir>
+    <fileNameRegex>.*Prawler.*\.csv</fileNameRegex>
+    <recursive>false</recursive>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <charset>ISO-8859-1</charset>
+    <standardizeWhat>0</standardizeWhat>
+    <columnSeparator />
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <columnNameForExtract />
+    <fileTableInMemory>false</fileTableInMemory>
+    <addAttributes>
+        <att name="cdm_data_type">TimeSeries</att>
+        <att name="cdm_altitude_proxy">depth</att>
+        <att name="cdm_timeseries_variables">timeseries_id</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creation_date">May 14, 2019 17:07 UTC</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/itae/technologies</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">aand, chemistry, chlorophyll, color, concentration, concentration_of_chlorophyll_in_sea_water, conductivity, corr, data, density, depth, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, epoch, Epoch_Time, fdom, local, nephelometric, ntu, O2, O2_corr, O2_corr_aandT, O2_corr_umkg, O2_corr_umkg_aandT, O2PercentSat, O2PercentSat_aandT, ocean, ocean color, oceans, optode, Optode_Dissolved_O2, Optode_Temp, oxygen, percent, practical, salinity, Salinity_PSU_aandT, sat, SB_Conductivity, SB_Depth, SB_Temp, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, seawater, source, temperature, time, turbidity, umkg, units, water, wetlab, wetlab_Chlorophyll, wetlab_Chlorophyll_ug_l, wetlab_FDOM, wetlab_FDOM_NTU</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="subsetVariables">timeseries_id, profileNum</att>
+        <att name="summary">Prawler Deployment Profile Data - 25CKFPR-2A Preliminary (Initial processing from SDIG/EDD erddap TELOS server).</att>
+        <att name="title">Prawler Deployment Profile Data, 25CKFPR-2A Preliminary</att>
+    </addAttributes>    
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.csv,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>time (UTC)</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="source_name">time</att>
+            <att name="standard_name">time</att>
+            <att name="time_precision">1970-01-01T00:00:00Z</att>
+            <att name="units">yyyy-MM-dd HH:mm:ss</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>profile_id</sourceName>
+        <destinationName>profileNum</destinationName>
+        <dataType>int</dataType>
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Profile Num</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+        </addAttributes>
+    </dataVariable>  
+    <dataVariable>
+        <sourceName>SB_Depth</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="standard_name">depth</att>
+            <att name="units">m</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SB_Temp</sourceName>
+        <destinationName>Temperature</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SB_Conductivity</sourceName>
+        <destinationName>Conductivity</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">30.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="long_name">Sea Water Electrical Conductivity</att>
+            <att name="standard_name">sea_water_electrical_conductivity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Optode_Temp</sourceName>
+        <destinationName>Oxy_Temperature</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">temperature_of_sensor_for_oxygen_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Salinity (PSU)</sourceName>
+        <destinationName>Salinity</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="long_name">Sea Water Practical Salinity</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+            <att name="units">PSU</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Salinity (PSU) aandT</sourceName>
+        <destinationName>Salinity_aandT</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="comment">Calculated using Aanderaa Temperature Probe</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+            <att name="units">PSU</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wetlab_Chlorophyll_ug/l</sourceName>
+        <destinationName>Chlorophyll</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMinimum" type="double">0.03</att>
+            <att name="colorBarScale">Log</att>
+            <att name="ioos_category">Ocean Color</att>
+            <att name="standard_name">concentration_of_chlorophyll_in_sea_water</att>
+            <att name="units">ugrams l-1</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>wetlab_FDOM_NTU</sourceName>
+        <destinationName>Turbidity</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="standard_name">sea_water_turbidity</att>
+            <att name="units">NTU</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>O2_corr_umkg_aandT</sourceName>
+        <destinationName>Oxy_Conc_aandT</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+           <att name="ioos_category">Dissolved O2</att>
+           <att name="units">umol/kg</att>
+           <att name="comment">derived with aanderaa temperature for salinity correction</att>
+           <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>O2_corr_umkg</sourceName>
+        <destinationName>Oxy_Conc</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+           <att name="ioos_category">Dissolved O2</att>
+           <att name="units">umol/kg</att>
+           <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>O2PercentSat</sourceName>
+        <destinationName>Oxy_Sat</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="units">percent</att>
+            <att name="standard_name">fractional_saturation_of_oxygen_in_sea_water</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
+    
