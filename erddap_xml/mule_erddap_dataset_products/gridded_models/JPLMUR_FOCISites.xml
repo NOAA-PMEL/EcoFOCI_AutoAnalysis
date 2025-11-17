@@ -1,6 +1,6 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="JPLMUR_FOCISites" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/disk3/projects/ecofoci/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/model_sfctemps_moorings/</fileDir>
+    <fileDir>/home/disk3/projects/ecofoci/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/model_sfctemps_moorings/jplmur/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
