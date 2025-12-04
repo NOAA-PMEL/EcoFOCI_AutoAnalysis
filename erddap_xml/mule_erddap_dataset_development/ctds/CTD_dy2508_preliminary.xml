@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2504_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_dy2508_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2025/CTDcasts/dy2504/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2025/CTDcasts/dy2508/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -38,8 +38,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">time, latitude, longitude, profile_id</att>
-        <att name="summary">Preliminary (not final QC) Hydrographic data from DY2504 (Oscar Dyson 25-04) Cruise</att>
-        <att name="title">CTD Data from DY2504 - Preliminary</att>
+        <att name="summary">Preliminary (not final QC) Hydrographic data from DY2508 (Oscar Dyson 25-04) Cruise</att>
+        <att name="title">CTD Data from DY2508 - Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profileid</sourceName>
