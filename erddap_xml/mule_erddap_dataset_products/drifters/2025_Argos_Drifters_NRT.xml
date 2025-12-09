@@ -1,16 +1,13 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="2025_Argos_Drifters_NRT" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="2025_Argos_Drifters_NRT" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2025/Drifters/erddap/initial/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
-    <recursive>true</recursive>
+    <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
-    <preExtractRegex />
-    <postExtractRegex />
-    <extractRegex />
-    <columnNameForExtract />
-    <removeMVRows>false</removeMVRows>
-    <sortFilesBySourceNames />
+    <metadataFrom>first</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <sortedColumnSourceName>time</sortedColumnSourceName>
+    <sortFilesBySourceNames>time</sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">Trajectory</att>
