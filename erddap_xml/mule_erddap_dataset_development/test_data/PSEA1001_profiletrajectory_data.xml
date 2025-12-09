@@ -1,5 +1,5 @@
 
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA1001_profiletrajectrory_data" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA1001_profiletrajectrory_data" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_test/</fileDir>
     <fileNameRegex>.*all_ctd_casts_t_axis_v2\.nc</fileNameRegex>

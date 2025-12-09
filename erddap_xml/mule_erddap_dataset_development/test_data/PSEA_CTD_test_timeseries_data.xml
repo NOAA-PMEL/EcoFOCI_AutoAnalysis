@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA_CTD_test_time_series_data" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="PSEA_CTD_test_time_series_data" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/akutan/bell/in_and_outbox/erddap_generated/foci_test/</fileDir>
     <fileNameRegex>.*time_series_data\.nc</fileNameRegex>
