@@ -9,7 +9,7 @@
     <standardizeWhat>0</standardizeWhat>
     <sortedColumnSourceName>time</sortedColumnSourceName>
     <sortFilesBySourceNames>time</sortFilesBySourceNames>
-    <fileTableInMemory>false</fileTableInMemory>\
+    <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">Timeseries</att>
         <att name="cdm_timeseries_variables">timeseries_id, latitude, longitude</att>
