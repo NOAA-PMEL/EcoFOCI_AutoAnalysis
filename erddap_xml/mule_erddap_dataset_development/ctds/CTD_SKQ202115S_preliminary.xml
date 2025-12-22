@@ -5,10 +5,10 @@ Keep an EPIC key code in meta data of new final data for reference
 ### May make final data variable names epic too... for consistency although it does add confusion 
 -->
 
-<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_skq202115s_preliminary" active="true">
+<dataset type="EDDTableFromAsciiFiles" datasetID="CTD_skq202515s_preliminary" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/2021/CTDcasts/skq202115s/initial_archive/</fileDir>
+    <fileDir>/home/ecofoci_data/2025/CTDcasts/skq202515s/initial_archive/</fileDir>
     <fileNameRegex>.*\.csv</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -45,8 +45,8 @@ Keep an EPIC key code in meta data of new final data for reference
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v67</att>
         <att name="subsetVariables">time, latitude, longitude, profile_id</att>
-        <att name="summary">Preliminary (not final QC) Hydrographic data from SKQ202115S (R/V Siukuliaq 2021-15S) Cruise</att>
-        <att name="title">CTD Data from SKQ202115S - Preliminary</att>
+        <att name="summary">Preliminary (not final QC) Hydrographic data from SKQ202515S (R/V Siukuliaq 2021-15S) Cruise</att>
+        <att name="title">CTD Data from SKQ202515S - Preliminary</att>
     </addAttributes>
     <dataVariable>
         <sourceName>profileid</sourceName>
