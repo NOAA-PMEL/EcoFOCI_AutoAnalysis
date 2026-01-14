@@ -242,6 +242,7 @@
             <att name="ioos_category">Currents</att>
             <att name="standard_name">eastward_sea_water_velocity</att>
         </addAttributes>
+    </dataVariable>
     <dataVariable>
         <sourceName>w_curr_comp</sourceName>
         <destinationName>w_comp_current</destinationName>
