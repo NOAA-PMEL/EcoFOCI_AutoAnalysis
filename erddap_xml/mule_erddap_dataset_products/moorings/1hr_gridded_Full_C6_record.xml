@@ -1,8 +1,8 @@
 
-    <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_C2_record" active="true">
+    <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_C6_record" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
         <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/unified_moorings/</fileDir>
-        <fileNameRegex>Full_C2_record.nc</fileNameRegex>
+        <fileNameRegex>Full_C6_record.nc</fileNameRegex>
         <recursive>false</recursive>
         <pathRegex>.*</pathRegex>
         <metadataFrom>last</metadataFrom>
@@ -20,8 +20,8 @@
             <att name="keywords_vocabulary">GCMD Science Keywords</att>
             <att name="license">[standard]</att>
             <att name="standard_name_vocabulary">CF Standard Name Table v55</att>
-            <att name="summary">QC'd (final) mooring data from C2.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only 1hr_gridded_datasets.  A depth field exisists for each known instrument depth, even if the parameter wasn't measured at that depth. </att>
-            <att name="title">Gridded Mooring Data from C2 - final</att>
+            <att name="summary">QC'd (final) mooring data from C6.  This dataset has been gridded to 1hr resolution (with pressure left at discrete depths).  It uses only 1hr_gridded_datasets.  A depth field exisists for each known instrument depth, even if the parameter wasn't measured at that depth. </att>
+            <att name="title">Gridded Mooring Data from C6 - final</att>
         </addAttributes>
         <axisVariable>
             <sourceName>depth</sourceName>
