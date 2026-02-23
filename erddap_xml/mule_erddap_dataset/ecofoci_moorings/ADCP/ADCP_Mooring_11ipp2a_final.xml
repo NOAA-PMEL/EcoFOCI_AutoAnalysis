@@ -21,8 +21,8 @@
         <att name="keywords">currents, data, depth, eastward, error, local, northward, source, statistics, time, u_1205, v_1206, velocity, vertical, w_1204, Werr_1201</att>
         <att name="license">[standard]</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 11IPP-1A</att>
-        <att name="title">QC'd (final) ADCP Vel Data from 11IPP-1A</att>
+        <att name="summary">QC'd (final) Gridded ADCP Vel Data from 11IPP-2A</att>
+        <att name="title">QC'd (final) ADCP Vel Data from 11IPP-2A</att>
     </addAttributes>
     <axisVariable>
         <sourceName>time</sourceName>
@@ -68,7 +68,7 @@
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>V_361</sourceName>
+        <sourceName>V_321</sourceName>
         <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -79,7 +79,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>U_360</sourceName>
+        <sourceName>U_320</sourceName>
         <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -87,29 +87,6 @@
             <att name="missing_value" type="double">1.0e35</att>            
             <att name="ioos_category">Currents</att>
             <att name="standard_name">eastward_sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>w_1204</sourceName>
-        <destinationName>w_1204</destinationName>
-        <dataType>float</dataType><addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="missing_value" type="double">1.0e35</att>
-            <att name="ioos_category">Currents</att>
-            <att name="standard_name">upward_sea_water_velocity</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>Werr_1201</sourceName>
-        <destinationName>Werr_1201</destinationName>
-        <dataType>float</dataType><addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
-            <att name="colorBarMaximum" type="double">50.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Statistics</att>
-            <att name="missing_value" type="double">1.0e35</att>
         </addAttributes>
     </dataVariable>
 </dataset>
