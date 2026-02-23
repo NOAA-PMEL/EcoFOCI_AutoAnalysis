@@ -2,7 +2,7 @@
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2024/Moorings/24bsp4a/final_data_cf/</fileDir>
-    <fileNameRegex>.*velein.*m.nc</fileNameRegex>
+    <fileNameRegex>.*velein.nc</fileNameRegex>
     
     <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
