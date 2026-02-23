@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy2410_final" active="false">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy2410_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/2024/CTDcasts/dy2410/final_data_cf/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
