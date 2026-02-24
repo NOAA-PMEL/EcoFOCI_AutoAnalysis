@@ -136,7 +136,7 @@
     </dataVariable> 
     <dataVariable>
         <sourceName>Sal(1)</sourceName>
-        <destinationName>S_42</destinationName>
+        <destinationName>salinity_ch2</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -151,7 +151,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Sal(2)</sourceName>
-        <destinationName>S_41</destinationName>
+        <destinationName>salinity_ch1</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -166,7 +166,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Flur</sourceName>
-        <destinationName>Fch_906</destinationName>
+        <destinationName>chlor_fluorescence</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -184,7 +184,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>T90(1)</sourceName>
-        <destinationName>T_28</destinationName>
+        <destinationName>temperature_ch1</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -197,11 +197,12 @@
     </dataVariable>
     <dataVariable>
         <sourceName>OXYG</sourceName>
-        <destinationName>O_60</destinationName>
+        <destinationName>oxy_concM_ch1</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
+            <att name="epic_key">O_60</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
@@ -210,11 +211,12 @@
     </dataVariable>
     <dataVariable>
         <sourceName>OXYG2</sourceName>
-        <destinationName>O_2060</destinationName>
+        <destinationName>oxy_concM_ch2</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
+            <att name="epic_key">O_2060</att>
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
@@ -223,7 +225,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>T90(2)</sourceName>
-        <destinationName>T2_35</destinationName>
+        <destinationName>temperature_ch2</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>
@@ -236,7 +238,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>Trans</sourceName>
-        <destinationName>transmission</destinationName>
+        <destinationName>transmissometry</destinationName>
         <dataType>float</dataType>
         
         <addAttributes>

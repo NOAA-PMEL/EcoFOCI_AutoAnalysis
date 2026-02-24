@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_ps1001_final" active="false">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_ps1001_final" active="true">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
 
         <fileDir>/home/ecofoci_data/2010/CTDcasts/ps1001/erddap/final_data/ctd/</fileDir>
