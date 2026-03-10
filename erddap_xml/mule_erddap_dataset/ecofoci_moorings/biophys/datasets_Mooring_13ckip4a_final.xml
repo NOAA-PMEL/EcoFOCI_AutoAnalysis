@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_13ckip4a_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_13ckip4a_final" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
     <fileDir>/home/ecofoci_data/2013/Moorings/13ckip4a/erddap/final_data/</fileDir>
