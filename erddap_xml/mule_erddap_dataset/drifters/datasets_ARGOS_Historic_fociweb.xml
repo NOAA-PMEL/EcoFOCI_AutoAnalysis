@@ -10,19 +10,14 @@ All Historic Drifters (position,sst,strain,voltage)
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
-    <preExtractRegex></preExtractRegex>
-    <postExtractRegex></postExtractRegex>
-    <extractRegex></extractRegex>
-    <columnNameForExtract></columnNameForExtract>
     <removeMVRows>false</removeMVRows>
-    <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">Trajectory</att>
         <att name="cdm_trajectory_variables">trajectory_id</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creation_date">March 12, 2022 21:34 UTC</att>
-        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_email">shaun.bell (at) noaa.gov</att>
         <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
@@ -33,7 +28,7 @@ All Historic Drifters (position,sst,strain,voltage)
     Oceans &gt; Ocean Temperature &gt; Sea Surface Temperature,
     pacific, percent, pmel, record, record_number, reference, sea, sea_surface_temperature, since, sst, strain, surface, temperature, time, voltage, location_quality</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
-        <att name="license">CC0-1.0</att>
+        <att name="license">These data are made freely available to the public and the scientific community in the belief that their wide dissemination will lead to greater understanding and new scientific insights. NOAA relies on the ethics and integrity of the user to ensure that PMEL receives fair credit for their work. If the data are obtained for potential use in a publication or presentation, PMEL should be informed at the outset of the nature of this work. If the PMEL data are essential to the work, or if an important result or conclusion depends on the PMEL data, co-authorship may be appropriate. This should be discussed at an early stage in the work. Manuscripts using the PMEL data should be sent to PMEL for review before they are submitted for publication so we can ensure that the quality and limitations of the data are accurately represented.</att>
         <att name="sourceUrl">https://www.ecofoci.noaa.gov/drifters/efoci_drifterData.shtml</att>
         <att name="subsetVariables">trajectory_id, trajectory_file_id, Deployment_ship_code, Cruise_number</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
@@ -44,25 +39,18 @@ All Historic Drifters (position,sst,strain,voltage)
         <sourceName>time</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="calendar">proleptic_gregorian</att>
-            <att name="units">days since 1900-01-01</att>
-        </sourceAttributes -->
         <addAttributes>
             <att name="ioos_category">Time</att>
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
             <att name="units">days since 1900-01-01T00:00:00Z</att>
+            <att name="default">min</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
         <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -76,9 +64,6 @@ All Historic Drifters (position,sst,strain,voltage)
         <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName>
         <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -92,25 +77,10 @@ All Historic Drifters (position,sst,strain,voltage)
         <sourceName>drogue</sourceName>
         <destinationName>strain</destinationName>
         <dataType>long</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue" type="long">1.0e35</att>
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Strain</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>battery</sourceName>
-        <destinationName>battery</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Battery</att>
-            <att name="units">volts</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -132,8 +102,6 @@ All Historic Drifters (position,sst,strain,voltage)
         <sourceName>satqual</sourceName>
         <destinationName>satqual</destinationName>
         <dataType>long</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
         <addAttributes>
             <att name="_FillValue" type="long">1.0e35</att>
             <att name="ioos_category">Unknown</att>
@@ -143,25 +111,11 @@ All Historic Drifters (position,sst,strain,voltage)
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>ice</sourceName>
-        <destinationName>ice</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="double">NaN</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="double">1.0e35</att>
-            <att name="ioos_category">Ice Distribution</att>
-            <att name="long_name">Ice</att>
-            <att name="standard_name">sea_ice_concentration</att>
-            <att name="units">percent</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>trajectory_file_id</destinationName>
         <dataType>String</dataType>
         <addAttributes>
+            <att name="description">this is the filename of source dataset for aggregation </att>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>
@@ -171,6 +125,7 @@ All Historic Drifters (position,sst,strain,voltage)
         <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
+            <att name="description">this is the ARGOS transmission number of source dataset. transmission numbers had historically been reused and may not represent a unique deployment </att>
             <att name="cf_role">trajectory_id</att>
         </addAttributes>
     </dataVariable>    
@@ -190,23 +145,6 @@ All Historic Drifters (position,sst,strain,voltage)
             <att name="ioos_category">Identifier</att>
         </addAttributes>
     </dataVariable>    
-    <dataVariable>
-        <sourceName>global:Drogue_depth</sourceName>
-        <destinationName>Drogue_depth</destinationName>
-        <dataType>String</dataType>
-        <addAttributes>
-            <att name="ioos_category">Identifier</att>
-            <att name="units">meters</att>
-        </addAttributes>
-    </dataVariable>  
-    <dataVariable>
-        <sourceName>global:Manufacturer</sourceName>
-        <destinationName>Manufacturer</destinationName>
-        <dataType>String</dataType>
-        <addAttributes>
-            <att name="ioos_category">Identifier</att>
-        </addAttributes>
-    </dataVariable>  
 </dataset>
 
 
