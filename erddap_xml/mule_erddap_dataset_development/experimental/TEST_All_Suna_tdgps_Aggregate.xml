@@ -3,7 +3,7 @@
 <dataset type="EDDTableFromNcFiles" datasetID="TEST_All_SUNAs_Aggregate" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/</fileDir>
-    <fileNameRegex>.*(suna|isus|tdgp).*\.nc</fileNameRegex>
+    <fileNameRegex>.*(suna).*\.nc</fileNameRegex> 
     <recursive>true</recursive>
     <pathRegex>/home/ecofoci_data/(|[12]{1}[09]{1}[0129]{1}[0-9]{1}/)(|Moorings/)(|[0-9]{2}.*/)(|final_data_cf/)</pathRegex>
     <metadataFrom>last</metadataFrom>
@@ -24,8 +24,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">timeseries_id, mooring_id</att>
-        <att name="summary">Aggregated SUNA/ISUS/TDGP Data from any mooring in the dataset.</att>
-        <att name="title">Aggregated SUNA/ISUS/TDGP - with EPIC Variables.</att>
+        <att name="summary">Aggregated SUNA Data from any mooring in the dataset.</att>
+        <att name="title">Aggregated SUNA - with EPIC Variables.</att>
         <att name="treatDimensionsAs">lat, lon, time</att> 
     </addAttributes>
     <dataVariable>
