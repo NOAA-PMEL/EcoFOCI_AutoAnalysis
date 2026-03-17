@@ -45,7 +45,6 @@ All Historic Drifters (position,sst,strain,voltage)
             <att name="long_name">Time</att>
             <att name="standard_name">time</att>
             <att name="units">days since 1900-01-01T00:00:00Z</att>
-            <att name="default">min</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
