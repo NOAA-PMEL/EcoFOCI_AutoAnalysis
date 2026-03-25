@@ -1,0 +1,122 @@
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="dataset_nprb2202_supplementary_data" active="true">
+    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
+    <fileDir>/home/sdig_ecofoci/ecofoci_public/nprb2202_supplementary_data/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <addAttributes>
+        <att name="cdm_data_type">Timeseries</att>
+        <att name="cdm_timeseries_variables">timeseries_id, latitude, longitude</att>
+        <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
+        <att name="creation_date">March 12, 2022 21:34 UTC</att>
+        <att name="creator_email">shaun.bell (at) noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="history">File Created from ARGSOS Drifter Data.</att>
+        <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">data, density, depth, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Conductivity, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, electrical, in-situ, its, its-90, latitude, local, longitude, meters, ocean, oceans, practical, pss, pss-78, salinity, scale, science, sea, sea_water_electrical_conductivity, sea_water_practical_salinity, sea_water_temperature, seawater, situ, source, surface, temperature, time, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">These data are made freely available to the public and the scientific community in the belief that their wide dissemination will lead to greater understanding and new scientific insights. NOAA relies on the ethics and integrity of the user to ensure that PMEL receives fair credit for their work. If the data are obtained for potential use in a publication or presentation, PMEL should be informed at the outset of the nature of this work. If the PMEL data are essential to the work, or if an important result or conclusion depends on the PMEL data, co-authorship may be appropriate. This should be discussed at an early stage in the work. Manuscripts using the PMEL data should be sent to PMEL for review before they are submitted for publication so we can ensure that the quality and limitations of the data are accurately represented.</att>
+        <att name="QC_indicator">final</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v93</att>
+        <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
+        <att name="summary">Collection of moored timeseries data (temperature and salinity)from 2023 and 2024 M2 Bering Sea moorings.  Data is supplementary to NPRB2202</att>
+        <att name="title">EcoFOCI M2 Moored Timeseries (2023-2024), NPRB2202 Supplementary Data</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+            <att name="default">min</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>latitude</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>longitude</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>depth</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="units">m</att>
+            <att name="standard_name">depth</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
+        <destinationName>timeseries_id</destinationName>
+        <dataType>String</dataType><addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">timeseries_id</att>
+        </addAttributes>
+    </dataVariable>
+        <dataVariable>
+        <sourceName>global:InstrumentType</sourceName>
+        <destinationName>Instrument_Identifier</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>global:InstrumentSerialNumber</sourceName>
+        <destinationName>Serial_Number</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>global:WaterDepth</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">dbar</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>   
+</dataset>
+
