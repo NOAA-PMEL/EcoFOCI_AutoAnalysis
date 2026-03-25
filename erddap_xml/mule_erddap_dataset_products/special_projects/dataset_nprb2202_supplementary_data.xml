@@ -82,6 +82,30 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>temperature</sourceName>
+        <destinationName>temperature</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">20.0</att>
+            <att name="colorBarMinimum" type="double">-2.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>salinity</sourceName>
+        <destinationName>salinity</destinationName>
+        <dataType>double</dataType>
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">30.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+            <att name="units">psu</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType><addAttributes>
