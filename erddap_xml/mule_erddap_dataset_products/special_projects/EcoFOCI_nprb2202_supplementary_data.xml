@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="dataset_nprb2202_supplementary_data" active="false">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="EcoFOCI_nprb2202_supplementary_data" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/sdig_ecofoci/ecofoci_public/nprb2202_supplementary_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
