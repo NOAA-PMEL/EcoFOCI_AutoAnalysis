@@ -142,5 +142,32 @@
             <att name="description">estimated seafloor depth at station by ek60 during cast</att>
         </addAttributes>
     </dataVariable>   
+    <dataVariable>
+        <sourceName>global:MooringID</sourceName>
+        <destinationName>MooringID</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="description">EcoFOCI Mooring ID of instrument deployment</att>
+        </addAttributes>
+    </dataVariable>   
+    <dataVariable>
+        <sourceName>global:platform_deployment_cruise_name</sourceName>
+        <destinationName>platform_deployment_cruise_name</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="description">EcoFOCI Vessel/Cruise ID of instrument deployment</att>
+        </addAttributes>
+    </dataVariable>      
+    <dataVariable>
+        <sourceName>global:platform_recovery_cruise_name</sourceName>
+        <destinationName>platform_recovery_cruise_name</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="description">EcoFOCI Vessel/Cruise ID of instrument recovery</att>
+        </addAttributes>
+    </dataVariable>           
 </dataset>
 
