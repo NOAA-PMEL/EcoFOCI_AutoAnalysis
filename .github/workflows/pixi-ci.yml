@@ -1,0 +1,33 @@
+name: Pixi CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  pixi:
+    name: Pixi CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Pixi
+        uses: prefix-dev/setup-pixi@v0.9.1
+        with:
+          pixi-version: v0.55.0
+
+      - name: Install Pixi dependencies
+        run: pixi install
+
+      - name: Run Pixi lint
+        run: pixi run lint
+
+      - name: Run Pixi test
+        run: pixi run test

@@ -34,6 +34,18 @@ It is also a source for testing GitHub integrations, GitHub Actions, and other t
 
 Found in the ci/requirements.txt
 
+## Pixi project
+
+This repository is now configured as a Pixi project with `pixi.toml` and GitHub CI in `.github/workflows/pixi-ci.yml`.
+
+Run locally with:
+
+```bash
+pixi install
+pixi run lint
+pixi run test
+```
+
 ## Legal Disclaimer
 
 This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration (NOAA), or the United States Department of Commerce (DOC).
