@@ -1,7 +1,7 @@
-<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_94m2_final" active="true">
+<dataset type="EDDTableFromNcFiles" datasetID="datasets_Mooring_95sp6a_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     
-    <fileDir>/home/ecofoci_data/1994/Moorings/94m2/erddap/final_data/</fileDir>
+    <fileDir>/home/ecofoci_data/1995/Moorings/95sp6a/erddap/final_data/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     
     <recursive>true</recursive>
@@ -27,8 +27,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 94M2</att>
-        <att name="title">Mooring Data from 94M2 - final</att>
+        <att name="summary">QC'd (final) mooring data from 95SP-6A</att>
+        <att name="title">Mooring Data from 95SP-6A - final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>time</sourceName>

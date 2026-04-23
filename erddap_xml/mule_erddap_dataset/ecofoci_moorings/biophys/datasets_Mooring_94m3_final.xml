@@ -27,7 +27,7 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">depth, timeseries_id, Instrument_Identifier, Serial_Number</att>
-        <att name="summary">QC'd (final) mooring data from 94M1</att>
+        <att name="summary">QC'd (final) mooring data from 94M3</att>
         <att name="title">Mooring Data from 94M3 - final</att>
     </addAttributes>
     <dataVariable>
