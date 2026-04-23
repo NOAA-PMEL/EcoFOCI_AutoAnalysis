@@ -44,7 +44,7 @@
        </addAttributes>
     </axisVariable>
     <axisVariable>
-        <sourceName>lat</sourceName>
+        <sourceName>latitude</sourceName>
         <destinationName>latitude</destinationName><addAttributes>
             <att name="colorBarMaximum" type="double">90.0</att>
             <att name="colorBarMinimum" type="double">-90.0</att>
@@ -55,7 +55,7 @@
         </addAttributes>
     </axisVariable>
     <axisVariable>
-        <sourceName>lon</sourceName>
+        <sourceName>longitude</sourceName>
         <destinationName>longitude</destinationName><addAttributes>
             <att name="colorBarMaximum" type="double">180.0</att>
             <att name="colorBarMinimum" type="double">-180.0</att>
@@ -68,7 +68,7 @@
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>v_1206</sourceName>
+        <sourceName>V_321</sourceName>
         <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -79,7 +79,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_1205</sourceName>
+        <sourceName>U_320</sourceName>
         <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
