@@ -160,6 +160,54 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
+        <sourceName>U_320</sourceName>
+        <destinationName>u_comp_current</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">0</att>
+            <att name="ioos_category">Currents</att>
+            <att name="units">cm/s</att>
+            <att name="standard_name">eastward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>V_321</sourceName>
+        <destinationName>v_comp_current</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">V_321</att>
+            <att name="ioos_category">Currents</att>
+            <att name="units">cm/s</att>
+            <att name="standard_name">northward_sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CS_300</sourceName>
+        <destinationName>Current_Speed</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">CS_300</att>
+            <att name="ioos_category">Currents</att>
+            <att name="units">cm/s</att>
+            <att name="standard_name">sea_water_velocity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CD_310</sourceName>
+        <destinationName>Current_Direction</destinationName>
+        <dataType>float</dataType><addAttributes>
+           <att name="missing_value" type="float">-9999.0</att>
+           <att name="_FillValue" type="float">1.0e35</att>
+            <att name="epic_key">CD_310</att>
+            <att name="ioos_category">Currents</att>
+            <att name="units">degrees</att>
+            <att name="standard_name">sea_water_velocity_to_direction</att>
+        </addAttributes>
+    </dataVariable> 
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType><addAttributes>

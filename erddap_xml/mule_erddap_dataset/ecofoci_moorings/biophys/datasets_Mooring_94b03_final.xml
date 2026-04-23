@@ -185,7 +185,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>0</sourceName>
+        <sourceName>U_320</sourceName>
         <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
