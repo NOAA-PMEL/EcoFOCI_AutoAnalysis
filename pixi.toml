@@ -1,22 +1,12 @@
-[project]
+[workspace]
 name = "ecofoci-autoanalysis"
-version = "0.1.0"
+version = "0.2.0"
 description = "Pixi project wrapper for EcoFOCI AutoAnalysis ERDDAP XML generation and product automation."
 channels = ["conda-forge"]
 platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
 
 [tasks]
-concat = "echo 'Concat for :8080'"
-lint = "python -m compileall ."
-test = "echo 'No tests configured yet.'"
-validate = "python -m compileall ."
+conca_datasets = "scripts/build_datasets.sh"
 
 [dependencies]
-python = "3.12.*"
-matplotlib = "==3.10.8"
-numpy = "==2.4.4"
-pandas = "==3.0.1"
-netcdf4 = "==1.7.4"
-erddapy = "==3.1.1"
-pytest = ">=8.0.0"
-pixi-kernel = ">=0.7.1,<0.8"
+
