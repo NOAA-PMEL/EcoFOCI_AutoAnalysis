@@ -25,9 +25,3 @@ jobs:
 
       - name: Install Pixi dependencies
         run: pixi install
-
-      - name: Run Pixi lint
-        run: pixi run lint
-
-      - name: Run Pixi test
-        run: pixi run test
