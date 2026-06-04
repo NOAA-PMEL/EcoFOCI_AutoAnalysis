@@ -86,7 +86,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>T_20</sourceName>
-        <destinationName>T_20</destinationName>
+        <destinationName>temperature</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>

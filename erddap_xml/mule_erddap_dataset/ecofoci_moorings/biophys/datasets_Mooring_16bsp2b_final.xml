@@ -86,7 +86,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>T_20</sourceName>
-        <destinationName>T_20</destinationName>
+        <destinationName>temperature</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="float">NaN</att>
@@ -109,7 +109,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>S_41</sourceName>
-        <destinationName>S_41</destinationName>
+        <destinationName>salinity</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="float">NaN</att>
