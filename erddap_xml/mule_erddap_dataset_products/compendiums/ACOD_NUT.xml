@@ -600,7 +600,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>=CRUISE_NUMBER + "_" + CAST</sourceName>
+        <sourceName>=row.columnString("CRUISE_NUMBER") + "_" + row.columnString("CAST")</sourceName>
         <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <addAttributes>
