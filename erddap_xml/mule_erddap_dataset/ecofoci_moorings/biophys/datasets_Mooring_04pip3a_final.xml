@@ -87,13 +87,46 @@
     <dataVariable>
         <sourceName>T_20</sourceName>
         <destinationName>T_20</destinationName>
-        <dataType>float</dataType><addAttributes>
-           <att name="missing_value" type="float">-9999.0</att>
-           <att name="_FillValue" type="float">1.0e35</att>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">20</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">temp</att>
+            <att name="long_name">TEMPERATURE (C)          </att>
+            <att name="missing_value">-9999</att>
+            <att name="name">T</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
             <att name="colorBarMaximum" type="double">40.0</att>
             <att name="colorBarMinimum" type="double">-10.0</att>
             <att name="ioos_category">Temperature</att>
+            <att name="long_name">TEMPERATURE (C)</att>
+            <att name="missing_value" type="float">-9999.0</att>
             <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>S_41</sourceName>
+        <destinationName>S_41</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">41</att>
+            <att name="generic_name">sal</att>
+            <att name="long_name">SALINITY (PSU)           </att>
+            <att name="missing_value">-9999</att>
+            <att name="name">S</att>
+            <att name="units">PSU</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="long_name">SALINITY (PSU)</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
