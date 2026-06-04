@@ -1,0 +1,592 @@
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="v1_fd5c_83b0_46e3" active="true">
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/compendiums/ACOD/v1/</fileDir>
+    <fileNameRegex>ACOD_NUT_v1.0.nc</fileNameRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+        <att name="_NCProperties">version=2,netcdf=4.8.1,hdf5=1.10.8</att>
+        <att name="author">Noel A. Pelland, Shaun W. Bell, Calvin W. Mordy, Wei Cheng, Jeanette C. Gann, Albert J. Hermann, Caitlyn McFarland, Jens M. Nielsen, Phyllis J. Stabeno, Margaret E. Sullivan, Eric Wisegarver</att>
+        <att name="contact">mordy@uw.edu</att>
+        <att name="Conventions">CF-1.8</att>
+        <att name="featureType">point</att>
+        <att name="history">09/19/2025 18:56 Pacific (USA) Time, using MATLAB 9.13.0.2698988 (R2022b) Update 10</att>
+        <att name="institution">NOAA Pacific Marine Environmental Laboratory, Seattle, WA, USA</att>
+        <att name="institution_country">United States</att>
+        <att name="institution_references">https://www.pmel.noaa.gov</att>
+        <att name="netcdf_version">netCDF-4</att>
+        <att name="references">Data: https://doi.org/10.5061/dryad.gf1vhhn0t  Data description article: C. W. Mordy et al. (2025) A compendium of temperature and salinity profiles and discrete nutrients from selected NOAA programs in Alaska. Scientific Data</att>
+        <att name="source">research vessel</att>
+        <att name="title">Nutrient data from the Alaska Compendium of Ocean Profile Data [ACOD]: Archival hydrography from NOAA&#39;s EcoFOCI, EMA, and predecessor programs, version 1.0</att>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Profile</att>
+        <att name="cdm_altitude_proxy">depth</att> 
+        <att name="cdm_profile_variables">profile_id</att>       
+        <att name="subsetVariables">profile_id, CRUISE_NUMBER, CRUISE_NAME, REGION</att>
+        <att name="Conventions">CF-1.10, COARDS, ACDD-1.3</att>
+        <att name="creator_email">mordy@uw.edu</att>
+        <att name="creator_name">N. Pelland</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA PMEL, Seattle, WA, USA</att>
+        <att name="keywords">acod, alaska, all, ammonia, ammonium, archival, assumed, available, bottle, BOTTLE_NUMBER, cast, chemistry, compendium, concentration, conductivity, constructed, corresponding, cruise, CRUISE_NUMBER, ctd, data, dataset, dbar, Delta_Sigt10, Delta_T10, density, depth, difference, DIN, din0, DIN0_QC, DIN_QC, dissolved, dissolved nutrients, downcast, each, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Ammonia, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Nitrate, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Phosphate, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Silicate, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, ecofoci, ema, environmental, flag, H4SiO4, H4SiO4_QC, hydrography, identifier, ILD10, inorganic, interpolated, isothermal, isothermal-layer, its, its-1990, laboratory, latitude, layer, longitude, marine, missing, mixed, mixed-layer, MLD10, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_dissolved_inorganic_nitrogen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_QC, nitrate, nitrite, nitrogen, no2, NO2_QC, no3, no3+no2+nh4, NO3_QC, noaa, number, numerical, nutrient, nutrients, ocean, oceanography, oceans, only, pacific, phosphate, physical, physical oceanography, pmel, po4, PO4_QC, populated, practical, predecessor, pressure, profile, programs, pss, pss-78, quality, reference, salinity, sample, scale, science, sea, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_t_difference, sea_water_temperature, sea_water_temperature_difference, seattle, seawater, sigma, sigma-t, silicate, sonde, standard, statistics, status, status_flag, temperature, time, unique, usa, values, variable, version, water, when, where, whole, whole-dataset, within, zero</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="summary">Nutrient data from the Alaska Compendium of Ocean Profile Data [ACOD]: Archival hydrography from NOAA&#39;s EcoFOCI, EMA, and predecessor programs, version 1.0</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>SAMPLE</sourceName>
+        <destinationName>SAMPLE</destinationName>
+        <dataType>int</dataType>
+        <!-- sourceAttributes>
+            <att name="long_name">Whole-Dataset Sample Number</att>
+            <att name="point_spacing">even</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="int">2147483647</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PRESSURE</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">pressure</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="positive">down</att>
+            <att name="standard_name">sea_water_pressure</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">5000.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Pressure</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>TIME</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">1.0E35</att>
+            <att name="calendar">gregorian</att>
+            <att name="long_name">observation time</att>
+            <att name="missing_value" type="double">1.0E35</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01 00:00:00</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LONGITUDE</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">Longitude</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>LATITUDE</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">Latitude</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>BOTTOM_DEPTH</sourceName>
+        <destinationName>BOTTOM_DEPTH</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">bottom depth as recorded in original archival data</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">sea_floor_depth_below_sea_surface</att>
+            <att name="units">meters</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">8000.0</att>
+            <att name="colorBarMinimum" type="double">-8000.0</att>
+            <att name="colorBarPalette">TopographyDepth</att>
+            <att name="ioos_category">Location</att>
+            <att name="source_name">BOTTOM_DEPTH</att>
+            <att name="units">m</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NO3</sourceName>
+        <destinationName>NO3</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+
+            <att name="ancillary_variables">NO3_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Nitrate</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_nitrate_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NO3_QC</sourceName>
+        <destinationName>NO3_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement questionable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 3.0 4.0 5.0</att>
+            <att name="long_name">Nitrate quality flag</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NO2</sourceName>
+        <destinationName>NO2</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="ancillary_variables">NO2_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Nitrite</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_nitrite_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">1.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NO2_QC</sourceName>
+        <destinationName>NO2_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 4.0 5.0</att>
+            <att name="long_name">Nitrite quality flag</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NH4</sourceName>
+        <destinationName>NH4</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="ancillary_variables">NH4_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Ammonium</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_ammonium_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">5.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>NH4_QC</sourceName>
+        <destinationName>NH4_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement questionable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 3.0 4.0 5.0</att>
+            <att name="long_name">Ammonium quality flag</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PO4</sourceName>
+        <destinationName>PO4</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="ancillary_variables">PO4_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Phosphate</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_phosphate_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">4.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PO4_QC</sourceName>
+        <destinationName>PO4_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement questionable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 3.0 4.0 5.0</att>
+            <att name="long_name">Phosphate quality flag</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>H4SiO4</sourceName>
+        <destinationName>H4SiO4</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="ancillary_variables">H4SiO4_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Silicate</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_silicate_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">50.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>H4SiO4_QC</sourceName>
+        <destinationName>H4SiO4_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement questionable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 3.0 4.0 5.0</att>
+            <att name="long_name">Silicate quality flag</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DIN</sourceName>
+        <destinationName>DIN</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="ancillary_variables">DIN_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Dissolved Inorganic Nitrogen (NO3+NO2+NH4), populated only when NO3, NO2, and NH4 are all available</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_dissolved_inorganic_nitrogen_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DIN_QC</sourceName>
+        <destinationName>DIN_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement questionable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 3.0 4.0 5.0</att>
+            <att name="long_name">Dissolved Inorganic Nitrogen quality flag</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DIN0</sourceName>
+        <destinationName>DIN0</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="ancillary_variables">DIN0_QC</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Dissolved Inorganic Nitrogen (NO3+NO2+NH4), where missing NO2 and NH4 values are assumed to be zero</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">mole_concentration_of_dissolved_inorganic_nitrogen_in_sea_water</att>
+            <att name="units">umol L-1</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Dissolved Nutrients</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>DIN0_QC</sourceName>
+        <destinationName>DIN0_QC</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="flag_meanings">acceptable_measurement questionable_measurement bad_measurement not_reported</att>
+            <att name="flag_values" type="floatList">2.0 3.0 4.0 5.0</att>
+            <att name="long_name">Dissolved Inorganic Nitrogen quality flag, for DIN0 variable constructed where missing NO2 and NH4 values are assumed to be zero</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">status_flag</att>
+            <att name="valid_max" type="float">9.0</att>
+            <att name="valid_min" type="float">1.0</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">6.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Temperature</sourceName>
+        <destinationName>Temperature</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Seawater Temperature [ITS-1990 Standard], interpolated to bottle depth from CTD downcast</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">sea_water_temperature</att>
+            <att name="units">degree_Celsius</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">32.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Salinity</sourceName>
+        <destinationName>Salinity</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Seawater Salinity [PSS-78], interpolated to bottle depth from CTD downcast</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Salinity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>MLD10</sourceName>
+        <destinationName>MLD10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="comment">Determined as first pressure level in CTD profile with increase of ≥0.03 kg m-3 from 10 dbar reference.  Value &quot;-1&quot; indicates a sample exceeding the threshold was not found.</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Mixed-layer depth, from 10 dbar reference, in sample profile</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Physical Oceanography</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ILD10</sourceName>
+        <destinationName>ILD10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="comment">Determined as first pressure level in CTD profile with temperature change of ≥0.2 degree C from 10 dbar reference.  Value &quot;-1&quot; indicates a sample exceeding the threshold was not found.</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Isothermal-layer depth, from 10 dbar reference, in sample profile</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Location</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Delta_Sigt10</sourceName>
+        <destinationName>Delta_Sigt10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Density difference (sigma-t) from 10 dbar</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">sea_water_sigma_t_difference</att>
+            <att name="units">kg m-3</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">10.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Unknown</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Delta_T10</sourceName>
+        <destinationName>Delta_T10</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="coordinates">PRESSURE TIME LONGITUDE LATITUDE</att>
+            <att name="long_name">Temperature difference from 10 dbar at sample depth</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="standard_name">sea_water_temperature_difference</att>
+            <att name="units">degree_Celsius</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="coordinates">null</att>
+            <att name="ioos_category">Temperature</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>BOTTLE_NUMBER</sourceName>
+        <destinationName>BOTTLE_NUMBER</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">Sample bottle number within each cast, where available</att>
+            <att name="missing_value" type="float">1.0E35</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CRUISE_NUMBER</sourceName>
+        <destinationName>CRUISE_NUMBER</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">Unique numerical identifier corresponding to each cruise</att>
+            <att name="missing_value" type="float">1.0E35</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CAST</sourceName>
+        <destinationName>CAST</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">Cast number within each cruise</att>
+            <att name="missing_value" type="float">1.0E35</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>=CRUISE_NUMBER + "_" + CAST</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="long_name">Profile ID</att>
+            <att name="cf_role">profile_id</att> 
+        </addAttributes>
+    </dataVariable>
+</dataset>
