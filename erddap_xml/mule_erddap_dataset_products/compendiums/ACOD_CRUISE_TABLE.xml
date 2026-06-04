@@ -1,0 +1,271 @@
+<dataset type="EDDTableFromAsciiFiles" datasetID="ACOD_CRUISE_TABLE" active="true">
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/compendiums/ACOD/v1/</fileDir>
+    <fileNameRegex>ACOD_CRUISE_v1.0.csv</fileNameRegex>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <charset>ISO-8859-1</charset>
+    <columnSeparator></columnSeparator>
+    <columnNamesRow>1</columnNamesRow>
+    <firstDataRow>2</firstDataRow>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Point</att>
+        <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
+        <att name="creator_email">mordy@uw.edu</att>
+        <att name="creator_name">N. Pelland</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>
+        <att name="infoUrl">https://www.pmel.noaa.gov/</att>
+        <att name="institution">NOAA PMEL, Seattle, WA, USA</att>
+        <att name="keywords">acod, alaska, all, ammonia, ammonium, archival, assumed, available, bottle, BOTTLE_NUMBER, cast, chemistry, compendium, concentration, conductivity, constructed, corresponding, cruise, CRUISE_NUMBER, ctd, data, dataset, dbar, Delta_Sigt10, Delta_T10, density, depth, difference, DIN, din0, DIN0_QC, DIN_QC, dissolved, dissolved nutrients, downcast, each, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Ammonia, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Nitrate, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Phosphate, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Silicate, Earth Science &gt; Oceans &gt; Ocean Pressure &gt; Water Pressure, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, ecofoci, ema, environmental, flag, H4SiO4, H4SiO4_QC, hydrography, identifier, ILD10, inorganic, interpolated, isothermal, isothermal-layer, its, its-1990, laboratory, latitude, layer, longitude, marine, missing, mixed, mixed-layer, MLD10, mole, mole_concentration_of_ammonium_in_sea_water, mole_concentration_of_dissolved_inorganic_nitrogen_in_sea_water, mole_concentration_of_nitrate_in_sea_water, mole_concentration_of_nitrite_in_sea_water, mole_concentration_of_phosphate_in_sea_water, mole_concentration_of_silicate_in_sea_water, n02, nh4, NH4_QC, nitrate, nitrite, nitrogen, no2, NO2_QC, no3, no3+no2+nh4, NO3_QC, noaa, number, numerical, nutrient, nutrients, ocean, oceanography, oceans, only, pacific, phosphate, physical, physical oceanography, pmel, po4, PO4_QC, populated, practical, predecessor, pressure, profile, programs, pss, pss-78, quality, reference, salinity, sample, scale, science, sea, sea_water_practical_salinity, sea_water_pressure, sea_water_sigma_t_difference, sea_water_temperature, sea_water_temperature_difference, seattle, seawater, sigma, sigma-t, silicate, sonde, standard, statistics, status, status_flag, temperature, time, unique, usa, values, variable, version, water, when, where, whole, whole-dataset, within, zero</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="summary">Cruise Table from the Alaska Compendium of Ocean Profile Data [ACOD]: Archival hydrography from NOAA&#39;s EcoFOCI, EMA, and predecessor programs, version 1.0</att>
+        <att name="title">Alaska Compendium of Ocean Profile Data [ACOD] - CRUISE TABLE</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>CRUISE_NUMBER</sourceName>
+        <destinationName>CRUISE_NUMBER</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="short">32767</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">CRUISE NUMBER</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>CRUISE_NAME</sourceName>
+        <destinationName>CRUISE_NAME</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">CRUISE NAME</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Vessel</sourceName>
+        <destinationName>Vessel</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Vessel</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Number_of_Casts</sourceName>
+        <destinationName>Number_of_Casts</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="short">32767</att>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Statistics</att>
+            <att name="long_name">Number Of Casts</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Total_Nutrient_Samples</sourceName>
+        <destinationName>Total_Nutrient_Samples</destinationName>
+        <dataType>short</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="_FillValue" type="short">32767</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Total Nutrient Samples</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>First_Cast</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">First Cast</att>
+            <att name="source_name">First_Cast</att>
+            <att name="standard_name">time</att>
+            <att name="time_precision">1970-01-01</att>
+            <att name="units">dd-MMM-yyyy</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Last_Cast</sourceName>
+        <destinationName>Last_Cast</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Last Cast</att>
+            <att name="standard_name">time</att>
+            <att name="time_precision">1970-01-01</att>
+            <att name="units">dd-MMM-yyyy</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Min_Latitude_degN</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="source_name">Min_Latitude_degN</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Max_Latitude_degN</sourceName>
+        <destinationName>Max_Latitude_degN</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Min_Longitude_degE</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="source_name">Min_Longitude_degE</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Max_Longitude_degE</sourceName>
+        <destinationName>Max_Longitude_degE</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">180.0</att>
+            <att name="colorBarMinimum" type="double">-180.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SalQC_Proportion_of_Casts_Applied</sourceName>
+        <destinationName>SalQC_Proportion_of_Casts_Applied</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">150.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">Sal QC Proportion Of Casts Applied</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SalQC_Mean_Vertical_Extent_dbar</sourceName>
+        <destinationName>SalQC_Mean_Vertical_Extent_dbar</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">150.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">Sal QC Mean Vertical Extent Dbar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>SalQC_Mean_Extent_Still_Unstable_dbar</sourceName>
+        <destinationName>SalQC_Mean_Extent_Still_Unstable_dbar</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">150.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Quality</att>
+            <att name="long_name">Sal QC Mean Extent Still Unstable Dbar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Accession</sourceName>
+        <destinationName>Accession</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Accession</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Program</sourceName>
+        <destinationName>Program</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Program</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Link</sourceName>
+        <destinationName>Link</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Link</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>Region</sourceName>
+        <destinationName>Region</destinationName>
+        <dataType>String</dataType>
+        <!-- sourceAttributes>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Region</att>
+        </addAttributes>
+    </dataVariable>
+</dataset>
