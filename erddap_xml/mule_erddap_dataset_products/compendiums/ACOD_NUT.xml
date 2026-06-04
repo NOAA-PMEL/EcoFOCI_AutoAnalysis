@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="ACOD_NUT" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="" active="true">
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/compendiums/ACOD/v1/</fileDir>
     <fileNameRegex>ACOD_NUT_v1.0.nc</fileNameRegex>
     <metadataFrom>last</metadataFrom>
@@ -62,6 +62,26 @@
     <dataVariable>
         <sourceName>PRESSURE</sourceName>
         <destinationName>depth</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="long_name">pressure</att>
+            <att name="missing_value" type="float">1.0E35</att>
+            <att name="positive">down</att>
+            <att name="standard_name">sea_water_pressure</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">5000.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="units">m</att>
+            <att name="comment">dbar -> m using conversion factor = 1.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>PRESSURE</sourceName>
+        <destinationName>PRESSURE</destinationName>
         <dataType>float</dataType>
         <!-- sourceAttributes>
             <att name="_FillValue" type="float">1.0E35</att>
