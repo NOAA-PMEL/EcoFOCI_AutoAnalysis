@@ -79,24 +79,16 @@
             <att name="comment">dbar to meter using conversion factor = 1.0</att>
         </addAttributes>
     </dataVariable>
-    <dataVariable>
+    <!-- <dataVariable>
         <sourceName>PRESSURE</sourceName>
         <destinationName>PRESSURE_DBAR</destinationName>
         <dataType>float</dataType>
-        <!-- sourceAttributes>
-            <att name="_FillValue" type="float">1.0E35</att>
-            <att name="long_name">pressure</att>
-            <att name="missing_value" type="float">1.0E35</att>
-            <att name="positive">down</att>
-            <att name="standard_name">sea_water_pressure</att>
-            <att name="units">dbar</att>
-        </sourceAttributes -->
         <addAttributes>
             <att name="colorBarMaximum" type="double">5000.0</att>
             <att name="colorBarMinimum" type="double">0.0</att>
             <att name="ioos_category">Pressure</att>
         </addAttributes>
-    </dataVariable>
+    </dataVariable> -->
     <dataVariable>
         <sourceName>TIME</sourceName>
         <destinationName>time</destinationName>
