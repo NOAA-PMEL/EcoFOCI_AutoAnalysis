@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="ACOD_NUT" active="true">
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/compendiums/ACOD/v1/</fileDir>
     <fileNameRegex>ACOD_NUT_v1.0.nc</fileNameRegex>
     <metadataFrom>last</metadataFrom>
