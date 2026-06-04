@@ -594,7 +594,7 @@
     <dataVariable>
         <sourceName>CRUISE_NAME</sourceName>
         <destinationName>CRUISE_NAME</destinationName>
-        <dataType>string</dataType>
+        <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
