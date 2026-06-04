@@ -602,7 +602,7 @@
     <dataVariable>
         <sourceName>REGION</sourceName>
         <destinationName>REGION</destinationName>
-        <dataType>string</dataType>
+        <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
         </addAttributes>
@@ -610,7 +610,7 @@
     <dataVariable>
         <sourceName>=row.columnString("CRUISE_NUMBER") + "_" + row.columnString("CAST")</sourceName>
         <destinationName>profile_id</destinationName>
-        <dataType>string</dataType>
+        <dataType>String</dataType>
         <addAttributes>
             <att name="ioos_category">Identifier</att>
             <att name="long_name">Profile ID</att>
