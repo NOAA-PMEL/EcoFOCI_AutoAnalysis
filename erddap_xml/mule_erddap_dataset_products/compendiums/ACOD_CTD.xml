@@ -29,7 +29,8 @@
     <addAttributes>
         <att name="_NCProperties">null</att>
         <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">profile_id, ???</att>
+        <att name="cdm_profile_variables">profile_id</att>
+        <att name="subsetVariables">profile_id, CRUISE_NUMBER, CRUISE_NAME, REGION</att>
         <att name="Conventions">CF-1.10, COARDS, ACDD-1.3</att>
         <att name="creator_email">mordy@uw.edu</att>
         <att name="creator_name">MORDY</att>
@@ -49,7 +50,6 @@
         <destinationName>PROFILE</destinationName>
         <dataType>int</dataType>
         <!-- sourceAttributes>
-            <att name="cf_role">profile_id</att>
             <att name="comment">instance dimension</att>
             <att name="long_name">Full-Dataset Profile Number</att>
             <att name="point_spacing">even</att>
