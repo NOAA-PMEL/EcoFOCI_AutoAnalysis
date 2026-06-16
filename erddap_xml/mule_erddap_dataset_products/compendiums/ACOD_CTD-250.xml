@@ -26,22 +26,6 @@
         <att name="summary">Conductivity, Temperature, Depth (CTD) data, top 250 dbar, from the Alaska Compendium of Ocean Profile Data [ACOD]: Archival hydrography from NOAA&#39;s EcoFOCI, EMA, and predecessor programs, version 1.0</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>PROFILE</sourceName>
-        <destinationName>PROFILE</destinationName>
-        <dataType>int</dataType>
-        <!-- sourceAttributes>
-            <att name="comment">instance dimension</att>
-            <att name="long_name">Full-Dataset Profile Number</att>
-            <att name="point_spacing">even</att>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="_FillValue" type="int">2147483647</att>
-            <att name="colorBarMaximum" type="double">100.0</att>
-            <att name="colorBarMinimum" type="double">0.0</att>
-            <att name="ioos_category">Identifier</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>TIME</sourceName>
         <destinationName>time</destinationName>
         <dataType>double</dataType>
