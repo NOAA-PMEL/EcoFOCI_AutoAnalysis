@@ -1,0 +1,354 @@
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="IPHC_collection" active="true">
+    <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_rehosted/IPHC/</fileDir>
+    <fileNameRegex>.*\.nc</fileNameRegex>
+    <pathRegex>.*</pathRegex>
+    <metadataFrom>last</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
+    <removeMVRows>true</removeMVRows>
+    <sortFilesBySourceNames></sortFilesBySourceNames>
+    <fileTableInMemory>false</fileTableInMemory>
+    <!-- sourceAttributes>
+        <att name="AIR_TEMP" type="double">99.9</att>
+        <att name="BAROMETER" type="int">9999</att>
+        <att name="COORD_SYSTEM">GEOGRAPHICAL</att>
+        <att name="CREATION_DATE">June 05, 2019 16:09 UTC</att>
+        <att name="DATA_CMNT">* FileName = C:\Users\profiler\Documents\profiles14\WFL126408214.cnv</att>
+        <att name="DATA_TYPE">CTD</att>
+        <att name="EPIC_FILE_GENERATOR">ncprossessing.py V0.2.0</att>
+        <att name="featureType">Profile</att>
+        <att name="History">June 06, 2019 17:50 UTC ST_70 added
+June 26, 2019 21:23 UTC ST_70 added</att>
+        <att name="INST_TYPE">* Sea-Bird SBE19plus  Data File:</att>
+        <att name="PROGRAM">NOAA PMEL EcoFOCI</att>
+        <att name="REGION">YAK</att>
+        <att name="SETNO">126</att>
+        <att name="SFC_EXTEND">Extrapolated to SFC from 2.0m</att>
+        <att name="STNNO">4082</att>
+        <att name="TRPNO">08</att>
+        <att name="VSLCDE">WFL</att>
+        <att name="WATER_DEPTH" type="double">95.0</att>
+        <att name="WATER_MASS">G</att>
+        <att name="WIND_DIR" type="int">999</att>
+        <att name="WIND_SPEED" type="int">99</att>
+    </sourceAttributes -->
+    <!-- Please specify the actual cdm_data_type (TimeSeries?) and related info below, for example...
+        <att name="cdm_timeseries_variables">station_id, longitude, latitude</att>
+        <att name="subsetVariables">station_id, longitude, latitude</att>
+    -->
+    <addAttributes>
+        <att name="cdm_data_type">Profile</att>
+        <att name="cdm_profile_variables">profile_id</att>
+        <att name="cdm_altitude_proxy">depth</att> 
+        <att name="Conventions">COARDS, CF-1.10, ACDD-1.3</att>
+        <att name="creation_date">June 05, 2019 16:09 UTC</att>
+        <att name="history">June 06, 2019 17:50 UTC ST_70 added June 26, 2019 21:23 UTC ST_70 added</att>
+        <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
+        <att name="creator_email">pmel.ecofoci@noaa.gov</att>
+        <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
+        <att name="creator_type">institution</att>
+        <att name="creator_url">https://www.pmel.noaa.gov/</att>        
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
+        <att name="keywords">conductivity, ctd, data, density, dep, depth, dissolved, dissolved o2, earth, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, F_903, fluorometer, kg/m**3, latitude, local, m**3, ml/l, O2, O_60, O_65, ocean, oceans, optical, optical properties, OST_62, oxygen, percent, pH_159, practical, properties, psu, S_41, salinity, sat, science, sea, sea_water_practical_salinity, seawater, sigma, sigma-t, sonde, source, ST_70, T_28, temperature, time, umol, umol/kg, unit, water</att>
+        <att name="keywords_vocabulary">GCMD Science Keywords</att>
+        <att name="license">[standard]</att>
+        <att name="program">NOAA PMEL EcoFOCI</att>
+        <att name="sourceUrl">(local files)</att>
+        <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
+        <att name="subsetVariables">station_number,set_number,vessel_code,trip_number,region</att>
+        <att name="summary">Rehosting of PMEL-contributed IPHC CTD Data.</att>
+        <att name="title">Rehosted IPHC CTD Data</att>
+    </addAttributes>
+    <dataVariable>
+        <sourceName>F_903</sourceName>
+        <destinationName>F_903</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">903</att>
+            <att name="long_name">Fluorometer (CTD)</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">F</att>
+            <att name="units">mg m-3</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Optical Properties</att>
+            <att name="missing_value" type="float">-9999.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>pH_159</sourceName>
+        <destinationName>pH_159</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">159</att>
+            <att name="long_name">pH</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">pH</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Salinity</att>
+            <att name="missing_value" type="float">-9999.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>S_41</sourceName>
+        <destinationName>S_41</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">41</att>
+            <att name="generic_name">sal</att>
+            <att name="long_name">SALINITY (PSU)</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">S</att>
+            <att name="units">PSU</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">37.0</att>
+            <att name="colorBarMinimum" type="double">32.0</att>
+            <att name="ioos_category">Salinity</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="standard_name">sea_water_practical_salinity</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>O_60</sourceName>
+        <destinationName>O_60</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">60</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">OXYGEN (ML/L)</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">O</att>
+            <att name="units">ml/l</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="missing_value" type="float">-9999.0</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>OST_62</sourceName>
+        <destinationName>OST_62</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">62</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">OXYGEN, &#37;SAT</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">OST</att>
+            <att name="units">&#37;</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">100.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="units">percent</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>O_65</sourceName>
+        <destinationName>O_65</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">65</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">ox</att>
+            <att name="long_name">OXYGEN (UMOL/KG)</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">O</att>
+            <att name="units">umol/kg</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Dissolved O2</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="units">µmole/kg</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>T_28</sourceName>
+        <destinationName>T_28</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">28</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">temp</att>
+            <att name="long_name">TEMPERATURE (C)</att>
+            <att name="missing_value">-9999</att>
+            <att name="name">T</att>
+            <att name="units">C</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">40.0</att>
+            <att name="colorBarMinimum" type="double">-10.0</att>
+            <att name="ioos_category">Temperature</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="units">degree_C</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>ST_70</sourceName>
+        <destinationName>ST_70</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">1.0E35</att>
+            <att name="epic_code" type="int">70</att>
+            <att name="FORTRAN_format">f10.2</att>
+            <att name="generic_name">den</att>
+            <att name="long_name">SIGMA-T (KG/M**3)        </att>
+            <att name="missing_value">-9999</att>
+            <att name="name">ST </att>
+            <att name="units">kg m-3</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">200.0</att>
+            <att name="colorBarMinimum" type="double">0.0</att>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">SIGMA-T (KG/M**3)</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="name">ST</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>time</sourceName>
+        <destinationName>time</destinationName>
+        <dataType>double</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="double">NaN</att>
+            <att name="calendar">proleptic_gregorian</att>
+            <att name="units">days since 1900-01-01</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Time</att>
+            <att name="long_name">Time</att>
+            <att name="standard_name">time</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>dep</sourceName>
+        <destinationName>depth</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">1</att>
+            <att name="missing_value">-9999</att>
+            <att name="type">EVEN</att>
+            <att name="units">dbar</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Unknown</att>
+            <att name="long_name">Depth</att>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="standard_name">depth</att>
+            <att name="units">dbar</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lat</sourceName>
+        <destinationName>latitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">500</att>
+            <att name="type">EVEN</att>
+            <att name="units">degree_north</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="colorBarMaximum" type="double">90.0</att>
+            <att name="colorBarMinimum" type="double">-90.0</att>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Latitude</att>
+            <att name="standard_name">latitude</att>
+            <att name="units">degrees_north</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>lon</sourceName>
+        <destinationName>longitude</destinationName>
+        <dataType>float</dataType>
+        <!-- sourceAttributes>
+            <att name="_FillValue" type="float">NaN</att>
+            <att name="epic_code" type="int">501</att>
+            <att name="type">EVEN</att>
+            <att name="units">degree_west</att>
+        </sourceAttributes -->
+        <addAttributes>
+            <att name="ioos_category">Location</att>
+            <att name="long_name">Longitude</att>
+            <att name="standard_name">longitude</att>
+            <att name="units">degrees_east</att>
+        </addAttributes>
+    </dataVariable>
+    <dataVariable>
+        <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
+        <destinationName>profile_id</destinationName>
+        <dataType>String</dataType>            
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+            <att name="cf_role">profile_id</att>
+        </addAttributes>
+    </dataVariable>    
+    <dataVariable>
+        <sourceName>global:SETNO</sourceName>
+        <destinationName>Set_Number</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>   
+    <dataVariable>
+        <sourceName>global:VSLCDE</sourceName>
+        <destinationName>Vessel_Code</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable> 
+    <dataVariable>
+        <sourceName>global:STNNO</sourceName>
+        <destinationName>Station_Number</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable>   
+    <dataVariable>
+        <sourceName>global:TRPNO</sourceName>
+        <destinationName>Trip_Number</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable> 
+    <dataVariable>
+        <sourceName>global:REGION</sourceName>
+        <destinationName>Region</destinationName>
+        <dataType>String</dataType>
+        <addAttributes>
+            <att name="ioos_category">Identifier</att>
+        </addAttributes>
+    </dataVariable> 
+    <dataVariable>
+        <sourceName>global:WATER_DEPTH</sourceName>
+        <destinationName>Water_Depth</destinationName>
+        <dataType>float</dataType>
+        <addAttributes>
+            <att name="missing_value" type="float">-9999.0</att>
+            <att name="_FillValue" type="float">1.0e35</att>
+            <att name="ioos_category">Pressure</att>
+            <att name="standard_name">seafloor_depth</att>
+            <att name="units">m</att>
+            <att name="description">estimated seafloor depth at station by ek60 during cast</att>
+        </addAttributes>
+    </dataVariable>  
+
+</dataset>
