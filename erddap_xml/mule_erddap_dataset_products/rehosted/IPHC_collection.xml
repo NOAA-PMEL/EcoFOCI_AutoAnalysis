@@ -249,7 +249,7 @@ June 26, 2019 21:23 UTC ST_70 added</att>
             <att name="long_name">Depth</att>
             <att name="missing_value" type="float">-9999.0</att>
             <att name="standard_name">depth</att>
-            <att name="units">dbar</att>
+            <att name="units">m</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
