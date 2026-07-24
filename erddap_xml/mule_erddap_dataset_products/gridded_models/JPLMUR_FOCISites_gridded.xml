@@ -209,14 +209,5 @@ completeness, or usefulness, of this information.</att>
         <addAttributes>
         </addAttributes>
     </dataVariable>
-    <dataVariable>
-        <sourceName>***fileName,^.*\.(.*)\.nc,1</sourceName>
-        <destinationName>timeseries_id</destinationName>
-        <dataType>String</dataType>
-        <addAttributes>
-            <att name="ioos_category">Identifier</att>
-            <att name="cf_role">timeseries_id</att>
-        </addAttributes>
-    </dataVariable>
 </dataset>
 
