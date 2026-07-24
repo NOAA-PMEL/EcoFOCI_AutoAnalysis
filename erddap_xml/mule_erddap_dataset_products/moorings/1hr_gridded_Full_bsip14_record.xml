@@ -1,5 +1,5 @@
 
-    <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_bsip14_record" active="true">
+    <dataset type="EDDGridFromNcFiles" datasetID="1hr_gridded_Full_bsip14_record" active="false">
         <reloadEveryNMinutes>10080</reloadEveryNMinutes>
         <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/unified_moorings/</fileDir>
         <fileNameRegex>Full_bsip14_record.nc</fileNameRegex>
