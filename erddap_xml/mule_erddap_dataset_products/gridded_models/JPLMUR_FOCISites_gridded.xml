@@ -1,4 +1,4 @@
-<dataset type="EDDGridFromNcFiles" datasetID="JPLMUR_FOCISites_gridded" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="JPLMUR_FOCISites_gridded" active="false">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/disk3/projects/ecofoci/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/model_sfctemps_moorings/jplmur/</fileDir>
