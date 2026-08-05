@@ -1,6 +1,6 @@
-<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy2306_final" active="false">
+<dataset type="EDDTableFromNcFiles" datasetID="CTD_dy2307_final" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <fileDir>/home/ecofoci_data/2023/CTDcasts/dy2306/final_data_cf/ctd/</fileDir>
+    <fileDir>/home/ecofoci_data/2023/CTDcasts/dy2307/final_data_cf/ctd/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
@@ -29,8 +29,8 @@
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
         <att name="subsetVariables">time, latitude, longitude, profile_id</att>
-        <att name="summary">QC'D CTD Data from DY2306 CTD Data. Fisheries-Oceanography Cooperative Investigations (FOCI) Spring Mooring Cruise.</att>
-        <att name="title">CTD Data from DY2306 - Final</att>
+        <att name="summary">QC'D CTD Data from DY2307 CTD Data. Fisheries-Oceanography Cooperative Investigations (FOCI) Spring Mooring Cruise.</att>
+        <att name="title">CTD Data from DY2307 - Final</att>
     </addAttributes>
     <dataVariable>
         <sourceName>depth</sourceName>
