@@ -1,5 +1,4 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="dataset_Kuskokwim_timeseries" active="true">
-    <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>final_data_cf/.*ku.*\.nc</fileNameRegex>
     <recursive>true</recursive>
