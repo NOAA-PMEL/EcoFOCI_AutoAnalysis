@@ -54,7 +54,7 @@ June 26, 2019 21:23 UTC ST_70 added</att>
         <att name="program">NOAA PMEL EcoFOCI</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table v70</att>
-        <att name="subsetVariables">station_number,set_number,vessel_code,trip_number,region</att>
+        <att name="subsetVariables">Station_Number,Set_Number,Vessel_Code,Trip_Number,Region</att>
         <att name="summary">Rehosting of PMEL-contributed IPHC CTD Data.</att>
         <att name="title">Rehosted IPHC CTD Data</att>
     </addAttributes>
