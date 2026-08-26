@@ -1,12 +1,9 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="dataset_Kuskokwim_timeseries" active="true">
     <fileDir>/home/ecofoci_data/</fileDir>
     <fileNameRegex>final_data_cf/.*ku.*\.nc</fileNameRegex>
-    <recursive>true</recursive>
     <pathRegex>.*</pathRegex>
     <metadataFrom>last</metadataFrom>
-    <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
-    <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <addAttributes>
         <att name="cdm_data_type">Timeseries</att>
