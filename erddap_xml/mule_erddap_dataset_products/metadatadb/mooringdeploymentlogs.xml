@@ -119,8 +119,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Latitude</sourceName>
-        <destinationName>latitudeS</destinationName>
+        <sourceName>Latitude_x</sourceName>
+        <destinationName>latitudeN</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
@@ -132,8 +132,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>Longitude</sourceName>
-        <destinationName>longitudeS</destinationName>
+        <sourceName>Longitude_x</sourceName>
+        <destinationName>longitudeW</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
