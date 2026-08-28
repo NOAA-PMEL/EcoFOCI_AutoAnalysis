@@ -4,7 +4,8 @@
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/public_versions/bottom_temperatures/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
+    <standardizeWhat>0</standardizeWhat>
     <removeMVRows>true</removeMVRows>
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
@@ -74,7 +75,7 @@ completeness, or usefulness, of this information.</att>
             <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="units">days since 1900-01-01</att>
+            <att name="units">days since 1900-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

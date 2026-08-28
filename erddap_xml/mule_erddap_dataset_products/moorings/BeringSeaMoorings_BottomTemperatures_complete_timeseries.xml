@@ -4,9 +4,8 @@
     <fileNameRegex>.*\.nc</fileNameRegex>
     <recursive>false</recursive>
     <pathRegex>.*</pathRegex>
-    <metadataFrom>last</metadataFrom>
+    <metadataFrom>first</metadataFrom>
     <standardizeWhat>0</standardizeWhat>
-    <removeMVRows>true</removeMVRows>
     <sortFilesBySourceNames></sortFilesBySourceNames>
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
@@ -77,7 +76,7 @@ completeness, or usefulness, of this information.</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="actual_range" type="doubleList">0 11562</att>
-            <att name="units">days since 1970-01-01</att>
+            <att name="units">days since 1970-01-01T00:00:00Z</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
