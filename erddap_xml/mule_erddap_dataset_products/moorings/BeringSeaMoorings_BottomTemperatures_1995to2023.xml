@@ -52,8 +52,6 @@ completeness, or usefulness, of this information.</att>
         <att name="subsetVariables">timeseries_id</att>
         <att name="keywords">active, available, chemistry, chlorophyll, chlorophyll_fluorescence, color, concentration, concentration_of_chlorophyll_in_sea_water, control, data, date, density, depth, dissolved, dissolved o2, downwelling, downwelling_photosynthetic_photon_radiance_in_sea_water, earth, Earth Science &gt; Oceans &gt; Ocean Chemistry &gt; Chlorophyll, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Photosynthetically Active Radiation, Earth Science &gt; Oceans &gt; Ocean Optics &gt; Radiance, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, ecofoci, environmental, final, gridded, in-situ, its, its-90, laboratory, latitude, local, longitude, marine, mooring, noaa, noaa/pmel, number, O2, ocean, ocean color, oceans, optical, optical properties, optics, oxygen, oxygen_concentration, oxygen_saturation, pacific, par, photon, photosynthetic, photosynthetically, pmel, practical, pressure, properties, quality, radiance,
         <att name="title">Daily Select Bering Sea Mooring Bottom Temperatures (1995-2024)</att>
-        <att name="institution">NOAA/PMEL - EcoFOCI</att>
-        <att name="infoUrl">https://pmel.noaa.gov/</att>
         <att name="sourceUrl">(local files)</att>
         <att name="standard_name_vocabulary">CF Standard Name Table V70</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
