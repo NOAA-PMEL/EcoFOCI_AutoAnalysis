@@ -1,4 +1,4 @@
-<dataset type="EDDTableFromMultidimNcFiles" datasetID="BeringSeaMoorings_BottomTemperatures_complete_timeseries" active="true">
+<dataset type="EDDTableFromMultidimNcFiles" datasetID="BeringSeaMoorings_BottomTemperatures_1995to2024" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <fileDir>/home/foci_lfstore/foci_ancillary_erddap_datasets/foci_products/public_versions/bottom_temperatures/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
@@ -75,22 +75,6 @@ completeness, or usefulness, of this information.</att>
         </sourceAttributes -->
         <addAttributes>
             <att name="units">days since 1900-01-01 00:00:00</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
-        <sourceName>temperature</sourceName>
-        <destinationName>temperature</destinationName>
-        <dataType>double</dataType>
-        <addAttributes>
-            <att name="missing_value" type="double">NaN</att>
-            <att name="_FillValue" type="double">NaN</att>
-            <att name="colorBarMaximum" type="double">20.0</att>
-            <att name="colorBarMinimum" type="double">-2.0</att>
-            <att name="epic_key">T_20</att>
-            <att name="ioos_category">Temperature</att>
-            <att name="long_name">Sea temperature in-situ ITS-90 scale</att>
-            <att name="standard_name">sea_water_temperature</att>
-            <att name="units">degree_C</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
