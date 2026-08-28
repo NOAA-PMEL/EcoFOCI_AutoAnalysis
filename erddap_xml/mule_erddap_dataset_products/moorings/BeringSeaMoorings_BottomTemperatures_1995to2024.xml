@@ -75,7 +75,7 @@ completeness, or usefulness, of this information.</att>
             <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
-            <att name="units">hours since 1900-01-01 00:00:00</att>
+            <att name="units">minutes since 1900-01-01 00:00:00</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
