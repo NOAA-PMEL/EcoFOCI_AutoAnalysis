@@ -64,7 +64,6 @@ completeness, or usefulness, of this information.</att>
         <!-- sourceAttributes>
             <att name="_CoordinateAxisType">Time</att>
             <att name="_FillValue" type="double">NaN</att>
-            <att name="actual_range" type="doubleList">1.1214432E9 1.12788E9</att>
             <att name="axis">T</att>
             <att name="calendar">proleptic_gregorian</att>
             <att name="ioos_category">Time</att>
