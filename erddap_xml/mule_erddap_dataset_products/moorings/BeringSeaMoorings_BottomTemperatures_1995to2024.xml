@@ -71,7 +71,6 @@ completeness, or usefulness, of this information.</att>
             <att name="long_name">Date</att>
             <att name="source_name">date</att>
             <att name="standard_name">time</att>
-            <att name="time_origin">01-JAN-1900 00:00:00</att>
             <att name="units">days since 1900-01-01</att>
         </sourceAttributes -->
         <addAttributes>
