@@ -1,4 +1,4 @@
-<dataset type="EDDGridFromNcFiles" datasetID="initial_archive_ea22_6fbd_00b9" active="true">
+<dataset type="EDDGridFromNcFiles" datasetID="fa2605_mvp_dataset" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
     <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/disk3/projects/ecofoci/ecofoci_data/2026/CTDCasts/fa2605/initial_archive/</fileDir>
@@ -19,11 +19,11 @@
     <addAttributes>
         <att name="_NCProperties">null</att>
         <att name="cdm_data_type">Profile</att>
-        <att name="cdm_profile_variables">profile_id, ???</att>
+        <att name="cdm_profile_variables">profile_id</att>
         <att name="Conventions">CF-1.10, COARDS, ACDD-1.3</att>
         <att name="history">Converted from MVP CSV files in: /Users/bell/ecoraid/2026/CTDCasts/fa2605/MVP_CTD/NM01/SVP</att>
-        <att name="infoUrl">???</att>
-        <att name="institution">???</att>
+        <att name="infoUrl">https://pmel.noaa.gov/</att>
+        <att name="institution">NOAA/PMEL - EcoFOCI</att>
         <att name="keywords">acoustic, acoustics, currents, data, density, depth, earth, Earth Science &gt; Oceans &gt; Ocean Acoustics &gt; Acoustic Velocity, Earth Science &gt; Oceans &gt; Ocean Temperature &gt; Water Temperature, Earth Science &gt; Oceans &gt; Salinity/Density &gt; Salinity, identifier, latitude, longitude, mvp, name, nm01, obs, observation, observations, ocean, oceans, practical, profile, salinity, science, sea, sea_water_practical_salinity, sea_water_temperature, seawater, sound, sound_speed, speed, speed_of_sound_in_sea_water, station, survey, temperature, time, velocity, water</att>
         <att name="keywords_vocabulary">GCMD Science Keywords</att>
         <att name="license">[standard]</att>
