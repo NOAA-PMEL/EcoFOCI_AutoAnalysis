@@ -1,10 +1,8 @@
 <dataset type="EDDTableFromMultidimNcFiles" datasetID="fa2605_mvp_dataset" active="true">
     <reloadEveryNMinutes>10080</reloadEveryNMinutes>
-    <updateEveryNMillis>10000</updateEveryNMillis>
     <fileDir>/home/disk3/projects/ecofoci/ecofoci_data/2026/CTDCasts/fa2605/initial_archive/</fileDir>
     <fileNameRegex>.*\.nc</fileNameRegex>
     <metadataFrom>last</metadataFrom>
-    <matchAxisNDigits>20</matchAxisNDigits>
     <fileTableInMemory>false</fileTableInMemory>
     <!-- sourceAttributes>
         <att name="_NCProperties">version=2,netcdf=4.9.3,hdf5=1.14.6</att>
