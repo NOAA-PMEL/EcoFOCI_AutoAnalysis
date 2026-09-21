@@ -81,7 +81,7 @@
     </dataVariable>
     <dataVariable>
         <sourceName>station</sourceName>
-        <destinationName>station</destinationName>
+        <destinationName>profile_id</destinationName>
         <dataType>String</dataType>
         <!-- sourceAttributes>
             <att name="cf_role">profile_id</att>
