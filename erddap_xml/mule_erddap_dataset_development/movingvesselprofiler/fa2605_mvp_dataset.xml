@@ -26,7 +26,7 @@
         <att name="summary">MVP Profile Survey Data - NM01</att>
         <att name="title">MVP Profile Survey Data, NM01</att>
     </addAttributes>
-    <axisVariable>
+    <dataVariable>
         <sourceName>obs</sourceName>
         <destinationName>obs</destinationName>
         <!-- sourceAttributes>
@@ -35,7 +35,7 @@
             <att name="ioos_category">Unknown</att>
             <att name="long_name">Obs</att>
         </addAttributes>
-    </axisVariable>
+    </dataVariable>
     <dataVariable>
         <sourceName>temperature</sourceName>
         <destinationName>temperature</destinationName>
