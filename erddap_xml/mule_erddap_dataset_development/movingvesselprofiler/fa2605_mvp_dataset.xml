@@ -29,6 +29,7 @@
     <dataVariable>
         <sourceName>obs</sourceName>
         <destinationName>obs</destinationName>
+        <dataType>double</dataType>
         <!-- sourceAttributes>
         </sourceAttributes -->
         <addAttributes>
