@@ -27,17 +27,6 @@
         <att name="title">MVP Profile Survey Data, NM01</att>
     </addAttributes>
     <dataVariable>
-        <sourceName>obs</sourceName>
-        <destinationName>obs</destinationName>
-        <dataType>double</dataType>
-        <!-- sourceAttributes>
-        </sourceAttributes -->
-        <addAttributes>
-            <att name="ioos_category">Unknown</att>
-            <att name="long_name">Obs</att>
-        </addAttributes>
-    </dataVariable>
-    <dataVariable>
         <sourceName>temperature</sourceName>
         <destinationName>temperature</destinationName>
         <dataType>double</dataType>
