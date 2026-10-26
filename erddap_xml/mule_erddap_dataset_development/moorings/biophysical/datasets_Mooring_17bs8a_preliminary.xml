@@ -190,6 +190,7 @@
             <att name="long_name">concentration of oxygen in seawater</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
         <sourceName>***fileName,^(\S*)\.cf\.nc,1</sourceName>
         <destinationName>timeseries_id</destinationName>
         <dataType>String</dataType>
