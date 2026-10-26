@@ -188,6 +188,7 @@
             <att name="long_name">concentration of oxygen in seawater</att>
         </addAttributes>
     </dataVariable>
+    <dataVariable>
         <sourceName>V_321</sourceName>
         <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType>
