@@ -151,7 +151,7 @@
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#181;micromole/kg</att>
             <att name="long_name">concentration of oxygen in seawater</att>
-            <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
+            <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>

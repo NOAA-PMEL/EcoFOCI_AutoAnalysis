@@ -148,7 +148,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#181;mole/l</att>
-            <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
+            <att name="standard_name">mole_concentration_of_dissolved_molecular_oxygen_in_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
@@ -159,7 +159,7 @@
            <att name="_FillValue" type="float">1.0e35</att>
             <att name="ioos_category">Dissolved O2</att>
             <att name="units">&#181;mole/kg</att>
-            <att name="standard_name">volume_oxygen_in_solution_volume_of_sea_water</att>
+            <att name="standard_name">moles_of_oxygen_per_unit_mass_in_sea_water</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
