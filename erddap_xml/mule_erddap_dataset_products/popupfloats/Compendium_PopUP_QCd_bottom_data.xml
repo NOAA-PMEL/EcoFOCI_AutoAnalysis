@@ -19,7 +19,7 @@
     <defaultDataQuery>&amp;time&gt;=min(time)</defaultDataQuery>
     <addAttributes>
         <att name="cdm_data_type">TimeSeries</att>
-        <att name="cdm_timeseries_variables">timeseries_id</att>
+        <att name="cdm_timeseries_variables">timeseries_id, model_version, latitude, longitude</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
         <att name="creator_email">pmel.info@noaa.gov</att>
         <att name="creator_name">Shaun Bell</att>
