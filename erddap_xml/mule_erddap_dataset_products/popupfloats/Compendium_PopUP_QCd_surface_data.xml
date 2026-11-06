@@ -130,6 +130,7 @@
             <att name="ioos_category">Pressure</att>
             <att name="long_name">Pressure</att>
             <att name="units">Bar</att>
+            <att name="standard_name">sea_water_pressure</att>
         </addAttributes>
     </dataVariable>
     <dataVariable>
