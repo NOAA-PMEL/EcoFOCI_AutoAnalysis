@@ -24,7 +24,7 @@
         <att name="cdm_altitude_proxy">pressure</att> 
         <att name="cdm_profile_variables">profile_id</att>
         <att name="Conventions">COARDS, CF-1.6, ACDD-1.3</att>
-        <att name="creator_email">pmel.info@noaa.gov</att>
+        <att name="creator_email">pmel.ecofoci.data@noaa.gov</att>
         <att name="creator_name">Shaun Bell</att>
         <att name="creator_type">institution</att>
         <att name="creator_url">https://www.pmel.noaa.gov/</att>
