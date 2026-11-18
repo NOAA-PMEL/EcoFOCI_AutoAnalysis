@@ -68,7 +68,7 @@
         </addAttributes>
     </axisVariable>
     <dataVariable>
-        <sourceName>v_1206</sourceName>
+        <sourceName>v_curr_comp</sourceName>
         <destinationName>v_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -79,7 +79,7 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>u_1205</sourceName>
+        <sourceName>u_curr_comp</sourceName>
         <destinationName>u_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
@@ -90,8 +90,8 @@
         </addAttributes>
     </dataVariable>
     <dataVariable>
-        <sourceName>w_1204</sourceName>
-        <destinationName>w_1204</destinationName>
+        <sourceName>w_curr_comp</sourceName>
+        <destinationName>w_comp_current</destinationName>
         <dataType>float</dataType><addAttributes>
            <att name="missing_value" type="float">-9999.0</att>
            <att name="_FillValue" type="float">1.0e35</att>
