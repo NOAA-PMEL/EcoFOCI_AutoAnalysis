@@ -20,7 +20,7 @@
             <att name="creation_date">November 12, 2020 21:05 UTC</att>
             <att name="history">Created from ASCII records</att>
             <att name="infoUrl">https://www.ecofoci.noaa.gov/</att>
-            <att name="creator_email">pmel.ecofoci@noaa.gov</att>
+            <att name="creator_email">pmel.ecofoci.data@noaa.gov</att>
             <att name="creator_name">NOAA/PMEL - EcoFOCI</att>
             <att name="creator_type">institution</att>
             <att name="creator_url">https://www.pmel.noaa.gov/</att>        
